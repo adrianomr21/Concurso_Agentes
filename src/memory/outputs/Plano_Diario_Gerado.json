@@ -1,0 +1,10 @@
+{
+  "data": "2026-07-14",
+  "objetivoDoDia": "Consolidar conhecimentos fundamentais em Arquitetura de Software para concursos.",
+  "topicosAEstudar": [
+    "Arquitetura de software: arquitetura 3 camadas, modelo MVC"
+  ],
+  "professorSelecionado": "Professor de TI",
+  "instrucoesParaOProfessor": "Elaborar um guia prático sobre arquitetura de sistemas. Focar na explicação do modelo MVC e da arquitetura de 3 camadas (apresentação, negócio e dados). Incluir exemplos de fluxo de requisição em aplicações web e como a banca FUNDATEC costuma cobrar a separação de responsabilidades nestes padrões.",
+  "justificativaEscolha": "O aluno já domina o desenvolvimento front-end (HTML, CSS, JS), logo, o próximo passo lógico na trilha de TI é aprofundar a arquitetura de back-end e organização de sistemas, preparando-o para questões de engenharia de software comuns em provas de analista."
+}

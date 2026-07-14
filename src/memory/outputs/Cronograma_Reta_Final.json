@@ -1,0 +1,123 @@
+{
+  "dataInicio": "2026-07-14",
+  "dataProva": "2026-08-30",
+  "diasRestantes": 47,
+  "estrategiaRetaFinal": "O plano foca na consolidação dos tópicos pendentes com alta densidade, intercalando exatas e humanas. A semana final será dedicada inteiramente a simulados completos da banca FUNDATEC, revisão de flashcards e resolução de questões de provas anteriores, visando o ganho de ritmo e controle de tempo.",
+  "cronogramaSemanal": [
+    {
+      "semana": 1,
+      "periodo": "14/07 a 20/07",
+      "focoDaSemana": "Fundamentos de Base e Legislação Básica",
+      "topicosAEstudar": [
+        {
+          "materia": "Português",
+          "topico": "Morfologia (classes de palavras e suas flexões, significados e empregos)",
+          "justificativaPedagogica": "Base linguística essencial para compreensão de sintaxe posterior.",
+          "professorEspecialista": "Professor de Português"
+        },
+        {
+          "materia": "Legislação",
+          "topico": "Constituição Federal de 1988: Direitos e Garantias Fundamentais",
+          "justificativaPedagogica": "Tema recorrente e de alta prioridade em qualquer concurso público.",
+          "professorEspecialista": "Professor de Legislação"
+        }
+      ]
+    },
+    {
+      "semana": 2,
+      "periodo": "21/07 a 27/07",
+      "focoDaSemana": "Matemática Operacional e Administração Pública",
+      "topicosAEstudar": [
+        {
+          "materia": "Matemática / Raciocínio Lógico",
+          "topico": "Operações fundamentais, números primos, MMC e MDC",
+          "justificativaPedagogica": "A base para o raciocínio lógico matemático e resolução de problemas rápidos.",
+          "professorEspecialista": "Professor de Matemática"
+        },
+        {
+          "materia": "Legislação",
+          "topico": "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992)",
+          "justificativaPedagogica": "Lei específica fundamental para a ética e conduta no serviço público.",
+          "professorEspecialista": "Professor de Legislação"
+        }
+      ]
+    },
+    {
+      "semana": 3,
+      "periodo": "28/07 a 03/08",
+      "focoDaSemana": "Aprofundamento em Sintaxe e Matemática Financeira",
+      "topicosAEstudar": [
+        {
+          "materia": "Português",
+          "topico": "Sintaxe de regência nominal e verbal",
+          "justificativaPedagogica": "Tópico com alto índice de erros e recorrente em questões gramaticais da FUNDATEC.",
+          "professorEspecialista": "Professor de Português"
+        },
+        {
+          "materia": "Matemática / Raciocínio Lógico",
+          "topico": "Matemática financeira: porcentagem, juros simples e compostos",
+          "justificativaPedagogica": "Tópico de alta complexidade que exige prática constante.",
+          "professorEspecialista": "Professor de Matemática"
+        }
+      ]
+    },
+    {
+      "semana": 4,
+      "periodo": "04/08 a 10/08",
+      "focoDaSemana": "Matrizes e Estatutos",
+      "topicosAEstudar": [
+        {
+          "materia": "Matemática / Raciocínio Lógico",
+          "topico": "Matrizes e determinantes",
+          "justificativaPedagogica": "Conteúdo técnico que exige memorização de propriedades e regras de cálculo.",
+          "professorEspecialista": "Professor de Matemática"
+        },
+        {
+          "materia": "Legislação",
+          "topico": "Estatuto do Servidor Público Municipal",
+          "justificativaPedagogica": "Legislação específica do cargo, necessária para o conhecimento das regras da carreira.",
+          "professorEspecialista": "Professor de Legislação"
+        }
+      ]
+    },
+    {
+      "semana": 5,
+      "periodo": "11/08 a 17/08",
+      "focoDaSemana": "Refinamento Gramatical",
+      "topicosAEstudar": [
+        {
+          "materia": "Português",
+          "topico": "Pontuação (regras e implicações de sentido)",
+          "justificativaPedagogica": "Fechamento da parte gramatical com foco em interpretação de texto e pontuação.",
+          "professorEspecialista": "Professor de Português"
+        }
+      ]
+    },
+    {
+      "semana": 6,
+      "periodo": "18/08 a 24/08",
+      "focoDaSemana": "Revisão Geral e Consolidação",
+      "topicosAEstudar": [
+        {
+          "materia": "TI / Conhecimentos Específicos",
+          "topico": "Revisão de conceitos: Arquitetura, Web e Banco de Dados",
+          "justificativaPedagogica": "Revisar os tópicos de TI já concluídos para garantir que não haja esquecimento antes da reta final.",
+          "professorEspecialista": "Professor de TI"
+        }
+      ]
+    },
+    {
+      "semana": 7,
+      "periodo": "25/08 a 30/08",
+      "focoDaSemana": "Simulados, Flashcards e Revisão de Véspera",
+      "topicosAEstudar": [
+        {
+          "materia": "Geral",
+          "topico": "Simulados e Revisão Global",
+          "justificativaPedagogica": "Semana dedicada exclusivamente à revisão de pontos fracos detectados nos simulados e leitura de resumos.",
+          "professorEspecialista": "Professor de Português"
+        }
+      ]
+    }
+  ]
+}

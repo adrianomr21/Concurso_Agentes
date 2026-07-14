@@ -1,0 +1,38 @@
+{
+  "name": "academia-ia",
+  "version": "1.0.0",
+  "description": "MVP de Sistema Multiagente (Diretor Pedagógico e Professor) usando Node.js, TypeScript e OpenAI.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test:director": "tsx src/test_director.ts",
+    "test:teacher": "tsx src/test_teacher.ts",
+    "test:exercises": "tsx src/test_exercise_creator.ts",
+    "test:schedule": "tsx src/test_schedule_planner.ts",
+    "test:evaluator": "tsx src/test_evaluator.ts",
+    "test:researcher": "tsx src/test_researcher.ts",
+    "web": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "multi-agent",
+    "openai",
+    "education",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.13.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}

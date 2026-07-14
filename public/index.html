@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AcademiaIA - Painel de Estudos Inteligente</title>
+  <!-- Google Fonts para Tipografia Premium -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Folha de Estilos Personalizada -->
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- Background Efeitos Luminosos -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Container Geral -->
+  <div class="app-container">
+    
+    <!-- Barra Lateral de Navegação -->
+    <aside class="sidebar">
+      <div class="logo-area">
+        <span class="logo-icon">🎓</span>
+        <h1 class="logo-text">Academia<span>IA</span></h1>
+      </div>
+      <nav class="nav-menu">
+        <button id="btn-tab-dashboard" class="nav-item active">
+          <span class="nav-icon">📊</span> Painel de Controle
+        </button>
+        <button id="btn-tab-schedule" class="nav-item">
+          <span class="nav-icon">📅</span> Cronograma 45 Dias
+        </button>
+        <button id="btn-tab-classroom" class="nav-item">
+          <span class="nav-icon">📚</span> Sala de Aula IA
+        </button>
+      </nav>
+      <div class="student-profile-summary">
+        <div class="avatar">A</div>
+        <div class="profile-info">
+          <h3 id="student-name">Estudante</h3>
+          <p>Concurso Reta Final</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Área de Conteúdo Principal -->
+    <main class="main-content">
+      
+      <!-- ========================================== -->
+      <!-- TAB: DASHBOARD -->
+      <!-- ========================================== -->
+      <section id="tab-dashboard" class="tab-pane active">
+        <header class="content-header">
+          <div>
+            <h2>Painel de Controle</h2>
+            <p id="student-objective" class="text-subtitle">Carregando objetivo do aluno...</p>
+          </div>
+          <button id="btn-action-start-study" class="btn btn-primary animate-pulse">
+            ⚡ Iniciar Estudos de Hoje
+          </button>
+        </header>
+
+        <!-- Cards de Progresso Rápido -->
+        <div class="stats-grid" id="subjects-progress-grid">
+          <!-- Gerado via JS -->
+        </div>
+
+        <!-- Edital Detalhado (Tópicos por Matéria) -->
+        <div class="section-card">
+          <h3 class="section-title">🔍 Situação Atual do Edital (Concurso)</h3>
+          <div class="edital-grid" id="edital-topics-detail">
+            <!-- Gerado via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================== -->
+      <!-- TAB: CRONOGRAMA -->
+      <!-- ========================================== -->
+      <section id="tab-schedule" class="tab-pane">
+        <header class="content-header">
+          <div>
+            <h2>Cronograma Macro de Estudos</h2>
+            <p class="text-subtitle">Planejamento semanal inteligente de reta final (45 dias para a prova)</p>
+          </div>
+          <button id="btn-regenerate-schedule" class="btn btn-secondary">
+            🔄 Gerar/Atualizar Cronograma
+          </button>
+        </header>
+
+        <!-- Resumo da Estratégia -->
+        <div class="section-card strategy-card">
+          <div class="strategy-icon">🏆</div>
+          <div>
+            <h3>Diretriz Estratégica do Diretor Pedagógico</h3>
+            <p id="schedule-strategy-text">Nenhum cronograma ativo. Clique em "Gerar/Atualizar Cronograma" para planejar.</p>
+          </div>
+        </div>
+
+        <!-- Linha do Tempo das Semanas -->
+        <div class="timeline-container" id="schedule-timeline">
+          <!-- Gerado via JS -->
+        </div>
+      </section>
+
+      <!-- ========================================== -->
+      <!-- TAB: SALA DE AULA IA -->
+      <!-- ========================================== -->
+      <section id="tab-classroom" class="tab-pane">
+        
+        <!-- Tela Inicial: Solicitação de Geração -->
+        <div id="classroom-empty-state" class="classroom-state-panel active">
+          <div class="empty-state-content">
+            <span class="empty-icon">🤖</span>
+            <h2>Sua Aula de Hoje está Pronta para Começar!</h2>
+            <p>O Diretor Pedagógico analisará sua ficha de progresso no edital para escolher o tema mais estratégico para hoje. Ele acionará o Professor especialista para redigir a aula e o Criador de Exercícios para compilar o simulado.</p>
+            <button id="btn-classroom-generate" class="btn btn-primary btn-large">
+              ⚡ Gerar Conteúdo do Dia com os Agentes
+            </button>
+          </div>
+        </div>
+
+        <!-- Tela de Carregamento (Logs dos Agentes em Tempo Real) -->
+        <div id="classroom-loading-state" class="classroom-state-panel">
+          <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2>Os agentes IA estão em conferência pedagógica...</h2>
+            <p>Aguarde enquanto a teoria, mapas mentais, flashcards e simulados são desenvolvidos.</p>
+            
+            <!-- Terminal de Logs Fictício/Real de Comunicação -->
+            <div class="agent-logs-console">
+              <div class="console-header">
+                <span class="console-dot dot-red"></span>
+                <span class="console-dot dot-yellow"></span>
+                <span class="console-dot dot-green"></span>
+                <span class="console-title">AcademiaIA Multiagent Console</span>
+              </div>
+              <div class="console-body" id="console-logs-area">
+                <div class="log-line system">[SISTEMA] Inicializando os agentes pedagógicos...</div>
+                <div class="log-line system">[SISTEMA] Conectando chaves e carregando modelos...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tela Principal de Estudos (Tabs do Material Didático) -->
+        <div id="classroom-study-area" class="classroom-state-panel">
+          
+          <header class="study-header">
+            <div>
+              <span class="badge" id="lesson-badge-materia">TI / Conhecimentos Específicos</span>
+              <h2 id="lesson-title">Tema da Aula</h2>
+              <p id="lesson-objective-subtitle">Objetivo: ...</p>
+            </div>
+            <div class="session-info">
+              <span id="lesson-session-id">Sessão: -</span>
+            </div>
+          </header>
+
+          <!-- Menu de Abas da Aula -->
+          <div class="study-tabs-menu">
+            <button class="study-tab-btn active" data-study-tab="study-theory">📖 Teoria</button>
+            <button class="study-tab-btn" data-study-tab="study-mindmap">🧠 Mapa Mental</button>
+            <button class="study-tab-btn" data-study-tab="study-banca">🔍 Análise da Banca</button>
+            <button class="study-tab-btn" data-study-tab="study-flashcards">🗂️ Flashcards</button>
+            <button class="study-tab-btn" data-study-tab="study-quiz">📝 Simulado</button>
+          </div>
+
+          <!-- Conteúdos das Abas -->
+          <div class="study-tabs-content">
+            
+            <!-- ABA 1: TEORIA -->
+            <div id="study-theory" class="study-tab-pane active">
+              <div class="study-card">
+                <h3>🎯 Objetivos de Aprendizagem</h3>
+                <ul class="objectives-list" id="lesson-objectives-list">
+                  <!-- Gerado via JS -->
+                </ul>
+              </div>
+              <div class="study-card theory-body" id="lesson-theory-text">
+                <!-- Gerado via JS -->
+              </div>
+              <div class="study-card">
+                <h3>💡 Casos e Exemplos Práticos</h3>
+                <div id="lesson-examples-list">
+                  <!-- Gerado via JS -->
+                </div>
+              </div>
+              <div class="study-card">
+                <h3>📌 Resumo da Aula</h3>
+                <div id="lesson-summary-text" class="summary-body">
+                  <!-- Gerado via JS -->
+                </div>
+              </div>
+            </div>
+
+            <!-- ABA 2: MAPA MENTAL -->
+            <div id="study-mindmap" class="study-tab-pane">
+              <div class="study-card mindmap-container">
+                <h3>🧠 Estruturação Visual dos Conceitos</h3>
+                <p class="text-subtitle">Diagrama dinâmico gerado pelo Professor IA e renderizado via Mermaid</p>
+                <div id="mermaid-render-area" class="mermaid">
+                  <!-- Renderização Mermaid -->
+                </div>
+              </div>
+            </div>
+
+            <!-- ABA NOVA: ANÁLISE DA BANCA -->
+            <div id="study-banca" class="study-tab-pane">
+              <div class="study-card">
+                <h3 style="margin-bottom: 20px;">🔍 Análise Estratégica da Banca Examinadora (FUNDATEC)</h3>
+                
+                <div class="stats-grid" style="margin-bottom: 24px;">
+                  <div class="stats-card" style="padding: 16px; min-height: auto; gap: 8px;">
+                    <span class="stats-card-title">Recorrência do Tema</span>
+                    <div class="stats-val" id="banca-recorrencia" style="font-size: 24px; color: var(--accent-purple);">Alta</div>
+                  </div>
+                  <div class="stats-card" style="padding: 16px; min-height: auto; gap: 8px;">
+                    <span class="stats-card-title">Banca Oficial</span>
+                    <div class="stats-val" style="font-size: 24px; color: var(--accent-blue);">FUNDATEC</div>
+                  </div>
+                </div>
+
+                <div class="example-item" style="margin-bottom: 20px;">
+                  <h4 style="color: var(--accent-purple); font-size: 15px; margin-bottom: 8px;">🎯 Foco da Cobrança</h4>
+                  <p id="banca-foco" style="line-height: 1.6; font-size: 14px; color: var(--text-secondary);"></p>
+                </div>
+
+                <div class="example-item" style="margin-bottom: 20px;">
+                  <h4 style="color: var(--accent-orange); font-size: 15px; margin-bottom: 8px;">⚠️ Armadilhas e Pegadinhas Clássicas</h4>
+                  <ul id="banca-pegadinhas" style="margin-left: 20px; line-height: 1.6; font-size: 14px; color: var(--text-secondary); display: flex; flex-direction: column; gap: 8px;">
+                    <!-- Preenchido via JS -->
+                  </ul>
+                </div>
+
+                <div class="example-item" style="margin-bottom: 20px;">
+                  <h4 style="color: var(--accent-blue); font-size: 15px; margin-bottom: 8px;">⚖️ Atualizações Legais ou Técnicas</h4>
+                  <p id="banca-atualizacoes" style="line-height: 1.6; font-size: 14px; color: var(--text-secondary);"></p>
+                </div>
+
+                <div class="example-item">
+                  <h4 style="color: var(--accent-green); font-size: 15px; margin-bottom: 8px;">📝 Questões Reais da FUNDATEC para Referência</h4>
+                  <div id="banca-questoes-reais" style="display: flex; flex-direction: column; gap: 16px; margin-top: 12px;">
+                    <!-- Preenchido via JS -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ABA 3: FLASHCARDS -->
+            <div id="study-flashcards" class="study-tab-pane">
+              <div class="flashcards-info-card">
+                <span>💡</span>
+                <p>Clique ou passe o mouse por cima dos cartões para virar e ver a resposta. Use o método de memorização ativa para reter a teoria na mente!</p>
+              </div>
+              <div class="flashcards-grid" id="lesson-flashcards-grid">
+                <!-- Gerado via JS -->
+              </div>
+            </div>
+
+            <!-- ABA 4: SIMULADO -->
+            <div id="study-quiz" class="study-tab-pane">
+              <div class="quiz-info-card">
+                <span>📝</span>
+                <p>Este simulado contém exatamente **10 questões** de múltipla escolha. Selecione as alternativas e clique em **Corrigir Simulado** no final para receber nota, gabarito e resolução detalhada.</p>
+              </div>
+              
+              <!-- Caderno de Questões -->
+              <div class="quiz-questions-list" id="lesson-quiz-questions">
+                <!-- Gerado via JS -->
+              </div>
+
+              <!-- Ações do Simulado -->
+              <div class="quiz-actions">
+                <button id="btn-submit-quiz" class="btn btn-primary btn-large">📋 Corrigir Simulado</button>
+                <div class="quiz-score-badge" id="quiz-score-badge" style="display: none;">
+                  Pontuação: <span id="quiz-score-val">0</span>/10
+                </div>
+              </div>
+
+              <!-- Relatório de Desempenho do Avaliador IA -->
+              <div id="quiz-report-container" class="study-card quiz-report-card" style="display: none; margin-top: 32px;">
+                <div class="report-header">
+                  <div class="report-badge" id="quiz-status-badge">Aprovado</div>
+                  <h3 style="margin: 0; font-size: 18px;">📊 Parecer Pedagógico do Avaliador IA</h3>
+                </div>
+                <div class="report-grid">
+                  <div class="report-section strengths">
+                    <h4>💪 Pontos Fortes</h4>
+                    <p id="quiz-report-strengths" style="color: var(--text-secondary);"></p>
+                  </div>
+                  <div class="report-section weaknesses">
+                    <h4>⚠️ Pontos Fracos (Atenção)</h4>
+                    <p id="quiz-report-weaknesses" style="color: var(--text-secondary);"></p>
+                  </div>
+                </div>
+                <div class="report-section recommendation" style="margin-top: 20px;">
+                  <h4>📘 Recomendação de Estudo do Diretor</h4>
+                  <p id="quiz-report-recommendation" style="color: var(--text-secondary);"></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Biblioteca Mermaid.js para renderizar diagramas textuais em grafos visuais -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+    window.mermaid = mermaid;
+  </script>
+  <!-- Lógica da Aplicação -->
+  <script src="app.js"></script>
+</body>
+</html>
