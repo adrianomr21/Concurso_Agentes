@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- Folha de Estilos Personalizada -->
-  <link rel="stylesheet" href="app.css?v=2">
+  <link rel="stylesheet" href="app.css?v=3">
 </head>
 <body>
 
@@ -186,9 +186,11 @@
             <div id="study-mindmap" class="study-tab-pane">
               <div class="study-card mindmap-container">
                 <h3>🧠 Estruturação Visual dos Conceitos</h3>
-                <p class="text-subtitle">Diagrama dinâmico gerado pelo Professor IA e renderizado via Mermaid</p>
-                <div id="mermaid-render-area" class="mermaid">
-                  <!-- Renderização Mermaid -->
+                <p class="text-subtitle" style="margin-bottom: 24px;">Diagrama dinâmico gerado pelo Professor IA e renderizado via Mermaid (deslize para os lados para rolar)</p>
+                <div class="mindmap-scroll-area" style="width: 100%; overflow-x: auto; background-color: rgba(0, 0, 0, 0.15); border-radius: var(--border-radius-sm); border: 1px solid var(--border-color); padding: 24px; display: flex; justify-content: center; -webkit-overflow-scrolling: touch;">
+                  <div id="mermaid-render-area" class="mermaid" style="min-width: 850px; max-width: 100%;">
+                    <!-- Renderização Mermaid -->
+                  </div>
                 </div>
               </div>
             </div>

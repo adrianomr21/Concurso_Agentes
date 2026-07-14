@@ -883,8 +883,9 @@ body {
 }
 
 .mindmap-container svg {
+  width: 100% !important;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   background-color: transparent !important;
 }
 

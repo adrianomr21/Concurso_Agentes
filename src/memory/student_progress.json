@@ -35,15 +35,15 @@
     {
       "nome": "TI / Conhecimentos Específicos",
       "topicosConcluidos": [
-        "Fundamentos de computação: Organização e arquitetura de computadores",
+        "Desenvolvimento de sistemas Web: HTML, CSS, JavaScript",
         "Arquitetura de software: arquitetura 3 camadas, modelo MVC"
       ],
       "topicosPendentes": [
-        "Desenvolvimento de sistemas Web: HTML, CSS, JavaScript",
+        "Fundamentos de computação: Organização e arquitetura de computadores",
         "Bancos de dados: SGBDs relacionais (MySQL, PostgreSQL), DML, DDL",
         "Segurança da informação: Criptografia, hashes, RSA, AES"
       ]
     }
   ],
-  "ultimoEstudo": "2026-07-14T19:41:09.749Z"
+  "ultimoEstudo": "2026-07-14T20:00:32.666Z"
 }

@@ -25,7 +25,7 @@ const navButtons = {
 document.addEventListener('DOMContentLoaded', () => {
   setupNavigation();
   loadProgress();
-  loadHistory();
+  loadHistory(true); // Passa true para selecionar automaticamente a aula mais recente se houver
   setupActionListeners();
 });
 
@@ -563,7 +563,7 @@ function escapeHTML(str) {
 // ------------------------------------------------------------------
 // Carga e Exibição do Histórico de Aulas (Web Researcher)
 // ------------------------------------------------------------------
-async function loadHistory() {
+async function loadHistory(autoSelect = false) {
   try {
     const response = await fetch('/api/sessions');
     const sessions = await response.json();
@@ -613,6 +613,11 @@ async function loadHistory() {
       `;
       container.appendChild(card);
     });
+
+    // Se solicitado e houver aulas, carrega automaticamente a mais recente
+    if (autoSelect && sessions.length > 0) {
+      reviewPastLesson(sessions[0].sessionId, false);
+    }
   } catch (error) {
     console.error('Erro ao buscar histórico de aulas:', error);
   }
@@ -621,7 +626,7 @@ async function loadHistory() {
 // ------------------------------------------------------------------
 // Revisar uma Aula do Histórico de Estudos
 // ------------------------------------------------------------------
-async function reviewPastLesson(sessionId) {
+async function reviewPastLesson(sessionId, alertUser = true) {
   try {
     const response = await fetch(`/api/sessions/${sessionId}`);
     if (!response.ok) throw new Error('Não foi possível carregar a aula.');
@@ -711,8 +716,10 @@ async function reviewPastLesson(sessionId) {
     // Foca na Sala de Aula IA
     navButtons.classroom.click();
     
-    // Alerta o usuário do sucesso
-    alert(`Aula sobre "${data.detailedLesson.tema}" recuperada com sucesso para revisão!`);
+    // Alerta o usuário do sucesso (apenas se for clique manual, não inicialização)
+    if (alertUser) {
+      alert(`Aula sobre "${data.detailedLesson.tema}" recuperada com sucesso para revisão!`);
+    }
   } catch (error) {
     console.error('Erro ao recuperar aula do histórico:', error);
     alert('Erro ao carregar a aula do histórico.');
