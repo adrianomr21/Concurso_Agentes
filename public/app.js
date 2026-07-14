@@ -11,21 +11,21 @@ let quizSubmitted = false;
 // Elementos DOM
 const tabs = {
   dashboard: document.getElementById('tab-dashboard'),
-  schedule: document.getElementById('tab-schedule'),
   classroom: document.getElementById('tab-classroom'),
+  history: document.getElementById('tab-history'),
 };
 
 const navButtons = {
   dashboard: document.getElementById('btn-tab-dashboard'),
-  schedule: document.getElementById('btn-tab-schedule'),
   classroom: document.getElementById('btn-tab-classroom'),
+  history: document.getElementById('btn-tab-history'),
 };
 
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
   setupNavigation();
   loadProgress();
-  loadSchedule();
+  loadHistory();
   setupActionListeners();
 });
 
@@ -142,103 +142,16 @@ function renderDashboard(data) {
 
 // ------------------------------------------------------------------
 // Carga e Atualização do Cronograma Semanal de 45 Dias
-// ------------------------------------------------------------------
-async function loadSchedule() {
-  try {
-    const response = await fetch('/api/schedule');
-    scheduleData = await response.json();
-    renderSchedule(scheduleData);
-  } catch (error) {
-    console.error('Erro ao buscar cronograma:', error);
-  }
-}
 
-function renderSchedule(schedule) {
-  const strategyText = document.getElementById('schedule-strategy-text');
-  const timeline = document.getElementById('schedule-timeline');
-
-  timeline.innerHTML = '';
-
-  if (!schedule || schedule.cronogramaSemanal.length === 0) {
-    strategyText.innerHTML = `
-      Nenhum cronograma de reta final gerado ainda. 
-      Clique no botão <strong>"Gerar/Atualizar Cronograma"</strong> no canto superior direito para traçar seu cronograma semanal de 45 dias!
-    `;
-    return;
-  }
-
-  strategyText.innerHTML = `
-    <strong>Estratégia de Reta Final (${schedule.diasRestantes} dias restantes):</strong> ${schedule.estrategiaRetaFinal}
-  `;
-
-  schedule.cronogramaSemanal.forEach((semana) => {
-    const item = document.createElement('div');
-    item.className = 'timeline-item';
-
-    let topicsTableRows = semana.topicosAEstudar
-      .map(
-        (t) => `
-      <tr>
-        <td style="width: 140px; font-weight: 600; color: var(--accent-purple);">${t.materia}</td>
-        <td><strong>${t.topico}</strong></td>
-        <td style="width: 180px; color: var(--text-secondary); font-style: italic;">${t.professorEspecialista}</td>
-        <td style="color: var(--text-muted); font-size: 13px; line-height: 1.3;">${t.justificativaPedagogica}</td>
-      </tr>
-    `
-      )
-      .join('');
-
-    item.innerHTML = `
-      <div class="timeline-header">
-        <h4 class="timeline-title">Semana ${semana.semana}</h4>
-        <span class="timeline-period">${semana.periodo}</span>
-      </div>
-      <div class="timeline-body">
-        <p><strong>Foco de Estudo:</strong> ${semana.focoDaSemana}</p>
-        <table class="timeline-topics-table">
-          <thead>
-            <tr>
-              <th>Matéria</th>
-              <th>Tópico Planejado</th>
-              <th>Professor</th>
-              <th>Justificativa Pedagógica</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${topicsTableRows}
-          </tbody>
-        </table>
-      </div>
-    `;
-    timeline.appendChild(item);
-  });
-}
-
-// ------------------------------------------------------------------
 // Ações de Cliques (Geração de Cronograma e Estudos)
 // ------------------------------------------------------------------
 function setupActionListeners() {
-  // Força geração do cronograma de 45 dias
-  document.getElementById('btn-regenerate-schedule').addEventListener('click', async () => {
-    const btn = document.getElementById('btn-regenerate-schedule');
-    btn.disabled = true;
-    btn.textContent = '⏳ Analisando Edital...';
-    try {
-      const response = await fetch('/api/schedule/generate', { method: 'POST' });
-      const data = await response.json();
-      renderSchedule(data);
-      alert('Cronograma estratégico de reta final gerado com sucesso pelo Diretor Pedagógico!');
-    } catch (error) {
-      console.error(error);
-      alert('Falha ao gerar cronograma estratégico.');
-    } finally {
-      btn.disabled = false;
-      btn.textContent = '🔄 Gerar/Atualizar Cronograma';
-    }
-  });
-
   // Iniciar Geração de Aula Diária na Sala de Aula IA
   document.getElementById('btn-classroom-generate').addEventListener('click', generateDailyLesson);
+  document.getElementById('btn-classroom-generate-next').addEventListener('click', generateDailyLesson);
+
+  // Botão para reiniciar estudos (Zerar progresso e histórico)
+  document.getElementById('btn-action-reset').addEventListener('click', resetAllProgress);
 }
 
 // ------------------------------------------------------------------
@@ -307,6 +220,9 @@ async function generateDailyLesson() {
       if (currentLessonData.progressUpdated) {
         renderDashboard(currentLessonData.progressUpdated);
       }
+      
+      // Recarrega o histórico de aulas para incluir a nova
+      loadHistory();
     }, 1500);
 
   } catch (error) {
@@ -338,7 +254,8 @@ function renderLesson(data) {
   document.getElementById('lesson-badge-materia').textContent = plan.professorSelecionado;
   document.getElementById('lesson-title').textContent = lesson.tema;
   document.getElementById('lesson-objective-subtitle').textContent = `🎯 Objetivo: ${plan.objetivoDoDia}`;
-  document.getElementById('lesson-session-id').textContent = `Justificativa: ${plan.justificativaEscolha}`;
+  document.getElementById('lesson-session-id').textContent = `Data: ${new Date(plan.data).toLocaleDateString('pt-BR')}`;
+  document.getElementById('lesson-director-justification').textContent = plan.justificativaEscolha;
 
   // 1.5. Análise da Banca (Web Researcher)
   if (searchReport) {
@@ -395,7 +312,15 @@ function renderLesson(data) {
 
   // 2. Mapa Mental (Mermaid)
   const mermaidArea = document.getElementById('mermaid-render-area');
-  mermaidArea.innerHTML = lesson.mapaMentalMermaid;
+  let mermaidCode = lesson.mapaMentalMermaid || '';
+  // Higieniza delimitadores markdown
+  mermaidCode = mermaidCode.replace(/```mermaid/gi, '');
+  mermaidCode = mermaidCode.replace(/```/g, '');
+  // Regra de Ouro: Encapsula rótulos de nós em aspas duplas se já não estiverem, evitando quebras sintáticas por caracteres especiais
+  mermaidCode = mermaidCode.replace(/([a-zA-Z0-9_-]+)\[([^"\]\n]+)\]/g, '$1["$2"]');
+  mermaidCode = mermaidCode.trim();
+
+  mermaidArea.innerHTML = mermaidCode;
   // Força re-renderização do Mermaid
   if (window.mermaid) {
     mermaidArea.removeAttribute('data-processed');
@@ -609,6 +534,9 @@ async function submitQuiz() {
       renderDashboard(result.progressUpdated);
     }
 
+    // Recarrega o histórico de aulas para exibir a nota atualizada
+    loadHistory();
+
     // Alerta o aluno sobre o parecer pedagógico
     alert(`Parecer Pedagógico emitido pelo Avaliador IA!\nNota: ${report.nota}/10 - Status: ${report.aprovado ? 'APROVADO' : 'REPROVADO (Matéria de volta para pendentes)'}`);
 
@@ -631,3 +559,203 @@ function escapeHTML(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 }
+
+// ------------------------------------------------------------------
+// Carga e Exibição do Histórico de Aulas (Web Researcher)
+// ------------------------------------------------------------------
+async function loadHistory() {
+  try {
+    const response = await fetch('/api/sessions');
+    const sessions = await response.json();
+    
+    const container = document.getElementById('history-lessons-list');
+    container.innerHTML = '';
+    
+    if (sessions.length === 0) {
+      container.innerHTML = `
+        <div style="text-align: center; padding: 32px; color: var(--text-muted); font-size: 15px;">
+          Nenhuma aula foi gerada ainda. Vá na aba **Sala de Aula IA** para iniciar seus estudos!
+        </div>
+      `;
+      return;
+    }
+    
+    sessions.forEach(session => {
+      const card = document.createElement('div');
+      card.className = 'example-item';
+      card.style.display = 'flex';
+      card.style.justifyContent = 'space-between';
+      card.style.alignItems = 'center';
+      card.style.gap = '20px';
+      
+      const dateFormatted = new Date(session.data).toLocaleString('pt-BR');
+      
+      let badgeHTML = '';
+      if (session.nota !== null) {
+        const theme = session.aprovado ? 'correct-answer' : 'wrong-answer';
+        const label = session.aprovado ? 'Aprovado' : 'Revisão';
+        badgeHTML = `<span class="badge ${theme}" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">Simulado: ${session.nota}/10 (${label})</span>`;
+      } else {
+        badgeHTML = `<span class="badge" style="background-color: rgba(255,255,255,0.05); color: var(--text-muted); margin: 0; padding: 4px 10px; font-size: 12px;">Simulado Pendente</span>`;
+      }
+      
+      card.innerHTML = `
+        <div style="flex: 1;">
+          <h4 style="color: var(--accent-purple); font-size: 16px; margin-bottom: 6px; font-weight: 600;">${session.tema}</h4>
+          <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 6px;">
+            👤 Professor: <strong>${session.professor}</strong> | 📅 Data: ${dateFormatted}
+          </p>
+          ${badgeHTML}
+        </div>
+        <button class="btn btn-secondary" onclick="reviewPastLesson('${session.sessionId}')" style="padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer;">
+          📖 Revisar Aula
+        </button>
+      `;
+      container.appendChild(card);
+    });
+  } catch (error) {
+    console.error('Erro ao buscar histórico de aulas:', error);
+  }
+}
+
+// ------------------------------------------------------------------
+// Revisar uma Aula do Histórico de Estudos
+// ------------------------------------------------------------------
+async function reviewPastLesson(sessionId) {
+  try {
+    const response = await fetch(`/api/sessions/${sessionId}`);
+    if (!response.ok) throw new Error('Não foi possível carregar a aula.');
+    
+    const data = await response.json();
+    currentLessonData = data;
+    
+    // Configura a visibilidade da Sala de Aula
+    const panelEmpty = document.getElementById('classroom-empty-state');
+    const panelLoading = document.getElementById('classroom-loading-state');
+    const panelStudy = document.getElementById('classroom-study-area');
+    
+    panelEmpty.classList.remove('active');
+    panelLoading.classList.remove('active');
+    panelStudy.classList.add('active');
+    
+    // Renderiza a aula recuperada
+    renderLesson(currentLessonData);
+    
+    // Se já havia relatório de correção de simulado na sessão
+    const reportContainer = document.getElementById('quiz-report-container');
+    const scoreBadge = document.getElementById('quiz-score-badge');
+    const btnSubmit = document.getElementById('btn-submit-quiz');
+    
+    if (data.performanceReport) {
+      const report = data.performanceReport;
+      const statusBadge = document.getElementById('quiz-status-badge');
+      
+      if (report.aprovado) {
+        statusBadge.textContent = 'Aprovado';
+        statusBadge.className = 'report-badge badge-approved';
+      } else {
+        statusBadge.textContent = 'Revisão Necessária';
+        statusBadge.className = 'report-badge badge-failed';
+      }
+      
+      document.getElementById('quiz-report-strengths').textContent = report.analisePontosFortes;
+      document.getElementById('quiz-report-weaknesses').textContent = report.analisePontosFracos;
+      document.getElementById('quiz-report-recommendation').textContent = report.recomendacaoEstudo;
+      reportContainer.style.display = 'block';
+      
+      // Placar de acertos
+      const scoreVal = document.getElementById('quiz-score-val');
+      scoreVal.textContent = report.nota;
+      scoreBadge.style.display = 'block';
+      
+      btnSubmit.textContent = '✓ Simulado Corrigido';
+      btnSubmit.disabled = true;
+      quizSubmitted = true;
+      
+      // Preenche respostas marcadas nas questões
+      report.detalheQuestoes.forEach(q => {
+        const cardElement = document.getElementById(`quiz-question-${q.numero}`);
+        
+        // Destaca correta
+        const correctLabel = cardElement.querySelector(`.quiz-option-label[data-letter="${q.respostaCorreta}"]`);
+        if (correctLabel) correctLabel.classList.add('correct-answer');
+        
+        // Se acertou/errou
+        if (q.acertou) {
+          cardElement.classList.add('correct');
+        } else {
+          cardElement.classList.add('incorrect');
+          if (q.respostaEstudante && q.respostaEstudante !== 'X') {
+            const wrongLabel = cardElement.querySelector(`.quiz-option-label[data-letter="${q.respostaEstudante}"]`);
+            if (wrongLabel) wrongLabel.classList.add('wrong-answer');
+          }
+        }
+        
+        // Exibe a explicação
+        document.getElementById(`quiz-explanation-${q.numero}`).style.display = 'block';
+      });
+      
+      // Trava opções
+      document.querySelectorAll('.quiz-option-radio').forEach((radio) => {
+        radio.disabled = true;
+      });
+    } else {
+      // Se não havia relatório, reseta estado para que o aluno possa fazer
+      reportContainer.style.display = 'none';
+      scoreBadge.style.display = 'none';
+      btnSubmit.disabled = false;
+      btnSubmit.textContent = '📋 Corrigir Simulado';
+      quizSubmitted = false;
+    }
+    
+    // Foca na Sala de Aula IA
+    navButtons.classroom.click();
+    
+    // Alerta o usuário do sucesso
+    alert(`Aula sobre "${data.detailedLesson.tema}" recuperada com sucesso para revisão!`);
+  } catch (error) {
+    console.error('Erro ao recuperar aula do histórico:', error);
+    alert('Erro ao carregar a aula do histórico.');
+  }
+}
+
+// ------------------------------------------------------------------
+// Reiniciar os Estudos (Zerar banco e histórico)
+// ------------------------------------------------------------------
+async function resetAllProgress() {
+  const confirmReset = confirm(
+    '⚠️ ATENÇÃO: Esta ação é irreversível!\n\nIsso irá:\n1. Resetar todo o progresso do edital no Dashboard para 0% concluído.\n2. Limpar e apagar definitivamente todo o seu histórico de aulas geradas.\n3. Deletar os materiais e relatórios de outputs.\n\nDeseja realmente reiniciar seus estudos do absoluto zero?'
+  );
+  
+  if (!confirmReset) return;
+  
+  try {
+    const response = await fetch('/api/reset', { method: 'POST' });
+    if (!response.ok) throw new Error('Falha ao redefinir os dados.');
+    
+    const result = await response.json();
+    if (result.success) {
+      alert('Seus estudos foram reiniciados com sucesso! Todo o progresso e o histórico foram zerados.');
+      
+      // 1. Atualiza Dashboard
+      progressData = result.progressUpdated;
+      renderDashboard(progressData);
+      
+      // 2. Limpa Sala de Aula
+      document.getElementById('classroom-study-area').classList.remove('active');
+      document.getElementById('classroom-empty-state').classList.add('active');
+      
+      // 3. Atualiza Histórico (carregará vazio)
+      await loadHistory();
+      
+      // 4. Redireciona para o Painel Inicial
+      navButtons.dashboard.click();
+    }
+  } catch (error) {
+    console.error('Erro ao reiniciar estudos:', error);
+    alert(`Falha ao redefinir memória: ${error.message}`);
+  }
+}
+
+// Expõe métodos de clique inline no escopo global (window)
+window.reviewPastLesson = reviewPastLesson;

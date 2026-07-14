@@ -137,7 +137,7 @@ async function run() {
     });
 
     const [detailedLesson, exercises] = await Promise.all([
-      teacher.generateDetailedLesson(principalTopic, instructionsForAgents),
+      teacher.generateDetailedLesson(principalTopic, instructionsForAgents, dailyPlan.professorSelecionado),
       exerciseCreator.generateExercises(principalTopic, instructionsForAgents)
     ]);
 

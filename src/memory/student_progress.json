@@ -4,34 +4,31 @@
   "materias": [
     {
       "nome": "Português",
-      "topicosConcluidos": [
+      "topicosConcluidos": [],
+      "topicosPendentes": [
         "Leitura, interpretação e relação entre as ideias de textos de gêneros textuais diversos",
         "Coesão e coerência textuais de acordo com Ingedore Villaça Koch",
-        "Sintaxe de regência nominal e verbal"
-      ],
-      "topicosPendentes": [
+        "Sintaxe de regência nominal e verbal",
         "Morfologia (classes de palavras e suas flexões, significados e empregos)",
         "Pontuação (regras e implicações de sentido)"
       ]
     },
     {
       "nome": "Matemática / Raciocínio Lógico",
-      "topicosConcluidos": [
+      "topicosConcluidos": [],
+      "topicosPendentes": [
         "Teoria dos conjuntos e conjuntos numéricos: números naturais, inteiros, racionais, irracionais e reais",
         "Operações fundamentais, números primos, mínimo múltiplo comum (MMC) e máximo divisor comum (MDC)",
-        "Matemática financeira: porcentagem, juros simples e compostos"
-      ],
-      "topicosPendentes": [
+        "Matemática financeira: porcentagem, juros simples e compostos",
         "Matrizes e determinantes"
       ]
     },
     {
       "nome": "Legislação",
-      "topicosConcluidos": [
-        "Constituição Federal de 1988: Direitos e Garantias Fundamentais",
-        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992)"
-      ],
+      "topicosConcluidos": [],
       "topicosPendentes": [
+        "Constituição Federal de 1988: Direitos e Garantias Fundamentais",
+        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992)",
         "Estatuto do Servidor Público Municipal"
       ]
     },
@@ -39,13 +36,14 @@
       "nome": "TI / Conhecimentos Específicos",
       "topicosConcluidos": [
         "Fundamentos de computação: Organização e arquitetura de computadores",
+        "Arquitetura de software: arquitetura 3 camadas, modelo MVC"
+      ],
+      "topicosPendentes": [
         "Desenvolvimento de sistemas Web: HTML, CSS, JavaScript",
-        "Arquitetura de software: arquitetura 3 camadas, modelo MVC",
         "Bancos de dados: SGBDs relacionais (MySQL, PostgreSQL), DML, DDL",
         "Segurança da informação: Criptografia, hashes, RSA, AES"
-      ],
-      "topicosPendentes": []
+      ]
     }
   ],
-  "ultimoEstudo": "2026-07-14T17:09:41.928Z"
+  "ultimoEstudo": "2026-07-14T19:41:09.749Z"
 }

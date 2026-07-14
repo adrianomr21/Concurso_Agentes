@@ -23,6 +23,55 @@ const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const PROGRESS_PATH = path.join(ROOT_DIR, 'src/memory/student_progress.json');
 const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Final.json');
 
+const pristineProgress = {
+  aluno: 'Adriano',
+  objetivoGeral: 'Passar no cargo de Analista de Desenvolvimento de Sistemas no concurso da FUNDATEC',
+  materias: [
+    {
+      nome: 'Português',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        'Leitura, interpretação e relação entre as ideias de textos de gêneros textuais diversos',
+        'Coesão e coerência textuais de acordo com Ingedore Villaça Koch',
+        'Sintaxe de regência nominal e verbal',
+        'Morfologia (classes de palavras e suas flexões, significados e empregos)',
+        'Pontuação (regras e implicações de sentido)'
+      ]
+    },
+    {
+      nome: 'Matemática / Raciocínio Lógico',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        'Teoria dos conjuntos e conjuntos numéricos: números naturais, inteiros, racionais, irracionais e reais',
+        'Operações fundamentais, números primos, mínimo múltiplo comum (MMC) e máximo divisor comum (MDC)',
+        'Matemática financeira: porcentagem, juros simples e compostos',
+        'Matrizes e determinantes'
+      ]
+    },
+    {
+      nome: 'Legislação',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        'Constituição Federal de 1988: Direitos e Garantias Fundamentais',
+        'Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992)',
+        'Estatuto do Servidor Público Municipal'
+      ]
+    },
+    {
+      nome: 'TI / Conhecimentos Específicos',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        'Fundamentos de computação: Organização e arquitetura de computadores',
+        'Desenvolvimento de sistemas Web: HTML, CSS, JavaScript',
+        'Arquitetura de software: arquitetura 3 camadas, modelo MVC',
+        'Bancos de dados: SGBDs relacionais (MySQL, PostgreSQL), DML, DDL',
+        'Segurança da informação: Criptografia, hashes, RSA, AES'
+      ]
+    }
+  ],
+  ultimoEstudo: ''
+};
+
 app.use(express.json());
 app.use(express.static(PUBLIC_DIR));
 
@@ -164,7 +213,7 @@ app.post('/api/daily/generate', async (req, res) => {
     // 4. Aciona em paralelo o Professor (aula) e o Criador (exercícios)
     console.log(`[SERVER] Acionando Professor e Criador de Exercícios em paralelo...`);
     const [detailedLesson, exercises] = await Promise.all([
-      teacher.generateDetailedLesson(principalTopic, instructionsForAgents),
+      teacher.generateDetailedLesson(principalTopic, instructionsForAgents, dailyPlan.professorSelecionado),
       exerciseCreator.generateExercises(principalTopic, instructionsForAgents)
     ]);
 
@@ -441,6 +490,101 @@ app.post('/api/quiz/submit', async (req, res) => {
   } catch (error: any) {
     console.error('[SERVER ERROR] Falha na avaliação do simulado:', error);
     res.status(500).json({ error: error.message || 'Erro ao processar a avaliação.' });
+  }
+});
+
+// ------------------------------------------------------------------
+// API: Lista o histórico de sessões/aulas anteriores concluídas
+// ------------------------------------------------------------------
+app.get('/api/sessions', async (req, res) => {
+  try {
+    const sessionsDir = path.join(ROOT_DIR, 'src/memory/sessions');
+    const files = await fs.readdir(sessionsDir);
+    const jsonFiles = files.filter(f => f.endsWith('.json'));
+
+    const list = [];
+    for (const file of jsonFiles) {
+      const raw = await fs.readFile(path.join(sessionsDir, file), 'utf-8');
+      const session = JSON.parse(raw) as SessionState;
+      list.push({
+        sessionId: session.sessionId,
+        tema: session.tema,
+        professor: session.planDaily?.professorSelecionado || 'Desconhecido',
+        data: session.createdAt,
+        nota: session.performanceReport?.nota ?? null,
+        aprovado: session.performanceReport?.aprovado ?? null
+      });
+    }
+
+    // Ordena as sessões da mais nova para a mais antiga
+    list.sort((a, b) => b.data.localeCompare(a));
+    res.json(list);
+  } catch (error: any) {
+    console.error('[SERVER ERROR] Falha ao obter histórico de sessões:', error);
+    res.status(500).json({ error: error.message || 'Erro ao listar sessões.' });
+  }
+});
+
+// ------------------------------------------------------------------
+// API: Retorna o conteúdo de uma sessão de aula anterior específica
+// ------------------------------------------------------------------
+app.get('/api/sessions/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const sessionFile = path.join(ROOT_DIR, 'src/memory/sessions', `${id}.json`);
+    const raw = await fs.readFile(sessionFile, 'utf-8');
+    const session = JSON.parse(raw) as SessionState;
+
+    res.json({
+      dailyPlan: session.planDaily,
+      detailedLesson: session.lessonDetailedContent,
+      exercises: session.exerciseList,
+      webSearchReport: session.webSearchReport,
+      performanceReport: session.performanceReport
+    });
+  } catch (error: any) {
+    console.error('[SERVER ERROR] Sessão não encontrada:', error);
+    res.status(404).json({ error: 'Sessão não encontrada.' });
+  }
+});
+
+// ------------------------------------------------------------------
+// API: Reseta o progresso no disco e limpa arquivos de sessão e outputs
+// ------------------------------------------------------------------
+app.post('/api/reset', async (req, res) => {
+  try {
+    console.log('[SERVER] Iniciando solicitação de reset via API...');
+    
+    // 1. Zera a memória de progresso
+    await fs.writeFile(PROGRESS_PATH, JSON.stringify(pristineProgress, null, 2), 'utf-8');
+    
+    // 2. Limpa sessões
+    const sessionsDir = path.join(ROOT_DIR, 'src/memory/sessions');
+    try {
+      const files = await fs.readdir(sessionsDir);
+      for (const file of files) {
+        if (file.endsWith('.json')) {
+          await fs.unlink(path.join(sessionsDir, file));
+        }
+      }
+    } catch (e) {}
+
+    // 3. Limpa outputs
+    const outputsDir = path.join(ROOT_DIR, 'src/memory/outputs');
+    try {
+      const files = await fs.readdir(outputsDir);
+      for (const file of files) {
+        if (file.endsWith('.json') || file.endsWith('.md')) {
+          await fs.unlink(path.join(outputsDir, file));
+        }
+      }
+    } catch (e) {}
+
+    console.log('✓ Reset de progresso e histórico concluído com sucesso.');
+    res.json({ success: true, progressUpdated: pristineProgress });
+  } catch (error: any) {
+    console.error('[SERVER ERROR] Falha ao redefinir memória:', error);
+    res.status(500).json({ error: error.message || 'Erro ao redefinir progresso.' });
   }
 });
 

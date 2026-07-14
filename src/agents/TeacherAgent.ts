@@ -14,8 +14,33 @@ export class TeacherAgent extends Agent {
    */
   public async generateDetailedLesson(
     tema: string,
-    instrucoes?: string
+    instrucoes?: string,
+    professor?: string
   ): Promise<TeacherDetailedLesson> {
+    if (!this.systemInstruction) {
+      await this.initialize();
+    }
+
+    let customInstruction = this.systemInstruction;
+    if (professor) {
+      const fileMap: Record<string, string> = {
+        'Professor de Português': 'teacher_portuguese.md',
+        'Professor de Matemática': 'teacher_math.md',
+        'Professor de Legislação': 'teacher_law.md',
+        'Professor de TI': 'teacher_ti.md'
+      };
+      const promptFile = fileMap[professor];
+      if (promptFile) {
+        try {
+          const specialistPrompt = await StorageService.loadPrompt(promptFile);
+          customInstruction = `${this.systemInstruction}\n\n=== DIRETRIZES DA SUA ESPECIALIDADE ===\n${specialistPrompt}`;
+          console.log(`[TEACHER AGENT] Especialidade de professor carregada: "${professor}"`);
+        } catch (e) {
+          console.warn(`[TEACHER AGENT] Não foi possível carregar o prompt especialista para: ${professor}`);
+        }
+      }
+    }
+
     let prompt = `Elabore uma aula completa e estruturada sobre o seguinte tema:
 Tema: "${tema}"`;
 
@@ -25,9 +50,15 @@ Tema: "${tema}"`;
 
     prompt += `\n\nRetorne rigorosamente a resposta no formato JSON de material pedagógico especificado nas suas instruções de sistema.`;
 
-    const rawResponse = await this.ask(prompt, true);
+    const messages = [
+      { role: 'system' as const, content: customInstruction },
+      { role: 'user' as const, content: prompt }
+    ];
+
+    const rawResponse = await GeminiService.getChatCompletion(messages, true);
     try {
-      return JSON.parse(rawResponse) as TeacherDetailedLesson;
+      const cleaned = this.cleanJson(rawResponse);
+      return JSON.parse(cleaned) as TeacherDetailedLesson;
     } catch (error) {
       console.error('Falha ao processar resposta da aula detalhada em JSON do Professor IA:', rawResponse);
       throw new Error('O Professor IA falhou ao gerar um material de aula JSON válido.');

@@ -12,6 +12,7 @@
     "test:schedule": "tsx src/test_schedule_planner.ts",
     "test:evaluator": "tsx src/test_evaluator.ts",
     "test:researcher": "tsx src/test_researcher.ts",
+    "reset": "tsx src/reset_memory.ts",
     "web": "tsx src/server.ts",
     "build": "tsc",
     "start": "node dist/index.js"

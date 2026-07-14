@@ -1,99 +1,92 @@
 
 # 🎓 AcademiaIA - Aula Diária de Estudos
 **Objetivo Geral:** Passar no cargo de Analista de Desenvolvimento de Sistemas no concurso da FUNDATEC
-**Plano do Dia:** Consolidar conhecimentos em matemática financeira e leis administrativas essenciais para o cargo.
-**Tema:** Matemática Financeira e Introdução à Lei de Improbidade Administrativa
+**Plano do Dia:** Iniciar a base técnica de TI focando em Fundamentos de Computação e Arquitetura de Software
+**Tema:** Fundamentos de Computação: Organização e Arquitetura de Computadores
 
 ---
 
 ## 📅 Roteiro de Estudos Planejado pelo Diretor
-* **Data:** 2026-07-15
+* **Data:** 2023-10-27
 * **Tópicos a Estudar:**
-    - Matemática financeira: porcentagem, juros simples e compostos
-  - Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992)
+    - Fundamentos de computação: Organização e arquitetura de computadores
+  - Arquitetura de software: arquitetura 3 camadas, modelo MVC
 * **Justificativa da Escolha:**
-  O aluno completou todo o conteúdo técnico de TI e a base de Português. Para manter o ritmo competitivo, é necessário avançar nas matérias de 'peso' como Raciocínio Lógico/Matemática e Legislação, que são decisivas nas provas de nível superior da banca FUNDATEC.
-* **Professor Responsável:** Professor de Matemática
+  Como o aluno está no início da preparação, é estratégico consolidar a base teórica de TI primeiro, criando uma fundação sólida antes de entrar em linguagens específicas ou segurança, garantindo que ele entenda o 'como' e o 'porquê' dos sistemas que irá desenvolver.
+* **Professor Responsável:** Professor de TI
 
 ---
 
 ## 🔍 Análise Estratégica da Banca (FUNDATEC)
-* **Recorrência do Assunto:** `Alta`
+* **Recorrência do Assunto:** `Média`
 * **Foco da Banca nas Provas:**
-  A FUNDATEC possui um perfil pragmático e direto. Em porcentagem, foca em cálculos de descontos sucessivos, aumentos e variações percentuais. Em juros, a banca prefere exercícios de aplicação direta de fórmulas (J = C.i.t ou M = C(1+i)^n), raramente exigindo demonstrações complexas. Valoriza a capacidade de interpretação de enunciados que envolvem períodos de capitalização (mensal vs anual) e o uso de tabelas de valores futuros ou potências simplificadas fornecidas na prova.
+  A FUNDATEC tende a focar na tríade: memória (hierarquia, cache, RAM vs ROM), processador (ciclo de instrução, registradores, clock) e dispositivos de entrada/saída. A banca prefere questões teóricas baseadas em conceitos de manuais clássicos (como Tanenbaum ou Stallings), exigindo o reconhecimento de definições técnicas e funcionalidades de componentes internos, raramente solicitando cálculos complexos de arquitetura, mas frequentemente cobrando a distinção entre memória volátil e não volátil.
 * **Pegadinhas Clássicas Mapeadas:**
-    - Armadilha 1: Confusão entre taxas. A banca frequentemente fornece a taxa ao ano e pede o juro para um período mensal, esperando que o candidato esqueça de realizar a conversão da taxa antes de aplicar a fórmula.
-  - Armadilha 2: Descontos sucessivos. Em questões de aumentos ou reduções, a banca induz o erro ao somar as porcentagens (ex: 20% + 10% = 30%) em vez de aplicar o efeito multiplicativo (1,20 * 0,90 = 1,08).
-  - Armadilha 3: Juros compostos vs simples. A banca utiliza enunciados longos que descrevem situações complexas de financiamento para que o candidato aplique a fórmula de juros simples quando, na prática de mercado ou no enunciado, a capitalização composta é a exigida.
+    - Armadilha 1: Confundir as funções dos registradores específicos, especialmente PC (Program Counter) e IR (Instruction Register), invertendo o que cada um armazena durante o ciclo de instrução.
+  - Armadilha 2: Exigir o conhecimento da diferença entre memória cache L1, L2 e L3, onde a banca costuma inverter a relação de velocidade versus capacidade para confundir o candidato.
+  - Armadilha 3: Tentar induzir ao erro sobre o funcionamento do barramento de dados, endereços e controle, focando na direção do fluxo da informação (unidirecional vs bidirecional).
 * **Atualizações Importantes:**
-  Não há atualizações legislativas em matemática financeira, mas há uma tendência técnica da FUNDATEC em modernizar as questões, utilizando cenários de 'educação financeira' ou 'investimentos bancários' em detrimento de problemas puramente matemáticos, exigindo maior atenção à interpretação do fluxo de caixa.
+  A tendência atual da banca em TI tem se voltado para a arquitetura voltada ao processamento em nuvem e a eficiência energética em dispositivos móveis, além da diferenciação crescente entre arquiteturas RISC (comuns em processadores ARM de smartphones) e CISC (x86 de desktops/servidores), que tem sido um ponto recorrente em provas de analista.
 
 ---
 
 ### 📝 Questões Reais de Concursos Anteriores (Referência)
 
-#### Questão de Referência 1 (2023 | Prefeitura de Bagé | Analista de Sistemas)
-Um capital de R$ 10.000,00 foi aplicado a juros compostos a uma taxa de 2% ao mês durante 3 meses. Qual o valor do montante ao final desse período?
+#### Questão de Referência 1 (2022 | Prefeitura de Caxias do Sul | Analista de Tecnologia da Informação)
+Sobre a hierarquia de memória em sistemas computacionais, assinale a alternativa correta: A) A memória RAM é considerada uma memória não volátil. B) A memória cache é mais lenta que a memória principal. C) O registrador possui a maior velocidade de acesso e a menor capacidade. D) O disco rígido (HDD) é um exemplo de memória primária. E) A memória ROM não permite a leitura de dados.
 
-* **Gabarito Oficial:** **Opção (C (R$ 10.612,08))**
-
-
----
-#### Questão de Referência 2 (2022 | Prefeitura de Canoas | Auditor Fiscal)
-Um produto que custava R$ 200,00 sofreu um aumento de 10% em janeiro e, em fevereiro, um desconto de 10% sobre o novo valor. Qual o valor final do produto?
-
-* **Gabarito Oficial:** **Opção (B (R$ 198,00))**
+* **Gabarito Oficial:** **Opção (C)**
 
 
 ---
 
-## 📚 Conteúdo Expositivo da Aula: Matemática Financeira e Introdução à Lei de Improbidade Administrativa
+## 📚 Conteúdo Expositivo da Aula: Fundamentos de Computação: Organização e Arquitetura de Computadores
 
 ### 🎯 Objetivos de Aprendizagem
-* **Dominar o cálculo de porcentagem, evitando erros em descontos e aumentos sucessivos.**
-* **Diferenciar a aplicação prática de Juros Simples e Compostos, atentando-se à conversão de taxas.**
-* **Compreender os conceitos fundamentais da Lei de Improbidade Administrativa (LIA), identificando sujeitos e atos ímprobos.**
+* **Compreender a Arquitetura de Von Neumann e o Ciclo de Instrução**
+* **Diferenciar a hierarquia de memória e as características de memórias voláteis vs não voláteis**
+* **Distinguir arquiteturas RISC e CISC e suas aplicações modernas**
+* **Conectar a arquitetura de hardware ao padrão de arquitetura de software 3 camadas/MVC**
 
 ### 📝 Teoria Detalhada
-A Matemática Financeira é a base da análise de investimentos e financiamentos. Em porcentagem, o erro mais comum na banca FUNDATEC é a soma linear de taxas. Lembre-se: aumentos sucessivos são multiplicativos. Para um aumento de 20% seguido de 10%, não temos 30%, mas sim 1,20 * 1,10 = 1,32 (ou seja, 32% de aumento). Nos Juros Simples (J = C.i.t), o cálculo é linear sobre o capital inicial. Nos Juros Compostos (M = C(1+i)^n), os juros rendem juros, gerando um crescimento exponencial. A armadilha crucial é a compatibilidade entre tempo e taxa: se o período é mensal e a taxa é anual, é obrigatório converter a taxa antes de aplicar a fórmula. Sobre a Lei de Improbidade (Lei 8.429/92), entenda que ela visa punir agentes públicos (ou terceiros) que atentam contra a administração pública. Classificam-se em atos que importam enriquecimento ilícito, prejuízo ao erário ou atentado aos princípios da administração. É fundamental notar que, após a reforma de 2021, o dolo (vontade livre e consciente) tornou-se requisito indispensável para a caracterização do ato ímprobo, sendo excluída a modalidade culposa.
+A base do processamento moderno reside na Arquitetura de Von Neumann, que estabelece uma unidade central de processamento (CPU), memória principal e sistema de entrada/saída conectados por barramentos. O Ciclo de Instrução (Fetch-Decode-Execute) é o coração desta operação. O PC (Program Counter) armazena o endereço da próxima instrução, enquanto o IR (Instruction Register) guarda a instrução que está sendo executada no momento — uma pegadinha clássica da FUNDATEC. Na hierarquia de memória, temos um trade-off clássico: quanto mais próxima do processador (L1, L2, L3), menor a capacidade, maior o custo e maior a velocidade. A memória RAM (volátil) atua como ponte para dados temporários, enquanto o armazenamento persistente (não volátil) garante a retenção. Ao escalarmos para o desenvolvimento web, aplicamos o padrão de 3 camadas (Apresentação, Regra de Negócio e Dados) ou o padrão MVC. Enquanto o hardware lida com bits e ciclos de clock, o MVC organiza o software para que a View (Apresentação), o Controller (Lógica/Processamento) e o Model (Dados) residindo em memória/disco) funcionem de forma desacoplada, permitindo que a infraestrutura de hardware seja otimizada para cada camada (ex: cache de banco de dados para o Model, servidores de aplicação robustos para o Controller).
 
 ### 💡 Exemplos Práticos
 
-#### Exemplo 1: A armadilha dos descontos sucessivos
-* **Descrição:** Um produto de R$ 100 sofre um desconto de 20% e depois outro de 10%. Qual o valor final?
+#### Exemplo 1: Ciclo de Instrução e Registradores
+* **Descrição:** O processador busca a instrução na memória usando o PC para endereçar, carrega no IR e decodifica. Barramentos de endereço são unidirecionais (CPU para memória), enquanto o barramento de dados é bidirecional.
 * **Especificação Técnica:**
 ```sql
-Errado: 100 - 30% = 70. Correto: 100 * 0,80 * 0,90 = 72. O fator final é 0,72.
+PC -> Endereço da próxima instrução; IR -> Armazena opcode atual; Barramento de Endereço: CPU -> Memória; Barramento de Dados: CPU <-> Memória/E/S
 ```
 
 
-#### Exemplo 2: Conversão de Taxas (Cuidado FUNDATEC)
-* **Descrição:** Calcular juros simples sobre R$ 1000 a 24% ao ano durante 3 meses.
+#### Exemplo 2: Conexão MVC e Arquitetura
+* **Descrição:** O MVC reflete a gestão de recursos. O Model acessa o hardware de armazenamento, o Controller utiliza a CPU para cálculos e a View interage via I/O.
 * **Especificação Técnica:**
 ```sql
-i = 24%/12 = 2% ao mês (0,02). J = 1000 * 0,02 * 3 = 60.
+Model (Persistência/Disco) <-> Controller (Processamento/CPU) <-> View (Interface/I/O)
 ```
 
 
 ### 📌 Resumo de Fixação
-1. Porcentagem: Use fatores multiplicativos (1 ± i) para aumentos ou descontos sucessivos. 2. Juros Simples: J = C * i * t. O juro é constante. 3. Juros Compostos: M = C * (1 + i)^n. O capital aumenta exponencialmente. 4. Regra de ouro: Taxa e tempo devem estar na mesma unidade. 5. LIA: Foco no dolo; atos dividem-se em enriquecimento ilícito, prejuízo ao erário e violação de princípios.
+Arquitetura Von Neumann: CPU, Memória, E/S; Ciclo de Instrução: PC (endereço da próxima), IR (instrução atual); Hierarquia de Memória: Cache (rápida/cara) > RAM (média) > Disco (lenta/barata); RISC (instruções simples, ARM) vs CISC (instruções complexas, x86); Padrão 3 Camadas: Separação física e lógica para escalabilidade.
 
 ---
 
 ## 🧠 Mapa Mental (Visualização Gráfica)
 ```mermaid
 graph TD
-  A[Matemática Financeira e LIA] --> B[Matemática Financeira]
-  A --> C[Lei de Improbidade]
-  B --> B1[Porcentagem]
-  B --> B2[Juros Simples]
-  B --> B3[Juros Compostos]
-  B1 --> B1A[Fatores Multiplicativos]
-  B2 --> B2A[C.i.t]
-  B3 --> B3A[C(1+i)^n]
-  C --> C1[Sujeitos: Agente Público/Terceiro]
-  C --> C2[Atos: Enriquecimento, Prejuízo, Princípios]
-  C --> C3[Requisito: Dolo (Indispensável)]
+  A[Arquitetura de Computadores] --> B[Hardware (Von Neumann)]
+  A --> C[Arquitetura de Software (MVC)]
+  B --> D[Processador]
+  B --> E[Memória]
+  D --> F[RISC vs CISC]
+  D --> G[Ciclo de Instrução: PC e IR]
+  E --> H[Hierarquia: L1/L2/L3 vs RAM]
+  C --> I[Camada de Dados]
+  C --> J[Camada de Negócio]
+  C --> K[Camada de Apresentação]
 ```
 
 ---
@@ -101,9 +94,10 @@ graph TD
 ## 🗂️ Flashcards (Fixação Ativa)
 | ❓ Pergunta | 💡 Resposta |
 |---|---|
-| **Como calcular um aumento sucessivo de 10% e 20%?** | Multiplicando o capital original pelos fatores 1,10 e 1,20. |
-| **Qual a principal diferença entre juros simples e compostos?** | No simples, a base de cálculo é apenas o capital inicial; no composto, os juros incidem sobre o montante acumulado. |
-| **A modalidade culposa de improbidade administrativa ainda existe?** | Não. Com a reforma de 2021, apenas o dolo (vontade consciente) caracteriza improbidade. |
+| **Qual a diferença funcional entre PC (Program Counter) e IR (Instruction Register)?** | O PC armazena o endereço da próxima instrução a ser executada, enquanto o IR armazena a instrução que está sendo decodificada/executada no momento. |
+| **Como funciona o fluxo de dados no barramento de endereço vs dados?** | O barramento de endereço é unidirecional (origem na CPU) e o barramento de dados é bidirecional (troca entre CPU, memória e E/S). |
+| **Qual a principal diferença entre RISC e CISC?** | RISC possui instruções simples e executa uma por ciclo (eficiência energética/mobile), enquanto CISC possui instruções complexas que podem levar múltiplos ciclos. |
+| **Por que a memória cache é menor que a memória RAM?** | Devido ao custo elevado e à necessidade de altíssima velocidade, aproximando-se do ciclo de clock do processador. |
 
 ---
 
@@ -112,132 +106,132 @@ graph TD
 ### ❓ Caderno de Questões
 
 #### Questão 1
-* **Dificuldade:** `Fácil` | **Edital:** *Porcentagem e Variações Percentuais*
+* **Dificuldade:** `Fácil` | **Edital:** *Ciclo de Instrução e Registradores*
 
-Um produto teve um aumento de 20% seguido de um desconto de 20%. Qual foi a variação percentual final sobre o preço original?
+No ciclo de instrução clássico da arquitetura de Von Neumann, dois registradores são cruciais para o controle do fluxo. Assinale a alternativa correta sobre suas funções.
 
-  - **(A)** 0%
-  - **(B)** Aumento de 4%
-  - **(C)** Redução de 4%
-  - **(D)** Redução de 2%
-  - **(E)** Aumento de 2%
+  - **(A)** O PC armazena a instrução que está sendo decodificada, enquanto o IR armazena o endereço da próxima instrução.
+  - **(B)** O PC armazena o endereço da próxima instrução a ser executada, e o IR armazena a instrução atualmente em processamento.
+  - **(C)** Ambos os registradores armazenam dados temporários vindos da memória RAM.
+  - **(D)** O IR é responsável por controlar o clock do processador, enquanto o PC gerencia o barramento de entrada.
+  - **(E)** Não há distinção funcional entre PC e IR em arquiteturas modernas de 64 bits.
 
 
 ---
 #### Questão 2
-* **Dificuldade:** `Fácil` | **Edital:** *Juros Simples*
+* **Dificuldade:** `Médio` | **Edital:** *Hierarquia de Memória*
 
-Um capital de R$ 5.000,00 foi aplicado a juros simples, à taxa de 2% ao mês, durante 1 ano. Qual o valor dos juros acumulados?
+Sobre a hierarquia de memória, assinale a alternativa que relaciona corretamente a velocidade de acesso e a capacidade de armazenamento.
 
-  - **(A)** R$ 1.000,00
-  - **(B)** R$ 1.200,00
-  - **(C)** R$ 1.500,00
-  - **(D)** R$ 2.400,00
-  - **(E)** R$ 600,00
+  - **(A)** A memória Cache L1 é maior em capacidade, porém mais lenta que a memória RAM.
+  - **(B)** A memória RAM possui menor tempo de acesso que os registradores internos do processador.
+  - **(C)** A memória Cache L1 é menor em capacidade, mas significativamente mais rápida que a memória Cache L3 e a RAM.
+  - **(D)** O disco rígido (HDD/SSD) é considerado memória de acesso imediato pelo processador.
+  - **(E)** Memórias voláteis são aquelas que mantêm os dados mesmo após a ausência de energia elétrica.
 
 
 ---
 #### Questão 3
-* **Dificuldade:** `Médio` | **Edital:** *Juros Compostos*
+* **Dificuldade:** `Difícil` | **Edital:** *Arquitetura de Barramentos*
 
-Um investidor aplica R$ 10.000,00 a juros compostos, à taxa de 10% ao ano, por 2 anos. Qual será o montante ao final desse período?
+Quanto à arquitetura de barramentos, assinale a alternativa que descreve corretamente o fluxo de dados.
 
-  - **(A)** R$ 12.000,00
-  - **(B)** R$ 12.100,00
-  - **(C)** R$ 12.200,00
-  - **(D)** R$ 11.000,00
-  - **(E)** R$ 12.500,00
+  - **(A)** O barramento de endereços é bidirecional, permitindo leitura e escrita na CPU.
+  - **(B)** O barramento de dados é, por definição, unidirecional do processador para a memória.
+  - **(C)** O barramento de controle transmite sinais de coordenação, sendo tipicamente unidirecional da CPU para os dispositivos.
+  - **(D)** O barramento de dados é bidirecional, pois os dados trafegam entre a CPU e a memória/periféricos em ambos os sentidos.
+  - **(E)** O barramento de endereços é unidirecional apenas quando o processador está em modo de espera.
 
 
 ---
 #### Questão 4
-* **Dificuldade:** `Médio` | **Edital:** *Porcentagem e variações*
+* **Dificuldade:** `Médio` | **Edital:** *Arquiteturas RISC vs CISC*
 
-Uma loja oferece 10% de desconto para pagamento à vista. Se um cliente decide pagar parcelado, o preço sofre um acréscimo de 5%. Qual a diferença percentual entre o preço à vista e o preço parcelado?
+Sobre as arquiteturas RISC e CISC, assinale a alternativa correta quanto às características e aplicações atuais.
 
-  - **(A)** 15%
-  - **(B)** 16,66%
-  - **(C)** 15,5%
-  - **(D)** 14,5%
-  - **(E)** 17,2%
+  - **(A)** RISC possui um conjunto de instruções complexo, ideal para servidores de alto desempenho.
+  - **(B)** CISC é a arquitetura padrão em dispositivos móveis modernos baseados em processadores ARM.
+  - **(C)** RISC preza pela simplicidade das instruções, permitindo execução rápida e alta eficiência energética, comum em dispositivos móveis.
+  - **(D)** CISC é menos eficiente energeticamente que RISC devido ao seu design de instruções reduzidas.
+  - **(E)** Não há distinção relevante entre RISC e CISC em termos de consumo de bateria em smartphones.
 
 
 ---
 #### Questão 5
-* **Dificuldade:** `Médio` | **Edital:** *Juros Simples e conversão de taxas*
+* **Dificuldade:** `Médio` | **Edital:** *Arquitetura de Software e Escalabilidade*
 
-Qual o valor dos juros produzidos por um capital de R$ 20.000,00, aplicado por 3 meses, a uma taxa de 36% ao ano, sob o regime de juros simples?
+A arquitetura de software MVC (Model-View-Controller) pode ser associada à organização de sistemas computacionais. Qual a principal vantagem do uso desse padrão em aplicações web modernas e escaláveis?
 
-  - **(A)** R$ 1.800,00
-  - **(B)** R$ 2.400,00
-  - **(C)** R$ 3.600,00
-  - **(D)** R$ 600,00
-  - **(E)** R$ 7.200,00
+  - **(A)** Redução drástica do custo de processamento na CPU.
+  - **(B)** Aumento da latência de acesso aos dados via banco de dados.
+  - **(C)** Separação de responsabilidades, facilitando a manutenção e a escalabilidade independente de componentes (como a separação de camadas).
+  - **(D)** Substituição total da necessidade de memória cache no lado do servidor.
+  - **(E)** Obrigação de processar todas as regras de negócio diretamente na camada View.
 
 
 ---
 #### Questão 6
-* **Dificuldade:** `Difícil` | **Edital:** *Juros Compostos*
+* **Dificuldade:** `Fácil` | **Edital:** *Classificação de Memórias*
 
-Um título de R$ 1.000,00 será pago em regime de juros compostos com taxa de 1% ao mês. Qual o valor dos juros após 3 meses?
+Diferencie memória volátil de não volátil. Qual das alternativas abaixo apresenta apenas dispositivos de memória não volátil?
 
-  - **(A)** R$ 30,00
-  - **(B)** R$ 30,30
-  - **(C)** R$ 30,60
-  - **(D)** R$ 31,00
-  - **(E)** R$ 33,10
+  - **(A)** RAM, Cache L1, Registradores.
+  - **(B)** ROM, SSD, Disco Rígido.
+  - **(C)** RAM, BIOS, Pendrive.
+  - **(D)** Cache L2, Memória Principal, DVD.
+  - **(E)** Registradores, SSD, RAM.
 
 
 ---
 #### Questão 7
-* **Dificuldade:** `Médio` | **Edital:** *Porcentagem*
+* **Dificuldade:** `Difícil` | **Edital:** *Processamento de Instruções*
 
-Uma mercadoria teve um aumento de 25%. Qual o desconto necessário para que o preço retorne ao valor original?
+Em processadores modernos, o que é o 'pipeline' de instrução?
 
-  - **(A)** 25%
-  - **(B)** 20%
-  - **(C)** 15%
-  - **(D)** 30%
-  - **(E)** 22,5%
+  - **(A)** Um método de armazenamento para dados de vídeo no cache L3.
+  - **(B)** Uma técnica que permite sobrepor a execução de diferentes estágios de várias instruções simultaneamente.
+  - **(C)** A tradução direta de código de alto nível para linguagem binária.
+  - **(D)** O caminho físico que conecta os pinos do processador à placa-mãe.
+  - **(E)** A função que limita a velocidade do clock para evitar superaquecimento.
 
 
 ---
 #### Questão 8
-* **Dificuldade:** `Médio` | **Edital:** *Juros Simples*
+* **Dificuldade:** `Médio` | **Edital:** *Modelos de Arquitetura*
 
-Um investidor aplica R$ 5.000,00 a juros simples por 4 meses. Se o montante final foi de R$ 5.600,00, qual a taxa mensal?
+A arquitetura de Von Neumann é caracterizada por qual fator fundamental?
 
-  - **(A)** 2%
-  - **(B)** 2,5%
-  - **(C)** 3%
-  - **(D)** 4%
-  - **(E)** 5%
+  - **(A)** Uso de barramentos separados para dados e instruções (Arquitetura Harvard).
+  - **(B)** Armazenamento compartilhado de dados e instruções na mesma memória.
+  - **(C)** Ausência de uma unidade de controle centralizada.
+  - **(D)** Execução estrita de apenas uma instrução por década.
+  - **(E)** Utilização exclusiva de processamento distribuído em nuvem.
 
 
 ---
 #### Questão 9
-* **Dificuldade:** `Difícil` | **Edital:** *Juros Compostos*
+* **Dificuldade:** `Médio` | **Edital:** *Hierarquia de Memória*
 
-Qual capital, aplicado a juros compostos de 20% ao ano, gera um montante de R$ 14.400,00 após 2 anos?
+Sobre o cache L3, assinale a alternativa que explica sua principal utilidade em processadores multicore.
 
-  - **(A)** R$ 10.000,00
-  - **(B)** R$ 11.000,00
-  - **(C)** R$ 12.000,00
-  - **(D)** R$ 10.500,00
-  - **(E)** R$ 9.000,00
+  - **(A)** É um cache compartilhado entre os núcleos, permitindo a troca rápida de dados entre eles.
+  - **(B)** Serve apenas para armazenar a BIOS do sistema.
+  - **(C)** É o cache mais rápido e menor existente no processador.
+  - **(D)** É uma memória volátil usada exclusivamente pela placa de vídeo.
+  - **(E)** Não possui influência na performance de sistemas multitarefa.
 
 
 ---
 #### Questão 10
-* **Dificuldade:** `Fácil` | **Edital:** *Juros Compostos*
+* **Dificuldade:** `Fácil` | **Edital:** *Processador e Clock*
 
-Uma dívida de R$ 1.000,00 sofreu um acréscimo de 10% no primeiro mês e 10% no segundo mês, sob regime de capitalização composta. Qual o valor após os 2 meses?
+Em arquiteturas de computadores, o termo 'Clock' refere-se a:
 
-  - **(A)** R$ 1.200,00
-  - **(B)** R$ 1.210,00
-  - **(C)** R$ 1.220,00
-  - **(D)** R$ 1.100,00
-  - **(E)** R$ 1.150,00
+  - **(A)** A quantidade de memória RAM instalada no sistema.
+  - **(B)** O sinal sincronizador que dita a velocidade de operação dos componentes do processador.
+  - **(C)** A capacidade de armazenamento de longo prazo em servidores.
+  - **(D)** A temperatura máxima que o processador pode atingir.
+  - **(E)** A velocidade de transferência de dados entre o roteador e a internet.
 
 
 ---
@@ -245,70 +239,70 @@ Uma dívida de R$ 1.000,00 sofreu um acréscimo de 10% no primeiro mês e 10% no
 ### 🔑 Gabarito e Resoluções Comentadas
 
 #### Questão 1
-* **Gabarito:** **Opção (C)**
+* **Gabarito:** **Opção (B)**
 * **Resolução e Comentário:**
-  A aplicação sucessiva de porcentagens deve ser multiplicativa: 1,20 * 0,80 = 0,96. O valor final é 96% do original, resultando em uma perda de 4%. Erro comum é somar 20% - 20% = 0%.
+  O Program Counter (PC) mantém o endereço da próxima instrução, enquanto o Instruction Register (IR) mantém o código da instrução que está sendo decodificada. A inversão dessas funções é uma pegadinha clássica.
 
 
 ---
 #### Questão 2
-* **Gabarito:** **Opção (B)**
+* **Gabarito:** **Opção (C)**
 * **Resolução e Comentário:**
-  Utilizando J = C * i * t, temos J = 5000 * 0,02 * 12 meses. O erro comum é usar o tempo em anos (1) sem converter a taxa mensal, ou esquecer a conversão do período.
+  Na hierarquia de memória, quanto mais próxima do núcleo do processador, menor a capacidade, maior o custo e maior a velocidade. A Cache L1 é a mais rápida e menor, enquanto a L3 é maior e mais lenta.
 
 
 ---
 #### Questão 3
-* **Gabarito:** **Opção (B)**
+* **Gabarito:** **Opção (D)**
 * **Resolução e Comentário:**
-  Montante em juros compostos é M = C(1 + i)^n. Assim, M = 10000 * (1,10)^2 = 10000 * 1,21 = 12100. A alternativa A é o resultado se fosse juros simples.
+  O barramento de dados é bidirecional (dados vão e vêm), o de endereços é unidirecional (indica o local de acesso, saindo da CPU) e o de controle coordena o fluxo (sinais diversos).
 
 
 ---
 #### Questão 4
-* **Gabarito:** **Opção (B)**
+* **Gabarito:** **Opção (C)**
 * **Resolução e Comentário:**
-  Seja P o preço base. À vista = 0,9P. Parcelado = 1,05P. A variação é (1,05P - 0,9P) / 0,9P = 0,15 / 0,9 = 1/6 ≈ 16,66%. Erro comum é somar ou subtrair as taxas diretamente.
+  RISC (Reduced Instruction Set Computer) utiliza instruções simples que otimizam o ciclo de clock, favorecendo eficiência energética, enquanto CISC (Complex Instruction Set Computer) foca em instruções complexas por ciclo, comum em arquiteturas x86.
 
 
 ---
 #### Questão 5
-* **Gabarito:** **Opção (A)**
+* **Gabarito:** **Opção (C)**
 * **Resolução e Comentário:**
-  Taxa de 36% ao ano equivale a 3% ao mês. J = 20000 * 0,03 * 3 = 1800. A armadilha é usar a taxa anual diretamente sem conversão mensal.
+  O padrão MVC promove o desacoplamento. Isso permite que a camada de dados (Model), a lógica (Controller) e a interface (View) sejam escaladas ou modificadas individualmente, o que é fundamental em sistemas web de larga escala.
 
 
 ---
 #### Questão 6
 * **Gabarito:** **Opção (B)**
 * **Resolução e Comentário:**
-  M = 1000 * (1,01)^3 = 1000 * 1,030301 = 1030,30. Os juros são M - C = 30,30. A alternativa A é o resultado de juros simples.
+  Memória volátil perde dados sem energia (ex: RAM, Cache). Memória não volátil retém os dados (ex: ROM, SSD, HDD). BIOS é um firmware armazenado em memória não volátil (ROM/Flash).
 
 
 ---
 #### Questão 7
 * **Gabarito:** **Opção (B)**
 * **Resolução e Comentário:**
-  Preço final = 1,25 * P_inicial. Para voltar a P_inicial, dividimos por 1,25. 1 / 1,25 = 0,8. Logo, é necessário um desconto de 20% (100% - 80%).
+  Pipeline é a técnica de dividir a execução de instruções em estágios (ex: busca, decodificação, execução), permitindo que múltiplas instruções estejam em diferentes estágios ao mesmo tempo, aumentando o throughput do processador.
 
 
 ---
 #### Questão 8
-* **Gabarito:** **Opção (C)**
+* **Gabarito:** **Opção (B)**
 * **Resolução e Comentário:**
-  Juros = 600. J = C*i*t => 600 = 5000 * i * 4 => 600 = 20000 * i => i = 600 / 20000 = 0,03 ou 3%.
+  O modelo Von Neumann define que tanto os dados quanto os programas são armazenados no mesmo espaço de endereçamento de memória, diferindo da arquitetura Harvard que os separa.
 
 
 ---
 #### Questão 9
 * **Gabarito:** **Opção (A)**
 * **Resolução e Comentário:**
-  14400 = C * (1,20)^2 => 14400 = C * 1,44 => C = 14400 / 1,44 = 10000.
+  O cache L3 costuma ser compartilhado entre todos os núcleos de um processador multicore, servindo como uma área comum para reduzir a necessidade de acessar a memória RAM, que é muito mais lenta.
 
 
 ---
 #### Questão 10
 * **Gabarito:** **Opção (B)**
 * **Resolução e Comentário:**
-  O valor é 1000 * 1,1 * 1,1 = 1210. A banca testa se o aluno entende o efeito dos juros sobre juros (capitalização composta).
+  O clock (frequência) é o sinal eletrônico periódico que sincroniza as operações dentro do processador. Quanto maior o clock, mais operações de ciclo podem, teoricamente, ser executadas por unidade de tempo.
 
