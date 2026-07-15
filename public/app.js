@@ -13,12 +13,14 @@ const tabs = {
   dashboard: document.getElementById('tab-dashboard'),
   classroom: document.getElementById('tab-classroom'),
   history: document.getElementById('tab-history'),
+  config: document.getElementById('tab-config'),
 };
 
 const navButtons = {
   dashboard: document.getElementById('btn-tab-dashboard'),
   classroom: document.getElementById('btn-tab-classroom'),
   history: document.getElementById('btn-tab-history'),
+  config: document.getElementById('btn-tab-config'),
 };
 
 // Inicialização
@@ -27,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadProgress();
   loadHistory(true); // Passa true para selecionar automaticamente a aula mais recente se houver
   setupActionListeners();
+  setupConfigTab(); // Inicializa a aba de edição de prompts dos agentes
 });
 
 // ------------------------------------------------------------------
@@ -59,10 +62,29 @@ async function loadProgress() {
     const response = await fetch('/api/progress');
     progressData = await response.json();
     renderDashboard(progressData);
+    populateSubjectSelect(progressData);
   } catch (error) {
     console.error('Erro ao buscar progresso:', error);
   }
 }
+
+function populateSubjectSelect(data) {
+  const select = document.getElementById('select-materia');
+  if (!select) return;
+  
+  // Limpa as opções existentes mantendo apenas a automática
+  select.innerHTML = '<option value="auto" style="background-color: #121214; color: var(--text-primary);">🤖 Recomendação Automática do Diretor</option>';
+  
+  data.materias.forEach((materia) => {
+    const option = document.createElement('option');
+    option.value = materia.nome;
+    option.textContent = materia.nome;
+    option.style.backgroundColor = '#121214';
+    option.style.color = 'var(--text-primary)';
+    select.appendChild(option);
+  });
+}
+
 
 function renderDashboard(data) {
   // Atualiza cabeçalhos básicos
@@ -85,6 +107,7 @@ function renderDashboard(data) {
     let themeColor = 'purple';
     if (materia.nome.toLowerCase().includes('matemática')) themeColor = 'blue';
     if (materia.nome.toLowerCase().includes('legislação')) themeColor = 'green';
+    if (materia.nome.toLowerCase().includes('gerais')) themeColor = 'orange';
 
     // 1. Renderiza os Cards de Progresso
     const card = document.createElement('div');
@@ -93,7 +116,7 @@ function renderDashboard(data) {
       <div class="stats-card-header">
         <span class="stats-card-title">${materia.nome}</span>
         <span class="stats-icon icon-${themeColor}">
-          ${materia.nome.toLowerCase().includes('ti') ? '💻' : materia.nome.toLowerCase().includes('português') ? '📝' : materia.nome.toLowerCase().includes('legislação') ? '⚖️' : '📐'}
+          ${materia.nome.toLowerCase().includes('ti') ? '💻' : materia.nome.toLowerCase().includes('português') ? '📝' : materia.nome.toLowerCase().includes('legislação') ? '⚖️' : materia.nome.toLowerCase().includes('gerais') ? '🌍' : '📐'}
         </span>
       </div>
       <div class="stats-val">${porcentagem}%</div>
@@ -110,19 +133,29 @@ function renderDashboard(data) {
     
     let topicsHTML = '';
     materia.topicosConcluidos.forEach((t) => {
+      const safeMateria = materia.nome.replace(/'/g, "\\'");
+      const safeTopic = t.replace(/'/g, "\\'");
+
       topicsHTML += `
-        <li class="topic-item completed">
+        <li class="topic-item completed" onclick="studySpecificTopic('${safeMateria}', '${safeTopic}')">
           <span class="topic-bullet">✓</span>
-          <span>${t}</span>
+          <div class="topic-content" style="display: flex; flex-direction: column; flex: 1;">
+            <span style="font-weight: 500;">${t}</span>
+          </div>
         </li>
       `;
     });
 
     materia.topicosPendentes.forEach((t) => {
+      const safeMateria = materia.nome.replace(/'/g, "\\'");
+      const safeTopic = t.replace(/'/g, "\\'");
+
       topicsHTML += `
-        <li class="topic-item pending">
+        <li class="topic-item pending" onclick="studySpecificTopic('${safeMateria}', '${safeTopic}')">
           <span class="topic-bullet">○</span>
-          <span>${t}</span>
+          <div class="topic-content" style="display: flex; flex-direction: column; flex: 1;">
+            <span style="font-weight: 500;">${t}</span>
+          </div>
         </li>
       `;
     });
@@ -148,7 +181,12 @@ function renderDashboard(data) {
 function setupActionListeners() {
   // Iniciar Geração de Aula Diária na Sala de Aula IA
   document.getElementById('btn-classroom-generate').addEventListener('click', generateDailyLesson);
-  document.getElementById('btn-classroom-generate-next').addEventListener('click', generateDailyLesson);
+  
+  // O botão "Estudar Próxima Aula" leva de volta à tela de escolha de matérias (estado inicial)
+  document.getElementById('btn-classroom-generate-next').addEventListener('click', () => {
+    document.getElementById('classroom-study-area').classList.remove('active');
+    document.getElementById('classroom-empty-state').classList.add('active');
+  });
 
   // Botão para reiniciar estudos (Zerar progresso e histórico)
   document.getElementById('btn-action-reset').addEventListener('click', resetAllProgress);
@@ -199,7 +237,16 @@ async function generateDailyLesson() {
   }, 1800);
 
   try {
-    const response = await fetch('/api/daily/generate', { method: 'POST' });
+    const selectMateria = document.getElementById('select-materia');
+    const selectedMateria = selectMateria ? selectMateria.value : 'auto';
+
+    const response = await fetch('/api/daily/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ materia: selectedMateria })
+    });
     if (!response.ok) {
       const errorData = await response.json();
       throw new Error(errorData.error || 'Erro na orquestração.');
@@ -274,8 +321,8 @@ function renderLesson(data) {
       .map((q, idx) => `
         <div class="example-item" style="border-style: dashed; border-color: rgba(16, 185, 129, 0.2); background-color: rgba(16, 185, 129, 0.005); margin-bottom: 12px; padding: 14px;">
           <h5 style="margin-bottom: 6px; color: var(--accent-green); font-size: 13px; font-weight: 600; text-transform: uppercase;">Questão ${idx + 1} (${q.ano} | ${q.orgao} | ${q.cargo})</h5>
-          <p style="margin-bottom: 10px; line-height: 1.5; font-size: 14px; color: var(--text-secondary);">${escapeHTML(q.enunciado)}</p>
-          <div style="font-weight: 700; font-size: 12px; color: var(--accent-green); background-color: var(--accent-green-glow); display: inline-block; padding: 4px 10px; border-radius: 4px; border: 1.5px solid rgba(16, 185, 129, 0.1);">Gabarito Oficial: Opção (${q.gabarito})</div>
+          <div style="margin-bottom: 10px; line-height: 1.5; font-size: 14px; color: var(--text-secondary);">${formatQuestionEnunciado(q.enunciado)}</div>
+          <div style="font-weight: 700; font-size: 12px; color: var(--accent-green); background-color: var(--accent-green-glow); display: inline-block; padding: 4px 10px; border-radius: 4px; border: 1.5px solid rgba(16, 185, 129, 0.1); margin-top: 8px;">Gabarito Oficial: Opção (${q.gabarito})</div>
         </div>
       `)
       .join('');
@@ -286,12 +333,8 @@ function renderLesson(data) {
   objectivesList.innerHTML = lesson.objetivos.map((obj) => `<li>${obj}</li>`).join('');
 
   // 1. Teoria: Corpo da Aula
-  // Substitui quebras de linha por parágrafos para renderização bonita do texto teórico
-  const theoryHTML = lesson.aulaExpositiva
-    .split('\n\n')
-    .map((p) => `<p>${p}</p>`)
-    .join('');
-  document.getElementById('lesson-theory-text').innerHTML = theoryHTML;
+  // Utiliza o parser markdown customizado para renderizar títulos, listas, tabelas e negritos
+  document.getElementById('lesson-theory-text').innerHTML = parseMarkdown(lesson.aulaExpositiva);
 
   // 1. Teoria: Exemplos Práticos
   const examplesList = document.getElementById('lesson-examples-list');
@@ -407,6 +450,9 @@ function renderQuiz(exercises) {
       
       <!-- Explicação (Oculta até corrigir) -->
       <div class="quiz-explanation" id="quiz-explanation-${q.numero}" style="display: none;">
+        <div class="unanswered-notice" id="quiz-unanswered-notice-${q.numero}" style="display: none; color: var(--accent-orange); font-size: 13.5px; font-weight: 600; margin-bottom: 12px; border-left: 3px solid var(--accent-orange); padding-left: 8px;">
+          ⚠️ Você deixou esta questão em branco por não saber a resposta (Sem chute).
+        </div>
         <h5>💡 Resolução da Banca</h5>
         <p>${q.explicacao}</p>
       </div>
@@ -434,19 +480,13 @@ async function submitQuiz() {
     }
   });
 
-  // Se houver questões sem resposta, avisa o usuário
-  if (answers.length < exercises.questoes.length) {
-    if (!confirm('Você não respondeu todas as questões. Deseja enviar o simulado assim mesmo? (Questões em branco serão consideradas incorretas).')) {
-      return;
+  // Preenche as questões em branco com 'X' (não respondida/sem chute) para fins de correção pedagógica
+  exercises.questoes.forEach((q) => {
+    const exists = answers.some(a => a.numero === q.numero);
+    if (!exists) {
+      answers.push({ numero: q.numero, respostaEstudante: 'X' });
     }
-    // Preenche as questões em branco com uma letra inválida para fins de correção
-    exercises.questoes.forEach((q) => {
-      const exists = answers.some(a => a.numero === q.numero);
-      if (!exists) {
-        answers.push({ numero: q.numero, respostaEstudante: 'X' });
-      }
-    });
-  }
+  });
 
   const btnSubmit = document.getElementById('btn-submit-quiz');
   btnSubmit.disabled = true;
@@ -494,6 +534,9 @@ async function submitQuiz() {
           if (wrongLabel) {
             wrongLabel.classList.add('wrong-answer');
           }
+        } else if (selectedLetter === 'X') {
+          const noticeElement = document.getElementById(`quiz-unanswered-notice-${q.numero}`);
+          if (noticeElement) noticeElement.style.display = 'block';
         }
       }
     });
@@ -559,6 +602,162 @@ function escapeHTML(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 }
+
+function parseMarkdown(text) {
+  if (!text) return '';
+  
+  // Normaliza quebras de linha Windows (\r\n) para Unix (\n)
+  let html = text.replace(/\r/g, '');
+  
+  // 1. Converte tabelas em markdown
+  const lines = html.split('\n');
+  let inTable = false;
+  let tableRows = [];
+  let newLines = [];
+  
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.startsWith('|') && line.endsWith('|')) {
+      if (!inTable) {
+        inTable = true;
+        tableRows = [];
+      }
+      tableRows.push(line);
+    } else {
+      if (inTable) {
+        newLines.push(renderMarkdownTable(tableRows));
+        inTable = false;
+      }
+      newLines.push(lines[i]);
+    }
+  }
+  if (inTable) {
+    newLines.push(renderMarkdownTable(tableRows));
+  }
+  
+  html = newLines.join('\n');
+
+  // 2. Converte cabeçalhos ## e ###
+  html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+  html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+  html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+  
+  // 3. Converte negrito **text**
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  
+  // 4. Converte listas com hífen - ou asterisco *
+  const postLines = html.split('\n');
+  let inList = false;
+  let listHTML = [];
+  
+  for (let i = 0; i < postLines.length; i++) {
+    const line = postLines[i].trim();
+    if (line.startsWith('- ') || line.startsWith('* ')) {
+      if (!inList) {
+        inList = true;
+        listHTML.push('<ul>');
+      }
+      const itemText = line.substring(2);
+      listHTML.push(`<li>${itemText}</li>`);
+    } else {
+      if (inList) {
+        listHTML.push('</ul>');
+        inList = false;
+      }
+      listHTML.push(postLines[i]);
+    }
+  }
+  if (inList) {
+    listHTML.push('</ul>');
+  }
+  
+  html = listHTML.join('\n');
+  
+  // 5. Converte blocos de parágrafos normais (duas ou mais quebras de linha)
+  const paragraphBlocks = html.split(/\n\n+/);
+  html = paragraphBlocks.map(p => {
+    const trimmed = p.trim();
+    if (!trimmed) return '';
+    if (trimmed.startsWith('<h') || trimmed.startsWith('<div') || trimmed.startsWith('<table') || trimmed.startsWith('<ul') || trimmed.startsWith('<ol') || trimmed.startsWith('<pre')) {
+      return trimmed;
+    }
+    return `<p style="margin-bottom: 16px; line-height: 1.65; font-size: 15px; color: var(--text-secondary);">${trimmed.replace(/\n/g, '<br>')}</p>`;
+  }).join('\n');
+
+  return html;
+}
+
+function renderMarkdownTable(rows) {
+  if (rows.length === 0) return '';
+  
+  let html = '<div class="table-container"><table class="premium-table">';
+  let startIndex = 0;
+  
+  if (rows.length > 1 && rows[1].includes('---')) {
+    const cols = rows[0].split('|').map(c => c.trim()).filter((c, idx, arr) => idx > 0 && idx < arr.length - 1);
+    html += '<thead><tr>';
+    cols.forEach(col => {
+      const headerText = col.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      html += `<th>${headerText}</th>`;
+    });
+    html += '</tr></thead>';
+    startIndex = 2;
+  }
+  
+  html += '<tbody>';
+  for (let i = startIndex; i < rows.length; i++) {
+    if (i === 1 && startIndex === 2) continue;
+    const cols = rows[i].split('|').map(c => c.trim()).filter((c, idx, arr) => idx > 0 && idx < arr.length - 1);
+    html += '<tr>';
+    cols.forEach(col => {
+      const cellText = col.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      html += `<td>${cellText}</td>`;
+    });
+    html += '</tr>';
+  }
+  html += '</tbody></table></div>';
+  return html;
+}
+
+function formatQuestionEnunciado(enunciado) {
+  if (!enunciado) return '';
+  
+  // Regex para achar alternativas A) a E) ou a) a e)
+  const pattern = /\b([A-Ea-e])\)/g;
+  const matches = [...enunciado.matchAll(pattern)];
+  
+  if (matches.length < 2) {
+    return escapeHTML(enunciado).replace(/\n/g, '<br>');
+  }
+  
+  const firstMatchIndex = matches[0].index;
+  const questionText = enunciado.substring(0, firstMatchIndex).trim();
+  
+  let alternativesHTML = '<div class="ref-alternatives-list" style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">';
+  
+  for (let i = 0; i < matches.length; i++) {
+    const currentMatch = matches[i];
+    const letter = currentMatch[1].toUpperCase();
+    const startIndex = currentMatch.index + currentMatch[0].length;
+    const endIndex = (i + 1 < matches.length) ? matches[i + 1].index : enunciado.length;
+    const alternativeText = enunciado.substring(startIndex, endIndex).trim();
+    
+    alternativesHTML += `
+      <div class="ref-alternative-item" style="display: flex; gap: 10px; font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); padding: 10px 14px; border-radius: 6px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.04);">
+        <strong style="color: var(--accent-purple); min-width: 20px; font-weight: 700;">${letter})</strong>
+        <span>${escapeHTML(alternativeText)}</span>
+      </div>
+    `;
+  }
+  
+  alternativesHTML += '</div>';
+  
+  return `
+    <div class="question-header-text" style="font-weight: 500; font-size: 14.5px; line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">${escapeHTML(questionText).replace(/\n/g, '<br>')}</div>
+    ${alternativesHTML}
+  `;
+}
+
 
 // ------------------------------------------------------------------
 // Carga e Exibição do Histórico de Aulas (Web Researcher)
@@ -693,6 +892,9 @@ async function reviewPastLesson(sessionId, alertUser = true) {
           if (q.respostaEstudante && q.respostaEstudante !== 'X') {
             const wrongLabel = cardElement.querySelector(`.quiz-option-label[data-letter="${q.respostaEstudante}"]`);
             if (wrongLabel) wrongLabel.classList.add('wrong-answer');
+          } else if (q.respostaEstudante === 'X') {
+            const noticeElement = document.getElementById(`quiz-unanswered-notice-${q.numero}`);
+            if (noticeElement) noticeElement.style.display = 'block';
           }
         }
         
@@ -764,5 +966,189 @@ async function resetAllProgress() {
   }
 }
 
+async function studySpecificTopic(materiaNome, topicoNome) {
+  console.log(`[FRONTEND] Solicitando estudo direcionado para Matéria: "${materiaNome}", Tópico: "${topicoNome}"`);
+  
+  // 1. Alterna para a aba da Sala de Aula
+  navButtons.classroom.click();
+  
+  // 2. Prepara os painéis de carregamento
+  const panelEmpty = document.getElementById('classroom-empty-state');
+  const panelLoading = document.getElementById('classroom-loading-state');
+  const panelStudy = document.getElementById('classroom-study-area');
+  
+  panelEmpty.classList.remove('active');
+  panelLoading.classList.add('active');
+  panelStudy.classList.remove('active');
+  
+  // 3. Reseta estados locais do simulado
+  quizSubmitted = false;
+  
+  try {
+    // 4. Dispara o POST enviando a matéria e o tópico específicos
+    const response = await fetch('/api/daily/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        materia: materiaNome,
+        topicoSelecionado: topicoNome
+      })
+    });
+    
+    if (!response.ok) {
+      const err = await response.json();
+      throw new Error(err.error || 'Erro ao gerar aula.');
+    }
+    
+    const data = await response.json();
+    currentLessonData = data;
+    
+    // 5. Renderiza a aula gerada
+    renderLesson(currentLessonData);
+    
+    // 6. Atualiza progresso local no dashboard sem precisar recarregar a página inteira
+    if (data.progressUpdated) {
+      progressData = data.progressUpdated;
+      renderDashboard(progressData);
+    }
+    
+    // Recarrega o histórico de aulas para incluir a nova sessão
+    loadHistory();
+    
+    // 7. Esconde o loading e exibe a sala de aula
+    panelLoading.classList.remove('active');
+    panelStudy.classList.add('active');
+    
+  } catch (error) {
+    console.error(error);
+    alert(`Erro ao iniciar estudo do tópico: ${error.message}`);
+    panelLoading.classList.remove('active');
+    panelEmpty.classList.add('active');
+  }
+}
+
 // Expõe métodos de clique inline no escopo global (window)
 window.reviewPastLesson = reviewPastLesson;
+window.studySpecificTopic = studySpecificTopic;
+
+// ------------------------------------------------------------------
+// Controle e Edição dos Prompts dos Agentes
+// ------------------------------------------------------------------
+let agentsList = [];
+let selectedAgent = null;
+
+async function setupConfigTab() {
+  const listContainer = document.getElementById('config-agents-list');
+  const txtPrompt = document.getElementById('config-prompt-textarea');
+  const btnSave = document.getElementById('btn-config-save');
+  const statusMsg = document.getElementById('config-status-msg');
+
+  if (!listContainer || !txtPrompt || !btnSave) return;
+
+  // Carrega agentes do servidor
+  async function loadAgents() {
+    try {
+      const res = await fetch('/api/agents');
+      agentsList = await res.json();
+      renderAgentsList();
+      if (agentsList.length > 0) {
+        selectAgent(agentsList[0]);
+      }
+    } catch (error) {
+      console.error('Erro ao carregar agentes:', error);
+      listContainer.innerHTML = `<p style="color: var(--accent-red); font-size: 14px;">Erro ao carregar agentes.</p>`;
+    }
+  }
+
+  function renderAgentsList() {
+    listContainer.innerHTML = '';
+    agentsList.forEach((agent) => {
+      const item = document.createElement('button');
+      // Adiciona estilos de botão idênticos ao menu nav da barra lateral
+      item.className = 'nav-item';
+      item.style.width = '100%';
+      item.style.textAlign = 'left';
+      item.style.padding = '12px 16px';
+      item.style.borderRadius = 'var(--border-radius-sm)';
+      item.style.border = '1px solid transparent';
+      item.style.cursor = 'pointer';
+      item.style.backgroundColor = 'transparent';
+      item.style.display = 'flex';
+      item.style.flexDirection = 'column';
+      item.style.gap = '4px';
+      item.style.color = 'var(--text-secondary)';
+      item.style.transition = 'var(--transition-smooth)';
+      item.style.marginBottom = '6px';
+
+      if (selectedAgent && selectedAgent.id === agent.id) {
+        item.style.backgroundColor = 'rgba(168, 85, 247, 0.1)';
+        item.style.borderColor = 'rgba(168, 85, 247, 0.3)';
+        item.style.color = 'var(--text-primary)';
+      }
+
+      item.innerHTML = `
+        <strong style="font-size: 14px; color: ${selectedAgent && selectedAgent.id === agent.id ? 'var(--accent-purple)' : 'var(--text-primary)'};">${agent.name}</strong>
+        <span style="font-size: 11px; opacity: 0.6; font-family: monospace; word-break: break-all;">${agent.filename}</span>
+      `;
+
+      item.addEventListener('click', () => {
+        selectAgent(agent);
+        renderAgentsList();
+      });
+
+      listContainer.appendChild(item);
+    });
+  }
+
+  function selectAgent(agent) {
+    selectedAgent = agent;
+    document.getElementById('config-editor-title').textContent = agent.name;
+    document.getElementById('config-editor-filename').textContent = agent.filename;
+    document.getElementById('config-editor-desc').textContent = agent.description;
+    txtPrompt.value = agent.content;
+  }
+
+  btnSave.addEventListener('click', async () => {
+    if (!selectedAgent) return;
+
+    btnSave.disabled = true;
+    btnSave.textContent = '💾 Salvando...';
+    
+    try {
+      const res = await fetch('/api/agents/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          filename: selectedAgent.filename,
+          content: txtPrompt.value
+        })
+      });
+
+      if (res.ok) {
+        // Atualiza na lista local
+        selectedAgent.content = txtPrompt.value;
+        showFeedback('Instruções salvas com sucesso!', 'var(--accent-green)');
+      } else {
+        throw new Error('Falha ao salvar instruções.');
+      }
+    } catch (e) {
+      showFeedback('Erro ao salvar as configurações.', 'var(--accent-red)');
+    } finally {
+      btnSave.disabled = false;
+      btnSave.textContent = '💾 Salvar Prompt';
+    }
+  });
+
+  function showFeedback(text, color) {
+    statusMsg.textContent = text;
+    statusMsg.style.color = color;
+    statusMsg.style.opacity = '1';
+    setTimeout(() => {
+      statusMsg.style.opacity = '0';
+    }, 3000);
+  }
+
+  await loadAgents();
+}

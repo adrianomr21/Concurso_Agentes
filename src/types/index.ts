@@ -55,7 +55,7 @@ export interface SessionState {
   reviews?: DirectorReview[];
   chatHistory: {
     from: 'Director' | 'Teacher' | 'System';
-    to: 'Director' | 'Teacher' | 'User';
+    to: 'Director' | 'Teacher' | 'User' | 'System';
     message: string;
     timestamp: string;
   }[];
@@ -70,13 +70,14 @@ export interface StudentProgress {
     topicosPendentes: string[];
   }[];
   ultimoEstudo: string;
+  historicoDesempenho?: PerformanceReport[];
 }
 
 export interface DailyStudyPlan {
   data: string;
   objetivoDoDia: string;
   topicosAEstudar: string[];
-  professorSelecionado: 'Professor de Português' | 'Professor de Matemática' | 'Professor de Legislação' | 'Professor de TI';
+  professorSelecionado: 'Professor de Português' | 'Professor de Matemática' | 'Professor de Legislação' | 'Professor de TI' | 'Professor de Conhecimentos Gerais';
   instrucoesParaOProfessor: string;
   justificativaEscolha: string;
 }
@@ -126,7 +127,7 @@ export interface WeeklyScheduleTopic {
   materia: string;
   topico: string;
   justificativaPedagogica: string;
-  professorEspecialista: 'Professor de Português' | 'Professor de Matemática' | 'Professor de Legislação' | 'Professor de TI';
+  professorEspecialista: 'Professor de Português' | 'Professor de Matemática' | 'Professor de Legislação' | 'Professor de TI' | 'Professor de Conhecimentos Gerais';
 }
 
 export interface WeeklyScheduleItem {
@@ -146,13 +147,13 @@ export interface StudySchedule {
 
 export interface StudentAnswer {
   numero: number;
-  respostaEstudante: 'A' | 'B' | 'C' | 'D' | 'E';
+  respostaEstudante: 'A' | 'B' | 'C' | 'D' | 'E' | 'X';
 }
 
 export interface QuestionGrade {
   numero: number;
   acertou: boolean;
-  respostaEstudante: 'A' | 'B' | 'C' | 'D' | 'E';
+  respostaEstudante: 'A' | 'B' | 'C' | 'D' | 'E' | 'X';
   respostaCorreta: 'A' | 'B' | 'C' | 'D' | 'E';
 }
 

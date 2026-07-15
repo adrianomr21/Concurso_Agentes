@@ -16,24 +16,37 @@ export class DirectorAgent extends Agent {
   }
 
   /**
-   * Planeja o dia de estudos com base no objetivo e no histórico de progresso do aluno.
-   * Seleciona o tópico pendente e o professor especialista adequado.
+   * Planeja o dia de estudos com base no objetivo, na matéria selecionada (opcional) e no histórico de progresso e simulados do aluno.
+   * Seleciona o tópico pendente e o professor especialista adequado, gerando instruções de reforço se necessário.
    */
   public async planDailyStudies(
     studentObjective: string,
-    progress: StudentProgress
+    progress: StudentProgress,
+    selectedMateria?: string,
+    selectedTopico?: string
   ): Promise<DailyStudyPlan> {
+    let focusMateriaPrompt = '';
+    if (selectedMateria && selectedMateria !== 'auto') {
+      focusMateriaPrompt = `\nATENÇÃO: O aluno escolheu especificamente estudar a matéria: "${selectedMateria}". Você DEVE obrigatoriamente selecionar um tópico pertencente a esta matéria.\n`;
+    }
+    if (selectedTopico) {
+      focusMateriaPrompt += `\nATENÇÃO CRÍTICA E MANDATÓRIA: O aluno escolheu estudar especificamente o tópico: "${selectedTopico}". Você DEVE OBRIGATORIAMENTE planejar a aula de hoje para este exato tópico. Ignore qualquer agendamento automático e concentre todo o plano pedagógico neste tema específico.\n`;
+    }
+
     const prompt = `Gere o planejamento de estudos do dia de hoje para o seguinte aluno:
 
 Objetivo do Aluno:
 "${studentObjective}"
-
-Histórico de Progresso do Aluno (Memória):
+${focusMateriaPrompt}
+Histórico de Progresso do Aluno (Memória, incluindo histórico de simulados):
 """
 ${JSON.stringify(progress, null, 2)}
 """
 
-Analise as matérias e os tópicos pendentes com cuidado. Selecione o que deve ser priorizado hoje e qual o professor especialista correspondente. Retorne estritamente o JSON configurado nas suas instruções de sistema.`;
+Analise as matérias e os tópicos pendentes com cuidado. 
+Observe atentamente o "historicoDesempenho" (se houver). Se o aluno obteve notas baixas, reprovou ou deixou questões em branco (resposta 'X') em simulados anteriores, priorize a revisão desses tópicos ou inclua orientações explícitas no campo "instrucoesParaOProfessor" para reforçar especificamente os pontos fracos apontados, as lacunas de conhecimento e as recomendações geradas nesses simulados.
+
+Retorne estritamente o JSON configurado nas suas instruções de sistema.`;
 
     const rawResponse = await this.ask(prompt, true);
     try {

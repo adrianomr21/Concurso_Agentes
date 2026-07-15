@@ -331,6 +331,7 @@ body {
 .icon-purple { background-color: var(--accent-purple-glow); color: var(--accent-purple); }
 .icon-blue { background-color: var(--accent-blue-glow); color: var(--accent-blue); }
 .icon-green { background-color: var(--accent-green-glow); color: var(--accent-green); }
+.icon-orange { background-color: rgba(249, 115, 22, 0.15); color: var(--accent-orange); }
 
 .stats-val {
   font-size: 32px;
@@ -355,6 +356,7 @@ body {
 .fill-purple { background-color: var(--accent-purple); }
 .fill-blue { background-color: var(--accent-blue); }
 .fill-green { background-color: var(--accent-green); }
+.fill-orange { background-color: var(--accent-orange); }
 
 .stats-desc {
   font-size: 13px;
@@ -429,6 +431,22 @@ body {
   background-color: rgba(16, 185, 129, 0.03);
   border: 1px solid rgba(16, 185, 129, 0.15);
   color: #a7f3d0;
+}
+
+.topic-item {
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.topic-item:hover {
+  background-color: rgba(168, 85, 247, 0.08) !important;
+  border-color: rgba(168, 85, 247, 0.25) !important;
+  transform: translateX(4px);
+}
+
+.topic-item.completed:hover {
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
 }
 
 .topic-bullet {
@@ -1426,4 +1444,108 @@ body {
     padding: 12px 14px;
   }
 }
+
+/* Custom Markdown & Table Styles in Classroom Theory */
+.theory-body h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 32px;
+  margin-bottom: 16px;
+  border-left: 4px solid var(--accent-purple);
+  padding-left: 12px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.theory-body h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 24px;
+  margin-bottom: 12px;
+  padding-left: 4px;
+  line-height: 1.4;
+}
+
+.theory-body ul {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  list-style-type: disc;
+}
+
+.theory-body li {
+  margin-bottom: 8px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.theory-body strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Premium Responsive Table Style */
+.theory-body .table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 28px 0;
+  border-radius: var(--border-radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.theory-body .premium-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.theory-body .premium-table th {
+  background: rgba(168, 85, 247, 0.12);
+  color: var(--text-primary);
+  font-weight: 600;
+  padding: 14px 18px;
+  border-bottom: 2px solid rgba(168, 85, 247, 0.25);
+  font-size: 13.5px;
+  letter-spacing: 0.02em;
+}
+
+.theory-body .premium-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  vertical-align: middle;
+}
+
+.theory-body .premium-table tr:last-child td {
+  border-bottom: none;
+}
+
+.theory-body .premium-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.theory-body .premium-table tr:hover {
+  background: rgba(168, 85, 247, 0.04);
+  transition: background 0.2s ease;
+}
+
+/* Styled Question Alternatives in Web Search reference tab */
+.ref-alternative-item {
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+}
+
+.ref-alternative-item:hover {
+  transform: translateX(4px);
+  border-color: rgba(168, 85, 247, 0.2) !important;
+  background: rgba(168, 85, 247, 0.03) !important;
+}
+
 

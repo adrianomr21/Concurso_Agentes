@@ -27,7 +27,8 @@ export class TeacherAgent extends Agent {
         'Professor de Português': 'teacher_portuguese.md',
         'Professor de Matemática': 'teacher_math.md',
         'Professor de Legislação': 'teacher_law.md',
-        'Professor de TI': 'teacher_ti.md'
+        'Professor de TI': 'teacher_ti.md',
+        'Professor de Conhecimentos Gerais': 'teacher_general_knowledge.md'
       };
       const promptFile = fileMap[professor];
       if (promptFile) {
