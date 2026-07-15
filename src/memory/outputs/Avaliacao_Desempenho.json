@@ -1,0 +1,71 @@
+{
+  "tema": "Modelo de von Neumann (CPU, Memória e Entrada/Saída)",
+  "nota": 1,
+  "totalQuestoes": 10,
+  "aprovado": false,
+  "detalheQuestoes": [
+    {
+      "numero": 1,
+      "acertou": false,
+      "respostaEstudante": "B",
+      "respostaCorreta": "C"
+    },
+    {
+      "numero": 2,
+      "acertou": false,
+      "respostaEstudante": "D",
+      "respostaCorreta": "C"
+    },
+    {
+      "numero": 3,
+      "acertou": false,
+      "respostaEstudante": "E",
+      "respostaCorreta": "A"
+    },
+    {
+      "numero": 4,
+      "acertou": false,
+      "respostaEstudante": "D",
+      "respostaCorreta": "C"
+    },
+    {
+      "numero": 5,
+      "acertou": true,
+      "respostaEstudante": "C",
+      "respostaCorreta": "C"
+    },
+    {
+      "numero": 6,
+      "acertou": false,
+      "respostaEstudante": "C",
+      "respostaCorreta": "B"
+    },
+    {
+      "numero": 7,
+      "acertou": false,
+      "respostaEstudante": "B",
+      "respostaCorreta": "A"
+    },
+    {
+      "numero": 8,
+      "acertou": true,
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
+    },
+    {
+      "numero": 9,
+      "acertou": false,
+      "respostaEstudante": "E",
+      "respostaCorreta": "C"
+    },
+    {
+      "numero": 10,
+      "acertou": false,
+      "respostaEstudante": "B",
+      "respostaCorreta": "C"
+    }
+  ],
+  "analisePontosFortes": "O aluno demonstrou compreender a definição de memória RAM em relação à volatilidade e o paradigma de arquitetura híbrida presente nos processadores modernos (questões 5 e 8).",
+  "analisePontosFracos": "O aluno apresenta falhas conceituais profundas sobre o funcionamento interno da CPU e a organização de hardware. Confundiu funções de controle (UC) com gestão de dispositivos (DMA), funções de barramento (endereço vs dado) e papéis da ULA. A dificuldade em identificar processos básicos como o incremento do Program Counter e o ciclo de escrita na memória sugere que a base teórica sobre a interação entre os componentes está fragmentada.",
+  "recomendacaoEstudo": "Recomenda-se a revisão urgente dos tópicos: 'Estrutura Interna da CPU', 'Ciclo de Instrução' e 'Hierarquia de Memória'. Sugiro desenhar o esquema de blocos da arquitetura de von Neumann (CPU, Memória, E/S e Barramentos) e tentar explicar, passo a passo, o caminho de uma instrução desde a busca na memória até a execução. Foque em entender o papel de cada unidade (UC, ULA, Registradores) antes de prosseguir para temas mais avançados como DMA ou arquiteturas modernas."
+}
