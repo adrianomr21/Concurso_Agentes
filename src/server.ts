@@ -21,7 +21,8 @@ const PORT = process.env.PORT || 3000;
 const ROOT_DIR = path.resolve(__dirname, '../');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const PROGRESS_PATH = path.join(ROOT_DIR, 'src/memory/student_progress.json');
-const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Final.json');const pristineProgress = {
+const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Final.json');
+const pristineProgress = {
   aluno: 'Adriano',
   objetivoGeral: 'Passar no cargo de Analista de Desenvolvimento de Sistemas no concurso da FUNDATEC',
   materias: [
@@ -29,6 +30,25 @@ const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Fi
       nome: 'Português',
       topicosConcluidos: [],
       topicosPendentes: [
+        "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+        "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
+        "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
+        "Estrutura e formação de palavras (derivação e composição)",
+        "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
+        "Morfologia: verbos (conjugação, tempos, modos, vozes verbais e sua conversão)",
+        "Morfologia: classes invariáveis (advérbio, preposição, conjunção e valores semânticos)",
+        "Sintaxe: termos essenciais da oração (sujeito e predicado) e termos integrantes",
+        "Sintaxe: termos acessórios da oração e vocativo",
+        "Coordenação e subordinação: emprego de conjunções, locuções conjuntivas e pronomes relativos",
+        "Período composto por coordenação e por subordinação (orações substantivas, adjetivas e adverbiais)",
+        "Sintaxe de colocação pronominal (Próclise, Ênclise e Mesóclise - Bechara, Cegalla)",
+        "Sintaxe de regência verbal e nominal (Luft, Bechara, Cegalla, Cunha & Cintra)",
+        "Emprego do acento indicativo de crase (Luft, Bechara, Cegalla, Cunha & Cintra)",
+        "Sintaxe de concordância verbal e nominal (Bechara, Cegalla, Cunha & Cintra)",
+        "Pontuação: emprego da vírgula no período simples e composto (Bechara, Cegalla, Cunha & Cintra)",
+        "Pontuação: dois-pontos, travessão, ponto e vírgula e parênteses (Bechara, Cegalla, Cunha & Cintra)",
+        "Pontuação: implicações de sentido e deslocamentos de pontuação (Bechara, Cegalla, Cunha & Cintra)",
+        "Figuras de linguagem e suas relações de sentido na construção do texto (Bechara, Cegalla, Cunha & Cintra)",
         "Leitura, interpretação e relação entre as ideias de textos de gêneros textuais diversos",
         "Identificação de ideia central e ideias secundárias do texto",
         "Fato e opinião, intencionalidade discursiva, análise de implícitos e subentendidos (Fiorin e Savioli)",
@@ -40,51 +60,27 @@ const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Fi
         "Coesão sequencial: conjunções e marcadores temporais (Koch)",
         "Coerência textual e progressão temática do texto (Koch)",
         "Léxico: significação e substituição de palavras no texto, sinônimos e antônimos",
-        "Léxico: parônimos, homônimos e ambiguidade no texto",
-        "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
-        "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
-        "Figuras de linguagem e suas relações de sentido na construção do texto (Bechara, Cegalla, Cunha & Cintra)",
-        "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
-        "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
-        "Morfologia: verbos (conjugação, tempos, modos, vozes verbais e sua conversão)",
-        "Morfologia: classes invariáveis (advérbio, preposição, conjunção e valores semânticos)",
-        "Morfologia: estrutura e formação de palavras (derivação e composição)",
-        "Sintaxe: termos essenciais da oração (sujeito e predicado) e termos integrantes",
-        "Sintaxe: termos acessórios da oração e vocativo",
-        "Período composto por coordenação e por subordinação (orações substantivas, adjetivas e adverbiais)",
-        "Sintaxe de colocação pronominal (Próclise, Ênclise e Mesóclise - Bechara, Cegalla)",
-        "Sintaxe de regência verbal e nominal (Luft, Bechara, Cegalla, Cunha & Cintra)",
-        "Emprego do acento indicativo de crase (Luft, Bechara, Cegalla, Cunha & Cintra)",
-        "Sintaxe de concordância verbal e nominal (Bechara, Cegalla, Cunha & Cintra)",
-        "Coordenação e subordinação: emprego de conjunções, locuções conjuntivas e pronomes relativos",
-        "Pontuação: emprego da vírgula no período simples e composto (Bechara, Cegalla, Cunha & Cintra)",
-        "Pontuação: dois-pontos, travessão, ponto e vírgula e parênteses (Bechara, Cegalla, Cunha & Cintra)",
-        "Pontuação: implicações de sentido e deslocamentos de pontuação (Bechara, Cegalla, Cunha & Cintra)"
+        "Léxico: parônimos, homônimos e ambiguidade no texto"
       ]
     },
     {
-      nome: 'Matemática / Raciocínio Lógico',
+      nome: 'Matemática e Raciocínio Lógico',
       topicosConcluidos: [],
       topicosPendentes: [
         "Teoria dos conjuntos e conjuntos numéricos (naturais, inteiros, racionais, irracionais e reais)",
         "Operações fundamentais (adição, subtração, multiplicação, divisão, potenciação e radiciação) e propriedades",
         "Múltiplos e divisores, números primos, mínimo múltiplo comum (MMC) e máximo divisor comum (MDC)",
-        "Matrizes e determinantes",
         "Razões e proporções: grandezas direta e inversamente proporcionais, divisão proporcional",
         "Regra de três simples",
         "Regra de três composta",
         "Sistema de medidas: comprimento, capacidade, massa e tempo (unidades, transformação de unidades)",
         "Sistema monetário brasileiro",
         "Cálculo algébrico: monômios e polinômios",
+        "Equações de 1º e 2º graus",
+        "Sistemas de equações de 1º grau com duas incógnitas",
         "Funções: ideia de função, interpretação de gráficos, domínio e imagem",
         "Função do 1º grau (função afim)",
         "Função do 2º grau: valor de máximo e mínimo de uma função quadrática",
-        "Equações de 1º e 2º graus",
-        "Sistemas de equações de 1º grau com duas incógnitas",
-        "Progressão Aritmética (PA)",
-        "Progressão Geométrica (PG)",
-        "Análise combinatória: arranjos, permutações e combinações",
-        "Probabilidade",
         "Função exponencial e logarítmica",
         "Funções trigonométricas",
         "Triângulo retângulo: relações métricas e Teorema de Pitágoras com aplicações",
@@ -97,6 +93,11 @@ const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Fi
         "Matemática financeira: porcentagem, acréscimos e descontos sucessivos",
         "Matemática financeira: juro simples",
         "Matemática financeira: juro composto (capitalização, taxas nominais e efetivas)",
+        "Matrizes e determinantes",
+        "Progressão Aritmética (PA)",
+        "Progressão Geométrica (PG)",
+        "Análise combinatória: arranjos, permutações e combinações",
+        "Probabilidade",
         "Estatística: medidas de tendência central (média, moda e mediana)",
         "Estatística: medidas de dispersão (variância, desvio padrão)",
         "Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios; dedução de informações",
@@ -115,16 +116,126 @@ const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Fi
       ]
     },
     {
+      nome: 'TI e Conhecimentos Específicos',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        "Modelo de von Neumann (CPU, Memória, Entrada/Saída)",
+        "Ciclo de Instrução (Fetch, Decode, Execute)",
+        "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
+        "Sistemas de armazenamento (Memória Principal, RAM, ROM, Cache, HDD, SSD, NVMe, SATA)",
+        "Características dos principais processadores do mercado e de múltiplos núcleos",
+        "Princípios de sistemas operacionais e gerenciamento de processos, memória e E/S",
+        "Sistemas de arquivos NTFS and FAT (12, 16, 32): características, metadados e organização física",
+        "Sistemas de arquivos EXT2, EXT3, EXT4: características, metadados e organização física",
+        "RAID (tipos, características e aplicações)",
+        "Tecnologias de virtualização de plataformas: emuladores, máquinas virtuais, paravirtualização",
+        "Sistemas operacionais Windows (Home e Pro) 10 (ou superior) e Windows 2012 Server (ou superior): configuração, uso, rede e gerenciamento",
+        "Linux Ubuntu 18 (ou superior): comandos, shell scripts, logs, configuração e rede",
+        "Comandos e scripts shell: sh, bash e PowerShell",
+        "Diagnóstico e solução de problemas locais e de rede em Windows e Linux",
+        "Português estruturado com o software VisuAlg 3.0 (ou superior)",
+        "Desenvolvimento de Software: Noções de linguagens procedurais, tipos de dados elementares/estruturados, funções/procedimentos",
+        "Estruturas de controle de fluxo de execução (condicionais, repetições, desvios)",
+        "Programação Orientada a Objetos: objetos, classes, herança, polimorfismo, sobrecarga de métodos",
+        "Programação em PHP 5 (ou superior): sintaxe, orientação a objetos e estruturas",
+        "Programação em Java JDK 7 (ou superior): sintaxe, orientação a objetos e exceções",
+        "Linguagem C# (C SHARP)",
+        "Linguagem R",
+        "Estruturas de dados e algoritmos: listas, filas e pilhas",
+        "Estruturas de dados e algoritmos: árvores",
+        "Métodos de acesso, busca, inserção e ordenação em estruturas de dados",
+        "Desenvolvimento de sistemas Web: HTML5 semântico, tags estruturais e formulários",
+        "Desenvolvimento de sistemas Web: CSS3, seletores, Flexbox, Grid e responsividade",
+        "Desenvolvimento de sistemas Web: JavaScript moderno (ES6+, DOM, eventos, promises, async/await)",
+        "AJAX, XML, DHTML e Web Services (REST, SOAP)",
+        "Acessibilidade Web: Decreto nº 5.296/2004 e e-MAG (Modelo de Acessibilidade do Governo Eletrônico)",
+        "Padrões Web em Governo Eletrônico (ePWG) e interoperabilidade ePING",
+        "Arquitetura de software: arquitetura em 3 camadas (Apresentação, Negócio, Persistência)",
+        "Arquitetura de software: modelo MVC (Model, View, Controller)",
+        "Soluções de Integração: Service-Oriented Architecture (SOA) e Web Services",
+        "Metodologias ágeis: SCRUM e XP",
+        "Metodologias ágeis: FDD, MDA (Model Driven Architecture) e MDD (Model Driven Development)",
+        "Qualidade de software: modelos ISO/IEEE, CMM (Capacity Maturity Model) and CMMI",
+        "Modelagem de Processos de Negócio: BPM e AS IS",
+        "Modelagem de Processos de Negócio: uso do software Bizagi BPMN Modeler 3.0 (ou superior)",
+        "Bancos de dados: fundamentos, características, componentes e funcionalidades de SGBDs relacionais",
+        "Projeto de Banco de Dados: modelos conceitual, lógico e físico",
+        "Modelo relacional e Diagrama Entidade-Relacionamento (DER)",
+        "Normalização de dados: 1FN, 2FN e 3FN",
+        "SQL DDL: CREATE, ALTER, DROP",
+        "SQL DML: comandos INSERT, UPDATE e DELETE",
+        "SQL DQL: SELECT, JOINs, agrupamentos, filtros (WHERE, HAVING) e ordenações",
+        "SQL DCL e DTL: GRANT, REVOKE, COMMIT, ROLLBACK",
+        "Extensões SQL: PL/SQL, PL/pgSQL e T-SQL",
+        "Restrições de integridade, gatilhos (triggers) e procedimentos armazenados (stored procedures)",
+        "Cursores e tratamento de exceções em bancos de dados",
+        "SGBDs Oracle 11g (ou superior) e SQL Server 2019 (ou superior): administração, segurança e organização física/lógica",
+        "SGBDs MySQL 5 (ou superior) e PostgreSQL 9 (ou superior): administração, segurança e organização física/lógica",
+        "Governança e Gestão de TI: Planejamento estratégico de TI e gerência de portfólio de TI",
+        "COBIT 4.1: domínios, processos e objetivos de controle",
+        "ITIL v3: estágios de Estratégia, Desenho, Transição e Operação de Serviços",
+        "PMBOK 5ª edição: processos, grupos de processo e áreas de conhecimento",
+        "Escritório de projetos (PMO), ciclo de vida do projeto e produto",
+        "Redes de computadores: fundamentos, topologias física e lógica, ativos de rede e transmissão de dados",
+        "Redes de computadores: Modelo OSI (camadas, funções) e Modelo TCP/IP",
+        "Redes de computadores: classes de endereçamento IP (IPv4 e IPv6), máscara de rede e segmentação de rede",
+        "Protocolos TCP/IP de transporte e rede: TCP, UDP, IP, ARP, RARP, ICMP, NAT, Ethernet, WiFi, Frame Relay",
+        "Protocolos TCP/IP de aplicação: HTTP, SMTP, FTP, SSH, Telnet, SNMP, POP3, IMAP, DNS, DHCP",
+        "Portas de comunicação TCP e UDP",
+        "Servidores de rede: instalação e configuração de Impressão, Arquivos, DHCP, DNS, Web e E-mail",
+        "Servidores de rede: Proxy, Certificados Digitais e Firewall",
+        "Computação em nuvem",
+        "Segurança de networks/redes: Firewall, DMZ, filtragem de conteúdo e pacotes",
+        "VPN (IPsec, SSL/TLS) e Proxy",
+        "Comunicação segura: SSL e TLS",
+        "Gestão de segurança da informação (ISO 27001 e ISO 27002): políticas e controles de acesso",
+        "Gestão de segurança da informação (ISO 27001 e ISO 27002): plano de contingência e análise de riscos",
+        "Autenticação, certificação digital (ICP-Brasil) e infraestrutura de chaves públicas (X.509/PKIX)",
+        "Modos de operação de cifras e hashes criptográficos",
+        "Algoritmos criptográficos RSA, DES, AES, RC4, RC5, RC6, MD5, SHA-1, SHA-256, SHA-512",
+        "Noções de perícia digital e monitoramento de tráfego com Wireshark",
+        "Segurança de redes sem fio: EAP, WEP, WPA, WPA2 e ataques comuns",
+        "Contratação de TIC: Instrução Normativa SLTI/MP nº 4/2014"
+      ]
+    },
+    {
+      nome: 'Legislação',
+      topicosConcluidos: [],
+      topicosPendentes: [
+        "Constituição Federal de 1988: Dos Princípios Fundamentais (Arts. 1° ao 4°)",
+        "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)",
+        "Constituição Federal de 1988: Da Organização do Estado (Arts. 18 ao 43)",
+        "Constituição Federal de 1988: Da Organização dos Poderes (Arts. 44 ao 135)",
+        "Constituição Federal de 1988: Da Defesa do Estado e Das Instituições Democráticas (Arts. 136 ao 144) e Da Ordem Social (Arts. 193 ao 232)",
+        "Lei Orgânica do Município",
+        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Provimento, Posse e Exercício",
+        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Regime disciplinar (Deveres, Proibições, Penalidades)",
+        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Vantagens, adicionais, licenças e vencimentos",
+        "Plano de Carreira do Município (Lei nº 334/2000)",
+        "Código de Posturas Municipal (Lei nº 3.275/2020)",
+        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992): Atos de improbidade e enquadramento",
+        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992): Sanções, penas e prescrição",
+        "Estatuto Nacional da Igualdade Racial (Lei Federal nº 12.288/2010)",
+        "Estatuto Estadual da Igualdade Racial (Lei Estadual do Rio do Grande do Sul nº 13.694/2011)",
+        "Constituição Estadual do Rio Grande do Sul",
+        "Decreto Estadual nº 48.598/2011 (temática de gênero, raça e etnia em concursos do RS)",
+        "Lei Maria da Penha (Lei Federal nº 11.340/2006 e suas atualizações)",
+        "Estatuto da Pessoa Idosa (Lei Federal nº 10.741/2003)",
+        "Estatuto da Pessoa com Deficiência (Lei Federal nº 13.146/2015)",
+        "Lei da Reforma Psiquiátrica (Lei Federal nº 10.216/2001)"
+      ]
+    },
+    {
       nome: 'Conhecimentos Gerais',
       topicosConcluidos: [],
       topicosPendentes: [
-        "Cultura popular, personalidades, pontos turísticos do RS e nacional",
+        "História e geografia do Município e da região que o cerca",
+        "Unidades de conservação, história e geografia do País e do Estado do RS",
         "Organização política e territorial, divisão política, regiões administrativas e regionalização do IBGE",
         "Hierarquia urbana, símbolos e estrutura dos poderes",
         "Fauna e flora locais, hidrografia, relevo e clima (RS e nacional)",
         "Matriz produtiva, matriz energética e matriz de transporte do RS e nacional",
-        "Unidades de conservação, história e geografia do País e do Estado do RS",
-        "História e geografia do Município e da região que o cerca",
+        "Cultura popular, personalidades, pontos turísticos do RS e nacional",
         "Atualidades internacionais, nacionais, estaduais ou locais: globalização, economia e política",
         "Atualidades: segurança, transportes, agricultura, sociedade, educação, saúde e cultura",
         "Atualidades: tecnologia, ciências naturais, meio ambiente, desenvolvimento sustentável, ecologia e geografia física",
@@ -134,116 +245,6 @@ const SCHEDULE_PATH = path.join(ROOT_DIR, 'src/memory/outputs/Cronograma_Reta_Fi
         "Conceitos fundamentais de discriminação, racismo, sexismo e etarismo",
         "Conceitos fundamentais de intolerância religiosa, LGBTQIAPN+ fobia e aporofobia",
         "Conceitos fundamentais de psicofobia e capacitismo"
-      ]
-    },
-    {
-      nome: "Legislação",
-      topicosConcluidos: [],
-      topicosPendentes: [
-        "Lei Orgânica do Município",
-        "Plano de Carreira do Município (Lei nº 334/2000)",
-        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Provimento, Posse e Exercício",
-        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Regime disciplinar (Deveres, Proibições, Penalidades)",
-        "Estatuto do Servidor Público (Lei Municipal nº 333/2000): Vantagens, adicionais, licenças e vencimentos",
-        "Código de Posturas Municipal (Lei nº 3.275/2020)",
-        "Estatuto Estadual da Igualracial (Lei Estadual do Rio do Grande do Sul nº 13.694/2011)",
-        "Constituição Estadual do Rio Grande do Sul",
-        "Estatuto Nacional da Igualdade Racial (Lei Federal nº 12.288/2010)",
-        "Constituição Federal de 1988: Dos Princípios Fundamentais (Arts. 1° ao 4°)",
-        "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)",
-        "Constituição Federal de 1988: Da Organização do Estado (Arts. 18 ao 43)",
-        "Constituição Federal de 1988: Da Organização dos Poderes (Arts. 44 ao 135)",
-        "Constituição Federal de 1988: Da Defesa do Estado e Das Instituições Democráticas (Arts. 136 ao 144) e Da Ordem Social (Arts. 193 ao 232)",
-        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992): Atos de improbidade e enquadramento",
-        "Lei de Improbidade Administrativa (Lei Federal nº 8.429/1992): Sanções, penas e prescrição",
-        "Lei Maria da Penha (Lei Federal nº 11.340/2006 e suas atualizações)",
-        "Estatuto da Pessoa Idosa (Lei Federal nº 10.741/2003)",
-        "Estatuto da Pessoa com Deficiência (Lei Federal nº 13.146/2015)",
-        "Lei da Reforma Psiquiátrica (Lei Federal nº 10.216/2001)",
-        "Decreto Estadual nº 48.598/2011 (temática de gênero, raça e etnia em concursos do RS)"
-      ]
-    },
-    {
-      nome: "TI / Conhecimentos Específicos",
-      topicosConcluidos: [],
-      topicosPendentes: [
-        "Modelo de von Neumann (CPU, Memória, Entrada/Saída)",
-        "Ciclo de Instrução (Fetch, Decode, Execute)",
-        "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
-        "Sistemas de armazenamento (Memória Principal, RAM, ROM, Cache, HDD, SSD, NVMe, SATA)",
-        "Princípios de sistemas operacionais e gerenciamento de processos, memória e E/S",
-        "Características dos principais processadores do mercado e de múltiplos núcleos",
-        "Tecnologias de virtualização de plataformas: emuladores, máquinas virtuais, paravirtualização",
-        "RAID (tipos, características e aplicações)",
-        "Sistemas de arquivos NTFS and FAT (12, 16, 32): características, metadados e organização física",
-        "Sistemas de arquivos EXT2, EXT3, EXT4: características, metadados e organização física",
-        "Sistemas operacionais Windows (Home e Pro) 10 (ou superior) e Windows 2012 Server (ou superior): configuração, uso, rede e gerenciamento",
-        "Linux Ubuntu 18 (ou superior): comandos, shell scripts, logs, configuração e rede",
-        "Diagnóstico e solução de problemas locais e de rede em Windows e Linux",
-        "Comandos e scripts shell: sh, bash e PowerShell",
-        "Desenvolvimento de Software: Noções de linguagens procedurais, tipos de dados elementares/estruturados, funções/procedimentos",
-        "Programação Orientada a Objetos: objetos, classes, herança, polimorfismo, sobrecarga de métodos",
-        "Estruturas de controle de fluxo de execução (condicionais, repetições, desvios)",
-        "Português estruturado com o software VisuAlg 3.0 (ou superior)",
-        "Programação em PHP 5 (ou superior): sintaxe, orientação a objetos e estruturas",
-        "Programação em Java JDK 7 (ou superior): sintaxe, orientação a objetos e exceções",
-        "Desenvolvimento de sistemas Web: HTML5 semântico, tags estruturais e formulários",
-        "Desenvolvimento de sistemas Web: CSS3, seletores, Flexbox, Grid e responsividade",
-        "Desenvolvimento de sistemas Web: JavaScript moderno (ES6+, DOM, eventos, promises, async/await)",
-        "AJAX, XML, DHTML e Web Services (REST, SOAP)",
-        "Estruturas de dados e algoritmos: listas, filas e pilhas",
-        "Estruturas de dados e algoritmos: árvores",
-        "Métodos de acesso, busca, inserção e ordenação em estruturas de dados",
-        "Arquitetura de software: arquitetura em 3 camadas (Apresentação, Negócio, Persistência)",
-        "Arquitetura de software: modelo MVC (Model, View, Controller)",
-        "Soluções de Integração: Service-Oriented Architecture (SOA) e Web Services",
-        "Metodologias ágeis: SCRUM e XP",
-        "Metodologias ágeis: FDD, MDA (Model Driven Architecture) e MDD (Model Driven Development)",
-        "Qualidade de software: modelos ISO/IEEE, CMM (Capacity Maturity Model) e CMMI",
-        "Acessibilidade Web: Decreto nº 5.296/2004 e e-MAG (Modelo de Acessibilidade do Governo Eletrônico)",
-        "Padrões Web em Governo Eletrônico (ePWG) e interoperabilidade ePING",
-        "Linguagem C# (C SHARP)",
-        "Linguagem R",
-        "Modelagem de Processos de Negócio: BPM e AS IS",
-        "Modelagem de Processos de Negócio: uso do software Bizagi BPMN Modeler 3.0 (ou superior)",
-        "Bancos de dados: fundamentos, características, componentes e funcionalidades de SGBDs relacionais",
-        "Projeto de Banco de Dados: modelos conceitual, lógico e físico",
-        "Modelo relacional e Diagrama Entidade-Relacionamento (DER)",
-        "Normalização de dados: 1FN, 2FN e 3FN",
-        "SGBDs Oracle 11g (ou superior) e SQL Server 2019 (ou superior): administração, segurança e organização física/lógica",
-        "SGBDs MySQL 5 (ou superior) e PostgreSQL 9 (ou superior): administração, segurança e organização física/lógica",
-        "SQL DML: comandos INSERT, UPDATE e DELETE",
-        "SQL DQL: SELECT, JOINs, agrupamentos, filtros (WHERE, HAVING) e ordenações",
-        "SQL DDL: CREATE, ALTER, DROP",
-        "SQL DCL e DTL: GRANT, REVOKE, COMMIT, ROLLBACK",
-        "Extensões SQL: PL/SQL, PL/pgSQL e T-SQL",
-        "Restrições de integridade, gatilhos (triggers) e procedimentos armazenados (stored procedures)",
-        "Cursores e tratamento de exceções em bancos de dados",
-        "Governança e Gestão de TI: Planejamento estratégico de TI e gerência de portfólio de TI",
-        "COBIT 4.1: domínios, processos e objetivos de controle",
-        "ITIL v3: estágios de Estratégia, Desenho, Transição e Operação de Serviços",
-        "PMBOK 5ª edição: processos, grupos de processo e áreas de conhecimento",
-        "Escritório de projetos (PMO), ciclo de vida do projeto e produto",
-        "Redes de computadores: fundamentos, topologias física e lógica, ativos de rede e transmissão de dados",
-        "Redes de computadores: Modelo OSI (camadas, funções) e Modelo TCP/IP",
-        "Redes de computadores: classes de endereçamento IP (IPv4 e IPv6), máscara de rede e segmentação de rede",
-        "Protocolos TCP/IP de aplicação: HTTP, SMTP, FTP, SSH, Telnet, SNMP, POP3, IMAP, DNS, DHCP",
-        "Protocolos TCP/IP de transporte e rede: TCP, UDP, IP, ARP, RARP, ICMP, NAT, Ethernet, WiFi, Frame Relay",
-        "Portas de comunicação TCP e UDP",
-        "Servidores de rede: instalação e configuração de Impressão, Arquivos, DHCP, DNS, Web e E-mail",
-        "Servidores de rede: Proxy, Certificados Digitais e Firewall",
-        "Segurança de redes: Firewall, DMZ, filtragem de conteúdo e pacotes",
-        "VPN (IPsec, SSL/TLS) e Proxy",
-        "Comunicação segura: SSL e TLS",
-        "Computação em nuvem",
-        "Gestão de segurança da informação (ISO 27001 e ISO 27002): políticas e controles de acesso",
-        "Gestão de segurança da informação (ISO 27001 e ISO 27002): plano de contingência e análise de riscos",
-        "Autenticação, certificação digital (ICP-Brasil) e infraestrutura de chaves públicas (X.509/PKIX)",
-        "Modos de operação de cifras e hashes criptográficos",
-        "Algoritmos criptográficos RSA, DES, AES, RC4, RC5, RC6, MD5, SHA-1, SHA-256, SHA-512",
-        "Noções de perícia digital e monitoramento de tráfego com Wireshark",
-        "Segurança de redes sem fio: EAP, WEP, WPA, WPA2 e ataques comuns",
-        "Contratação de TIC: Instrução Normativa SLTI/MP nº 4/2014"
       ]
     }
   ],
@@ -373,8 +374,54 @@ app.post('/api/daily/generate', async (req, res) => {
     const rawProgress = await fs.readFile(PROGRESS_PATH, 'utf-8');
     const progress = JSON.parse(rawProgress) as StudentProgress;
  
-    // 1. Aciona o Diretor para planejar, passando a matéria e o tópico escolhidos
-    const dailyPlan = await director.planDailyStudies(progress.objetivoGeral, progress, materia, topicoSelecionado);
+    // Busca chats de sessões passadas para subsidiar o planejamento do Diretor
+    let pastChatLogs = '';
+    try {
+      const sessionsDir = path.join(ROOT_DIR, 'src/memory/sessions');
+      const files = await fs.readdir(sessionsDir);
+      const jsonFiles = files.filter(f => f.endsWith('.json'));
+      
+      const chatsByTopic: Record<string, string[]> = {};
+      for (const file of jsonFiles) {
+        const raw = await fs.readFile(path.join(sessionsDir, file), 'utf-8');
+        const sess = JSON.parse(raw) as SessionState;
+        if (sess.studentChat && sess.studentChat.length > 0) {
+          const topicKey = sess.tema.toLowerCase().trim();
+          if (!chatsByTopic[topicKey]) chatsByTopic[topicKey] = [];
+          
+          const chatStr = sess.studentChat
+            .map(c => `  - [${c.role === 'user' ? 'Estudante' : 'Professor'}] ${c.message}`)
+            .join('\n');
+          chatsByTopic[topicKey].push(`Sessão em ${new Date(sess.createdAt).toLocaleDateString('pt-BR')}:\n${chatStr}`);
+        }
+      }
+
+      if (topicoSelecionado && topicoSelecionado !== 'auto') {
+        const key = topicoSelecionado.toLowerCase().trim();
+        if (chatsByTopic[key]) {
+          pastChatLogs = chatsByTopic[key].join('\n\n');
+        }
+      } else {
+        const entries = [];
+        for (const [topicName, chats] of Object.entries(chatsByTopic)) {
+          entries.push(`Tema: "${topicName}"\n${chats.join('\n\n')}`);
+        }
+        if (entries.length > 0) {
+          pastChatLogs = entries.join('\n\n---\n\n');
+        }
+      }
+    } catch (e) {
+      console.warn('[SERVER] Erro ao carregar histórico de chats para o planejamento:', e);
+    }
+
+    // 1. Aciona o Diretor para planejar, passando a matéria, tópico e histórico de chats
+    const dailyPlan = await director.planDailyStudies(
+      progress.objetivoGeral, 
+      progress, 
+      materia, 
+      topicoSelecionado, 
+      pastChatLogs
+    );
     const principalTopic = dailyPlan.topicosAEstudar[0] || 'Geral';
     console.log(`[SERVER] Tópico selecionado pelo Diretor: "${principalTopic}".`);
 
@@ -382,13 +429,17 @@ app.post('/api/daily/generate', async (req, res) => {
     console.log(`[SERVER] Pesquisando banca FUNDATEC para o tema: "${principalTopic}"...`);
     const searchReport = await webResearcher.searchExamsAndLegislation(principalTopic);
 
-    // 3. Concatena as pegadinhas e orientações de pesquisa no prompt de Professor e Criador
+    // 3. Concatena as pegadinhas, orientações de pesquisa e chats passados no prompt de Professor e Criador
     let instructionsForAgents = dailyPlan.instrucoesParaOProfessor;
     instructionsForAgents += `\n\nDiretrizes da Banca (Pesquisa FUNDATEC):
 - Recorrência: ${searchReport.recorrenciaBanca}
 - Foco da Banca: ${searchReport.focoFundatec}
 - Pegadinhas a incluir/testar: ${searchReport.armadilhasComuns.join('; ')}
 - Atualizações importantes: ${searchReport.atualizacoesLegaisOuTecnicas}`;
+
+    if (pastChatLogs) {
+      instructionsForAgents += `\n\nHistórico de Dúvidas passadas do aluno no chat sobre este tema:\n${pastChatLogs}`;
+    }
 
     // 4. Aciona em paralelo o Professor (aula) e o Criador (exercícios)
     console.log(`[SERVER] Acionando Professor e Criador de Exercícios em paralelo...`);
@@ -547,11 +598,13 @@ ${exercises.questoes
 
     // Retorna todos os dados para o Front-end renderizar
     res.json({
+      sessionId: session.sessionId,
       dailyPlan,
       detailedLesson,
       exercises,
       webSearchReport: searchReport,
-      progressUpdated: progress
+      progressUpdated: progress,
+      studentChat: []
     });
 
   } catch (error: any) {
@@ -652,6 +705,9 @@ app.post('/api/quiz/submit', async (req, res) => {
         }
       }
     }
+
+    // Garante que o tema no relatório de desempenho seja exatamente o mesmo da sessão (tópico oficial do edital)
+    report.tema = session.tema;
 
     // Grava o relatório de desempenho no histórico de progresso
     if (!progress.historicoDesempenho) {
@@ -767,15 +823,76 @@ app.get('/api/sessions/:id', async (req, res) => {
     const session = JSON.parse(raw) as SessionState;
 
     res.json({
+      sessionId: session.sessionId,
       dailyPlan: session.planDaily,
       detailedLesson: session.lessonDetailedContent,
       exercises: session.exerciseList,
       webSearchReport: session.webSearchReport,
-      performanceReport: session.performanceReport
+      performanceReport: session.performanceReport,
+      studentChat: session.studentChat || []
     });
   } catch (error: any) {
     console.error('[SERVER ERROR] Sessão não encontrada:', error);
     res.status(404).json({ error: 'Sessão não encontrada.' });
+  }
+});
+
+// ------------------------------------------------------------------
+// API: Envia uma pergunta do estudante para o chat do professor da aula
+// ------------------------------------------------------------------
+app.post('/api/sessions/:id/chat', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { message } = req.body;
+    
+    if (!message || typeof message !== 'string' || message.trim() === '') {
+      return res.status(400).json({ error: 'Mensagem inválida ou vazia.' });
+    }
+
+    const sessionFile = path.join(ROOT_DIR, 'src/memory/sessions', `${id}.json`);
+    const raw = await fs.readFile(sessionFile, 'utf-8');
+    const session = JSON.parse(raw) as SessionState;
+
+    if (!session.lessonDetailedContent) {
+      return res.status(400).json({ error: 'Aula não encontrada nesta sessão.' });
+    }
+
+    // Inicializa chat se não existir
+    if (!session.studentChat) {
+      session.studentChat = [];
+    }
+
+    // Instancia o TeacherAgent
+    const teacher = new TeacherAgent();
+    await teacher.initialize();
+
+    // Obtém o nome do professor selecionado para esta sessão
+    const professorName = session.planDaily?.professorSelecionado || 'Professor IA';
+
+    console.log(`[CHAT] Enviando dúvida de Adriano para o ${professorName} na sessão ${id}...`);
+    
+    // Obtém a resposta do professor
+    const reply = await teacher.answerStudentQuestion(
+      session.lessonDetailedContent,
+      session.studentChat,
+      message,
+      professorName
+    );
+
+    // Registra a conversa na sessão
+    const timestamp = new Date().toISOString();
+    session.studentChat.push({ role: 'user', message, timestamp });
+    session.studentChat.push({ role: 'assistant', message: reply, timestamp });
+    session.updatedAt = timestamp;
+
+    // Salva a sessão atualizada no disco
+    await fs.writeFile(sessionFile, JSON.stringify(session, null, 2), 'utf-8');
+
+    // Retorna a resposta da IA
+    res.json({ reply, timestamp });
+  } catch (error: any) {
+    console.error('[SERVER ERROR] Falha no chat com o professor:', error);
+    res.status(500).json({ error: error.message || 'Erro ao processar mensagem do chat.' });
   }
 });
 
@@ -787,34 +904,47 @@ app.post('/api/reset', async (req, res) => {
     console.log('[SERVER] Iniciando solicitação de reset via API...');
     
     // 1. Zera a memória de progresso
+    console.log(`[RESET] Sobrescrevendo arquivo de progresso em: ${PROGRESS_PATH}`);
     await fs.writeFile(PROGRESS_PATH, JSON.stringify(pristineProgress, null, 2), 'utf-8');
     
     // 2. Limpa sessões
     const sessionsDir = path.join(ROOT_DIR, 'src/memory/sessions');
+    let deletedSessions = 0;
     try {
+      console.log(`[RESET] Lendo pasta de sessões em: ${sessionsDir}`);
       const files = await fs.readdir(sessionsDir);
       for (const file of files) {
-        if (file.endsWith('.json')) {
-          await fs.unlink(path.join(sessionsDir, file));
-        }
+        const filePath = path.join(sessionsDir, file);
+        console.log(`[RESET] Deletando arquivo de sessão: ${file}`);
+        await fs.unlink(filePath);
+        deletedSessions++;
       }
-    } catch (e) {}
+    } catch (e: any) {
+      console.warn('[RESET WARNING] Falha ou erro ao ler/limpar pasta de sessões:', e.message);
+    }
 
     // 3. Limpa outputs
     const outputsDir = path.join(ROOT_DIR, 'src/memory/outputs');
+    let deletedOutputs = 0;
     try {
+      console.log(`[RESET] Lendo pasta de outputs em: ${outputsDir}`);
       const files = await fs.readdir(outputsDir);
       for (const file of files) {
-        if (file.endsWith('.json') || file.endsWith('.md')) {
-          await fs.unlink(path.join(outputsDir, file));
-        }
+        // Ignora .gitkeep se houver
+        if (file === '.gitkeep') continue;
+        const filePath = path.join(outputsDir, file);
+        console.log(`[RESET] Deletando arquivo de output: ${file}`);
+        await fs.unlink(filePath);
+        deletedOutputs++;
       }
-    } catch (e) {}
+    } catch (e: any) {
+      console.warn('[RESET WARNING] Falha ou erro ao ler/limpar pasta de outputs:', e.message);
+    }
 
-    console.log('✓ Reset de progresso e histórico concluído com sucesso.');
+    console.log(`✓ Reset concluído com sucesso. Deletados: ${deletedSessions} sessões e ${deletedOutputs} arquivos de output.`);
     res.json({ success: true, progressUpdated: pristineProgress });
   } catch (error: any) {
-    console.error('[SERVER ERROR] Falha ao redefinir memória:', error);
+    console.error('[SERVER ERROR] Falha grave ao redefinir memória:', error);
     res.status(500).json({ error: error.message || 'Erro ao redefinir progresso.' });
   }
 });

@@ -23,7 +23,8 @@ export class DirectorAgent extends Agent {
     studentObjective: string,
     progress: StudentProgress,
     selectedMateria?: string,
-    selectedTopico?: string
+    selectedTopico?: string,
+    pastChatLogs?: string
   ): Promise<DailyStudyPlan> {
     let focusMateriaPrompt = '';
     if (selectedMateria && selectedMateria !== 'auto') {
@@ -42,9 +43,11 @@ Histórico de Progresso do Aluno (Memória, incluindo histórico de simulados):
 """
 ${JSON.stringify(progress, null, 2)}
 """
+${pastChatLogs ? `\nHistórico de Dúvidas tiradas pelo Aluno no Chat com o Professor em aulas anteriores sobre este tema:\n"""\n${pastChatLogs}\n"""\n` : ''}
 
 Analise as matérias e os tópicos pendentes com cuidado. 
 Observe atentamente o "historicoDesempenho" (se houver). Se o aluno obteve notas baixas, reprovou ou deixou questões em branco (resposta 'X') em simulados anteriores, priorize a revisão desses tópicos ou inclua orientações explícitas no campo "instrucoesParaOProfessor" para reforçar especificamente os pontos fracos apontados, as lacunas de conhecimento e as recomendações geradas nesses simulados.
+Se houver histórico de dúvidas tiradas no chat com o professor acima, use essas informações para guiar o professor nas explicações da nova aula, certificando-se de sanar em definitivo as dúvidas passadas e focar nos pontos onde o aluno demonstrou incompreensão.
 
 Retorne estritamente o JSON configurado nas suas instruções de sistema.`;
 

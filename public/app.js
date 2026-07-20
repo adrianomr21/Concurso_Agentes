@@ -45,6 +45,15 @@ function setupNavigation() {
       // Alterna visibilidade dos painéis de conteúdo
       Object.values(tabs).forEach((pane) => pane.classList.remove('active'));
       tabs[tabName].classList.add('active');
+
+      // Toga visibilidade do chat flutuante baseado na aba e estado da aula
+      const chatContainer = document.getElementById('floating-chat-container');
+      if (chatContainer) {
+        const isClassroom = tabName === 'classroom';
+        const studyArea = document.getElementById('classroom-study-area');
+        const isStudyActive = studyArea && studyArea.classList.contains('active');
+        chatContainer.style.display = (isClassroom && isStudyActive) ? 'block' : 'none';
+      }
     });
   });
 
@@ -85,6 +94,56 @@ function populateSubjectSelect(data) {
   });
 }
 
+function getTopicProgressBarHTML(topicName, data) {
+  const history = data.historicoDesempenho || [];
+  const topicKey = topicName.toLowerCase().trim();
+  const matching = history.filter(h => {
+    const hTema = h.tema.toLowerCase().trim();
+    return hTema === topicKey || hTema.includes(topicKey) || topicKey.includes(hTema);
+  });
+  
+  if (matching.length === 0) {
+    return `
+      <div style="display: flex; align-items: center; gap: 8px; margin-top: 4px;">
+        <div style="flex: 1; height: 5px; background: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; max-width: 120px;">
+          <div style="height: 100%; width: 0%; background: rgba(255,255,255,0.1); border-radius: 3px;"></div>
+        </div>
+        <span style="font-size: 11px; color: var(--text-muted);">Sem simulados</span>
+      </div>
+    `;
+  }
+  
+  // Encontra a maior nota
+  let highestScore = 0;
+  let totalQ = 10;
+  matching.forEach(r => {
+    if (r.nota > highestScore) {
+      highestScore = r.nota;
+      totalQ = r.totalQuestoes || 10;
+    }
+  });
+  
+  const pct = Math.round((highestScore / totalQ) * 100);
+  
+  // Escolhe cor baseada na nota
+  let barColor = 'rgba(239, 68, 68, 0.7)'; // Vermelho (Reprovado)
+  if (pct >= 70) {
+    barColor = 'rgba(16, 185, 129, 0.8)'; // Verde (Aprovado)
+  } else if (pct >= 50) {
+    barColor = 'rgba(245, 158, 11, 0.8)'; // Amarelo/Laranja (Atenção)
+  }
+  
+  return `
+    <div style="display: flex; align-items: center; gap: 8px; margin-top: 4px;">
+      <div style="flex: 1; height: 5px; background: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; max-width: 120px;">
+        <div style="height: 100%; width: ${pct}%; background: ${barColor}; border-radius: 3px;"></div>
+      </div>
+      <span style="font-size: 11px; color: ${pct >= 70 ? 'var(--accent-green)' : pct >= 50 ? '#f59e0b' : '#ef4444'}; font-weight: 600;">
+        Maior nota: ${highestScore}/${totalQ} (${pct}%)
+      </span>
+    </div>
+  `;
+}
 
 function renderDashboard(data) {
   // Atualiza cabeçalhos básicos
@@ -135,12 +194,14 @@ function renderDashboard(data) {
     materia.topicosConcluidos.forEach((t) => {
       const safeMateria = materia.nome.replace(/'/g, "\\'");
       const safeTopic = t.replace(/'/g, "\\'");
+      const progressHTML = getTopicProgressBarHTML(t, data);
 
       topicsHTML += `
         <li class="topic-item completed" onclick="studySpecificTopic('${safeMateria}', '${safeTopic}')">
           <span class="topic-bullet">✓</span>
           <div class="topic-content" style="display: flex; flex-direction: column; flex: 1;">
             <span style="font-weight: 500;">${t}</span>
+            ${progressHTML}
           </div>
         </li>
       `;
@@ -149,12 +210,14 @@ function renderDashboard(data) {
     materia.topicosPendentes.forEach((t) => {
       const safeMateria = materia.nome.replace(/'/g, "\\'");
       const safeTopic = t.replace(/'/g, "\\'");
+      const progressHTML = getTopicProgressBarHTML(t, data);
 
       topicsHTML += `
         <li class="topic-item pending" onclick="studySpecificTopic('${safeMateria}', '${safeTopic}')">
           <span class="topic-bullet">○</span>
           <div class="topic-content" style="display: flex; flex-direction: column; flex: 1;">
             <span style="font-weight: 500;">${t}</span>
+            ${progressHTML}
           </div>
         </li>
       `;
@@ -186,10 +249,36 @@ function setupActionListeners() {
   document.getElementById('btn-classroom-generate-next').addEventListener('click', () => {
     document.getElementById('classroom-study-area').classList.remove('active');
     document.getElementById('classroom-empty-state').classList.add('active');
+    
+    // Esconde o chat flutuante ao sair da sala de aula
+    const chatContainer = document.getElementById('floating-chat-container');
+    if (chatContainer) chatContainer.style.display = 'none';
   });
 
   // Botão para reiniciar estudos (Zerar progresso e histórico)
   document.getElementById('btn-action-reset').addEventListener('click', resetAllProgress);
+
+  // Envio de mensagens do chat com o professor
+  document.getElementById('btn-chat-send').addEventListener('click', sendChatMessage);
+
+  // Alternadores de estado do chat flutuante (Minimizar/Maximizar)
+  const btnToggle = document.getElementById('btn-chat-toggle');
+  const btnMinimize = document.getElementById('btn-chat-minimize');
+  const chatWindow = document.getElementById('chat-window');
+
+  if (btnToggle && btnMinimize && chatWindow) {
+    btnToggle.addEventListener('click', () => {
+      chatWindow.style.display = 'flex';
+      btnToggle.style.display = 'none';
+      const input = document.getElementById('chat-message-input');
+      if (input) input.focus();
+    });
+
+    btnMinimize.addEventListener('click', () => {
+      chatWindow.style.display = 'none';
+      btnToggle.style.display = 'flex';
+    });
+  }
 }
 
 // ------------------------------------------------------------------
@@ -354,20 +443,32 @@ function renderLesson(data) {
   document.getElementById('lesson-summary-text').innerHTML = lesson.resumo;
 
   // 2. Mapa Mental (Mermaid)
-  const mermaidArea = document.getElementById('mermaid-render-area');
-  let mermaidCode = lesson.mapaMentalMermaid || '';
-  // Higieniza delimitadores markdown
-  mermaidCode = mermaidCode.replace(/```mermaid/gi, '');
-  mermaidCode = mermaidCode.replace(/```/g, '');
-  // Regra de Ouro: Encapsula rótulos de nós em aspas duplas se já não estiverem, evitando quebras sintáticas por caracteres especiais
-  mermaidCode = mermaidCode.replace(/([a-zA-Z0-9_-]+)\[([^"\]\n]+)\]/g, '$1["$2"]');
-  mermaidCode = mermaidCode.trim();
+  try {
+    const mermaidArea = document.getElementById('mermaid-render-area');
+    if (mermaidArea) {
+      let mermaidCode = lesson.mapaMentalMermaid || '';
+      // Higieniza delimitadores markdown
+      mermaidCode = mermaidCode.replace(/```mermaid/gi, '');
+      mermaidCode = mermaidCode.replace(/```/g, '');
+      // Regra de Ouro: Encapsula rótulos de nós em aspas duplas se já não estiverem, evitando quebras sintáticas por caracteres especiais
+      mermaidCode = mermaidCode.replace(/([a-zA-Z0-9_-]+)\[([^"\]\n]+)\]/g, '$1["$2"]');
+      mermaidCode = mermaidCode.trim();
 
-  mermaidArea.innerHTML = mermaidCode;
-  // Força re-renderização do Mermaid
-  if (window.mermaid) {
-    mermaidArea.removeAttribute('data-processed');
-    window.mermaid.run({ nodes: [mermaidArea] });
+      mermaidArea.innerHTML = mermaidCode;
+      // Força re-renderização do Mermaid
+      if (window.mermaid) {
+        mermaidArea.removeAttribute('data-processed');
+        window.mermaid.run({ nodes: [mermaidArea] }).catch(err => {
+          console.warn('[FRONTEND] Erro ao renderizar Mermaid:', err);
+          mermaidArea.innerHTML = `<div style="padding: 16px; color: var(--text-secondary); background: rgba(255,255,255,0.02); border: 1px dashed var(--border-color); border-radius: var(--border-radius-md); font-size: 14px; text-align: center;">
+            ⚠️ Ocorreu um problema ao renderizar o diagrama visual do mapa mental.<br>
+            <span style="font-size: 12px; color: var(--text-muted);">Mas não se preocupe! Você ainda pode ler a aula expositiva ou usar o chat flutuante para tirar suas dúvidas.</span>
+          </div>`;
+        });
+      }
+    }
+  } catch (error) {
+    console.warn('[FRONTEND] Erro ao processar mapa mental:', error);
   }
 
   // 3. Flashcards (Flip Cards 3D)
@@ -391,6 +492,22 @@ function renderLesson(data) {
 
   // 4. Simulado (10 Questões Interativas)
   renderQuiz(exercises);
+
+  // 5. Inicializa o Chat de Dúvidas com o Professor
+  initChat(data);
+
+  // Exibe o contêiner do chat flutuante e garante estado minimizado padrão
+  const chatContainer = document.getElementById('floating-chat-container');
+  if (chatContainer) {
+    chatContainer.style.display = 'block';
+    
+    const btnToggle = document.getElementById('btn-chat-toggle');
+    const chatWindow = document.getElementById('chat-window');
+    if (btnToggle && chatWindow) {
+      btnToggle.style.display = 'flex';
+      chatWindow.style.display = 'none';
+    }
+  }
 
   // Configura botões de controle de abas de estudos
   setupStudyTabs();
@@ -572,9 +689,10 @@ async function submitQuiz() {
     btnSubmit.textContent = '✓ Simulado Corrigido';
     quizSubmitted = true;
 
-    // Atualiza o painel do Dashboard se houve rebaixamento de progresso
+    // Atualiza o painel do Dashboard se houve rebaixamento/promocao de progresso e salva localmente
     if (result.progressUpdated) {
-      renderDashboard(result.progressUpdated);
+      progressData = result.progressUpdated;
+      renderDashboard(progressData);
     }
 
     // Recarrega o histórico de aulas para exibir a nota atualizada
@@ -954,6 +1072,9 @@ async function resetAllProgress() {
       document.getElementById('classroom-study-area').classList.remove('active');
       document.getElementById('classroom-empty-state').classList.add('active');
       
+      const chatContainer = document.getElementById('floating-chat-container');
+      if (chatContainer) chatContainer.style.display = 'none';
+      
       // 3. Atualiza Histórico (carregará vazio)
       await loadHistory();
       
@@ -1152,3 +1273,152 @@ async function setupConfigTab() {
 
   await loadAgents();
 }
+
+// ------------------------------------------------------------------
+// Chat com o Professor Especialista (Dúvidas sobre a Aula)
+// ------------------------------------------------------------------
+function initChat(data) {
+  const messagesContainer = document.getElementById('chat-messages-container');
+  const teacherAvatar = document.getElementById('chat-teacher-avatar');
+  const teacherName = document.getElementById('chat-teacher-name');
+  
+  if (!messagesContainer || !teacherAvatar || !teacherName) return;
+
+  const professor = data.dailyPlan?.professorSelecionado || 'Professor IA';
+  teacherName.textContent = professor;
+  teacherAvatar.textContent = professor.replace('Professor de ', '').substring(0, 2).toUpperCase();
+  
+  // Limpa mensagens
+  messagesContainer.innerHTML = '';
+  
+  // Adiciona boas-vindas padrão do professor
+  const welcomeText = `Olá, Adriano! Eu sou o seu **${professor}** responsável por esta aula sobre **${data.detailedLesson.tema}**. Analisei as diretrizes e elaborei este material especialmente para você. Como posso tirar suas dúvidas hoje?`;
+  addChatBubble(welcomeText, 'teacher', 'Boas-vindas');
+  
+  // Carrega histórico se houver
+  if (data.studentChat && data.studentChat.length > 0) {
+    data.studentChat.forEach(c => {
+      addChatBubble(c.message, c.role, c.timestamp);
+    });
+  }
+  
+  // Rola até o final
+  messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+function addChatBubble(text, sender, timestamp) {
+  const container = document.getElementById('chat-messages-container');
+  if (!container) return;
+
+  const bubble = document.createElement('div');
+  bubble.className = `chat-bubble ${sender === 'user' ? 'student' : 'teacher'}`;
+  
+  let formattedTime = '';
+  if (timestamp && timestamp !== 'Boas-vindas') {
+    formattedTime = new Date(timestamp).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+  } else if (timestamp === 'Boas-vindas') {
+    formattedTime = 'Boas-vindas';
+  } else {
+    formattedTime = new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+  }
+  
+  // Renderiza Markdown para a resposta do professor
+  let htmlContent = text;
+  if (sender !== 'user') {
+    htmlContent = parseMarkdown(text);
+  } else {
+    // Escapa texto do estudante para segurança
+    htmlContent = escapeHTML(text).replace(/\n/g, '<br>');
+  }
+  
+  bubble.innerHTML = `
+    <div class="chat-bubble-text">${htmlContent}</div>
+    <span class="chat-bubble-timestamp">${formattedTime}</span>
+  `;
+  
+  container.appendChild(bubble);
+  container.scrollTop = container.scrollHeight;
+}
+
+async function sendChatMessage() {
+  const input = document.getElementById('chat-message-input');
+  const btnSend = document.getElementById('btn-chat-send');
+  
+  if (!input || !btnSend) return;
+
+  const message = input.value.trim();
+  
+  if (!message) return;
+  if (!currentLessonData || !currentLessonData.sessionId) {
+    alert('Erro: Nenhuma sessão de aula ativa para conversar.');
+    return;
+  }
+  
+  const sessionId = currentLessonData.sessionId;
+  
+  // Limpa o input
+  input.value = '';
+  
+  // Adiciona a mensagem do aluno na UI
+  addChatBubble(message, 'user');
+  
+  // Cria indicador de "Professor digitando..."
+  const container = document.getElementById('chat-messages-container');
+  const typingBubble = document.createElement('div');
+  typingBubble.className = 'chat-bubble teacher typing-indicator';
+  typingBubble.id = 'chat-typing-indicator';
+  typingBubble.innerHTML = `
+    <div style="display: flex; gap: 4px; align-items: center; padding: 4px 8px;">
+      <span style="animation: bounce 1.4s infinite both; width: 6px; height: 6px; background: var(--text-muted); border-radius: 50%;"></span>
+      <span style="animation: bounce 1.4s infinite both 0.2s; width: 6px; height: 6px; background: var(--text-muted); border-radius: 50%;"></span>
+      <span style="animation: bounce 1.4s infinite both 0.4s; width: 6px; height: 6px; background: var(--text-muted); border-radius: 50%;"></span>
+    </div>
+  `;
+  container.appendChild(typingBubble);
+  container.scrollTop = container.scrollHeight;
+  
+  // Trava campos
+  input.disabled = true;
+  btnSend.disabled = true;
+  
+  try {
+    const response = await fetch(`/api/sessions/${sessionId}/chat`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ message })
+    });
+    
+    if (!response.ok) {
+      throw new Error('Falha ao obter resposta do professor.');
+    }
+    
+    const result = await response.json();
+    
+    // Remove o indicador de digitando
+    const indicator = document.getElementById('chat-typing-indicator');
+    if (indicator) indicator.remove();
+    
+    // Adiciona resposta na UI
+    addChatBubble(result.reply, 'assistant', result.timestamp);
+    
+    // Atualiza localmente o studentChat da aula carregada
+    if (!currentLessonData.studentChat) {
+      currentLessonData.studentChat = [];
+    }
+    currentLessonData.studentChat.push({ role: 'user', message, timestamp: new Date().toISOString() });
+    currentLessonData.studentChat.push({ role: 'assistant', message: result.reply, timestamp: result.timestamp });
+    
+  } catch (error) {
+    console.error('Erro no chat:', error);
+    const indicator = document.getElementById('chat-typing-indicator');
+    if (indicator) indicator.remove();
+    addChatBubble('⚠️ Desculpe, tive um problema ao processar sua pergunta. Por favor, tente enviar novamente.', 'assistant');
+  } finally {
+    input.disabled = false;
+    btnSend.disabled = false;
+    input.focus();
+  }
+}
+

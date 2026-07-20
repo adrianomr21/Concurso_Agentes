@@ -113,4 +113,63 @@ Retorne rigorosamente no formato JSON de resposta do material pedagógico.`;
       throw new Error('O Professor IA falhou ao gerar um material pedagógico JSON válido para o MVP.');
     }
   }
+
+  /**
+   * Responde as duvidas do aluno no chat, mantendo o contexto da aula e o historico da conversa.
+   */
+  public async answerStudentQuestion(
+    detailedLesson: TeacherDetailedLesson,
+    chatHistory: { role: 'user' | 'assistant'; message: string; timestamp: string; }[],
+    newQuestion: string,
+    professorName: string
+  ): Promise<string> {
+    if (!this.systemInstruction) {
+      await this.initialize();
+    }
+
+    let customInstruction = this.systemInstruction;
+    const fileMap: Record<string, string> = {
+      'Professor de Português': 'teacher_portuguese.md',
+      'Professor de Matemática': 'teacher_math.md',
+      'Professor de Legislação': 'teacher_law.md',
+      'Professor de TI': 'teacher_ti.md',
+      'Professor de Conhecimentos Gerais': 'teacher_general_knowledge.md'
+    };
+    const promptFile = fileMap[professorName];
+    if (promptFile) {
+      try {
+        const specialistPrompt = await StorageService.loadPrompt(promptFile);
+        customInstruction = `${this.systemInstruction}\n\n=== DIRETRIZES DA SUA ESPECIALIDADE ===\n${specialistPrompt}`;
+      } catch (e) {
+        console.warn(`[TEACHER AGENT] Nao foi possivel carregar o prompt especialista para chat: ${professorName}`);
+      }
+    }
+
+    const contextInstruction = `Voce e o "${professorName}" da AcademiaIA. O aluno esta atualmente estudando a aula que voce gerou sobre o tema "${detailedLesson.tema}".
+Voce deve atuar estritamente como este professor especialista, respondendo de forma clara, didatica, pedagogica e tirando qualquer duvida que o aluno apresente em relacao ao conteudo da aula. Fale diretamente com o aluno Adriano. Seja encorajador.
+Se ele perguntar sobre alguma questao do simulado da aula, nao de o gabarito diretamente; ajude-o no raciocinio passo a passo para ele encontrar a resposta.
+Importante: Responda em formato de texto Markdown legivel e direto ao ponto. Nao use JSON.
+
+REQUISITO CRITICO DE FORMATACAO MATEMATICA E LINGUAGEM:
+- NUNCA utilize delimitadores de formulas ou LaTeX com cifroes como $...$ ou $$...$$.
+- NUNCA use comandos de LaTeX como \\times, \\mathbf, \\frac, \\cdot, etc.
+- Use exclusivamente notacao matematica simples e amigavel (ex: use "x" ou "*" para multiplicacao, e "/" para divisao).
+- Para termos em negrito, use notacao padrao Markdown (ex: **7** em vez de \\mathbf{7}).
+- Para potencias, use caracteres normais e sobrescritos comuns (ex: 2³ ou 2^3 em vez de formulas com cifroes).
+- Mantenha o texto extremamente limpo, fluido e facil de ler no navegador comum.`;
+
+    const messages = [
+      { role: 'system' as const, content: `${customInstruction}\n\n=== CONTEXTO DO CHAT DA AULA ===\n${contextInstruction}` },
+      { role: 'user' as const, content: `Aqui esta a aula detalhada que voce preparou:\n\n=== TEMA: ${detailedLesson.tema} ===\n${JSON.stringify(detailedLesson, null, 2)}` },
+      { role: 'assistant' as const, content: `Ola, Adriano! Eu sou o seu ${professorName} para esta aula sobre "${detailedLesson.tema}". Analisei as diretrizes e elaborei o material. Como posso tirar suas duvidas hoje?` },
+      ...chatHistory.map(ch => ({
+        role: ch.role === 'user' ? 'user' as const : 'assistant' as const,
+        content: ch.message
+      })),
+      { role: 'user' as const, content: newQuestion }
+    ];
+
+    const rawResponse = await GeminiService.getChatCompletion(messages, false);
+    return rawResponse;
+  }
 }

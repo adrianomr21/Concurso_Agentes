@@ -59,6 +59,11 @@ export interface SessionState {
     message: string;
     timestamp: string;
   }[];
+  studentChat?: {
+    role: 'user' | 'assistant';
+    message: string;
+    timestamp: string;
+  }[];
 }
 
 export interface StudentProgress {
