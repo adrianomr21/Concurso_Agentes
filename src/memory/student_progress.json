@@ -93,11 +93,12 @@
     },
     {
       "nome": "TI e Conhecimentos Específicos",
-      "topicosConcluidos": [],
+      "topicosConcluidos": [
+        "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária"
+      ],
       "topicosPendentes": [
         "Modelo de von Neumann (CPU, Memória, Entrada/Saída)",
         "Ciclo de Instrução (Fetch, Decode, Execute)",
-        "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
         "Sistemas de armazenamento (Memória Principal, RAM, ROM, Cache, HDD, SSD, NVMe, SATA)",
         "Características dos principais processadores do mercado e de múltiplos núcleos",
         "Princípios de sistemas operacionais e gerenciamento de processos, memória e E/S",
@@ -224,6 +225,149 @@
       ]
     }
   ],
-  "ultimoEstudo": "2026-07-20T18:53:06.961Z",
-  "historicoDesempenho": []
+  "ultimoEstudo": "2026-07-21T14:40:00.080Z",
+  "historicoDesempenho": [
+    {
+      "tema": "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
+      "nota": 9,
+      "totalQuestoes": 10,
+      "aprovado": true,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 3,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 5,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": false,
+          "respostaEstudante": "C",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        }
+      ],
+      "analisePontosFortes": "O estudante demonstrou excelente domínio sobre conversões de bases (binário, octal, decimal e hexadecimal) e sólida compreensão teórica sobre aritmética binária e a representação de números negativos em complemento de dois.",
+      "analisePontosFracos": "O aluno apresentou uma falha pontual na questão 7, tratando-se de um equívoco operacional no processo de subtração binária que exige a técnica de 'empréstimo' (borrow). Não foram detectadas lacunas conceituais totais, visto que não houve respostas em branco.",
+      "recomendacaoEstudo": "O desempenho foi excelente. Para consolidar o aprendizado, recomenda-se apenas uma breve revisão sobre as regras de 'empréstimo' na subtração binária, praticando manualmente mais dois ou três exercícios de subtração para garantir que o mecanismo do algoritmo seja fixado e evitar erros de distração."
+    },
+    {
+      "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+      "nota": 6,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 2,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 3,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 9,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "C"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstra domínio na identificação de dígrafos (questão 3), valor fonético das letras (questão 4), contagem básica de fonemas em casos simples (questões 1 e 8) e reconhecimento de tritongos (questão 6).",
+      "analisePontosFracos": "O estudante apresenta dificuldades na classificação de encontros vocálicos (confusão entre hiato e ditongo), na contagem de fonemas em palavras complexas com dígrafos consonantais combinados (questão 5), e na distinção técnica entre encontros consonantais separáveis e inseparáveis (questão 7). Também houve falha na identificação de semivogais.",
+      "recomendacaoEstudo": "Recomendo a revisão imediata dos conceitos de fonologia, com foco especial na separação silábica (regras de hiatos) e na diferenciação precisa entre encontros consonantais e dígrafos. Pratique a transcrição fonética de palavras com 'sc', 'xc' e 'qu' para consolidar o entendimento da contagem de fonemas. Não houve questões deixadas em branco, o que é positivo; agora, concentre-se em refinar a precisão das análises antes de responder."
+    }
+  ]
 }

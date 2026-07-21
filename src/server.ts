@@ -876,7 +876,9 @@ app.post('/api/sessions/:id/chat', async (req, res) => {
       session.lessonDetailedContent,
       session.studentChat,
       message,
-      professorName
+      professorName,
+      session.exerciseList,
+      session.performanceReport
     );
 
     // Registra a conversa na sessão

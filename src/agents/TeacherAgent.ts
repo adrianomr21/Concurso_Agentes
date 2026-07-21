@@ -1,7 +1,7 @@
 import { Agent } from './Agent.js';
 import { GeminiService } from '../services/gemini.js';
 import { StorageService } from '../services/storage.js';
-import { DirectorPlan, TeacherLesson, TeacherDetailedLesson } from '../types/index.js';
+import { DirectorPlan, TeacherLesson, TeacherDetailedLesson, ExerciseList, PerformanceReport } from '../types/index.js';
 
 export class TeacherAgent extends Agent {
   constructor() {
@@ -121,7 +121,9 @@ Retorne rigorosamente no formato JSON de resposta do material pedagógico.`;
     detailedLesson: TeacherDetailedLesson,
     chatHistory: { role: 'user' | 'assistant'; message: string; timestamp: string; }[],
     newQuestion: string,
-    professorName: string
+    professorName: string,
+    exercises?: ExerciseList,
+    performanceReport?: PerformanceReport
   ): Promise<string> {
     if (!this.systemInstruction) {
       await this.initialize();
@@ -145,9 +147,54 @@ Retorne rigorosamente no formato JSON de resposta do material pedagógico.`;
       }
     }
 
+    // Estrutura as informacoes sobre o simulado e desempenho do aluno
+    let studentPerformanceInfo = '';
+    if (performanceReport) {
+      studentPerformanceInfo = `\n=== DESEMPENHO E RESULTADOS DO SIMULADO DO ALUNO ===
+Nota Obtida pelo Aluno: ${performanceReport.nota} de ${performanceReport.totalQuestoes || 10} (${performanceReport.aprovado ? 'APROVADO' : 'REPROVADO'}).
+
+Gabarito e Respostas detalhadas do Aluno:
+${performanceReport.detalheQuestoes.map(dq => {
+  const questao = exercises?.questoes.find(q => q.numero === dq.numero);
+  return `* Questao ${dq.numero} (${questao?.nivel || 'Medio'}):
+  - Enunciado: "${questao?.enunciado || 'Nao especificado'}"
+  - Resposta do estudante: Opcao (${dq.respostaEstudante === 'X' ? 'Deixada em Branco' : dq.respostaEstudante})
+  - Gabarito correto: Opcao (${dq.respostaCorreta})
+  - Resultado: ${dq.acertou ? 'ACERTOU ✅' : 'ERROU ❌'}
+  - Resolucao/Explicacao cadastrada: "${questao?.explicacao || 'Nao especificada'}"`;
+}).join('\n\n')}
+
+Analise de Pontos Fortes do Avaliador IA:
+- ${performanceReport.analisePontosFortes}
+
+Analise de Pontos Fracos do Avaliador IA:
+- ${performanceReport.analisePontosFracos}
+
+Recomendacao de Estudos:
+- ${performanceReport.recomendacaoEstudo}`;
+    } else {
+      // Se nao tem relatorio de desempenho, mas temos a lista de exercicios
+      let listQuestionsInfo = '';
+      if (exercises && exercises.questoes && exercises.questoes.length > 0) {
+        listQuestionsInfo = exercises.questoes.map(q => `* Questao ${q.numero} (${q.nivel}):
+  - Enunciado: "${q.enunciado}"
+  - Alternativas:
+${q.alternativas.map(alt => `    (${alt.letra}) ${alt.texto}`).join('\n')}
+  - Gabarito correto: Opcao (${q.respostaCorreta})
+  - Resolucao: "${q.explicacao}"`).join('\n\n');
+      }
+      studentPerformanceInfo = `\n=== SIMULADO ===
+O estudante ainda nao realizou ou nao submeteu o simulado desta aula.
+${listQuestionsInfo ? `Questoes disponiveis no simulado:\n${listQuestionsInfo}` : ''}`;
+    }
+
     const contextInstruction = `Voce e o "${professorName}" da AcademiaIA. O aluno esta atualmente estudando a aula que voce gerou sobre o tema "${detailedLesson.tema}".
-Voce deve atuar estritamente como este professor especialista, respondendo de forma clara, didatica, pedagogica e tirando qualquer duvida que o aluno apresente em relacao ao conteudo da aula. Fale diretamente com o aluno Adriano. Seja encorajador.
-Se ele perguntar sobre alguma questao do simulado da aula, nao de o gabarito diretamente; ajude-o no raciocinio passo a passo para ele encontrar a resposta.
+Voce deve atuar estritamente como este professor especialista, respondendo de forma clara, didatica, pedagogica e tirando qualquer duvida que o aluno apresente em relacao ao conteudo da aula ou sobre as questoes do simulado. Fale diretamente com o aluno Adriano. Seja encorajador.
+Se ele perguntar sobre alguma questao do simulado da aula, use as informacoes do gabarito e da resposta dele para ajuda-lo no raciocinio passo a passo para ele encontrar a resposta correta, nao de o gabarito de bandeja.
+
+=== DADOS DE EXERCICIOS E DESEMPENHO ===
+${studentPerformanceInfo}
+
 Importante: Responda em formato de texto Markdown legivel e direto ao ponto. Nao use JSON.
 
 REQUISITO CRITICO DE FORMATACAO MATEMATICA E LINGUAGEM:
