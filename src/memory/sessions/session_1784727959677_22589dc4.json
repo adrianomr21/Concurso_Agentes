@@ -1,0 +1,393 @@
+{
+  "sessionId": "session_1784727959677_22589dc4",
+  "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+  "status": "COMPLETED",
+  "createdAt": "2026-07-22T13:45:59.690Z",
+  "updatedAt": "2026-07-22T13:45:59.690Z",
+  "planDaily": {
+    "data": "2026-07-23",
+    "objetivoDoDia": "Dominar a relação entre fonemas e grafias, focando em dígrafos, encontros consonantais e divisão silábica para a banca FUNDATEC.",
+    "topicosAEstudar": [
+      "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "O aluno demonstrou instabilidade no tópico de Fonologia em simulados anteriores (notas 6/10), falhando especificamente na distinção entre dígrafos e encontros consonantais, na contagem de fonemas em estruturas complexas (como 'XC', 'QU', 'X' com valor de /ks/) e na classificação de vogais/semivogais. O aluno apresenta dúvidas recorrentes na divisão silábica como base para a classificação fonológica (ex: confusão com 'NS' e 'SP' em 'transporte'). O professor deve: 1. Reforçar a regra de ouro: 'Sempre separar sílabas antes de analisar fonemas'. 2. Abordar a diferença entre dígrafo (dois grafemas, um som) e encontro consonantal (duas consoantes, dois sons). 3. Focar na análise técnica de casos críticos da banca FUNDATEC: 'XC' (exceção), 'X' com som de /ks/ (táxi/fixo) e 'QU/GU'. 4. Utilizar exercícios de transcrição fonética para consolidar o conceito de que o número de letras nem sempre é igual ao número de fonemas. 5. Sanar definitivamente a confusão do aluno sobre por que 'NS' em 'transporte' não é encontro consonantal, mas parte de dígrafo vocálico ou estrutura silábica.",
+    "justificativaEscolha": "O tópico é mandatório conforme solicitação do aluno e essencial dada a recorrência de erros no histórico de simulados e dúvidas persistentes registradas no chat, indicando uma lacuna crítica na compreensão dos fenômenos fonológicos que a banca FUNDATEC explora frequentemente."
+  },
+  "lessonDetailedContent": {
+    "tema": "Fonologia: relações entre fonemas e grafias",
+    "objetivos": [
+      "Distinguir com precisão fonemas de grafemas (letras).",
+      "Dominar a divisão silábica como base fundamental para a análise fonológica.",
+      "Identificar dígrafos (consonantais e vocálicos) e encontros consonantais.",
+      "Classificar corretamente vogais, semivogais e encontros vocálicos.",
+      "Aplicar as regras da banca FUNDATEC em casos críticos como X (valor de /ks/), XC e grupos como NS."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a 'Analogia de Ouro' (Para Iniciantes)\nA fonologia é o estudo dos sons (fonemas) da língua, enquanto a ortografia é o estudo da escrita (grafemas). Imagine que uma palavra é uma **Orquestra**. As letras são as **partituras** (o que está no papel), e os fonemas são o **som** que sai dos instrumentos. Às vezes, dois músicos (duas letras) tocam uma nota só (dígrafo); às vezes, um instrumento complexo produz dois sons diferentes de uma vez (como o X em 'táxi'). A regra de ouro é: nunca analise o som da partitura olhando apenas o papel; você deve ouvir a música. Se você pular a etapa da divisão silábica, você estará 'tocando fora do tempo'.\n\n## 2. Nivelamento e Conceituação Progressiva (Do Básico ao Avançado)\n- **Fonema:** Unidade mínima de som que distingue significados (ex: /p/ em pato vs /m/ em mato).\n- **Grafema:** A letra propriamente dita.\n- **Dígrafo:** Duas letras representando um único fonema (ch, lh, nh, rr, ss, sc, sç, xc, gu, qu). Atenção: 'gu' e 'qu' só são dígrafos se seguidos de 'e' ou 'i' e o 'u' não for pronunciado.\n- **Encontro Consonantal:** Duas consoantes juntas, cada uma com seu próprio som (ex: bl, cr, pr, tr). Divide-se em: *próprio* (na mesma sílaba, ex: 'bloco') e *impróprio* (sílabas distintas, ex: 'trans-por-te').\n- **Vogal vs. Semivogal:** A vogal é o núcleo da sílaba (som forte). A semivogal (i, u) é um som fraco que se apoia na vogal.\n\n## 3. Aprofundamento Teórico Avançado (Foco em Concursos)\nA FUNDATEC exige rigor. O 'H' inicial não é fonema (ex: 'hoje' tem 4 letras, mas 3 fonemas). O 'XC' em 'exceção' é um dígrafo, pois o 'x' e o 'c' se fundem para criar o som de /s/. O 'NS' em 'transporte' não é encontro consonantal clássico: o 'n' é apenas sinal de nasalidade (dígrafo vocálico), e o 's' fecha a sílaba. Para a banca, a divisão silábica é o filtro: 'trans-por-te'. Note que o encontro de letras na grafia não garante o encontro de sons na fala.\n\n## 4. Quadro Comparativo Visual\n| Conceito | Estrutura | Som | Exemplo |\n| :--- | :--- | :--- | :--- |\n| Dígrafo | Duas letras | Um som | Chave (ch = /x/) |\n| Encontro Consonantal | Duas letras | Dois sons | Prato (pr = /p/+/r/) |\n| Dígrafo Vocálico | Vogal + M/N | Som nasal | Campo (am = /ã/) |\n| Hiato | Duas vogais | Duas sílabas | Saída (a-i) |\n\n## 5. Mnemônicos e Técnicas de Memorização\nPara não esquecer: **'Dígrafos são Camaleões'**: Eles se disfarçam de duas letras para parecerem mais fortes, mas na verdade são apenas um som. Use o 'Teste do Risco': Se você riscar uma das letras e o som da palavra mudar completamente ou deixar de existir, provavelmente é um dígrafo.\n\n## 6. Radar de Pegadinhas (Foco na Banca FUNDATEC)\n1. **A Armadilha do X:** O X pode ser /s/ (ex: auxílio), /z/ (ex: exame), /ks/ (ex: táxi) ou /ch/ (ex: xícara). Nunca ignore a transcrição fonética.\n2. **A Armadilha do H:** O 'H' em 'chave' é parte do dígrafo. O 'H' inicial é sempre ignorado na contagem de fonemas.\n3. **A Armadilha do GU/QU:** Apenas são dígrafos se não soarem. Em 'quase', o 'u' soa (não é dígrafo). Em 'queijo', o 'u' não soa (é dígrafo).\n\n## 7. Perguntas de Auto-Verificação (Recall Ativo)\n1. Qual a diferença fundamental entre dígrafo e encontro consonantal? (R: O dígrafo possui 2 letras/1 som; o encontro consonantal possui 2 letras/2 sons).\n2. Por que o H inicial não é contado? (R: Porque o fonema é uma unidade de som, e o H em posição inicial não emite som algum na norma culta).\n3. Qual a regra de ouro para a divisão silábica? (R: Separar sílabas antes de analisar fonemas para identificar corretamente o que está na mesma sílaba e o que está separado).",
+    "resumo": "• Fonema é som, letra é grafema. Nem sempre o número de letras coincide com o de fonemas.\n• Dígrafos (ch, lh, nh, rr, ss, sc, xc, gu/qu) reduzem o número de fonemas em relação às letras.\n• O X com valor de /ks/ (táxi) aumenta o número de fonemas, agindo como um fonema complexo.\n• Vogais são o núcleo da sílaba. A semivogal (i, u) é foneticamente fraca e nunca forma sílaba sozinha.\n• A divisão silábica correta é a única forma de garantir a classificação de encontros consonantais e hiatos.",
+    "exemplos": [
+      {
+        "titulo": "Análise fonética da palavra EXCEÇÃO",
+        "descricao": "Demonstração de como dígrafos alteram a contagem final de fonemas.",
+        "conteudoTecnico": "Divisão silábica: EX-CE-ÇÃO. Letras: 7. Fonemas: 6. /e/ /s/ /e/ /s/ /ã/ /o/. O 'XC' vira um som /s/. O 'CE' vira outro som /s/. O 'ÃO' é um dígrafo vocálico."
+      },
+      {
+        "titulo": "Teste de fonemas em TÁXI",
+        "descricao": "Ocorrência do X com valor fonético expandido.",
+        "conteudoTecnico": "T-Á-X-I (4 letras). Fonemas: T /t/, Á /a/, X /k/+/s/, I /i/. Total = 5 fonemas."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Fonologia (Sons vs Letras)\"] --> B[\"Dígrafos (1 som)\"]\n  A --> C[\"Encontros Consonantais (2 sons)\"]\n  A --> D[\"Divisão Silábica (Base)\"]\n  B --> B1[\"Consonantais: ch, lh, nh, rr, ss, sc, xc, gu, qu\"]\n  B --> B2[\"Vocálicos: V+m, V+n, ão, ãe\"]\n  C --> C1[\"Próprios: Inseparáveis (ex: br, pl)\"]\n  C --> C2[\"Impróprios: Separáveis (ex: trans-por-te)\"]\n  D --> D1[\"Regra: Separar sílabas para contar fonemas\"]",
+    "flashcards": [
+      {
+        "pergunta": "O que é um dígrafo?",
+        "resposta": "Duas letras que representam um único fonema (som)."
+      },
+      {
+        "pergunta": "Como identificar uma semivogal?",
+        "resposta": "É o som fraco (i, u) que se apoia em uma vogal forte na mesma sílaba."
+      },
+      {
+        "pergunta": "Por que o número de fonemas em 'táxi' é maior que o de letras?",
+        "resposta": "Porque a letra 'X' representa dois fonemas distintos: /k/ e /s/."
+      },
+      {
+        "pergunta": "O 'H' inicial é contado como fonema?",
+        "resposta": "Não, pois não possui valor fonético na norma culta."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Fonologia: relações entre fonemas e grafias, vogais e semivogais",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "A palavra 'EXCEÇÃO' apresenta uma estrutura complexa para a contagem fonética. Considerando a norma culta e a fonética normativa, assinale a alternativa que indica corretamente o número de fonemas desta palavra.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "7 fonemas"
+          },
+          {
+            "letra": "B",
+            "texto": "6 fonemas"
+          },
+          {
+            "letra": "C",
+            "texto": "5 fonemas"
+          },
+          {
+            "letra": "D",
+            "texto": "8 fonemas"
+          },
+          {
+            "letra": "E",
+            "texto": "4 fonemas"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Na palavra 'EXCEÇÃO', temos 7 letras. Contudo, o 'XC' forma um dígrafo com som de /s/, e o 'Ç' tem som de /s/. O 'ÃO' é um dígrafo vocálico onde o 'Ã' é a base fonética e o 'O' (neste contexto) atua como semivogal nasal. A transcrição fonética é /e-s-e-s-ã-w/. Portanto, temos 6 fonemas (e, s, e, s, ã, w).",
+        "assuntoRelacionadoEdital": "Fonologia: relações entre fonemas e grafias"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Sobre a palavra 'TRANSPORTE', analise a divisão silábica e a natureza dos encontros consonantais. Qual das afirmativas abaixo é correta?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Possui um encontro consonantal inseparável em 'NS'."
+          },
+          {
+            "letra": "B",
+            "texto": "O 'TR' é um encontro consonantal separável."
+          },
+          {
+            "letra": "C",
+            "texto": "Possui encontros consonantais separáveis em 'NS', 'SP' e 'RT'."
+          },
+          {
+            "letra": "D",
+            "texto": "O 'S' em 'TRANS' é um fonema que não conta para o total da palavra."
+          },
+          {
+            "letra": "E",
+            "texto": "Não há encontros consonantais na palavra."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "A divisão correta é TRANS-POR-TE. O 'TR' (inseparável) forma encontro consonantal. O 'NS', 'SP' e 'RT' são encontros consonantais separáveis, pois, na divisão silábica, as consoantes ficam em sílabas distintas, exigindo articulação separada de cada fonema.",
+        "assuntoRelacionadoEdital": "Fonologia: divisão silábica e encontros consonantais"
+      },
+      {
+        "numero": 3,
+        "enunciado": "A letra 'X' pode assumir diversos valores fonéticos. Assinale a alternativa em que o 'X' possui o mesmo valor fonético (/ks/) que em 'TÁXI'.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Exame"
+          },
+          {
+            "letra": "B",
+            "texto": "Xícara"
+          },
+          {
+            "letra": "C",
+            "texto": "Auxílio"
+          },
+          {
+            "letra": "D",
+            "texto": "Fixo"
+          },
+          {
+            "letra": "E",
+            "texto": "Exagerado"
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Fácil",
+        "explicacao": "Em 'TÁXI', o X soa como /ks/. Em 'FIXO', o X também soa como /ks/. Nas outras opções: 'Exame' e 'Exagerado' o X tem som de /z/; 'Xícara' tem som de /ch/; 'Auxílio' tem som de /s/.",
+        "assuntoRelacionadoEdital": "Fonologia: relações entre fonemas e grafias"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Identifique a alternativa em que todas as palavras contêm dígrafos consonantais.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Crescente, chave, carro"
+          },
+          {
+            "letra": "B",
+            "texto": "Prato, braço, plano"
+          },
+          {
+            "letra": "C",
+            "texto": "Clima, treino, bloco"
+          },
+          {
+            "letra": "D",
+            "texto": "Livro, gnomo, tarde"
+          },
+          {
+            "letra": "E",
+            "texto": "Pneu, ato, rua"
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "Em 'Crescente' (SC), 'Chave' (CH) e 'Carro' (RR), temos dígrafos. As alternativas B e C apresentam apenas encontros consonantais (onde duas consoantes soam distintamente).",
+        "assuntoRelacionadoEdital": "Fonologia: dígrafos e encontros consonantais"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Em qual das palavras abaixo o 'i' deve ser classificado como semivogal?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Saída"
+          },
+          {
+            "letra": "B",
+            "texto": "História"
+          },
+          {
+            "letra": "C",
+            "texto": "País"
+          },
+          {
+            "letra": "D",
+            "texto": "Frio"
+          },
+          {
+            "letra": "E",
+            "texto": "Vazio"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Na palavra 'história' (his-tó-ria), o 'i' compõe um ditongo crescente com o 'a' final, sendo o elemento fraco (semivogal). Nas demais (Saída, País, Frio, Vazio), o 'i' forma hiato, estando isolado na sílaba, o que o torna a vogal daquela sílaba.",
+        "assuntoRelacionadoEdital": "Fonologia: vogais e semivogais"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sobre o dígrafo 'QU', assinale a alternativa correta quanto à sua ocorrência.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Em 'aquático', o 'qu' não é dígrafo."
+          },
+          {
+            "letra": "B",
+            "texto": "Em 'queijo', o 'u' é pronunciado."
+          },
+          {
+            "letra": "C",
+            "texto": "Em 'quilo', o 'u' é vogal."
+          },
+          {
+            "letra": "D",
+            "texto": "Em 'qualidade', o 'qu' é dígrafo."
+          },
+          {
+            "letra": "E",
+            "texto": "Em todas as palavras citadas, o 'qu' é dígrafo."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Difícil",
+        "explicacao": "O 'qu' é dígrafo apenas quando o 'u' não é pronunciado (como em 'queijo' e 'quilo'). Em 'aquático', o 'u' é pronunciado (fonema /w/), logo trata-se de um ditongo, não de dígrafo.",
+        "assuntoRelacionadoEdital": "Fonologia: dígrafos (QU/GU)"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Analise a palavra 'GUERRA'. Assinale a alternativa que apresenta o número correto de fonemas.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "6 fonemas"
+          },
+          {
+            "letra": "B",
+            "texto": "5 fonemas"
+          },
+          {
+            "letra": "C",
+            "texto": "4 fonemas"
+          },
+          {
+            "letra": "D",
+            "texto": "7 fonemas"
+          },
+          {
+            "letra": "E",
+            "texto": "3 fonemas"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Em 'GUERRA', o 'GU' é dígrafo (som de /g/) e 'RR' é dígrafo (som de /r/ forte). Portanto: G-E-R-A. Total: 4 fonemas.",
+        "assuntoRelacionadoEdital": "Fonologia: dígrafos"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Em 'PNEU', ocorre um encontro de consoantes. Como ele é classificado fonologicamente?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Encontro consonantal inseparável."
+          },
+          {
+            "letra": "B",
+            "texto": "Dígrafo vocálico."
+          },
+          {
+            "letra": "C",
+            "texto": "Dígrafo consonantal."
+          },
+          {
+            "letra": "D",
+            "texto": "Não é considerado encontro consonantal, pois o P é mudo."
+          },
+          {
+            "letra": "E",
+            "texto": "Ditongo decrescente."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Difícil",
+        "explicacao": "Tecnicamente, para ser encontro consonantal, ambas as consoantes devem ser pronunciadas. Em 'pneu', o 'p' é praticamente mudo na pronúncia culta, não formando um encontro consonantal típico de duas consoantes audíveis.",
+        "assuntoRelacionadoEdital": "Fonologia: encontros consonantais"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Qual das palavras abaixo apresenta um dígrafo vocálico?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Casa"
+          },
+          {
+            "letra": "B",
+            "texto": "Lâmpada"
+          },
+          {
+            "letra": "C",
+            "texto": "Rato"
+          },
+          {
+            "letra": "D",
+            "texto": "Mato"
+          },
+          {
+            "letra": "E",
+            "texto": "Pata"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "Dígrafos vocálicos ocorrem quando uma vogal é seguida de 'm' ou 'n' na mesma sílaba, indicando nasalização. Em 'Lâmpada', o 'âm' forma um dígrafo vocálico.",
+        "assuntoRelacionadoEdital": "Fonologia: dígrafos vocálicos"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Sobre a contagem de fonemas em 'EXAME', assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "5 fonemas"
+          },
+          {
+            "letra": "B",
+            "texto": "4 fonemas"
+          },
+          {
+            "letra": "C",
+            "texto": "6 fonemas"
+          },
+          {
+            "letra": "D",
+            "texto": "3 fonemas"
+          },
+          {
+            "letra": "E",
+            "texto": "2 fonemas"
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "A palavra 'EXAME' possui 5 letras. O 'X' tem som de /z/. A transcrição fonética é /e-z-a-m-e/. Portanto, há 5 fonemas.",
+        "assuntoRelacionadoEdital": "Fonologia: relações entre fonemas e grafias"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil técnico e tradicionalista, alinhado aos gramáticos normativos citados. A banca exige distinção clara entre letras (grafemas) e sons (fonemas), com foco frequente na contagem de fonemas em palavras com dígrafos e encontros consonantais. É comum a cobrança de classificação de vogais, semivogais e encontros vocálicos (ditongos, tritongos e hiatos), exigindo que o candidato identifique a estrutura silábica correta.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confusão entre dígrafo e encontro consonantal. A banca costuma colocar palavras com 'nh', 'ch', 'lh' ou 'ss' para testar se o candidato entende que, apesar de duas letras, há apenas um som.",
+      "Armadilha 2: Contagem de fonemas em letras como 'X' (que pode ter som de 'cs', 'z', 's' ou 'ch') ou a letra 'H' inicial (que não possui valor fonético, não sendo contada como fonema).",
+      "Armadilha 3: Identificação de semivogais em ditongos crescentes e decrescentes, onde a banca altera a posição para induzir erro na classificação."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há atualizações legislativas, porém, mantém-se a vigência plena do Acordo Ortográfico de 1990. O foco técnico reside na observação da pronúncia padrão (norma culta), sendo que a banca ignora variações dialetais regionais, exigindo o rigor da fonética teórica descrita nos manuais de Bechara e Cegalla.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Bagé",
+        "cargo": "Professor",
+        "enunciado": "Sobre a palavra 'churrasco', analise as assertivas abaixo: I. Possui 9 letras e 7 fonemas. II. Apresenta dois dígrafos consonantais. III. O encontro 'ch' representa um único fonema. Quais estão corretas?",
+        "gabarito": "Todas estão corretas"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Prefeitura de São Leopoldo",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "Assinale a alternativa em que a palavra apresenta um hiato.",
+        "gabarito": "Saída"
+      }
+    ]
+  },
+  "chatHistory": []
+}

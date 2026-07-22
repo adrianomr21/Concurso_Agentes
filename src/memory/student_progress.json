@@ -225,7 +225,7 @@
       ]
     }
   ],
-  "ultimoEstudo": "2026-07-21T14:40:00.080Z",
+  "ultimoEstudo": "2026-07-22T13:45:59.699Z",
   "historicoDesempenho": [
     {
       "tema": "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
@@ -368,6 +368,77 @@
       "analisePontosFortes": "O aluno demonstra domínio na identificação de dígrafos (questão 3), valor fonético das letras (questão 4), contagem básica de fonemas em casos simples (questões 1 e 8) e reconhecimento de tritongos (questão 6).",
       "analisePontosFracos": "O estudante apresenta dificuldades na classificação de encontros vocálicos (confusão entre hiato e ditongo), na contagem de fonemas em palavras complexas com dígrafos consonantais combinados (questão 5), e na distinção técnica entre encontros consonantais separáveis e inseparáveis (questão 7). Também houve falha na identificação de semivogais.",
       "recomendacaoEstudo": "Recomendo a revisão imediata dos conceitos de fonologia, com foco especial na separação silábica (regras de hiatos) e na diferenciação precisa entre encontros consonantais e dígrafos. Pratique a transcrição fonética de palavras com 'sc', 'xc' e 'qu' para consolidar o entendimento da contagem de fonemas. Não houve questões deixadas em branco, o que é positivo; agora, concentre-se em refinar a precisão das análises antes de responder."
+    },
+    {
+      "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+      "nota": 6,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 6,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 8,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou bom domínio sobre a identificação de encontros vocálicos (ditongos e hiatos) e a classificação básica de encontros consonantais inseparáveis. Também compreende bem a relação letra/fonema em palavras simples com dígrafos consonantais clássicos.",
+      "analisePontosFracos": "O aluno apresentou dificuldades em análises mais complexas que exigem divisão silábica precisa (questão 6) e na identificação de dígrafos específicos em palavras com estruturas complexas (questão 3 e 5). Houve também falha na distinção fonética entre grafemas distintos, especificamente na identificação do fonema /k/ quando representado por diferentes letras.",
+      "recomendacaoEstudo": "Recomendo uma revisão focada em dois tópicos: 1) Divisão silábica, pois a contagem correta de fonemas e a classificação de dígrafos dependem diretamente da separação correta das sílabas; 2) Relação fonema-grafema, praticando mais a transcrição fonética de palavras que contêm letras como 'X', 'C' e 'Q', para não confundir a escrita com o som emitido. Refaça os exercícios sobre dígrafos consonantais e treine a divisão silábica de palavras que possuem encontros consonantais separáveis."
     }
   ]
 }
