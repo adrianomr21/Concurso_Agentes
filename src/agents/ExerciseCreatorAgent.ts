@@ -11,13 +11,18 @@ export class ExerciseCreatorAgent extends Agent {
    */
   public async generateExercises(
     tema: string,
-    instrucoes?: string
+    instrucoes?: string,
+    feedbackCorrecao?: string
   ): Promise<ExerciseList> {
     let prompt = `Elabore uma lista de 10 questões sobre o seguinte tema:
 Tema: "${tema}"`;
 
     if (instrucoes) {
       prompt += `\n\nDiretrizes pedagógicas do Diretor:\n"""\n${instrucoes}\n"""`;
+    }
+
+    if (feedbackCorrecao) {
+      prompt += `\n\n⚠️ REVISÃO E CORREÇÃO DO AGENTE FISCAL:\nO material de questões anterior foi reprovado pelo Agente Fiscal. Você DEVE corrigir e reescrever as questões conforme as orientações a seguir:\n"""\n${feedbackCorrecao}\n"""`;
     }
 
     prompt += `\n\nRetorne rigorosamente a resposta no formato JSON de lista de exercícios especificado nas suas instruções de sistema.`;

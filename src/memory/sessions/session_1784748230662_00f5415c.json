@@ -1,0 +1,457 @@
+{
+  "sessionId": "session_1784748230662_00f5415c",
+  "tema": "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
+  "status": "COMPLETED",
+  "createdAt": "2026-07-22T19:23:50.684Z",
+  "updatedAt": "2026-07-22T19:35:17.553Z",
+  "planDaily": {
+    "data": "2026-07-23",
+    "objetivoDoDia": "Dominar as regras de ortografia e o uso do hífen conforme o Acordo Ortográfico vigente, corrigindo as falhas do simulado anterior.",
+    "topicosAEstudar": [
+      "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "O aluno teve desempenho de 6/10 no simulado sobre este tópico. É fundamental que a aula foque nos pontos de erro identificados: 1) Regras de duplicação de consoantes (o aluno confundiu prefixos terminados em vogal/consoante e a regra do 'micro-' e 'auto-'); 2) Diferenciação entre prefixos terminados em consoante seguidos de vogal ou consoante diversa; 3) Revisão rápida sobre a acentuação gráfica impactada pelo novo acordo, visto que o aluno apresentou confusão na perda do acento em ditongos abertos e acentos diferenciais. Use exemplos práticos com palavras como 'microssistema', 'autoescola' e outras onde a regra do hífen é frequentemente mal aplicada. Forneça um resumo objetivo para evitar novas confusões sobre essas regras específicas.",
+    "justificativaEscolha": "O aluno selecionou obrigatoriamente a matéria de Português e o tópico de Ortografia e Hífen. O histórico de desempenho indica que, apesar de acertar as regras básicas, ele ainda possui lacunas conceituais importantes nas regras de duplicação de consoantes e nas exceções do uso do hífen, sendo necessário um reforço focado para garantir o sucesso na prova da FUNDATEC."
+  },
+  "lessonDetailedContent": {
+    "tema": "Ortografia: Hífen e Emprego de Letras segundo o Acordo Ortográfico",
+    "objetivos": [
+      "Dominar as regras de uso do hífen com prefixos conforme o VOLP.",
+      "Compreender a regra de duplicação de consoantes (dobra) e supressão de hífen.",
+      "Identificar as exceções e casos especiais (prefixos co-, micro-, auto-).",
+      "Consolidar o conhecimento sobre a perda de acentos diferenciais e regras de acentuação."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\nImagine que as palavras são como casais em um baile. O hífen é o \"segurança\" da festa. Em certas situações, o segurança precisa separar o casal porque eles são \"incompatíveis\" (duas vogais iguais, por exemplo). Em outras, os parceiros se abraçam tão forte que se fundem (duplicam consoantes) ou se juntam sem precisar de ajuda (sem hífen). O Acordo Ortográfico veio para simplificar essa logística do baile, tentando manter a regra: se os sons se chocam de forma estranha, o hífen ajuda; se eles fluem, o hífen desaparece.\n\n## 2. Nivelamento e Conceituação Progressiva\nPrefixos são elementos que se antepõem a radicais. O uso do hífen depende de três fatores: a letra final do prefixo, a letra inicial da palavra base e se há a formação de um novo som. \n* Regra de Ouro do Hífen: Vogais iguais se separam (anti-inflamatório). Vogais diferentes se juntam (antiaéreo).\n* Regra da Consoante: Se o prefixo termina em consoante e a palavra começa em vogal, junta-se tudo (superinteressante). Se a palavra começa com a mesma consoante, mantém-se o hífen (sub-base está incorreto, o correto é subbase pelo VOLP, mas inter-regional se mantém por causa da consoante igual).\n\n## 3. Aprofundamento Teórico Avançado\n- Prefixos 'micro-' e 'auto-': Ao contrário de 'co-', estes não se fundem com vogais iguais. Ex: micro-ondas (termina em 'o', começa em 'o', usa-se hífen). \n- Prefixo 'co-': Este prefixo sempre se aglutina, mesmo com 'o'. Ex: coabitar, coobrigação.\n- Duplicação de consoantes: Ao usar prefixos terminados em vogal (como mini-, ultra-, supra-) seguidos de 'r' ou 's', devemos dobrar a letra para manter o som original. Ex: minissaia, ultrarresistente.\n- Acentos diferenciais: O acordo eliminou acentos de paroxítonas com ditongos abertos (ideia, jiboia) e de muitas palavras que tinham acento para diferenciar (para verbo vs para preposição). O acento diferencial permanece apenas em 'pôr' (verbo) vs 'por' (preposição) e 'pôde' (passado) vs 'pode' (presente).\n\n## 4. Quadro Comparativo Visual\n| Cenário | Regra | Exemplo Correto |\n| :--- | :--- | :--- |\n| Vogais Iguais | Usa-se hífen | anti-inflamatório |\n| Vogais Diferentes | Aglutina-se | antiaéreo |\n| Prefixo + R ou S | Dobra-se a letra | minissaia |\n| Prefixo Terminado em Consoante + Vogal | Aglutina-se | superinteressante |\n| Prefixos 'co-' | Sempre aglutina | coobrigação |\n\n## 5. Mnemônicos e Técnicas de Memorização\n- \"Vogal igual, separa o mal (hífen). Vogal diferente, junta a gente.\"\n- \"R e S no caminho? Dobra o passinho (duplica a letra).\"\n- \"CO é o amigão: junta tudo, não importa a situação.\"\n\n## 6. Radar de Pegadinhas (Foco na Banca FUNDATEC)\n1. A banca ama cobrar 'micro-ondas'. O aluno pensa que, por ser vogal igual, deve juntar, mas a regra do prefixo 'micro-' exige hífen.\n2. Cuidado com 'sessão' (tempo), 'seção' (divisão) e 'cessão' (ato de ceder). São parônimos, não erros de acentuação, mas a FUNDATEC testa a escrita correta no contexto.\n3. 'Sub-' antes de 'b' ou 'r': Subbase (o prefixo termina em 'b', a base começa em 'b', porém pelo novo acordo, consoantes diferentes não pedem hífen; se for igual, como 'subbibliotecário', usa-se hífen).\n\n## 7. Perguntas de Auto-Verificação\n1. Como escrevemos 'anti' + 'inflamatório'? R: Anti-inflamatório (vogais iguais se separam).\n2. O prefixo 'co-' pede hífen em 'coobrigação'? R: Não, 'co-' sempre se aglutina.\n3. A palavra 'para' (verbo) ainda tem acento? R: Não, o acento diferencial foi suprimido.",
+    "resumo": "• Prefixos terminados em vogal: separar se a próxima letra for a mesma vogal (anti-inflamatório). Aglutinar se for diferente (antiaéreo).\n• Prefixos terminados em consoante: aglutinar com vogais (superinteressante). Manter hífen se a base começar com a mesma consoante (inter-regional).\n• Regra do R e S: ao adicionar prefixo terminado em vogal, dobra-se o R ou S (minissaia, ultrarresistente).\n• Prefixo 'co-': Aglutina sempre (coobrigação).\n• Prefixos 'micro-' e 'auto-': Não seguem a regra de aglutinação em vogais iguais (micro-ondas, autoescola).",
+    "exemplos": [
+      {
+        "titulo": "Uso de Prefixos em Vogais",
+        "descricao": "Demonstração da regra de vogais iguais vs. diferentes.",
+        "conteudoTecnico": "Correto: anti-inflamatório (i+i), antiaéreo (a+a), coabitar (co+a), coobrigação (co+o)."
+      },
+      {
+        "titulo": "Duplicação com R e S",
+        "descricao": "Como evitar o erro fonético ao juntar prefixos.",
+        "conteudoTecnico": "Prefixos (mini-, ultra-, anti-, supra-) + palavra com R/S:\n- minissaia (não 'minisaia')\n- ultrarresistente (não 'ultraresistente')\n- antirrugas (não 'antirugas')"
+      },
+      {
+        "titulo": "Prefixo Terminado em Consoante",
+        "descricao": "Regras para prefixos como 'super', 'hiper' e 'inter'.",
+        "conteudoTecnico": "super + interessante = superinteressante\nhiper + ativo = hiperativo\ninter + regional = inter-regional (mantém por ser consoante igual)\nsub + base = subbase (aglutina, pois são consoantes diferentes)"
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[Ortografia e Hífen] --> B[Vogais]\n  B --> B1[\"Vogais Iguais: Hífen (anti-inflamatório)\"]\n  B --> B2[\"Vogais Diferentes: Junta (antiaéreo)\"]\n  A --> C[Consoantes]\n  C --> C1[\"R e S: Dobra a letra (minissaia)\"]\n  C --> C2[\"Outras Consoantes: Junta (superinteressante)\"]\n  A --> D[\"Casos Especiais\"]\n  D --> D1[\"Prefixo CO: Sempre aglutina\"]\n  D --> D2[\"Micro/Auto: Exceção (micro-ondas)\"]",
+    "flashcards": [
+      {
+        "pergunta": "Como se escreve o plural de 'micro-ondas'?",
+        "resposta": "Micro-ondas (o prefixo micro não altera a regra do hífen)."
+      },
+      {
+        "pergunta": "Por que 'minissaia' não tem hífen?",
+        "resposta": "Porque prefixos terminados em vogal + R ou S exigem a duplicação da consoante e a aglutinação."
+      },
+      {
+        "pergunta": "O verbo 'para' ainda é acentuado?",
+        "resposta": "Não, o acento diferencial foi suprimido pelo Acordo Ortográfico."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Ortografia e Acentuação: Regras do Acordo Ortográfico (VOLP)",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Considerando as regras do uso do hífen com prefixos terminados em vogal, assinale a alternativa que apresenta a grafia correta de todas as palavras listadas.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Autoescola, antiaéreo, infraestrutura."
+          },
+          {
+            "letra": "B",
+            "texto": "Auto-escola, anti-aéreo, infra-estrutura."
+          },
+          {
+            "letra": "C",
+            "texto": "Autoescola, anti-aéreo, infraestrutura."
+          },
+          {
+            "letra": "D",
+            "texto": "Auto-escola, antiaéreo, infra-estrutura."
+          },
+          {
+            "letra": "E",
+            "texto": "Autoescola, antiaéreo, infra-estrutura."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "A regra define que, quando o prefixo termina em vogal e a segunda palavra começa com vogal diferente, não se usa hífen e não há aglutinação obrigatória. Portanto, 'autoescola', 'antiaéreo' e 'infraestrutura' estão corretas. O hífen só seria usado se as vogais fossem iguais (ex: anti-inflamatório) ou se o segundo elemento começasse com 'h' ou 'r' (ex: anti-higiênico).",
+        "assuntoRelacionadoEdital": "Emprego do hífen em prefixos"
+      },
+      {
+        "numero": 2,
+        "enunciado": "A regra de duplicação de consoantes é frequentemente testada pela FUNDATEC. Identifique a alternativa correta quanto à grafia de palavras formadas com prefixos terminados em vogal seguidos de 'r' ou 's'.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Mini-saia, contra-regra, auto-suficiente."
+          },
+          {
+            "letra": "B",
+            "texto": "Minissaia, contrarregra, autossuficiente."
+          },
+          {
+            "letra": "C",
+            "texto": "Minisaia, contraregra, autosuficiente."
+          },
+          {
+            "letra": "D",
+            "texto": "Minissaia, contra-regra, auto-suficiente."
+          },
+          {
+            "letra": "E",
+            "texto": "Mini-saia, contrarregra, autossuficiente."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Pelo Acordo Ortográfico, quando o prefixo termina em vogal e o segundo elemento começa com 'r' ou 's', deve-se duplicar essas consoantes para manter o som original, eliminando o hífen. Logo, 'minissaia', 'contrarregra' e 'autossuficiente' são as grafias corretas.",
+        "assuntoRelacionadoEdital": "Emprego do hífen e duplicação de consoantes"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Sobre o acento diferencial, assinale a alternativa em que a palavra destacada está grafada corretamente, considerando a supressão de acentos em determinados vocábulos pelo novo acordo.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ele pára o carro para abastecer."
+          },
+          {
+            "letra": "B",
+            "texto": "O pêlo do animal está muito sedoso."
+          },
+          {
+            "letra": "C",
+            "texto": "Devemos pôr fim a essa confusão."
+          },
+          {
+            "letra": "D",
+            "texto": "Ele sempre dê presentes aos netos."
+          },
+          {
+            "letra": "E",
+            "texto": "Eles vêem a televisão todos os dias."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Difícil",
+        "explicacao": "O acento diferencial em 'pôde' (passado) vs 'pode' (presente) e 'pôr' (verbo) vs 'por' (preposição) permanece. Contudo, 'para' (verbo) e 'pelo' (substantivo, antes 'pêlo') perderam o acento. 'Vêem' também perdeu o acento com o novo acordo. Portanto, 'pôr' está corretamente acentuado.",
+        "assuntoRelacionadoEdital": "Acentuação gráfica"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Identifique a alternativa em que a palavra composta por prefixo terminado em consoante está grafada incorretamente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Superinteressante"
+          },
+          {
+            "letra": "B",
+            "texto": "Hiperativo"
+          },
+          {
+            "letra": "C",
+            "texto": "Sub-base"
+          },
+          {
+            "letra": "D",
+            "texto": "Interescolar"
+          },
+          {
+            "letra": "E",
+            "texto": "Suboficial"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Difícil",
+        "explicacao": "A alternativa C está incorreta porque o prefixo 'sub-' terminado em consoante só exige hífen se a palavra seguinte começar com 'b', 'h' ou 'r' (neste caso, dobra-se a letra). Para 'sub' + 'base', o correto é 'subbase' (consoantes iguais se mantêm). Não se usa mais hífen para 'sub' seguido de consoante 'b' sem a duplicação.",
+        "assuntoRelacionadoEdital": "Emprego do hífen em prefixos"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Em qual das alternativas abaixo ocorre erro no uso dos parônimos 'sessão', 'seção' e 'cessão'?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A diretoria convocou uma sessão extraordinária."
+          },
+          {
+            "letra": "B",
+            "texto": "O documento oficial foi enviado para a seção de protocolos."
+          },
+          {
+            "letra": "C",
+            "texto": "Houve a cessão de todos os direitos autorais da obra."
+          },
+          {
+            "letra": "D",
+            "texto": "Ele estava na sessão de cinema quando o celular tocou."
+          },
+          {
+            "letra": "E",
+            "texto": "A seção de terras foi concluída com sucesso."
+          }
+        ],
+        "respostaCorreta": "E",
+        "nivel": "Médio",
+        "explicacao": "O erro está na alternativa E. 'Cessão' é o termo correto para o ato de ceder, doar ou transferir bens/terras. 'Seção' refere-se exclusivamente a divisões, repartições ou departamentos de uma organização.",
+        "assuntoRelacionadoEdital": "Ortografia oficial (parônimos)"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Marque a alternativa que contém apenas palavras grafadas conforme a norma culta e o Acordo Ortográfico vigente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Micro-ondas, antissocial, semirreta."
+          },
+          {
+            "letra": "B",
+            "texto": "Microondas, anti-social, semi-reta."
+          },
+          {
+            "letra": "C",
+            "texto": "Micro-ondas, anti-social, semirreta."
+          },
+          {
+            "letra": "D",
+            "texto": "Microondas, antissocial, semi-reta."
+          },
+          {
+            "letra": "E",
+            "texto": "Micro-ondas, antissocial, semi-reta."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Difícil",
+        "explicacao": "Em 'micro-ondas', mantém-se o hífen porque o prefixo termina em vogal e a segunda palavra inicia com a mesma vogal. 'Antissocial' não tem hífen e dobra o 's'. 'Semirreta' não tem hífen e dobra o 'r'. Apenas a alternativa A está integralmente correta.",
+        "assuntoRelacionadoEdital": "Emprego do hífen e duplicação"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Analise a grafia das palavras abaixo e identifique aquela que está em desacordo com as regras atuais.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Assembleia"
+          },
+          {
+            "letra": "B",
+            "texto": "Ideia"
+          },
+          {
+            "letra": "C",
+            "texto": "Jiboia"
+          },
+          {
+            "letra": "D",
+            "texto": "Heróico"
+          },
+          {
+            "letra": "E",
+            "texto": "Plateia"
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Fácil",
+        "explicacao": "Pelo novo acordo, o ditongo aberto 'oi' em palavras paroxítonas (como heroi-co) perde o acento gráfico. Logo, a grafia correta é 'heroico', sem acento.",
+        "assuntoRelacionadoEdital": "Acentuação gráfica (ditongos abertos)"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Considerando o uso do hífen com prefixos terminados em vogal diante de vogais diferentes, assinale a alternativa correta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Extra-oficial, infra-estrutura, auto-escola."
+          },
+          {
+            "letra": "B",
+            "texto": "Extraoficial, infraestrutura, autoescola."
+          },
+          {
+            "letra": "C",
+            "texto": "Extra-oficial, infraestrutura, auto-escola."
+          },
+          {
+            "letra": "D",
+            "texto": "Extraoficial, infra-estrutura, autoescola."
+          },
+          {
+            "letra": "E",
+            "texto": "Extraoficial, infraestrutura, auto-escola."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "A regra estipula que prefixos terminados em vogal seguidos de palavra iniciada por vogal diferente perdem o hífen. 'Extraoficial', 'infraestrutura' e 'autoescola' seguem corretamente essa diretriz.",
+        "assuntoRelacionadoEdital": "Emprego do hífen"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Sobre o uso do hífen em prefixos terminados em consoante, qual das alternativas apresenta grafia correta?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Hiper-rápido"
+          },
+          {
+            "letra": "B",
+            "texto": "Inter-estelar"
+          },
+          {
+            "letra": "C",
+            "texto": "Super-homem"
+          },
+          {
+            "letra": "D",
+            "texto": "Inter-regional"
+          },
+          {
+            "letra": "E",
+            "texto": "Super-interessante"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "O prefixo terminado em consoante mantém o hífen apenas se a segunda palavra começar com a mesma consoante ou com 'h'. 'Hiper-rápido' é 'hiper-rápido' (hifenizado por ser 'r'), 'Super-homem' é correto. As outras, como 'superinteressante' (consoante+vogal), não levam hífen.",
+        "assuntoRelacionadoEdital": "Emprego do hífen em prefixos"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Qual das palavras abaixo apresenta erro de grafia em relação aos prefixos 'auto-' e 'micro-'?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Microssistema"
+          },
+          {
+            "letra": "B",
+            "texto": "Autosserviço"
+          },
+          {
+            "letra": "C",
+            "texto": "Micro-ondas"
+          },
+          {
+            "letra": "D",
+            "texto": "Autoescola"
+          },
+          {
+            "letra": "E",
+            "texto": "Micro-organismo"
+          }
+        ],
+        "respostaCorreta": "E",
+        "nivel": "Difícil",
+        "explicacao": "A alternativa E está incorreta conforme o VOLP atual. A grafia correta é 'microrganismo', pois o prefixo termina em vogal e a segunda palavra começa com 'o', mas no caso de 'micro' + 'o', a regra de vogais iguais não se aplica de forma a manter hífen como em 'micro-ondas', devido à exceção de 'micro' com 'o'. Na verdade, o VOLP registra 'microrganismo' (sem hífen).",
+        "assuntoRelacionadoEdital": "Ortografia oficial (prefixos)"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil extremamente literal e normativo. Em questões de ortografia, a banca foca na aplicação das regras estabelecidas pelo Acordo Ortográfico de 1990 (incorporado pelo VOLP). A cobrança é direta: a banca apresenta uma lista de palavras (ou frases) e solicita que o candidato identifique a alternativa correta ou incorreta quanto à grafia. Existe uma tendência de priorizar palavras que geram dúvida frequente no cotidiano ou que sofreram alterações significativas com o novo acordo.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confusão entre o uso do hífen com prefixos. A banca frequentemente utiliza palavras como 'micro-ondas' (com hífen porque o segundo elemento começa com 'o') versus 'minissaia' (sem hífen e com dobra do 's'), testando se o candidato esqueceu as regras de fonética aplicada à morfologia.",
+      "Armadilha 2: O uso de vocábulos parônimos que possuem grafias parecidas, mas significados distintos, como 'sessão', 'seção' e 'cessão', ou 'despensa' e 'dispensa', induzindo o erro por semelhança sonora.",
+      "Armadilha 3: Casos de palavras que perderam o acento diferencial (como 'para' verbo versus 'para' preposição) e que a banca insiste em confundir com casos onde o acento ainda existe (como 'pôr' verbo versus 'por' preposição)."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Embora o Acordo Ortográfico tenha sido totalmente implementado, a FUNDATEC atualiza suas questões incorporando as últimas edições do VOLP (Vocabulário Ortográfico da Língua Portuguesa). A atenção deve estar voltada para o uso do hífen em prefixos terminados em vogal que se encontram com vogais iguais (ex: anti-inflamatório) e diferentes (ex: antiaéreo), além da supressão do hífen em prefixos terminados em consoante seguidos de vogal (ex: superinteressante).",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Bagé",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "Assinale a alternativa em que a palavra destacada está escrita corretamente, conforme o Novo Acordo Ortográfico. A) Auto-escola B) Microondas C) Anti-inflamatório D) Infra-estrutura E) Contra-regra",
+        "gabarito": "C"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "performanceReport": {
+    "tema": "Ortografia e Acentuação: Regras do Acordo Ortográfico (VOLP)",
+    "nota": 6,
+    "totalQuestoes": 10,
+    "aprovado": false,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 2,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 3,
+        "acertou": false,
+        "respostaEstudante": "B",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 4,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 5,
+        "acertou": false,
+        "respostaEstudante": "D",
+        "respostaCorreta": "E"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 7,
+        "acertou": true,
+        "respostaEstudante": "D",
+        "respostaCorreta": "D"
+      },
+      {
+        "numero": 8,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 9,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 10,
+        "acertou": false,
+        "respostaEstudante": "B",
+        "respostaCorreta": "E"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstrou um domínio sólido sobre o uso de prefixos terminados em vogal diante de vogais diferentes e duplicação de consoantes (r/s). Também apresentou um bom conhecimento sobre regras de acentuação gráfica, como a perda do acento em ditongos abertos.",
+    "analisePontosFracos": "O estudante apresentou dificuldades em tópicos específicos como o acento diferencial, o uso do hífen com prefixos terminados em consoante (ex: sub-) e a distinção entre parônimos (sessão/seção/cessão). Observa-se uma confusão conceitual na aplicação das regras de exceção do Acordo Ortográfico, especialmente em casos envolvendo prefixos como 'micro-' e 'sub-'.",
+    "recomendacaoEstudo": "Recomendo a revisão imediata do módulo de Acentuação Gráfica, focando nos acentos diferenciais que permaneceram e nos que foram suprimidos. Para o uso do hífen, revise a tabela de prefixos terminados em consoante, atentando-se à duplicação de letras. Além disso, pratique exercícios de ortografia contextualizada para fixar a diferença entre seção, sessão e cessão."
+  }
+}

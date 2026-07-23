@@ -1,14 +1,14 @@
 {
-  "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
-  "nota": 6,
+  "tema": "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
+  "nota": 8,
   "totalQuestoes": 10,
-  "aprovado": false,
+  "aprovado": true,
   "detalheQuestoes": [
     {
       "numero": 1,
       "acertou": true,
-      "respostaEstudante": "C",
-      "respostaCorreta": "C"
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
     },
     {
       "numero": 2,
@@ -19,37 +19,37 @@
     {
       "numero": 3,
       "acertou": false,
-      "respostaEstudante": "D",
+      "respostaEstudante": "E",
       "respostaCorreta": "C"
     },
     {
       "numero": 4,
       "acertou": true,
-      "respostaEstudante": "D",
-      "respostaCorreta": "D"
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
     },
     {
       "numero": 5,
       "acertou": false,
-      "respostaEstudante": "A",
-      "respostaCorreta": "B"
+      "respostaEstudante": "C",
+      "respostaCorreta": "E"
     },
     {
       "numero": 6,
-      "acertou": false,
-      "respostaEstudante": "B",
-      "respostaCorreta": "A"
-    },
-    {
-      "numero": 7,
       "acertou": true,
       "respostaEstudante": "C",
       "respostaCorreta": "C"
     },
     {
+      "numero": 7,
+      "acertou": true,
+      "respostaEstudante": "A",
+      "respostaCorreta": "A"
+    },
+    {
       "numero": 8,
-      "acertou": false,
-      "respostaEstudante": "D",
+      "acertou": true,
+      "respostaEstudante": "A",
       "respostaCorreta": "A"
     },
     {
@@ -61,11 +61,11 @@
     {
       "numero": 10,
       "acertou": true,
-      "respostaEstudante": "A",
-      "respostaCorreta": "A"
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
     }
   ],
-  "analisePontosFortes": "O aluno demonstrou bom domínio sobre a identificação de encontros vocálicos (ditongos e hiatos) e a classificação básica de encontros consonantais inseparáveis. Também compreende bem a relação letra/fonema em palavras simples com dígrafos consonantais clássicos.",
-  "analisePontosFracos": "O aluno apresentou dificuldades em análises mais complexas que exigem divisão silábica precisa (questão 6) e na identificação de dígrafos específicos em palavras com estruturas complexas (questão 3 e 5). Houve também falha na distinção fonética entre grafemas distintos, especificamente na identificação do fonema /k/ quando representado por diferentes letras.",
-  "recomendacaoEstudo": "Recomendo uma revisão focada em dois tópicos: 1) Divisão silábica, pois a contagem correta de fonemas e a classificação de dígrafos dependem diretamente da separação correta das sílabas; 2) Relação fonema-grafema, praticando mais a transcrição fonética de palavras que contêm letras como 'X', 'C' e 'Q', para não confundir a escrita com o som emitido. Refaça os exercícios sobre dígrafos consonantais e treine a divisão silábica de palavras que possuem encontros consonantais separáveis."
+  "analisePontosFortes": "O aluno demonstra excelente domínio das regras de acentuação de hiatos, uso de acentos diferenciais (como em 'tem/têm') e as alterações trazidas pelo Novo Acordo Ortográfico, especialmente em ditongos abertos e palavras como 'jiboia'.",
+  "analisePontosFracos": "Foram identificadas falhas conceituais pontuais em dois tópicos: 1) Regras de acentuação para paroxítonas terminadas em ditongo crescente, que causou confusão na identificação de exemplos clássicos; 2) Regra do hiato 'ee' em verbos (como 'leem' e 'veem'), onde o aluno ainda parece aplicar a grafia antiga ou confundir com outras formas verbais.",
+  "recomendacaoEstudo": "O desempenho foi muito bom. Para alcançar a proficiência total, recomendo uma revisão específica no material teórico sobre o uso de acentos em paroxítonas terminadas em ditongos crescentes (ex: história, pátio) e uma leitura rápida sobre a simplificação de formas verbais plurais com hiato 'ee', memorizando que estas perderam o acento circunflexo conforme o atual Acordo."
 }

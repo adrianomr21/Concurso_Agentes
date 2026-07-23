@@ -15,7 +15,8 @@ export class TeacherAgent extends Agent {
   public async generateDetailedLesson(
     tema: string,
     instrucoes?: string,
-    professor?: string
+    professor?: string,
+    feedbackCorrecao?: string
   ): Promise<TeacherDetailedLesson> {
     if (!this.systemInstruction) {
       await this.initialize();
@@ -47,6 +48,10 @@ Tema: "${tema}"`;
 
     if (instrucoes) {
       prompt += `\n\nDiretrizes pedagógicas do Diretor:\n"""\n${instrucoes}\n"""`;
+    }
+
+    if (feedbackCorrecao) {
+      prompt += `\n\n⚠️ REVISÃO E CORREÇÃO DO AGENTE FISCAL:\nO material anterior foi reprovado pelo Agente Fiscal. Você DEVE reescrever e corrigir o conteúdo com rigor técnico e didático, garantindo a inclusão de pelo menos 3 exemplos práticos e de código/diagrama conforme as orientações a seguir:\n"""\n${feedbackCorrecao}\n"""`;
     }
 
     prompt += `\n\nRetorne rigorosamente a resposta no formato JSON de material pedagógico especificado nas suas instruções de sistema.`;

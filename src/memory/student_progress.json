@@ -4,11 +4,12 @@
   "materias": [
     {
       "nome": "Português",
-      "topicosConcluidos": [],
-      "topicosPendentes": [
+      "topicosConcluidos": [
         "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+        "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)"
+      ],
+      "topicosPendentes": [
         "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
-        "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
         "Estrutura e formação de palavras (derivação e composição)",
         "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
         "Morfologia: verbos (conjugação, tempos, modos, vozes verbais e sua conversão)",
@@ -225,7 +226,7 @@
       ]
     }
   ],
-  "ultimoEstudo": "2026-07-22T13:45:59.699Z",
+  "ultimoEstudo": "2026-07-22T19:46:27.736Z",
   "historicoDesempenho": [
     {
       "tema": "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
@@ -439,6 +440,290 @@
       "analisePontosFortes": "O aluno demonstrou bom domínio sobre a identificação de encontros vocálicos (ditongos e hiatos) e a classificação básica de encontros consonantais inseparáveis. Também compreende bem a relação letra/fonema em palavras simples com dígrafos consonantais clássicos.",
       "analisePontosFracos": "O aluno apresentou dificuldades em análises mais complexas que exigem divisão silábica precisa (questão 6) e na identificação de dígrafos específicos em palavras com estruturas complexas (questão 3 e 5). Houve também falha na distinção fonética entre grafemas distintos, especificamente na identificação do fonema /k/ quando representado por diferentes letras.",
       "recomendacaoEstudo": "Recomendo uma revisão focada em dois tópicos: 1) Divisão silábica, pois a contagem correta de fonemas e a classificação de dígrafos dependem diretamente da separação correta das sílabas; 2) Relação fonema-grafema, praticando mais a transcrição fonética de palavras que contêm letras como 'X', 'C' e 'Q', para não confundir a escrita com o som emitido. Refaça os exercícios sobre dígrafos consonantais e treine a divisão silábica de palavras que possuem encontros consonantais separáveis."
+    },
+    {
+      "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
+      "nota": 8,
+      "totalQuestoes": 10,
+      "aprovado": true,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 2,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 3,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 4,
+          "acertou": false,
+          "respostaEstudante": "X",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 5,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 8,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstra excelente domínio na contagem de fonemas (questões 1, 7 e 10), compreensão sobre dígrafos (questões 6 e 9) e diferenciação entre vogais e semivogais (questão 5). A capacidade de identificar valores fonéticos do 'X' também está sólida.",
+      "analisePontosFracos": "O aluno apresentou dificuldades específicas na classificação e divisão de encontros consonantais (questão 2) e na distinção técnica de encontros consonantais em casos atípicos como 'PNEU' (questão 8). Além disso, a questão 4 foi deixada em branco, revelando uma lacuna total de conhecimento no que tange a identificar dígrafos consonantais em conjuntos de palavras.",
+      "recomendacaoEstudo": "Recomenda-se priorizar a revisão do tópico de 'Encontros Consonantais e Divisão Silábica', focando na regra de que, para ser um encontro consonantal, ambos os fonemas devem ser pronunciados. Sobre a questão 4 (deixada em branco), revise a teoria de dígrafos consonantais (CH, LH, NH, RR, SS, SC, XC, etc.) para garantir que você saiba identificar essas estruturas em diferentes palavras. Reforce também o estudo sobre a norma culta na pronúncia de grupos consonantais iniciados por consoante muda (como em 'PNEU' ou 'GNOMO')."
+    },
+    {
+      "tema": "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
+      "nota": 6,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 4,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 5,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 6,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstra um bom domínio sobre regras fundamentais de hifenização, especialmente no uso com o prefixo 'sub', prefixos terminados em vogal seguidos de 'h', e casos complexos que envolvem múltiplas regras simultâneas (Questões 1, 2, 5, 7, 9 e 10).",
+      "analisePontosFracos": "O estudante apresenta falhas conceituais específicas em três áreas: 1) Acentuação gráfica (Questão 4), demonstrando desconhecimento sobre a perda do acento em ditongos abertos e a reforma dos acentos diferenciais; 2) Regras de duplicação de consoantes (Questão 3), confundindo a regra do 'micro-' (vogais iguais) com a regra de duplicação; 3) Prefixos terminados em consoante seguido de vogal ou consoante diversa (Questão 6).",
+      "recomendacaoEstudo": "Recomendo a revisão imediata do capítulo de Acentuação Gráfica, focando na eliminação dos ditongos abertos e no fim do acento diferencial. Para o tema de Hífen, revise o quadro resumo de 'vogais iguais vs. vogais diferentes' e a regra de 'duplicação de consoantes (r/s)'. Pratique exercícios específicos sobre a formação de palavras com 'auto-', 'micro-' e 'hiper-' para consolidar a diferença entre aglutinação e hifenização."
+    },
+    {
+      "tema": "Ortografia: emprego de letras e do hífen conforme Acordo Ortográfico vigente (VOLP, Aulete)",
+      "nota": 6,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 4,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "E"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "E"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou um domínio sólido sobre o uso de prefixos terminados em vogal diante de vogais diferentes e duplicação de consoantes (r/s). Também apresentou um bom conhecimento sobre regras de acentuação gráfica, como a perda do acento em ditongos abertos.",
+      "analisePontosFracos": "O estudante apresentou dificuldades em tópicos específicos como o acento diferencial, o uso do hífen com prefixos terminados em consoante (ex: sub-) e a distinção entre parônimos (sessão/seção/cessão). Observa-se uma confusão conceitual na aplicação das regras de exceção do Acordo Ortográfico, especialmente em casos envolvendo prefixos como 'micro-' e 'sub-'.",
+      "recomendacaoEstudo": "Recomendo a revisão imediata do módulo de Acentuação Gráfica, focando nos acentos diferenciais que permaneceram e nos que foram suprimidos. Para o uso do hífen, revise a tabela de prefixos terminados em consoante, atentando-se à duplicação de letras. Além disso, pratique exercícios de ortografia contextualizada para fixar a diferença entre seção, sessão e cessão."
+    },
+    {
+      "tema": "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
+      "nota": 8,
+      "totalQuestoes": 10,
+      "aprovado": true,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "C",
+          "respostaCorreta": "E"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstra excelente domínio das regras de acentuação de hiatos, uso de acentos diferenciais (como em 'tem/têm') e as alterações trazidas pelo Novo Acordo Ortográfico, especialmente em ditongos abertos e palavras como 'jiboia'.",
+      "analisePontosFracos": "Foram identificadas falhas conceituais pontuais em dois tópicos: 1) Regras de acentuação para paroxítonas terminadas em ditongo crescente, que causou confusão na identificação de exemplos clássicos; 2) Regra do hiato 'ee' em verbos (como 'leem' e 'veem'), onde o aluno ainda parece aplicar a grafia antiga ou confundir com outras formas verbais.",
+      "recomendacaoEstudo": "O desempenho foi muito bom. Para alcançar a proficiência total, recomendo uma revisão específica no material teórico sobre o uso de acentos em paroxítonas terminadas em ditongos crescentes (ex: história, pátio) e uma leitura rápida sobre a simplificação de formas verbais plurais com hiato 'ee', memorizando que estas perderam o acento circunflexo conforme o atual Acordo."
     }
   ]
 }

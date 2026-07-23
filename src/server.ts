@@ -8,6 +8,7 @@ import { TeacherAgent } from './agents/TeacherAgent.js';
 import { ExerciseCreatorAgent } from './agents/ExerciseCreatorAgent.js';
 import { PerformanceEvaluatorAgent } from './agents/PerformanceEvaluatorAgent.js';
 import { WebResearcherAgent } from './agents/WebResearcherAgent.js';
+import { InspectorAgent } from './agents/InspectorAgent.js';
 import { StorageService } from './services/storage.js';
 import { StudentProgress, SessionState } from './types/index.js';
 
@@ -443,10 +444,42 @@ app.post('/api/daily/generate', async (req, res) => {
 
     // 4. Aciona em paralelo o Professor (aula) e o Criador (exercícios)
     console.log(`[SERVER] Acionando Professor e Criador de Exercícios em paralelo...`);
-    const [detailedLesson, exercises] = await Promise.all([
+    let [detailedLesson, exercises] = await Promise.all([
       teacher.generateDetailedLesson(principalTopic, instructionsForAgents, dailyPlan.professorSelecionado),
       exerciseCreator.generateExercises(principalTopic, instructionsForAgents)
     ]);
+
+    // 4.1. Aciona o Agente Fiscal para auditar a aula e o simulado
+    console.log(`[SERVER] Acionando Agente Fiscal para revisar material...`);
+    const inspector = new InspectorAgent();
+    try {
+      const reviewResult = await inspector.reviewLessonAndQuiz(principalTopic, detailedLesson, exercises);
+
+      if (!reviewResult.aprovado) {
+        console.log(`[SERVER] ⚠️ AGENTE FISCAL REPROVOU O CONTEÚDO! Iniciando loop de auto-correção...`);
+        console.log(`[SERVER] Observações para o Professor: "${reviewResult.observacoesProfessor}"`);
+        console.log(`[SERVER] Observações para o Criador: "${reviewResult.observacoesCriadorExercicios}"`);
+
+        // Dispara a correção paralela de acordo com as anotações do Fiscal
+        const correctionPromises: [Promise<any>, Promise<any>] = [
+          reviewResult.observacoesProfessor
+            ? teacher.generateDetailedLesson(principalTopic, instructionsForAgents, dailyPlan.professorSelecionado, reviewResult.observacoesProfessor)
+            : Promise.resolve(detailedLesson),
+          reviewResult.observacoesCriadorExercicios
+            ? exerciseCreator.generateExercises(principalTopic, instructionsForAgents, reviewResult.observacoesCriadorExercicios)
+            : Promise.resolve(exercises)
+        ];
+
+        const [correctedLesson, correctedExercises] = await Promise.all(correctionPromises);
+        detailedLesson = correctedLesson;
+        exercises = correctedExercises;
+        console.log(`[SERVER] ✅ Versão corrigida pelo Professor e Criador de Exercícios gerada com sucesso!`);
+      } else {
+        console.log(`[SERVER] ✅ AGENTE FISCAL APROVOU O CONTEÚDO DE PRIMEIRA!`);
+      }
+    } catch (inspectError) {
+      console.error('[SERVER ERROR] Falha no fluxo do Agente Fiscal (prosseguindo com rascunhos originais):', inspectError);
+    }
 
     // 5. Monta o Markdown consolidado contendo a análise da banca
     const markdownContent = `

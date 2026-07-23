@@ -3,7 +3,7 @@
   "tema": "Fonologia: relações entre fonemas e grafias; relações entre vogais e consoantes (Bechara, Cegalla, Cunha & Cintra)",
   "status": "COMPLETED",
   "createdAt": "2026-07-22T13:45:59.690Z",
-  "updatedAt": "2026-07-22T13:45:59.690Z",
+  "updatedAt": "2026-07-22T19:00:22.538Z",
   "planDaily": {
     "data": "2026-07-23",
     "objetivoDoDia": "Dominar a relação entre fonemas e grafias, focando em dígrafos, encontros consonantais e divisão silábica para a banca FUNDATEC.",
@@ -389,5 +389,76 @@
       }
     ]
   },
-  "chatHistory": []
+  "chatHistory": [],
+  "performanceReport": {
+    "tema": "Fonologia: relações entre fonemas e grafias, vogais e semivogais",
+    "nota": 8,
+    "totalQuestoes": 10,
+    "aprovado": true,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 2,
+        "acertou": false,
+        "respostaEstudante": "D",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 3,
+        "acertou": true,
+        "respostaEstudante": "D",
+        "respostaCorreta": "D"
+      },
+      {
+        "numero": 4,
+        "acertou": false,
+        "respostaEstudante": "X",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 5,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 7,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 8,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "D"
+      },
+      {
+        "numero": 9,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 10,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstra excelente domínio na contagem de fonemas (questões 1, 7 e 10), compreensão sobre dígrafos (questões 6 e 9) e diferenciação entre vogais e semivogais (questão 5). A capacidade de identificar valores fonéticos do 'X' também está sólida.",
+    "analisePontosFracos": "O aluno apresentou dificuldades específicas na classificação e divisão de encontros consonantais (questão 2) e na distinção técnica de encontros consonantais em casos atípicos como 'PNEU' (questão 8). Além disso, a questão 4 foi deixada em branco, revelando uma lacuna total de conhecimento no que tange a identificar dígrafos consonantais em conjuntos de palavras.",
+    "recomendacaoEstudo": "Recomenda-se priorizar a revisão do tópico de 'Encontros Consonantais e Divisão Silábica', focando na regra de que, para ser um encontro consonantal, ambos os fonemas devem ser pronunciados. Sobre a questão 4 (deixada em branco), revise a teoria de dígrafos consonantais (CH, LH, NH, RR, SS, SC, XC, etc.) para garantir que você saiba identificar essas estruturas em diferentes palavras. Reforce também o estudo sobre a norma culta na pronúncia de grupos consonantais iniciados por consoante muda (como em 'PNEU' ou 'GNOMO')."
+  }
 }

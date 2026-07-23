@@ -1,0 +1,473 @@
+{
+  "sessionId": "session_1784749085504_5c16e349",
+  "tema": "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
+  "status": "COMPLETED",
+  "createdAt": "2026-07-22T19:38:05.513Z",
+  "updatedAt": "2026-07-22T19:46:27.730Z",
+  "planDaily": {
+    "data": "2026-07-23",
+    "objetivoDoDia": "Dominar as regras de acentuação gráfica vigentes, superando lacunas detectadas em simulados anteriores.",
+    "topicosAEstudar": [
+      "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "A aula deve ser focada em consolidar o conhecimento sobre a acentuação conforme o Acordo Ortográfico vigente. É mandatório realizar um reforço didático profundo sobre os pontos que causaram reprovação do aluno nos simulados anteriores: 1) Eliminação do acento em ditongos abertos ('ei', 'oi') em palavras paroxítonas; 2) Fim do acento diferencial (revisar o que mudou e o que permaneceu, como 'pôde' vs 'pode'); 3) Explicação detalhada da acentuação de proparoxítonas e oxítonas. Dado o histórico de erros e confusões conceituais identificados (especialmente nas questões de acentuação nos simulados de ortografia), utilize exemplos comparativos entre a grafia antiga e a atual. Inclua exercícios práticos que exijam a justificativa da acentuação de cada palavra para garantir que o aluno não apenas memorize a forma, mas compreenda a regra (como a regra das oxítonas terminadas em 'em'/'ens' e dos hiatos 'i' e 'u' tônicos).",
+    "justificativaEscolha": "O aluno escolheu especificamente o tema de acentuação e o histórico de desempenho mostrou falhas consistentes nesse tópico (reprovação nos simulados de ortografia com erros ligados a acentos diferenciais e supressão de ditongos). Portanto, a aula é vital para corrigir estas lacunas críticas antes de avançar na gramática."
+  },
+  "lessonDetailedContent": {
+    "tema": "Acentuação Gráfica Conforme o Novo Acordo Ortográfico",
+    "objetivos": [
+      "Dominar as regras fundamentais de acentuação para oxítonas, paroxítonas e proparoxítonas.",
+      "Identificar as alterações do Acordo Ortográfico (ditongos abertos e hiatos).",
+      "Diferenciar o acento diferencial remanescente das formas que perderam o acento.",
+      "Compreender a regra das proparoxítonas aparentes (terminadas em ditongo crescente) para evitar erros em provas da banca FUNDATEC."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\nA acentuação gráfica existe para indicar a sílaba tônica (mais forte) de uma palavra e para garantir a pronúncia correta de certas vogais. Imagine que as palavras são como prédios: o acento é a \"luz de sinalização\" no topo da antena. Se o prédio é muito alto, precisamos avisar onde está o topo para ninguém bater. As regras de acentuação são as leis de trânsito desse prédio: elas definem quando a luz é obrigatória, opcional ou proibida, garantindo que todos leiam a planta da palavra da mesma maneira.\n\n## 2. Nivelamento e Conceituação Progressiva\n- **Sílaba Tônica:** É a sílaba pronunciada com maior intensidade. Toda palavra tem apenas uma.\n- **Oxítonas:** O último andar é o mais forte (ex: café, cajá).\n- **Paroxítonas:** O penúltimo andar é o mais forte (ex: mesa, fácil).\n- **Proparoxítonas:** O antepenúltimo andar é o mais forte (ex: médico, lâmpada). *Dica: Todas as proparoxítonas são acentuadas sem exceção.*\n\n## 3. Aprofundamento Teórico Avançado\n### A Regra das Paroxítonas (Onde a FUNDATEC mais cobra)\nAs paroxítonas são acentuadas quando terminadas em: R, L, N, X, PS, I(s), U(s), UM(ns) e DITONGOS (crescentes ou decrescentes). \nImportante: Paroxítonas terminadas em A(s), E(s), O(s), EM, ENS NÃO recebem acento, pois essas terminações são exclusivas das oxítonas.\n\n### Mudanças do Acordo Ortográfico:\n1. **Ditongos Abertos (EI, OI) em paroxítonas:** Perderam o acento. Exemplos: Ideia (antigamente idéia), Jiboia (antigamente jibóia), Heroico (antigamente heróico).\n2. **Hiatos OO:** O hiato 'oo' perdeu o acento. Exemplos: Voo, enjoo, perdoo.\n3. **Hiatos I e U tônicos:** Mantêm-se acentuados se estiverem sozinhos na sílaba ou seguidos de S. Exceção: Se forem precedidos de ditongo na mesma palavra (ex: feiura - não acentua) ou seguidos de 'nh' (ex: rainha - não acentua).\n\n### Acentuação Diferencial:\nO Acordo reduziu drasticamente. Permanece apenas o acento em:\n- **Pôr (verbo)** vs Por (preposição).\n- **Pôde (passado)** vs Pode (presente).\n*Observação: Para (verbo) perdeu o acento, sendo agora igual à preposição 'para'.*\n\n## 4. Quadro Comparativo Visual\n| Categoria | Regra Geral | Exemplo (Certo) | Exemplo (Errado) |\n| :--- | :--- | :--- | :--- |\n| Oxítonas | Terminadas em A(s), E(s), O(s), EM(ens) | Sofá, Armazém | Café (ok), sofa |\n| Paroxítonas | Terminadas em ditongo, R, L, N, X, PS, I, U, UM | Fácil, História | Idea, Jiboia |\n| Proparoxítonas | Todas acentuadas | Lâmpada, Próximo | Lampada |\n\n## 5. Mnemônicos e Técnicas de Memorização\nPara as paroxítonas acentuadas, use a frase: \"**R**ou**L**o **N**o **X**adrez **PS**iquiatra **I****U** **UM** **Ditongo**\".\n\n## 6. Radar de Pegadinhas (Foco na FUNDATEC)\n1. **Proparoxítonas Aparentes:** Palavras como 'história', 'lírio' ou 'névoa'. A FUNDATEC tenta confundir o aluno. Elas são tecnicamente paroxítonas terminadas em ditongo crescente, mas na fonética, podem ser lidas como proparoxítonas (histó-ria ou histó-ri-a). Por regra, elas recebem acento pois são paroxítonas terminadas em ditongo. Não confunda com erro ortográfico.\n2. **Crase e Acento:** A banca ama misturar acento agudo com crase. Lembre-se: acento gráfico marca tonicidade; crase é fenômeno de fusão de vogais.\n\n## 7. Perguntas de Auto-Verificação\n1. Qual a regra para 'ideia'? R: Não tem acento, pois é paroxítona com ditongo aberto 'ei'.\n2. 'Pára' (verbo) ainda tem acento? R: Não, perdeu com o Acordo Ortográfico.\n3. Por que 'história' é acentuada? R: É uma paroxítona terminada em ditongo crescente.",
+    "resumo": [
+      "Oxítonas acentuadas: terminadas em A, E, O, EM, ENS.",
+      "Paroxítonas acentuadas: R, L, N, X, PS, I(s), U(s), UM(ns) e DITONGOS.",
+      "Ditongos abertos (EI, OI) em paroxítonas: perderam o acento (ideia, jiboia).",
+      "Hiatos OO: perderam o acento (voo, enjoo).",
+      "Acento diferencial: sobrevive apenas em 'pôr' (verbo) e 'pôde' (passado).",
+      "Proparoxítonas aparentes: são paroxítonas terminadas em ditongo e seguem a regra das paroxítonas."
+    ],
+    "exemplos": [
+      {
+        "titulo": "Regra das Oxítonas (terminação EM/ENS)",
+        "descricao": "Verbo no plural ou singular com terminação em em/ens.",
+        "conteudoTecnico": "Ele tem (sem acento) / Eles têm (com acento diferencial de número)."
+      },
+      {
+        "titulo": "Hiatos I e U tônicos",
+        "descricao": "Quando a vogal I ou U forma sílaba sozinha ou com S, recebe acento.",
+        "conteudoTecnico": "Sa-í-da (acentuada); Ba-ú (acentuada); Ra-i-nha (não acentua pois tem 'nh')."
+      },
+      {
+        "titulo": "Paroxítonas terminadas em Ditongo",
+        "descricao": "Acentuação de palavras terminadas em ditongo crescente.",
+        "conteudoTecnico": "Fá-cil (paroxítona em L); Hár-duo (paroxítona em ditongo)."
+      },
+      {
+        "titulo": "Proparoxítonas Aparentes",
+        "descricao": "Palavras que podem ser interpretadas como proparoxítonas, mas são paroxítonas terminadas em ditongo.",
+        "conteudoTecnico": "História (His-tó-ria - Paroxítona); Névoa (Né-voa - Paroxítona). Ambas acentuadas pela regra das paroxítonas terminadas em ditongo."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[Acentuação] --> B[Oxítonas]\n  A --> C[Paroxítonas]\n  A --> D[Proparoxítonas]\n  B --> B1[A, E, O, EM, ENS]\n  C --> C1[Ditongo, R, L, N, X, PS, I, U, UM]\n  D --> D1[Todas acentuadas]\n  A --> E[Mudanças Acordo]\n  E --> E1[Fim acento ei/oi]\n  E --> E2[Fim acento oo]\n  E --> E3[Acento diferencial reduzido]",
+    "flashcards": [
+      {
+        "pergunta": "Qual a regra das proparoxítonas?",
+        "resposta": "Todas, sem exceção, são acentuadas."
+      },
+      {
+        "pergunta": "A palavra 'ideia' tem acento?",
+        "resposta": "Não, pois é uma paroxítona com ditongo aberto 'ei'."
+      },
+      {
+        "pergunta": "Como diferenciar 'pôr' e 'por'?",
+        "resposta": "'Pôr' é verbo (com acento), 'por' é preposição (sem acento)."
+      },
+      {
+        "pergunta": "Por que 'rainha' não tem acento no 'i'?",
+        "resposta": "Porque o hiato está seguido de 'nh'."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Acentuação gráfica conforme o Acordo Ortográfico vigente (Revisado FUNDATEC)",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente, respeitando a eliminação dos acentos nos ditongos abertos de paroxítonas pelo Acordo Ortográfico.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Idéia, heroico, plateia, jiboia."
+          },
+          {
+            "letra": "B",
+            "texto": "Assembleia, ideia, paranoico, boia."
+          },
+          {
+            "letra": "C",
+            "texto": "Jibóia, heroico, colmeia, plateia."
+          },
+          {
+            "letra": "D",
+            "texto": "Ideia, heroíco, plateia, boia."
+          },
+          {
+            "letra": "E",
+            "texto": "Assembléia, jiboia, heroico, colmeia."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "O Acordo Ortográfico eliminou o acento dos ditongos abertos 'ei' e 'oi' em palavras paroxítonas. Assim, 'ideia', 'assembleia', 'jiboia', 'heroico', 'boia', 'paranoico' e 'colmeia' perderam seus acentos. A alternativa B é a única em que todos os termos seguem essa norma.",
+        "assuntoRelacionadoEdital": "Ortografia oficial: acentuação gráfica"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Sobre o uso do acento diferencial na norma vigente, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A forma verbal 'pode' (presente) e 'pôde' (passado) não possuem mais acento diferencial."
+          },
+          {
+            "letra": "B",
+            "texto": "O acento em 'pôr' (verbo) é obrigatório para diferenciá-lo da preposição 'por'."
+          },
+          {
+            "letra": "C",
+            "texto": "O vocábulo 'para' (preposição) deve ser acentuado para diferenciar do verbo 'para'."
+          },
+          {
+            "letra": "D",
+            "texto": "O acento diferencial em 'dê' (verbo) foi abolido pelo Acordo Ortográfico."
+          },
+          {
+            "letra": "E",
+            "texto": "A palavra 'fôrma' (substantivo) é, obrigatoriamente, escrita com acento para diferenciar de 'forma'."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "O Acordo manteve poucos acentos diferenciais. O acento em 'pôr' (verbo) permanece para diferenciar da preposição 'por'. 'Pôde' também mantém o acento para diferenciar de 'pode'. As demais opções citam formas que não exigem acento diferencial ou que tiveram o acento abolido (como 'forma' e 'para').",
+        "assuntoRelacionadoEdital": "Acento diferencial"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Assinale a alternativa na qual todas as palavras são acentuadas pela regra das paroxítonas terminadas em ditongo crescente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Saída, baú, faísca, heroico."
+          },
+          {
+            "letra": "B",
+            "texto": "Álbum, hífen, caráter, armazéns."
+          },
+          {
+            "letra": "C",
+            "texto": "História, pátio, área, série."
+          },
+          {
+            "letra": "D",
+            "texto": "Céu, papéis, anéis, herói."
+          },
+          {
+            "letra": "E",
+            "texto": "Voo, enjoo, leem, deem."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Difícil",
+        "explicacao": "As palavras 'história', 'pátio', 'área' e 'série' são paroxítonas terminadas em ditongo crescente, sendo, por isso, acentuadas. Na alternativa A, 'saída' e 'baú' seguem a regra do hiato. Na B, as regras são de terminação em 'um', 'n', 'r', 'ens'. Na D, temos monossílabos e oxítonas. Na E, nenhuma palavra possui acento.",
+        "assuntoRelacionadoEdital": "Regras de acentuação: paroxítonas e proparoxítonas aparentes"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Com base na regra dos hiatos, assinale a palavra que recebe acento por possuir 'i' ou 'u' tônico formando hiato com a vogal anterior.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Rainha."
+          },
+          {
+            "letra": "B",
+            "texto": "Saúva."
+          },
+          {
+            "letra": "C",
+            "texto": "Contribuinte."
+          },
+          {
+            "letra": "D",
+            "texto": "Juiz."
+          },
+          {
+            "letra": "E",
+            "texto": "Ruim."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "A regra do hiato determina o acento no 'i' ou 'u' tônicos quando isolados na sílaba ou seguidos de 's', desde que não sejam seguidos de 'nh' na sílaba seguinte. 'Saúva' segue a regra. Em 'rainha', o 'i' não recebe acento porque é seguido de 'nh'. Em 'juiz' e 'ruim', o hiato não ocorre da mesma forma.",
+        "assuntoRelacionadoEdital": "Acentuação de hiatos"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Assinale a alternativa que apresenta erro de acentuação conforme a norma culta vigente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ele lê o livro."
+          },
+          {
+            "letra": "B",
+            "texto": "Eles veem o filme."
+          },
+          {
+            "letra": "C",
+            "texto": "Ele detém o poder."
+          },
+          {
+            "letra": "D",
+            "texto": "O voo foi cancelado."
+          },
+          {
+            "letra": "E",
+            "texto": "Eles lêm o jornal."
+          }
+        ],
+        "respostaCorreta": "E",
+        "nivel": "Médio",
+        "explicacao": "O Acordo Ortográfico eliminou o acento no hiato 'ee' das formas verbais da terceira pessoa do plural. Portanto, o correto é 'leem' e 'veem', sem acento circunflexo. A forma 'lêm' (do verbo ler) está grafada incorretamente com acento.",
+        "assuntoRelacionadoEdital": "Eliminação do acento no hiato 'ee'"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Qual das alternativas abaixo contém um vocábulo cujo acento gráfico foi eliminado pelo Acordo Ortográfico?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Trânsito."
+          },
+          {
+            "letra": "B",
+            "texto": "Músculo."
+          },
+          {
+            "letra": "C",
+            "texto": "Jiboia."
+          },
+          {
+            "letra": "D",
+            "texto": "Órfão."
+          },
+          {
+            "letra": "E",
+            "texto": "Pássaro."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Fácil",
+        "explicacao": "A palavra 'jiboia' era acentuada antes do acordo ('jibóia') por ser paroxítona com ditongo aberto 'oi'. Com o novo acordo, o acento foi removido. As outras opções mantêm suas regras de acentuação (proparoxítonas ou paroxítonas em 'ão').",
+        "assuntoRelacionadoEdital": "Alterações do Acordo Ortográfico"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas e seguem obrigatoriamente a regra de acentuação para essa classe.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Café, vovô, também, pastéis."
+          },
+          {
+            "letra": "B",
+            "texto": "Saci, maracatu, caracu, abacaxi."
+          },
+          {
+            "letra": "C",
+            "texto": "Pátio, história, área, série."
+          },
+          {
+            "letra": "D",
+            "texto": "Hífen, álbum, caráter, fórceps."
+          },
+          {
+            "letra": "E",
+            "texto": "Amável, útil, túnel, fácil."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "As oxítonas acentuadas são aquelas terminadas em 'a(s)', 'e(s)', 'o(s)', 'em/ens' e ditongos abertos tônicos. A alternativa A contém apenas oxítonas acentuadas conforme essas regras. As demais alternativas contêm palavras que não são oxítonas ou não recebem acento.",
+        "assuntoRelacionadoEdital": "Acentuação das oxítonas"
+      },
+      {
+        "numero": 8,
+        "enunciado": "A palavra 'têm' (plural) é acentuada para concordar com o sujeito. Qual das opções abaixo apresenta corretamente a forma singular e plural?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ele tem / Eles têm."
+          },
+          {
+            "letra": "B",
+            "texto": "Ele têm / Eles tem."
+          },
+          {
+            "letra": "C",
+            "texto": "Ele tem / Eles tem."
+          },
+          {
+            "letra": "D",
+            "texto": "Ele têm / Eles têm."
+          },
+          {
+            "letra": "E",
+            "texto": "Ele tem / Eles teem."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Fácil",
+        "explicacao": "O acento circunflexo em 'têm' indica que o verbo está na terceira pessoa do plural, concordando com um sujeito plural. No singular, a forma é 'tem', sem acento. Trata-se de uma marca de concordância, não de acento diferencial.",
+        "assuntoRelacionadoEdital": "Acentuação e concordância"
+      },
+      {
+        "numero": 9,
+        "enunciado": "As palavras 'saída' e 'faísca' são acentuadas. Assinale a alternativa que explica corretamente a causa dessa acentuação.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "São proparoxítonas, pois a sílaba tônica é a antepenúltima."
+          },
+          {
+            "letra": "B",
+            "texto": "São oxítonas terminadas em 'a'."
+          },
+          {
+            "letra": "C",
+            "texto": "São acentuadas pela regra do hiato do 'i' tônico."
+          },
+          {
+            "letra": "D",
+            "texto": "São paroxítonas terminadas em 'a', logo deveriam perder o acento."
+          },
+          {
+            "letra": "E",
+            "texto": "Recebem acento pois terminam em ditongo crescente."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "A regra do hiato exige o acento gráfico quando o 'i' ou 'u' formam sílaba sozinhos ou seguidos de 's', não havendo 'nh' após eles. 'Saída' e 'faísca' se enquadram exatamente nessa regra.",
+        "assuntoRelacionadoEdital": "Acentuação de hiatos"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Assinale a alternativa em que a palavra 'hífen' e seu plural 'hifens' estão grafados corretamente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Hífen e hífenes."
+          },
+          {
+            "letra": "B",
+            "texto": "Hífen e hifens."
+          },
+          {
+            "letra": "C",
+            "texto": "Hifen e hifens."
+          },
+          {
+            "letra": "D",
+            "texto": "Hífen e hífens."
+          },
+          {
+            "letra": "E",
+            "texto": "Hifen e hífenes."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "A palavra 'hífen' é paroxítona terminada em 'n', sendo acentuada. No plural, 'hifens', a palavra passa a ser paroxítona terminada em 'ens'. Segundo a regra de tonicidade, paroxítonas terminadas em 'ens' não são acentuadas. Logo, o acento é removido no plural.",
+        "assuntoRelacionadoEdital": "Acentuação de paroxítonas"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Acentuação gráfica conforme sistema oficial vigente",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil extremamente normativo e literal. O foco principal recai sobre a memorização das regras fundamentais para paroxítonas, proparoxítonas e oxítonas, com ênfase especial nas alterações introduzidas pelo Acordo Ortográfico, como o fim dos acentos nos ditongos abertos 'ei' e 'oi' em palavras paroxítonas (ex: ideia, jiboia) e o fim do acento no hiato 'oo' (ex: voo, enjoo). A banca frequentemente apresenta listas de palavras pedindo para identificar qual termo está incorreto ou exige a justificativa gramatical para o uso do acento.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confusão entre o acento diferencial (que foi amplamente reduzido) e a regra geral de acentuação. A banca costuma manter o acento em 'pôr' (verbo) para diferenciar de 'por' (preposição), mas tenta confundir com o 'para' (verbo/preposição) que não possui mais acento.",
+      "Armadilha 2: Palavras terminadas em ditongos crescentes (ex: 'área', 'história'). A banca explora o fato de que estas podem ser classificadas como paroxítonas terminadas em ditongo crescente ou proparoxítonas aparentes, focando na regra que exige o acento devido à terminação.",
+      "Armadilha 3: Omissão do acento em hiatos. A banca cobra frequentemente o acento no 'i' e 'u' tônicos formadores de hiato (ex: 'saída', 'baú'), muitas vezes incluindo armadilhas com o hiato seguido de 'nh' ou sílaba repetida."
+    ],
+    "atualizacoesLegaisOuTecnicas": "O Acordo Ortográfico consolidado desde 2016 permanece como a base técnica. As mudanças mais cobradas são: exclusão do acento em ditongos 'ei' e 'oi' de paroxítonas (ex: assembleia, heroico), exclusão do acento em hiatos 'oo' (ex: voo, leem) e a manutenção da regra para hiatos 'i' e 'u' tônicos precedidos de vogal, sem ser seguidos de 'nh'.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Caxias do Sul",
+        "cargo": "Analista Administrativo",
+        "enunciado": "Assinale a alternativa em que a palavra destacada NÃO deve ser acentuada graficamente, de acordo com as normas atuais da língua portuguesa. A) Está na hora de tomar um CHÁ. B) O herói da história é um ILHÉU. C) Eles não conseguiram ver o VOO. D) O processo foi arquivado na ÁREA administrativa. E) O baú está cheio de PÓ.",
+        "gabarito": "C"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "performanceReport": {
+    "tema": "Acentuação gráfica conforme o Acordo Ortográfico vigente (Revisado FUNDATEC)",
+    "nota": 8,
+    "totalQuestoes": 10,
+    "aprovado": true,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 2,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 3,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 4,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 5,
+        "acertou": false,
+        "respostaEstudante": "C",
+        "respostaCorreta": "E"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 7,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 8,
+        "acertou": true,
+        "respostaEstudante": "A",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 9,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 10,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstra excelente domínio das regras de acentuação de hiatos, uso de acentos diferenciais (como em 'tem/têm') e as alterações trazidas pelo Novo Acordo Ortográfico, especialmente em ditongos abertos e palavras como 'jiboia'.",
+    "analisePontosFracos": "Foram identificadas falhas conceituais pontuais em dois tópicos: 1) Regras de acentuação para paroxítonas terminadas em ditongo crescente, que causou confusão na identificação de exemplos clássicos; 2) Regra do hiato 'ee' em verbos (como 'leem' e 'veem'), onde o aluno ainda parece aplicar a grafia antiga ou confundir com outras formas verbais.",
+    "recomendacaoEstudo": "O desempenho foi muito bom. Para alcançar a proficiência total, recomendo uma revisão específica no material teórico sobre o uso de acentos em paroxítonas terminadas em ditongos crescentes (ex: história, pátio) e uma leitura rápida sobre a simplificação de formas verbais plurais com hiato 'ee', memorizando que estas perderam o acento circunflexo conforme o atual Acordo."
+  }
+}
