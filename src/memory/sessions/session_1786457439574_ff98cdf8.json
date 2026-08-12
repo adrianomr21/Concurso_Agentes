@@ -1,0 +1,496 @@
+{
+  "sessionId": "session_1786457439574_ff98cdf8",
+  "tema": "Regra de três simples",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T14:10:39.587Z",
+  "updatedAt": "2026-08-11T16:25:31.768Z",
+  "planDaily": {
+    "data": "2026-08-12",
+    "objetivoDoDia": "Dominar o conceito e a aplicação prática de Regra de Três Simples para o concurso da FUNDATEC.",
+    "topicosAEstudar": [
+      "Regra de três simples"
+    ],
+    "professorSelecionado": "Professor de Matemática",
+    "instrucoesParaOProfessor": "Como o aluno está iniciando o bloco de Matemática e Raciocínio Lógico, a aula deve ser didática e estruturada. Explique o conceito de grandezas diretamente proporcionais e inversamente proporcionais, pois a identificação correta é a base para não errar a montagem da regra de três. Como o aluno teve histórico de lacunas em outros simulados, utilize muitos exemplos práticos do cotidiano e situações típicas de provas da banca FUNDATEC. Instrua o aluno a sempre montar a tabela das grandezas antes de calcular, evitando o erro por pressa. Se o aluno não dominar a identificação de grandezas (direta vs inversa), ele errará a questão; portanto, foque em exercícios que forcem essa reflexão. Garanta que o aluno aprenda a realizar a multiplicação cruzada ou paralela de forma consciente e não mecânica.",
+    "justificativaEscolha": "O aluno selecionou obrigatoriamente a matéria de Matemática e Raciocínio Lógico e o tópico de Regra de Três Simples. Priorizou-se este tema para atender à solicitação específica, focando em um conteúdo fundamental que serve de alicerce para diversos outros tópicos da matemática aplicada que serão estudados posteriormente."
+  },
+  "lessonDetailedContent": {
+    "tema": "Regra de Três Simples",
+    "objetivos": [
+      "Diferenciar com precisão grandezas diretamente proporcionais de inversamente proporcionais.",
+      "Dominar o processo de montagem de tabelas de dados para evitar erros de interpretação.",
+      "Aplicar a técnica correta de cálculo (multiplicação cruzada vs. em linha) conforme a relação entre as grandezas.",
+      "Identificar e neutralizar as armadilhas clássicas da banca FUNDATEC, como unidades de medida divergentes e distratores numéricos."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\n\nA Regra de Três Simples é uma técnica fundamental para descobrir um valor desconhecido quando conhecemos outros três valores que possuem uma relação de proporcionalidade. Pense na Regra de Três como uma balança de cozinha: se você precisa de 2 ovos para fazer 1 bolo, para fazer 4 bolos, você precisará de 4 ovos. Isso é a proporcionalidade direta. Agora, imagine que você tem 4 operários construindo um muro em 10 dias. Se você contratar mais operários, o tempo para terminar o muro diminui. Isso é a proporcionalidade inversa. O segredo da banca FUNDATEC não é apenas a conta, mas a pergunta: 'Se uma grandeza aumenta, a outra acompanha ou faz o oposto?'. Se acompanham, é direta; se fazem o oposto, é inversa.\n\n## 2. Nivelamento e Conceituação Progressiva\n\nGrandezas são tudo aquilo que pode ser medido: tempo, massa, distância, valor monetário, número de pessoas. A regra de três simples relaciona apenas duas grandezas. \n- **Diretamente Proporcionais (DP):** Quando aumentamos uma, a outra também aumenta na mesma proporção. Exemplo: Quantidade de produtos vs. Preço total.\n- **Inversamente Proporcionais (IP):** Quando aumentamos uma, a outra diminui. Exemplo: Velocidade vs. Tempo de viagem (quanto mais rápido você vai, menos tempo leva).\n\nO erro fatal do iniciante é aplicar sempre a regra da 'multiplicação cruzada' (x) em todos os casos. Isso é um equívoco perigoso.\n\n## 3. Aprofundamento Teórico Avançado (Foco em Concursos)\n\nPara a banca FUNDATEC, a regra de ouro é o passo a passo:\n1. **Identificação:** Leia o problema e liste as duas grandezas.\n2. **Tabela:** Monte sempre a tabela. Coloque as unidades iguais na mesma coluna (Ex: Horas embaixo de Horas).\n3. **Análise de Proporcionalidade:** Coloque uma seta para baixo na grandeza onde está o X. Analise a outra grandeza: 'Se aumentar, o X aumenta?'. Se sim, seta para baixo (Direta). Se não, seta para cima (Inversa).\n4. **Montagem:** Se DP, multiplique cruzado. Se IP, multiplique em linha (reto).\n\n*Nota:* A FUNDATEC costuma incluir unidades misturadas. Sempre converta antes de montar a tabela. Se o problema fala em 'horas' e a resposta pede 'minutos', converta tudo para minutos logo na leitura.\n\n## 4. Quadro Comparativo Visual\n\n| Característica | Diretamente Proporcional (DP) | Inversamente Proporcional (IP) |\n| :--- | :--- | :--- |\n| Comportamento | Se uma sobe, a outra sobe | Se uma sobe, a outra desce |\n| Operação | Multiplicação Cruzada (em X) | Multiplicação em Linha (reta) |\n| Exemplo Típico | Compras, Salário, Produção | Velocidade, Tempo, Operários |\n\n## 5. Mnemônicos e Técnicas de Memorização\n\nUse o mnemônimo: **D.C.I.R.**\n- **D**ireta = **C**ruzado (multiplica os opostos).\n- **I**nversa = **R**eto (multiplica os números na mesma linha).\nLembre-se: 'Mais velocidade, menos tempo' é a frase que salva a maioria das questões de inversamente proporcionais.\n\n## 6. Radar de Pegadinhas (Foco na Banca FUNDATEC)\n\n- **Distratores:** A FUNDATEC insere informações inúteis, como o nome do funcionário ou a data, apenas para confundir. Ignore-os.\n- **Unidades:** Questões de tempo são fatais. Se o enunciado traz '3 horas e 30 minutos', não use '3,5' sem ter certeza da unidade base. Transformar tudo para a unidade menor (minutos) evita erros.\n- **Inversão Automática:** Candidatos que decoram 'sempre multiplicar cruzado' erram questões de velocidade/tempo de forma recorrente.\n\n## 7. Perguntas de Auto-Verificação (Recall Ativo)\n\n1. Como saber se uma grandeza é inversamente proporcional? R: Se o aumento de uma grandeza implica na redução da outra.\n2. Qual o primeiro passo antes de realizar qualquer cálculo de Regra de Três? R: Listar as grandezas e conferir se as unidades de medida estão uniformizadas.\n3. Em uma grandeza inversamente proporcional, como deve ser feita a multiplicação? R: Em linha (reta).",
+    "resumo": [
+      "Grandezas Diretamente Proporcionais (DP): Ambas variam no mesmo sentido; resolve-se multiplicando os valores em formato de X (cruzado).",
+      "Grandezas Inversamente Proporcionais (IP): Variam em sentidos opostos; resolve-se multiplicando os valores da mesma linha (reto).",
+      "Conversão Obrigatória: Sempre uniformize as unidades antes da montagem (ex: transformar horas em minutos) para evitar erros aritméticos.",
+      "Filtragem: Identifique as duas grandezas relevantes e ignore dados acessórios (nomes, datas, locais) que não influenciam a relação matemática.",
+      "Montagem de Tabela: Escrever os dados em formato de tabela é o antídoto contra a pressa e o erro por leitura dinâmica incorreta."
+    ],
+    "exemplos": [
+      {
+        "titulo": "Exemplo de DP: Produção de Relatórios",
+        "descricao": "Um servidor produz 5 relatórios em 2 horas. Quantos relatórios produzirá em 6 horas?",
+        "conteudoTecnico": "Tabela: Relatórios | Horas; 5 | 2; X | 6. Analise: Mais tempo = Mais relatórios (Direta). Cálculo: 2X = 5 * 6 -> 2X = 30 -> X = 15 relatórios."
+      },
+      {
+        "titulo": "Exemplo de IP: Velocidade e Tempo",
+        "descricao": "Um carro a 80km/h leva 3 horas para um trajeto. A 120km/h, quanto tempo levará?",
+        "conteudoTecnico": "Tabela: Velocidade | Tempo; 80 | 3; 120 | X. Analise: Mais velocidade = Menos tempo (Inversa). Cálculo: 120X = 80 * 3 -> 120X = 240 -> X = 2 horas."
+      },
+      {
+        "titulo": "Pegadinha de Unidade (FUNDATEC)",
+        "descricao": "Uma impressora imprime 100 páginas em 10 minutos. Quantas imprime em 1 hora?",
+        "conteudoTecnico": "Conversão: 1 hora = 60 minutos. Tabela: Pág | Min; 100 | 10; X | 60. Analise: DP. Cálculo: 10X = 100 * 60 -> 10X = 6000 -> X = 600 páginas."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Regra de Três Simples\"] --> B[\"Etapas de Resolução\"]\n  B --> C[\"Listar Grandezas\"]\n  B --> D[\"Padronizar Unidades\"]\n  B --> E[\"Definir Proporcionalidade\"]\n  E --> F[\"Diretamente Proporcional (DP)\"]\n  E --> G[\"Inversamente Proporcional (IP)\"]\n  F --> H[\"Multiplicar Cruzado\"]\n  G --> I[\"Multiplicar em Linha\"]\n  A --> J[\"Armadilhas Fundatec\"]\n  J --> K[\"Ignorar Distratores\"]\n  J --> L[\"Atenção à conversão\"]",
+    "flashcards": [
+      {
+        "pergunta": "Como identificar uma grandeza inversamente proporcional?",
+        "resposta": "Quando o aumento de uma variável provoca a diminuição da outra."
+      },
+      {
+        "pergunta": "Qual a regra prática para a multiplicação em grandezas inversas?",
+        "resposta": "Multiplicar em linha (reta) os valores correspondentes."
+      },
+      {
+        "pergunta": "Por que a conversão de unidades deve ser feita antes do cálculo?",
+        "resposta": "Para evitar erros aritméticos resultantes da mistura de unidades, como somar horas com minutos sem conversão prévia."
+      },
+      {
+        "pergunta": "O que fazer quando houver números extras no enunciado?",
+        "resposta": "Identificar quais números compõem as duas grandezas relevantes e ignorar os demais (distratores)."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Regra de Três Simples",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Um setor de protocolo de uma prefeitura utiliza uma impressora para imprimir 150 páginas em 5 minutos. Se a velocidade da impressora for constante, quantas páginas ela imprimirá em 12 minutos?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "300 páginas"
+          },
+          {
+            "letra": "B",
+            "texto": "360 páginas"
+          },
+          {
+            "letra": "C",
+            "texto": "400 páginas"
+          },
+          {
+            "letra": "D",
+            "texto": "450 páginas"
+          },
+          {
+            "letra": "E",
+            "texto": "500 páginas"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "As grandezas são diretamente proporcionais (mais tempo, mais páginas). Monta-se a proporção: 150/x = 5/12. Multiplicando cruzado: 5x = 1800, logo x = 360. A alternativa A ignora a proporção correta; C, D e E são erros de cálculo.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Razão e Proporção"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Para realizar a pintura de uma sala, 4 pintores levam 6 horas de trabalho ininterrupto. Mantendo o mesmo ritmo, quantos pintores seriam necessários para realizar o mesmo serviço em 3 horas?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2 pintores"
+          },
+          {
+            "letra": "B",
+            "texto": "3 pintores"
+          },
+          {
+            "letra": "C",
+            "texto": "6 pintores"
+          },
+          {
+            "letra": "D",
+            "texto": "8 pintores"
+          },
+          {
+            "letra": "E",
+            "texto": "12 pintores"
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Médio",
+        "explicacao": "Grandezas inversamente proporcionais: menos tempo exige mais pintores. Monta-se a tabela: Pintores (4, x) e Tempo (6, 3). Como é inversa, multiplica-se em linha: 4 * 6 = x * 3. Logo, 24 = 3x, x = 8. A alternativa A erra ao tratar como direta.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Grandezas Inversamente Proporcionais"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Um servidor público precisa digitalizar um lote de documentos. Se ele trabalhar 4 horas diárias, ele concluirá o serviço em 6 dias. Caso ele decida trabalhar 3 horas diárias, em quantos dias o serviço será concluído?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "4,5 dias"
+          },
+          {
+            "letra": "B",
+            "texto": "7 dias"
+          },
+          {
+            "letra": "C",
+            "texto": "8 dias"
+          },
+          {
+            "letra": "D",
+            "texto": "9 dias"
+          },
+          {
+            "letra": "E",
+            "texto": "12 dias"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Grandezas inversamente proporcionais. Menos horas por dia implica em mais dias para concluir. Montagem: 4 * 6 = 3 * x. Logo, 24 = 3x, x = 8. Erros comuns incluem inverter a lógica das grandezas ou realizar a multiplicação cruzada erroneamente.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Regra de Três Simples Inversa"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Uma bomba d'água retira 500 litros de água de um reservatório a cada 15 minutos. Quantos metros cúbicos de água essa bomba retirará em 2 horas? (Considere 1 metro cúbico = 1000 litros).",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2 m³"
+          },
+          {
+            "letra": "B",
+            "texto": "4 m³"
+          },
+          {
+            "letra": "C",
+            "texto": "5 m³"
+          },
+          {
+            "letra": "D",
+            "texto": "6 m³"
+          },
+          {
+            "letra": "E",
+            "texto": "8 m³"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "A banca testa a conversão de unidades. 2 horas = 120 minutos. Regra de três: 500 litros / 15 min = x / 120 min. x = (500 * 120) / 15 = 4000 litros. Como 1000 litros = 1m³, temos 4000/1000 = 4 m³. O erro de não converter tempo ou volume leva às alternativas erradas.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Conversão de Unidades e Proporcionalidade"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Em um almoxarifado, 10 pacotes de folhas A4 pesam, no total, 25 kg. Se um servidor carregar uma caixa com 14 desses pacotes, qual será o peso dessa caixa, sabendo que a caixa vazia pesa 0,5 kg?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "35 kg"
+          },
+          {
+            "letra": "B",
+            "texto": "35,5 kg"
+          },
+          {
+            "letra": "C",
+            "texto": "36 kg"
+          },
+          {
+            "letra": "D",
+            "texto": "37,5 kg"
+          },
+          {
+            "letra": "E",
+            "texto": "40 kg"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Primeiro, descobre-se o peso dos pacotes: 10 pacotes = 25kg, logo 1 pacote = 2,5kg. Para 14 pacotes: 14 * 2,5 = 35kg. Somando a caixa (0,5kg), temos 35,5kg. A pegadinha é esquecer o peso da embalagem.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Problemas Aplicados"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Um carro percorre 120 km com 10 litros de combustível. Sabendo que o motorista parou para abastecer 5 litros extras, mas manteve o consumo constante, quantos quilômetros ele percorrerá com um tanque total de 40 litros?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "400 km"
+          },
+          {
+            "letra": "B",
+            "texto": "420 km"
+          },
+          {
+            "letra": "C",
+            "texto": "480 km"
+          },
+          {
+            "letra": "D",
+            "texto": "500 km"
+          },
+          {
+            "letra": "E",
+            "texto": "600 km"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Grandezas diretamente proporcionais. Consumo: 120 km / 10 L = 12 km/L. Com 40 litros: 40 * 12 = 480 km. O dado sobre os '5 litros extras' é um distrator numérico da FUNDATEC para confundir o candidato.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Distratores Numéricos"
+      },
+      {
+        "numero": 7,
+        "enunciado": "A digitação de um relatório de 60 páginas foi dividida entre dois funcionários. Se o funcionário A digita 5 páginas a cada 20 minutos, quanto tempo o funcionário A levaria para digitar o relatório inteiro sozinho?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2 horas"
+          },
+          {
+            "letra": "B",
+            "texto": "3 horas"
+          },
+          {
+            "letra": "C",
+            "texto": "4 horas"
+          },
+          {
+            "letra": "D",
+            "texto": "5 horas"
+          },
+          {
+            "letra": "E",
+            "texto": "6 horas"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Regra de três: 5 páginas / 20 min = 60 páginas / x min. 5x = 1200, logo x = 240 minutos. Convertendo para horas: 240 / 60 = 4 horas. Alternativa E é um distrator baseado em erro de conversão de tempo.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Razão e Proporção"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Para pavimentar 80 metros de uma rua, uma equipe de operários levou 4 dias. Se a equipe mantiver o ritmo e precisar pavimentar 200 metros, quantos dias serão necessários?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "8 dias"
+          },
+          {
+            "letra": "B",
+            "texto": "10 dias"
+          },
+          {
+            "letra": "C",
+            "texto": "12 dias"
+          },
+          {
+            "letra": "D",
+            "texto": "14 dias"
+          },
+          {
+            "letra": "E",
+            "texto": "16 dias"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "Diretamente proporcional. 80 / 4 = 200 / x. 80x = 800, logo x = 10. A relação entre metragem e dias é direta, portanto, a multiplicação é cruzada.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Grandezas Diretamente Proporcionais"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Uma impressora de alta capacidade imprime 30 páginas por minuto. Se for configurada para imprimir um documento de 450 páginas, e ela apresentar uma falha que reduz sua velocidade para 20 páginas por minuto, quanto tempo a mais ela levará para terminar o trabalho comparado à velocidade original?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "5,5 minutos"
+          },
+          {
+            "letra": "B",
+            "texto": "6,5 minutos"
+          },
+          {
+            "letra": "C",
+            "texto": "7,5 minutos"
+          },
+          {
+            "letra": "D",
+            "texto": "8,5 minutos"
+          },
+          {
+            "letra": "E",
+            "texto": "9,5 minutos"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Difícil",
+        "explicacao": "Tempo original: 450 / 30 = 15 minutos. Tempo com falha: 450 / 20 = 22,5 minutos. Diferença: 22,5 - 15 = 7,5 minutos. A questão exige interpretar a diferença de tempo após dois cálculos distintos.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Problemas Complexos"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Se 5 estagiários arquivam 200 prontuários em um período de 4 horas, mantendo a mesma produtividade, quanto tempo 8 estagiários levariam para arquivar os mesmos 200 prontuários?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2 horas"
+          },
+          {
+            "letra": "B",
+            "texto": "2,5 horas"
+          },
+          {
+            "letra": "C",
+            "texto": "3 horas"
+          },
+          {
+            "letra": "D",
+            "texto": "3,5 horas"
+          },
+          {
+            "letra": "E",
+            "texto": "4 horas"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Grandezas inversamente proporcionais: mais estagiários, menos tempo. Tabela: (5, 8) e (4, x). Multiplicação em linha: 5 * 4 = 8 * x. 20 = 8x, x = 2,5 horas. Erros ocorrem ao considerar a quantidade de prontuários como variável, quando é constante.",
+        "assuntoRelacionadoEdital": "Raciocínio Lógico-Matemático - Grandezas Inversamente Proporcionais"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Regra de três simples",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A banca FUNDATEC tem como característica principal o foco em problemas aplicados ao cotidiano administrativo, exigindo que o candidato identifique rapidamente a proporcionalidade entre as grandezas (direta ou inversa). Em nível de Analista, as questões costumam envolver conversão de unidades de medida (tempo, massa, distância) dentro do cálculo, exigindo atenção do candidato antes de iniciar a regra de três.",
+    "armadilhasComuns": [
+      "Armadilha 1: Inversão indevida em grandezas diretamente proporcionais. A banca frequentemente apresenta questões onde o candidato precisa analisar se, ao aumentar uma grandeza, a outra também aumenta, para então decidir se deve multiplicar cruzado ou em linha.",
+      "Armadilha 2: Não conversão de unidades de medida antes do cálculo. A banca insere dados em horas e minutos ou metros e centímetros, fazendo com que o candidato erre o valor final por não uniformizar as unidades de medida no enunciado.",
+      "Armadilha 3: Distratores numéricos. A FUNDATEC costuma incluir números extras no enunciado que não participam da relação de proporcionalidade, testando a capacidade de filtragem de dados do candidato."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há alterações legais, visto que se trata de um conteúdo de Raciocínio Lógico-Matemático. Contudo, nota-se uma tendência recente da banca em utilizar enunciados mais longos e contextualizados com situações de trabalho em órgãos públicos, exigindo maior interpretação de texto aliada ao cálculo aritmético.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Bagé",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "Uma impressora produz 150 páginas em 5 minutos. Quantas páginas essa mesma impressora produzirá em 12 minutos?",
+        "gabarito": "360 páginas"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Câmara Municipal de Esteio",
+        "cargo": "Analista Legislativo",
+        "enunciado": "Para realizar a manutenção de 6 computadores, um técnico leva 9 horas. Se o número de computadores aumentar para 10, mantendo o mesmo ritmo de trabalho, quanto tempo o técnico levará?",
+        "gabarito": "15 horas"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "studentChat": [
+    {
+      "role": "user",
+      "message": "me explique regra de três DP",
+      "timestamp": "2026-08-11T14:15:29.931Z"
+    },
+    {
+      "role": "assistant",
+      "message": "Olá, Adriano! É um prazer te ajudar. Vamos descomplicar a **Regra de Três Diretamente Proporcional (DP)**.\n\nPense nela como uma relação de \"companheirismo\": quando uma coisa aumenta, a outra, obrigatoriamente, também aumenta na mesma proporção. Se você comprar o dobro de pães, pagará o dobro do preço. Se comprar a metade, pagará a metade.\n\n### O segredo da DP (O \"X\")\nA FUNDATEC gosta de testar se você sabe montar a proporção. Para a Regra de Três **Direta**, o seu melhor amigo é o **cruzamento**.\n\n#### Passo a Passo para não errar nunca:\n\n1.  **Monte a tabela:** Coloque as grandezas uma ao lado da outra. **Importante:** Unidade debaixo de unidade (ex: quilos embaixo de quilos, reais embaixo de reais).\n2.  **Verifique a relação:** Pergunte-se: \"Se eu tiver mais da grandeza A, terei mais ou menos da grandeza B?\". Se a resposta for \"mais\", elas são **Diretamente Proporcionais**.\n3.  **A Técnica do X:** Como são diretas, você vai multiplicar **cruzado** (formando um X com as linhas imaginárias).\n\n---\n\n### Exemplo prático de aplicação:\n\nImagine este cenário típico de prova:\n*\"Uma impressora imprime 20 páginas em 4 minutos. Quantas páginas ela imprimirá em 10 minutos?\"*\n\n**1. Montando a tabela:**\n| Páginas | Tempo (min) |\n| :--- | :--- |\n| 20 | 4 |\n| X | 10 |\n\n**2. Analisando a lógica:**\nSe a impressora tiver mais tempo para trabalhar (de 4 para 10 minutos), ela imprimirá **mais** páginas, certo? Logo, a relação é **Direta**.\n\n**3. O cálculo (Multiplicação em X):**\nAqui entra o \"cruzado\". Você multiplica o 20 pelo 10, e o X pelo 4:\n\n4 * X = 20 * 10\n4X = 200\nX = 200 / 4\n**X = 50 páginas**\n\n---\n\n### Dica de ouro para o seu estudo:\nO erro comum que vejo muitos alunos cometerem é tentar fazer \"de cabeça\" ou montar a proporção sem escrever a tabela. Em provas, **o cérebro mente quando estamos nervosos**. Escreva a tabela sempre, nem que seja num cantinho da prova. Isso evita que você troque o numerador pelo denominador e acabe errando uma questão fácil.\n\n**Faz sentido para você?** Conseguiu visualizar por que multiplicamos \"em cruz\" nesse caso? Se quiser, podemos pegar uma das questões do seu simulado para praticarmos juntos! O que acha?",
+      "timestamp": "2026-08-11T14:15:29.931Z"
+    },
+    {
+      "role": "user",
+      "message": "me explique regra de trez IP",
+      "timestamp": "2026-08-11T14:21:23.831Z"
+    },
+    {
+      "role": "assistant",
+      "message": "Olá, Adriano! Excelente pergunta. Enquanto na **Direta** as grandezas \"caminham juntas\", na **Inversamente Proporcional (IP)**, elas funcionam como uma gangorra: **se uma sobe, a outra obrigatoriamente desce.**\n\n### O Conceito de Gangorra\nPense em uma equipe de pedreiros construindo um muro. Se você dobrar o número de pedreiros, o tempo para terminar o muro cai pela metade, certo?\n- **Mais pedreiros (Sobe)** = **Menos tempo (Desce)**.\n\nComo o comportamento é oposto, a matemática exige uma abordagem diferente da regra de três direta.\n\n---\n\n### Passo a Passo para a IP (O \"Reto\")\n\n1.  **Monte a tabela:** A regra é a mesma. Coloque as grandezas em colunas, garantindo que as unidades iguais estejam alinhadas.\n2.  **Verifique a relação:** Pergunte: \"Se eu aumentar a primeira grandeza, a segunda vai diminuir?\". Se a resposta for sim, elas são **Inversamente Proporcionais**.\n3.  **A Técnica da Linha (Reto):** Diferente da Direta (onde fazíamos o \"X\"), aqui nós multiplicamos **em linha (horizontalmente)**.\n\n---\n\n### Exemplo Prático de Prova:\n\nVamos usar o cenário da **Questão 2** do seu material:\n*\"4 pintores levam 6 horas para pintar uma sala. Quantos pintores seriam necessários para pintar a mesma sala em 3 horas?\"*\n\n**1. Montando a tabela:**\n| Pintores | Tempo (horas) |\n| :--- | :--- |\n| 4 | 6 |\n| X | 3 |\n\n**2. Analisando a lógica:**\nSe você quer terminar a pintura mais rápido (de 6 horas para 3 horas), você vai precisar de **mais** pintores. Como uma grandeza subiu (pintores) e a outra desceu (tempo), a relação é **Inversa**.\n\n**3. O cálculo (Multiplicação em Linha/Reta):**\nEsqueça o \"X\". Você multiplica o que está na mesma linha:\n\n(4 * 6) = (X * 3)\n24 = 3X\nX = 24 / 3\n**X = 8 pintores**\n\n---\n\n### Por que a FUNDATEC adora isso?\nA banca sabe que o cérebro humano é condicionado a sempre \"multiplicar cruzado\". Eles colocam questões de **velocidade, tempo, operários ou produtividade** justamente para ver se você vai cair na armadilha de multiplicar em X.\n\n**O lembrete que salva:**\n- **Direta:** Mais custa mais (Multiplica em X).\n- **Inversa:** Mais gente faz em menos tempo (Multiplica reto).\n\nAdriano, ficou claro por que na Inversa nós não cruzamos os valores? Você sente que consegue identificar quando uma questão é Inversa lendo o enunciado, ou ainda sente dificuldade em bater o olho e saber se é \"direta\" ou \"inversa\"?",
+      "timestamp": "2026-08-11T14:21:23.831Z"
+    }
+  ],
+  "performanceReport": {
+    "tema": "Regra de Três Simples",
+    "nota": 9,
+    "totalQuestoes": 10,
+    "aprovado": true,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 2,
+        "acertou": true,
+        "respostaEstudante": "D",
+        "respostaCorreta": "D"
+      },
+      {
+        "numero": 3,
+        "acertou": false,
+        "respostaEstudante": "A",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 4,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 5,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 7,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 8,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 9,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 10,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstrou excelente domínio dos conceitos fundamentais de razão e proporção, tanto em situações de grandezas diretamente proporcionais quanto inversamente proporcionais. Destaca-se a capacidade de identificar distratores numéricos (como na questão 6) e realizar conversões de unidades complexas.",
+    "analisePontosFracos": "O aluno apresentou uma falha pontual na questão 3, que envolve grandezas inversamente proporcionais (horas de trabalho vs. dias). Este erro sugere uma confusão isolada na interpretação da relação entre as variáveis, tratando-as como diretamente proporcionais em vez de inversas.",
+    "recomendacaoEstudo": "O desempenho foi excelente. Recomendo apenas uma breve revisão sobre a identificação de grandezas inversamente proporcionais. Em problemas que envolvem tempo e produtividade, sempre faça a pergunta-chave antes de montar a proporção: 'Se eu diminuir uma variável, a outra aumenta ou diminui?'. Isso evitará erros mecânicos."
+  }
+}

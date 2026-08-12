@@ -1,0 +1,65 @@
+{
+  "sessionId": "session_1786534664100_3982a044",
+  "tema": "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição), Proposições simples e compostas, conectivos e valores lógicos",
+  "status": "GENERATING",
+  "createdAt": "2026-08-12T11:37:44.100Z",
+  "updatedAt": "2026-08-12T11:37:46.923Z",
+  "chatHistory": [
+    {
+      "from": "System",
+      "to": "Director",
+      "message": "Elabore o planejamento diário com base no progresso do aluno.",
+      "timestamp": "2026-08-12T11:37:44.103Z"
+    },
+    {
+      "from": "Director",
+      "to": "System",
+      "message": "{\n  \"data\": \"2026-08-12\",\n  \"objetivoDoDia\": \"Fortalecer a base em morfologia e iniciar estudos em lógica para o cargo de Analista de Sistemas.\",\n  \"topicosAEstudar\": [\n    \"Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)\",\n    \"Proposições simples e compostas, conectivos e valores lógicos\"\n  ],\n  \"professorSelecionado\": \"Professor de Português\",\n  \"instrucoesParaOProfessor\": \"Como este é o primeiro tópico de Morfologia após o aluno ter enfrentado dificuldades anteriores em 'Estrutura e formação de palavras' (nota baixa, reprovado), sua abordagem deve ser extremamente didática. Relacione as classes de palavras com a estrutura sintática, focando em como os substantivos e adjetivos se conectam na oração. Para a parte de Lógica, que será ministrada paralelamente, foque na definição clara do que é uma proposição (valor lógico V ou F), combatendo a confusão comum com frases interrogativas ou exclamativas. Use exemplos práticos da área de TI para ambos: classes de palavras aplicadas à documentação de sistemas e proposições lógicas aplicadas a estruturas de decisão (IF/ELSE).\",\n  \"justificativaEscolha\": \"O aluno teve desempenho insatisfatório em 'Estrutura e formação de palavras' e 'Fonologia' anteriormente. É essencial dar um passo atrás em Morfologia para garantir que ele entenda a base das classes gramaticais antes de avançar para sintaxe, além de introduzir Raciocínio Lógico, essencial para a carreira de Analista de Sistemas e que ainda não foi explorado, permitindo um balanceamento entre Português e Exatas.\"\n}",
+      "timestamp": "2026-08-12T11:37:46.923Z"
+    },
+    {
+      "from": "Director",
+      "to": "Teacher",
+      "message": "Pesquise a banca FUNDATEC sobre o tema: \"Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)\".",
+      "timestamp": "2026-08-12T11:37:46.926Z"
+    }
+  ],
+  "planDaily": {
+    "data": "2026-08-12",
+    "objetivoDoDia": "Fortalecer a base em morfologia e iniciar estudos em lógica para o cargo de Analista de Sistemas.",
+    "topicosAEstudar": [
+      "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
+      "Proposições simples e compostas, conectivos e valores lógicos"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "Como este é o primeiro tópico de Morfologia após o aluno ter enfrentado dificuldades anteriores em 'Estrutura e formação de palavras' (nota baixa, reprovado), sua abordagem deve ser extremamente didática. Relacione as classes de palavras com a estrutura sintática, focando em como os substantivos e adjetivos se conectam na oração. Para a parte de Lógica, que será ministrada paralelamente, foque na definição clara do que é uma proposição (valor lógico V ou F), combatendo a confusão comum com frases interrogativas ou exclamativas. Use exemplos práticos da área de TI para ambos: classes de palavras aplicadas à documentação de sistemas e proposições lógicas aplicadas a estruturas de decisão (IF/ELSE).",
+    "justificativaEscolha": "O aluno teve desempenho insatisfatório em 'Estrutura e formação de palavras' e 'Fonologia' anteriormente. É essencial dar um passo atrás em Morfologia para garantir que ele entenda a base das classes gramaticais antes de avançar para sintaxe, além de introduzir Raciocínio Lógico, essencial para a carreira de Analista de Sistemas e que ainda não foi explorado, permitindo um balanceamento entre Português e Exatas."
+  },
+  "webSearchReport": {
+    "tema": "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC prioriza o uso contextual das classes gramaticais. Em vez de apenas identificar a classe, a banca exige que o candidato entenda o papel funcional da palavra dentro da oração (ex: quando um adjetivo substantiva-se ou quando um numeral assume valor de adjetivo). O foco é na análise sintático-semântica, verificando se o candidato compreende como a troca de uma classe pode alterar o sentido do texto ou a correção gramatical.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confusão entre o pronome relativo e a conjunção integrante 'que', exigindo identificação da função anafórica.",
+      "Armadilha 2: Uso de palavras que mudam de classe conforme o contexto (ex: 'bastante', 'certo', 'meio'), onde a banca induz o erro através da concordância nominal.",
+      "Armadilha 3: Artigos definidos usados com pronomes possessivos, onde a banca questiona se o uso é facultativo ou obrigatório para manter a correção."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há atualizações legislativas em gramática normativa, mas a banca tem adotado padrões mais rigorosos na interpretação de pronomes demonstrativos em textos que envolvem tecnologias digitais e referências espaciais dentro de enunciados.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Caxias do Sul",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "Na frase 'O certo é que ele não virá', a palavra 'certo' exerce a função de: (A) adjetivo, (B) substantivo, (C) advérbio, (D) pronome indefinido, (E) numeral.",
+        "gabarito": "B"
+      },
+      {
+        "ano": 2022,
+        "orgao": "CRM-RS",
+        "cargo": "Auxiliar Administrativo",
+        "enunciado": "Assinale a alternativa em que o termo sublinhado NÃO é um artigo. (A) 'A' menina saiu. (B) 'O' livro é novo. (C) 'Os' alunos estudam. (D) 'A' que você se refere? (E) 'As' casas são grandes.",
+        "gabarito": "D"
+      }
+    ]
+  }
+}

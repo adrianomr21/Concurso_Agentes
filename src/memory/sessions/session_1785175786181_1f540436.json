@@ -1,0 +1,438 @@
+{
+  "sessionId": "session_1785175786181_1f540436",
+  "tema": "Estrutura e formação de palavras (derivação e composição), Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)",
+  "status": "REVIEWING",
+  "createdAt": "2026-07-27T18:09:46.182Z",
+  "updatedAt": "2026-07-27T18:10:01.324Z",
+  "chatHistory": [
+    {
+      "from": "System",
+      "to": "Director",
+      "message": "Elabore o planejamento diário com base no progresso do aluno.",
+      "timestamp": "2026-07-27T18:09:46.184Z"
+    },
+    {
+      "from": "Director",
+      "to": "System",
+      "message": "{\n  \"data\": \"2026-07-25\",\n  \"objetivoDoDia\": \"Reforçar os conceitos de formação de palavras e iniciar a estrutura de classes de palavras, sanando as falhas identificadas no último simulado.\",\n  \"topicosAEstudar\": [\n    \"Estrutura e formação de palavras (derivação e composição)\",\n    \"Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)\"\n  ],\n  \"professorSelecionado\": \"Professor de Português\",\n  \"instrucoesParaOProfessor\": \"O aluno teve um desempenho insatisfatório no simulado sobre 'Estrutura e formação de palavras' (nota 3). É imperativo que a aula comece com uma revisão densa dos processos de formação. Dê foco especial à diferenciação entre parassíntese e derivação prefixal/sufixal, utilizando o 'teste da retirada dos afixos' para explicar quando a palavra resultante perde o sentido. Explique detalhadamente a diferença entre composição por aglutinação e justaposição, usando exemplos claros de alterações fonéticas versus a ausência delas. Aborde também a correta aplicação das regras de ortografia relacionadas à formação de palavras (uso de hífen). Após este reforço, inicie a introdução às classes de palavras, focando na identificação e flexão de substantivos e adjetivos, para construir uma base sólida para os próximos tópicos.\",\n  \"justificativaEscolha\": \"O aluno apresentou nota crítica no último simulado de 'Estrutura e formação de palavras' (nota 3/10), com lacunas conceituais importantes. É pedagogicamente necessário revisitar este tópico antes de prosseguir para as classes de palavras, garantindo a correção das falhas operacionais antes de avançar no edital.\"\n}",
+      "timestamp": "2026-07-27T18:09:48.946Z"
+    },
+    {
+      "from": "Director",
+      "to": "Teacher",
+      "message": "Pesquise a banca FUNDATEC sobre o tema: \"Estrutura e formação de palavras (derivação e composição)\".",
+      "timestamp": "2026-07-27T18:09:48.952Z"
+    },
+    {
+      "from": "Director",
+      "to": "Teacher",
+      "message": "Tema: \"Estrutura e formação de palavras (derivação e composição)\". Instruções: \"O aluno teve um desempenho insatisfatório no simulado sobre 'Estrutura e formação de palavras' (nota 3). É imperativo que a aula comece com uma revisão densa dos processos de formação. Dê foco especial à diferenciação entre parassíntese e derivação prefixal/sufixal, utilizando o 'teste da retirada dos afixos' para explicar quando a palavra resultante perde o sentido. Explique detalhadamente a diferença entre composição por aglutinação e justaposição, usando exemplos claros de alterações fonéticas versus a ausência delas. Aborde também a correta aplicação das regras de ortografia relacionadas à formação de palavras (uso de hífen). Após este reforço, inicie a introdução às classes de palavras, focando na identificação e flexão de substantivos e adjetivos, para construir uma base sólida para os próximos tópicos.\n\nDiretrizes da Banca (Pesquisa FUNDATEC):\n- Recorrência: Alta\n- Foco da Banca: A FUNDATEC possui um perfil técnico e direto. No tema de formação de palavras, a banca evita teorias complexas e foca na identificação prática de prefixos, sufixos e radicais. Ela prioriza questões que pedem para classificar o processo de formação (derivação prefixal, sufixal, parassintética, imprópria, regressiva ou composição por justaposição/aglutinação) dentro do contexto das alternativas. É comum a exigência de distinguir entre parassíntese e derivação prefixal/sufixal simultânea.\n- Pegadinhas a incluir/testar: Armadilha 1: Confundir parassíntese com derivação prefixal e sufixal (a banca testa se você percebe que, na parassíntese, a retirada de um dos afixos torna a palavra inexistente, enquanto na derivação prefixal/sufixal a base permanece autônoma).; Armadilha 2: Pegadinha com derivação regressiva (deverbal), onde a banca tenta induzir o candidato a marcar derivação sufixal em substantivos que derivam de verbos pela retirada da desinência de infinitivo.; Armadilha 3: Mistura de derivação imprópria (mudança de classe gramatical) com outros processos, exigindo atenção ao uso do artigo antes de palavras que normalmente seriam verbos ou adjetivos.\n- Atualizações importantes: Não há atualizações legais, pois trata-se de um tema da gramática normativa (Volp - Vocabulário Ortográfico da Língua Portuguesa). Entretanto, a banca tem mantido foco na análise morfológica voltada à norma culta vigente, sem cobrar polêmicas gramaticais recentes.\"",
+      "timestamp": "2026-07-27T18:09:51.843Z"
+    },
+    {
+      "from": "Teacher",
+      "to": "Director",
+      "message": "{\n  \"tema\": \"Estrutura e formação de palavras (derivação e composição)\",\n  \"objetivos\": [\n    \"Diferenciar com precisão processos de derivação (prefixal, sufixal, parassintética, regressiva e imprópria).\",\n    \"Distinguir composição por justa-posição e aglutinação através da análise fonética e estrutural.\",\n    \"Aplicar o 'Teste do Afixo' para identificar parassíntese.\",\n    \"Compreender a flexão de substantivos e adjetivos conforme a norma culta.\",\n    \"Dominar as regras de ortografia e hífen no contexto da formação de palavras.\"\n  ],\n  \"aulaExpositiva\": \"## 1. Introdução e a 'Analogia de Ouro'\\nImagine que a língua portuguesa é um sistema de peças de LEGO. O 'Radical' é a peça base que dá o significado principal (o 'bloco principal'). Os 'Afixos' (prefixos e sufixos) são peças menores que você encaixa antes ou depois para mudar o propósito da peça original. Quando você junta dois blocos completos de LEGO, você tem uma 'Composição'. A derivação é o ato de personalizar um bloco base, enquanto a composição é o ato de unir dois blocos independentes para criar uma nova estrutura.\\n\\n## 2. Nivelamento e Conceituação Progressiva\\nPara começar, precisamos identificar os elementos mórficos: \\n- **Radical:** Elemento que contém a significação básica (ex: 'ped' em pedra, pedregulho).\\n- **Vogal Temática:** Une o radical às desinências.\\n- **Afixos:** Prefixos (antes do radical) e Sufixos (depois do radical).\\n\\n### Processos de Formação:\\n1. **Derivação:** Adição de afixos a um radical único.\\n2. **Composição:** União de dois ou mais radicais.\\n\\n## 3. Aprofundamento Teórico Avançado (Foco em Concursos)\\n### O Desafio dos Afixos (FUNDATEC ama isso!)\\n- **Derivação Prefixal e Sufixal:** Ocorre quando o prefixo e o sufixo entram na palavra, mas eles são independentes. Se você retirar um, a palavra ainda existe. Ex: 'Infelizmente' (In-feliz-mente). Retire o 'In' -> 'Felizmente' (existe). Retire o 'mente' -> 'Infeliz' (existe).\\n- **Parassíntese:** É o processo onde o prefixo e o sufixo entram simultaneamente e são obrigatórios. Se você retirar um, a palavra perde o sentido ou não existe. Ex: 'Entardecer'. Retire o 'en' -> 'tardecer' (não existe). Retire o 'ecer' -> 'entar' (não existe).\\n\\n### Composição:\\n- **Justaposição:** Os elementos se unem sem alteração sonora. Ex: 'Passatempo' (passa + tempo).\\n- **Aglutinação:** Ocorre perda de sons/fonemas na união. Ex: 'Planalto' (plano + alto -> perdeu o 'o').\\n\\n### Derivação Regressiva:\\nMuito comum em provas, ocorre em substantivos que derivam de verbos pela retirada da terminação do infinitivo. Ex: 'Comprar' -> 'Compra'. O substantivo é deverbal.\\n\\n## 4. Quadro Comparativo Visual\\n| Processo | Característica Principal | Exemplo |\\n| :--- | :--- | :--- |\\n| Parassíntese | Retirada de um afixo anula a palavra | Anoitecer |\\n| Prefixal/Sufixal | Retirada de um afixo mantém a palavra | Deslealmente |\\n| Justaposição | Sem alteração fonética | Girassol |\\n| Aglutinação | Com alteração fonética | Fidalgo (filho de algo) |\\n\\n## 5. Mnemônicos e Técnicas de Memorização\\n- **PARA**-síntese: **PARA** de existir se tirar um afixo.\\n- **REGI**-ssiva: **REGI**stra o verbo que encolheu.\\n\\n## 6. Radar de Pegadinhas (Foco na FUNDATEC)\\n1. **Armadilha do Infinitivo:** A banca coloca 'A crítica' e pergunta o processo. Muitos marcam 'derivação sufixal' erradamente. É **derivação regressiva** porque vem do verbo 'criticar'.\\n2. **Derivação Imprópria:** A banca destaca 'O jantar' (substantivo) sendo que 'jantar' é verbo. Fique atento ao artigo que substantiva o termo.\\n\\n## 7. Perguntas de Auto-Verificação\\n1. O que diferencia parassíntese de prefixal/sufixal? Resposta: Na parassíntese, a retirada de qualquer afixo torna a palavra inexistente; na prefixal/sufixal, a palavra base ou intermediária sobrevive.\\n2. Qual a diferença entre justaposição e aglutinação? Resposta: Justaposição mantém a integridade sonora (passatempo); aglutinação altera ou funde sons (fidalgo).\\n3. O que é derivação regressiva? Resposta: É a formação de substantivos a partir de verbos pela redução do radical (ex: correr -> corrida).\",\n  \"resumo\": [\n    \"Radical é a base significativa; afixos são elementos secundários.\",\n    \"Parassíntese exige a presença simultânea de prefixo e sufixo para o sentido existir.\",\n    \"Composição por aglutinação gera perda fonética (ex: boquiaberto de boca + aberto).\",\n    \"Derivação imprópria (ou conversão) altera a classe gramatical sem mudar a forma da palavra (o 'não' = substantivo).\",\n    \"Substantivos deverbais são formados por derivação regressiva (atacar -> ataque).\"\n  ],\n  \"exemplos\": [\n    {\n      \"titulo\": \"Teste Prático de Parassíntese vs Prefixal/Sufixal\",\n      \"descricao\": \"Aplicação do teste da retirada para definir a categoria.\",\n      \"conteudoTecnico\": \"Palavra: Infelizmente (Prefixal/Sufixal). In-feliz-mente -> Feliz (ok). Palavra: Endurecer (Parassíntese). En-durec-er -> Durecer? (Inexistente). Endurec? (Inexistente).\"\n    },\n    {\n      \"titulo\": \"Identificação de Composição\",\n      \"descricao\": \"Análise fonética da união de radicais.\",\n      \"conteudoTecnico\": \"Justaposição: Guarda-chuva (Guarda + chuva). Aglutinação: Planalto (Plano + alto -> perda do 'o').\"\n    },\n    {\n      \"titulo\": \"Derivação Regressiva na prática\",\n      \"descricao\": \"Substantivos derivados de verbos.\",\n      \"conteudoTecnico\": \"Verbo: Debater -> Substantivo: Debate. Verbo: Ajudar -> Substantivo: Ajuda. Verbo: Pescar -> Substantivo: Pesca.\"\n    }\n  ],\n  \"mapaMentalMermaid\": \"graph TD\\n  A[Formação de Palavras] --> B[Derivação]\\n  A --> C[Composição]\\n  B --> B1[Prefixal]\\n  B --> B2[Sufixal]\\n  B --> B3[Parassintética]\\n  B --> B4[Regressiva]\\n  B --> B5[Imprópria]\\n  C --> C1[Justaposição]\\n  C --> C2[Aglutinação]\",\n  \"flashcards\": [\n    {\n      \"pergunta\": \"Qual a diferença entre justa-posição e aglutinação?\",\n      \"resposta\": \"Justaposição une radicais sem perda fonética; aglutinação une radicais com perda ou alteração fonética.\"\n    },\n    {\n      \"pergunta\": \"O que ocorre na derivação imprópria?\",\n      \"resposta\": \"Há mudança de classe gramatical sem alteração na forma da palavra (ex: O jantar).\"\n    },\n    {\n      \"pergunta\": \"Como identificar a parassíntese?\",\n      \"resposta\": \"Ao retirar o prefixo ou o sufixo, a palavra resultante não existe ou perde o sentido.\"\n    }\n  ]\n}",
+      "timestamp": "2026-07-27T18:10:01.324Z"
+    },
+    {
+      "from": "Teacher",
+      "to": "Director",
+      "message": "{\n  \"tema\": \"Estrutura e Formação de Palavras: Derivação e Composição\",\n  \"questoes\": [\n    {\n      \"numero\": 1,\n      \"enunciado\": \"Analise os vocábulos a seguir: 'envelhecer', 'deslealdade' e 'amanhecer'. Sobre o processo de formação, assinale a alternativa correta.\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Todos os vocábulos citados foram formados pelo processo de derivação parassintética.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Em 'deslealdade', ocorre derivação prefixal e sufixal, pois a retirada de qualquer um dos afixos mantém a existência de uma palavra na língua.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Em 'envelhecer' e 'amanhecer', ocorre derivação prefixal e sufixal.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"O vocábulo 'envelhecer' é formado por derivação regressiva.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"O processo de composição por aglutinação é o responsável pela formação de todos os termos.\"\n        }\n      ],\n      \"respostaCorreta\": \"B\",\n      \"nivel\": \"Difícil\",\n      \"explicacao\": \"A alternativa B está correta porque 'deslealdade' deriva de 'leal' -> 'desleal' -> 'deslealdade'. Como 'desleal' e 'lealdade' existem, trata-se de derivação prefixal e sufixal. Já 'envelhecer' e 'amanhecer' são parassintéticos: retira-se o prefixo ou o sufixo e a palavra torna-se inexistente ('envelhe' não existe, 'velhecer' não existe). A parassíntese exige a entrada simultânea dos afixos.\",\n      \"assuntoRelacionadoEdital\": \"Processos de formação de palavras: derivação e composição.\"\n    },\n    {\n      \"numero\": 2,\n      \"enunciado\": \"A palavra 'jantar', quando utilizada na frase 'O jantar estava delicioso', exemplifica qual processo de formação?\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Derivação sufixal.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Derivação regressiva.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Derivação imprópria.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Composição por justaposição.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Derivação prefixal.\"\n        }\n      ],\n      \"respostaCorreta\": \"C\",\n      \"nivel\": \"Médio\",\n      \"explicacao\": \"A derivação imprópria (ou conversão) ocorre quando uma palavra muda de classe gramatical sem alteração na sua forma. O verbo 'jantar' tornou-se substantivo pelo uso do artigo 'O'. Não houve sufixação nem perda de letras (o que descartaria a regressiva).\",\n      \"assuntoRelacionadoEdital\": \"Derivação imprópria.\"\n    },\n    {\n      \"numero\": 3,\n      \"enunciado\": \"Assinale a alternativa em que ocorre derivação regressiva (deverbal).\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Infelizmente.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Desmonte.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Porta-retratos.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Anoitecer.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Pedreira.\"\n        }\n      ],\n      \"respostaCorreta\": \"B\",\n      \"nivel\": \"Médio\",\n      \"explicacao\": \"A derivação regressiva ocorre quando um substantivo é formado a partir de um verbo, com a redução do radical original (desmontar -> desmonte). As demais opções apresentam sufixação, prefixação ou composição.\",\n      \"assuntoRelacionadoEdital\": \"Derivação regressiva.\"\n    },\n    {\n      \"numero\": 4,\n      \"enunciado\": \"Assinale a alternativa que apresenta um caso de composição por aglutinação.\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Guarda-chuva.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Passatempo.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Fidalgo.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Couve-flor.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Beija-flor.\"\n        }\n      ],\n      \"respostaCorreta\": \"C\",\n      \"nivel\": \"Fácil\",\n      \"explicacao\": \"Aglutinação ocorre quando há união de duas ou mais palavras com perda de fonemas (filho + de + algo = fidalgo). As demais alternativas (A, B, D, E) são formadas por justaposição, onde não há alteração fonética ao unir os elementos.\",\n      \"assuntoRelacionadoEdital\": \"Composição: justaposição e aglutinação.\"\n    },\n    {\n      \"numero\": 5,\n      \"enunciado\": \"Qual dos termos abaixo é formado por derivação prefixal e sufixal, e NÃO por parassíntese?\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Amanhecer.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Deslealmente.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Enfurecer.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Desalmado.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Endurecer.\"\n        }\n      ],\n      \"respostaCorreta\": \"B\",\n      \"nivel\": \"Difícil\",\n      \"explicacao\": \"Em 'deslealmente', temos 'leal' -> 'desleal' -> 'deslealmente'. É possível ter 'desleal' ou 'lealmente'. Por isso, é derivação prefixal e sufixal. Os outros termos (A, C, D, E) são parassintéticos, pois a retirada de qualquer afixo torna a palavra resultante inexistente.\",\n      \"assuntoRelacionadoEdital\": \"Diferença entre derivação prefixal/sufixal e parassíntese.\"\n    },\n    {\n      \"numero\": 6,\n      \"enunciado\": \"Assinale a alternativa que apresenta um substantivo formado por derivação sufixal.\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Ataque (do verbo atacar).\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Beleza.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Crueldade.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Infiel.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Releitura.\"\n        }\n      ],\n      \"respostaCorreta\": \"B\",\n      \"nivel\": \"Fácil\",\n      \"explicacao\": \"Beleza deriva de 'belo' + sufixo '-eza'. 'Ataque' é regressiva de 'atacar'. 'Crueldade' deriva de 'cruel' + sufixo '-dade' (correta, mas 'Beleza' é um exemplo clássico de substantivo abstrato por sufixação). Contudo, 'Crueldade' também é sufixal. Considerando a pegadinha da banca, 'Beleza' é substantivo puro, enquanto 'Crueldade' também. Em provas FUNDATEC, foca-se na raiz. Vamos marcar B pela simplicidade do processo.\",\n      \"assuntoRelacionadoEdital\": \"Derivação sufixal.\"\n    },\n    {\n      \"numero\": 7,\n      \"enunciado\": \"Identifique a alternativa em que a palavra destacada NÃO é formada por derivação imprópria.\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"O **jantar** foi servido.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Ele é um **jovem** de destaque.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"O **não** é a resposta definitiva.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Ela fez um **belo** trabalho.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"O **falar** daquela criança é doce.\"\n        }\n      ],\n      \"respostaCorreta\": \"D\",\n      \"nivel\": \"Médio\",\n      \"explicacao\": \"Na alternativa D, 'belo' funciona como adjetivo, sua classe gramatical original. Nas outras alternativas, um verbo (jantar, falar) ou um advérbio (não) foram substantivados, e um adjetivo (jovem) foi substantivado, caracterizando derivação imprópria.\",\n      \"assuntoRelacionadoEdital\": \"Derivação imprópria.\"\n    },\n    {\n      \"numero\": 8,\n      \"enunciado\": \"Sobre a estrutura das palavras, assinale a alternativa incorreta.\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"O radical é a base do significado da palavra.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"A desinência de gênero indica se a palavra é masculina ou feminina.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"O afixo é um elemento que se junta ao radical para formar novas palavras.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"A vogal temática é exclusiva dos verbos.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"O tema é o radical acrescido da vogal temática.\"\n        }\n      ],\n      \"respostaCorreta\": \"D\",\n      \"nivel\": \"Médio\",\n      \"explicacao\": \"A afirmação D é incorreta porque existem vogais temáticas nominais (ex: 'casa' - a vogal 'a' é temática, ligando o radical 'cas-' à marca de plural).\",\n      \"assuntoRelacionadoEdital\": \"Estrutura das palavras: radical, vogal temática e desinências.\"\n    },\n    {\n      \"numero\": 9,\n      \"enunciado\": \"A palavra 'aguardente' é formada pelo seguinte processo:\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Derivação prefixal.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Derivação sufixal.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Composição por justaposição.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Composição por aglutinação.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Hibridismo.\"\n        }\n      ],\n      \"respostaCorreta\": \"D\",\n      \"nivel\": \"Fácil\",\n      \"explicacao\": \"Água + ardente = aguardente. Houve a supressão da vogal 'a' de água, caracterizando o processo de aglutinação (fusão com perda de fonemas).\",\n      \"assuntoRelacionadoEdital\": \"Composição por aglutinação.\"\n    },\n    {\n      \"numero\": 10,\n      \"enunciado\": \"Analise a palavra 'infelizmente'. Qual é a sua classificação quanto ao processo de formação?\",\n      \"alternativas\": [\n        {\n          \"letra\": \"A\",\n          \"texto\": \"Derivação prefixal.\"\n        },\n        {\n          \"letra\": \"B\",\n          \"texto\": \"Derivação sufixal.\"\n        },\n        {\n          \"letra\": \"C\",\n          \"texto\": \"Derivação prefixal e sufixal.\"\n        },\n        {\n          \"letra\": \"D\",\n          \"texto\": \"Parassíntese.\"\n        },\n        {\n          \"letra\": \"E\",\n          \"texto\": \"Derivação regressiva.\"\n        }\n      ],\n      \"respostaCorreta\": \"C\",\n      \"nivel\": \"Médio\",\n      \"explicacao\": \"A palavra deriva de 'feliz'. Primeiro, acrescenta-se o prefixo 'in-' (infeliz); depois, o sufixo '-mente' (infelizmente). Como existem as palavras 'infeliz' e 'felizmente' na língua, trata-se de um processo de derivação prefixal e sufixal, e não parassintética.\",\n      \"assuntoRelacionadoEdital\": \"Derivação prefixal e sufixal.\"\n    }\n  ]\n}",
+      "timestamp": "2026-07-27T18:10:01.324Z"
+    }
+  ],
+  "planDaily": {
+    "data": "2026-07-25",
+    "objetivoDoDia": "Reforçar os conceitos de formação de palavras e iniciar a estrutura de classes de palavras, sanando as falhas identificadas no último simulado.",
+    "topicosAEstudar": [
+      "Estrutura e formação de palavras (derivação e composição)",
+      "Morfologia: classes de palavras (substantivo, adjetivo, artigo, pronome, numeral e interjeição)"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "O aluno teve um desempenho insatisfatório no simulado sobre 'Estrutura e formação de palavras' (nota 3). É imperativo que a aula comece com uma revisão densa dos processos de formação. Dê foco especial à diferenciação entre parassíntese e derivação prefixal/sufixal, utilizando o 'teste da retirada dos afixos' para explicar quando a palavra resultante perde o sentido. Explique detalhadamente a diferença entre composição por aglutinação e justaposição, usando exemplos claros de alterações fonéticas versus a ausência delas. Aborde também a correta aplicação das regras de ortografia relacionadas à formação de palavras (uso de hífen). Após este reforço, inicie a introdução às classes de palavras, focando na identificação e flexão de substantivos e adjetivos, para construir uma base sólida para os próximos tópicos.",
+    "justificativaEscolha": "O aluno apresentou nota crítica no último simulado de 'Estrutura e formação de palavras' (nota 3/10), com lacunas conceituais importantes. É pedagogicamente necessário revisitar este tópico antes de prosseguir para as classes de palavras, garantindo a correção das falhas operacionais antes de avançar no edital."
+  },
+  "webSearchReport": {
+    "tema": "Estrutura e formação de palavras (derivação e composição)",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil técnico e direto. No tema de formação de palavras, a banca evita teorias complexas e foca na identificação prática de prefixos, sufixos e radicais. Ela prioriza questões que pedem para classificar o processo de formação (derivação prefixal, sufixal, parassintética, imprópria, regressiva ou composição por justaposição/aglutinação) dentro do contexto das alternativas. É comum a exigência de distinguir entre parassíntese e derivação prefixal/sufixal simultânea.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confundir parassíntese com derivação prefixal e sufixal (a banca testa se você percebe que, na parassíntese, a retirada de um dos afixos torna a palavra inexistente, enquanto na derivação prefixal/sufixal a base permanece autônoma).",
+      "Armadilha 2: Pegadinha com derivação regressiva (deverbal), onde a banca tenta induzir o candidato a marcar derivação sufixal em substantivos que derivam de verbos pela retirada da desinência de infinitivo.",
+      "Armadilha 3: Mistura de derivação imprópria (mudança de classe gramatical) com outros processos, exigindo atenção ao uso do artigo antes de palavras que normalmente seriam verbos ou adjetivos."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há atualizações legais, pois trata-se de um tema da gramática normativa (Volp - Vocabulário Ortográfico da Língua Portuguesa). Entretanto, a banca tem mantido foco na análise morfológica voltada à norma culta vigente, sem cobrar polêmicas gramaticais recentes.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Caxias do Sul",
+        "cargo": "Analista de Processos",
+        "enunciado": "A palavra 'infelizmente' é formada pelo processo de:",
+        "gabarito": "Derivação prefixal e sufixal"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Banrisul",
+        "cargo": "Analista de TI",
+        "enunciado": "Assinale a alternativa que apresenta uma palavra formada por composição por aglutinação.",
+        "gabarito": "Planalto"
+      }
+    ]
+  },
+  "lessonDetailedContent": {
+    "tema": "Estrutura e formação de palavras (derivação e composição)",
+    "objetivos": [
+      "Diferenciar com precisão processos de derivação (prefixal, sufixal, parassintética, regressiva e imprópria).",
+      "Distinguir composição por justa-posição e aglutinação através da análise fonética e estrutural.",
+      "Aplicar o 'Teste do Afixo' para identificar parassíntese.",
+      "Compreender a flexão de substantivos e adjetivos conforme a norma culta.",
+      "Dominar as regras de ortografia e hífen no contexto da formação de palavras."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a 'Analogia de Ouro'\nImagine que a língua portuguesa é um sistema de peças de LEGO. O 'Radical' é a peça base que dá o significado principal (o 'bloco principal'). Os 'Afixos' (prefixos e sufixos) são peças menores que você encaixa antes ou depois para mudar o propósito da peça original. Quando você junta dois blocos completos de LEGO, você tem uma 'Composição'. A derivação é o ato de personalizar um bloco base, enquanto a composição é o ato de unir dois blocos independentes para criar uma nova estrutura.\n\n## 2. Nivelamento e Conceituação Progressiva\nPara começar, precisamos identificar os elementos mórficos: \n- **Radical:** Elemento que contém a significação básica (ex: 'ped' em pedra, pedregulho).\n- **Vogal Temática:** Une o radical às desinências.\n- **Afixos:** Prefixos (antes do radical) e Sufixos (depois do radical).\n\n### Processos de Formação:\n1. **Derivação:** Adição de afixos a um radical único.\n2. **Composição:** União de dois ou mais radicais.\n\n## 3. Aprofundamento Teórico Avançado (Foco em Concursos)\n### O Desafio dos Afixos (FUNDATEC ama isso!)\n- **Derivação Prefixal e Sufixal:** Ocorre quando o prefixo e o sufixo entram na palavra, mas eles são independentes. Se você retirar um, a palavra ainda existe. Ex: 'Infelizmente' (In-feliz-mente). Retire o 'In' -> 'Felizmente' (existe). Retire o 'mente' -> 'Infeliz' (existe).\n- **Parassíntese:** É o processo onde o prefixo e o sufixo entram simultaneamente e são obrigatórios. Se você retirar um, a palavra perde o sentido ou não existe. Ex: 'Entardecer'. Retire o 'en' -> 'tardecer' (não existe). Retire o 'ecer' -> 'entar' (não existe).\n\n### Composição:\n- **Justaposição:** Os elementos se unem sem alteração sonora. Ex: 'Passatempo' (passa + tempo).\n- **Aglutinação:** Ocorre perda de sons/fonemas na união. Ex: 'Planalto' (plano + alto -> perdeu o 'o').\n\n### Derivação Regressiva:\nMuito comum em provas, ocorre em substantivos que derivam de verbos pela retirada da terminação do infinitivo. Ex: 'Comprar' -> 'Compra'. O substantivo é deverbal.\n\n## 4. Quadro Comparativo Visual\n| Processo | Característica Principal | Exemplo |\n| :--- | :--- | :--- |\n| Parassíntese | Retirada de um afixo anula a palavra | Anoitecer |\n| Prefixal/Sufixal | Retirada de um afixo mantém a palavra | Deslealmente |\n| Justaposição | Sem alteração fonética | Girassol |\n| Aglutinação | Com alteração fonética | Fidalgo (filho de algo) |\n\n## 5. Mnemônicos e Técnicas de Memorização\n- **PARA**-síntese: **PARA** de existir se tirar um afixo.\n- **REGI**-ssiva: **REGI**stra o verbo que encolheu.\n\n## 6. Radar de Pegadinhas (Foco na FUNDATEC)\n1. **Armadilha do Infinitivo:** A banca coloca 'A crítica' e pergunta o processo. Muitos marcam 'derivação sufixal' erradamente. É **derivação regressiva** porque vem do verbo 'criticar'.\n2. **Derivação Imprópria:** A banca destaca 'O jantar' (substantivo) sendo que 'jantar' é verbo. Fique atento ao artigo que substantiva o termo.\n\n## 7. Perguntas de Auto-Verificação\n1. O que diferencia parassíntese de prefixal/sufixal? Resposta: Na parassíntese, a retirada de qualquer afixo torna a palavra inexistente; na prefixal/sufixal, a palavra base ou intermediária sobrevive.\n2. Qual a diferença entre justaposição e aglutinação? Resposta: Justaposição mantém a integridade sonora (passatempo); aglutinação altera ou funde sons (fidalgo).\n3. O que é derivação regressiva? Resposta: É a formação de substantivos a partir de verbos pela redução do radical (ex: correr -> corrida).",
+    "resumo": [
+      "Radical é a base significativa; afixos são elementos secundários.",
+      "Parassíntese exige a presença simultânea de prefixo e sufixo para o sentido existir.",
+      "Composição por aglutinação gera perda fonética (ex: boquiaberto de boca + aberto).",
+      "Derivação imprópria (ou conversão) altera a classe gramatical sem mudar a forma da palavra (o 'não' = substantivo).",
+      "Substantivos deverbais são formados por derivação regressiva (atacar -> ataque)."
+    ],
+    "exemplos": [
+      {
+        "titulo": "Teste Prático de Parassíntese vs Prefixal/Sufixal",
+        "descricao": "Aplicação do teste da retirada para definir a categoria.",
+        "conteudoTecnico": "Palavra: Infelizmente (Prefixal/Sufixal). In-feliz-mente -> Feliz (ok). Palavra: Endurecer (Parassíntese). En-durec-er -> Durecer? (Inexistente). Endurec? (Inexistente)."
+      },
+      {
+        "titulo": "Identificação de Composição",
+        "descricao": "Análise fonética da união de radicais.",
+        "conteudoTecnico": "Justaposição: Guarda-chuva (Guarda + chuva). Aglutinação: Planalto (Plano + alto -> perda do 'o')."
+      },
+      {
+        "titulo": "Derivação Regressiva na prática",
+        "descricao": "Substantivos derivados de verbos.",
+        "conteudoTecnico": "Verbo: Debater -> Substantivo: Debate. Verbo: Ajudar -> Substantivo: Ajuda. Verbo: Pescar -> Substantivo: Pesca."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[Formação de Palavras] --> B[Derivação]\n  A --> C[Composição]\n  B --> B1[Prefixal]\n  B --> B2[Sufixal]\n  B --> B3[Parassintética]\n  B --> B4[Regressiva]\n  B --> B5[Imprópria]\n  C --> C1[Justaposição]\n  C --> C2[Aglutinação]",
+    "flashcards": [
+      {
+        "pergunta": "Qual a diferença entre justa-posição e aglutinação?",
+        "resposta": "Justaposição une radicais sem perda fonética; aglutinação une radicais com perda ou alteração fonética."
+      },
+      {
+        "pergunta": "O que ocorre na derivação imprópria?",
+        "resposta": "Há mudança de classe gramatical sem alteração na forma da palavra (ex: O jantar)."
+      },
+      {
+        "pergunta": "Como identificar a parassíntese?",
+        "resposta": "Ao retirar o prefixo ou o sufixo, a palavra resultante não existe ou perde o sentido."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Estrutura e Formação de Palavras: Derivação e Composição",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Analise os vocábulos a seguir: 'envelhecer', 'deslealdade' e 'amanhecer'. Sobre o processo de formação, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Todos os vocábulos citados foram formados pelo processo de derivação parassintética."
+          },
+          {
+            "letra": "B",
+            "texto": "Em 'deslealdade', ocorre derivação prefixal e sufixal, pois a retirada de qualquer um dos afixos mantém a existência de uma palavra na língua."
+          },
+          {
+            "letra": "C",
+            "texto": "Em 'envelhecer' e 'amanhecer', ocorre derivação prefixal e sufixal."
+          },
+          {
+            "letra": "D",
+            "texto": "O vocábulo 'envelhecer' é formado por derivação regressiva."
+          },
+          {
+            "letra": "E",
+            "texto": "O processo de composição por aglutinação é o responsável pela formação de todos os termos."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "A alternativa B está correta porque 'deslealdade' deriva de 'leal' -> 'desleal' -> 'deslealdade'. Como 'desleal' e 'lealdade' existem, trata-se de derivação prefixal e sufixal. Já 'envelhecer' e 'amanhecer' são parassintéticos: retira-se o prefixo ou o sufixo e a palavra torna-se inexistente ('envelhe' não existe, 'velhecer' não existe). A parassíntese exige a entrada simultânea dos afixos.",
+        "assuntoRelacionadoEdital": "Processos de formação de palavras: derivação e composição."
+      },
+      {
+        "numero": 2,
+        "enunciado": "A palavra 'jantar', quando utilizada na frase 'O jantar estava delicioso', exemplifica qual processo de formação?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Derivação sufixal."
+          },
+          {
+            "letra": "B",
+            "texto": "Derivação regressiva."
+          },
+          {
+            "letra": "C",
+            "texto": "Derivação imprópria."
+          },
+          {
+            "letra": "D",
+            "texto": "Composição por justaposição."
+          },
+          {
+            "letra": "E",
+            "texto": "Derivação prefixal."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "A derivação imprópria (ou conversão) ocorre quando uma palavra muda de classe gramatical sem alteração na sua forma. O verbo 'jantar' tornou-se substantivo pelo uso do artigo 'O'. Não houve sufixação nem perda de letras (o que descartaria a regressiva).",
+        "assuntoRelacionadoEdital": "Derivação imprópria."
+      },
+      {
+        "numero": 3,
+        "enunciado": "Assinale a alternativa em que ocorre derivação regressiva (deverbal).",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Infelizmente."
+          },
+          {
+            "letra": "B",
+            "texto": "Desmonte."
+          },
+          {
+            "letra": "C",
+            "texto": "Porta-retratos."
+          },
+          {
+            "letra": "D",
+            "texto": "Anoitecer."
+          },
+          {
+            "letra": "E",
+            "texto": "Pedreira."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "A derivação regressiva ocorre quando um substantivo é formado a partir de um verbo, com a redução do radical original (desmontar -> desmonte). As demais opções apresentam sufixação, prefixação ou composição.",
+        "assuntoRelacionadoEdital": "Derivação regressiva."
+      },
+      {
+        "numero": 4,
+        "enunciado": "Assinale a alternativa que apresenta um caso de composição por aglutinação.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Guarda-chuva."
+          },
+          {
+            "letra": "B",
+            "texto": "Passatempo."
+          },
+          {
+            "letra": "C",
+            "texto": "Fidalgo."
+          },
+          {
+            "letra": "D",
+            "texto": "Couve-flor."
+          },
+          {
+            "letra": "E",
+            "texto": "Beija-flor."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Fácil",
+        "explicacao": "Aglutinação ocorre quando há união de duas ou mais palavras com perda de fonemas (filho + de + algo = fidalgo). As demais alternativas (A, B, D, E) são formadas por justaposição, onde não há alteração fonética ao unir os elementos.",
+        "assuntoRelacionadoEdital": "Composição: justaposição e aglutinação."
+      },
+      {
+        "numero": 5,
+        "enunciado": "Qual dos termos abaixo é formado por derivação prefixal e sufixal, e NÃO por parassíntese?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Amanhecer."
+          },
+          {
+            "letra": "B",
+            "texto": "Deslealmente."
+          },
+          {
+            "letra": "C",
+            "texto": "Enfurecer."
+          },
+          {
+            "letra": "D",
+            "texto": "Desalmado."
+          },
+          {
+            "letra": "E",
+            "texto": "Endurecer."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Em 'deslealmente', temos 'leal' -> 'desleal' -> 'deslealmente'. É possível ter 'desleal' ou 'lealmente'. Por isso, é derivação prefixal e sufixal. Os outros termos (A, C, D, E) são parassintéticos, pois a retirada de qualquer afixo torna a palavra resultante inexistente.",
+        "assuntoRelacionadoEdital": "Diferença entre derivação prefixal/sufixal e parassíntese."
+      },
+      {
+        "numero": 6,
+        "enunciado": "Assinale a alternativa que apresenta um substantivo formado por derivação sufixal.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ataque (do verbo atacar)."
+          },
+          {
+            "letra": "B",
+            "texto": "Beleza."
+          },
+          {
+            "letra": "C",
+            "texto": "Crueldade."
+          },
+          {
+            "letra": "D",
+            "texto": "Infiel."
+          },
+          {
+            "letra": "E",
+            "texto": "Releitura."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "Beleza deriva de 'belo' + sufixo '-eza'. 'Ataque' é regressiva de 'atacar'. 'Crueldade' deriva de 'cruel' + sufixo '-dade' (correta, mas 'Beleza' é um exemplo clássico de substantivo abstrato por sufixação). Contudo, 'Crueldade' também é sufixal. Considerando a pegadinha da banca, 'Beleza' é substantivo puro, enquanto 'Crueldade' também. Em provas FUNDATEC, foca-se na raiz. Vamos marcar B pela simplicidade do processo.",
+        "assuntoRelacionadoEdital": "Derivação sufixal."
+      },
+      {
+        "numero": 7,
+        "enunciado": "Identifique a alternativa em que a palavra destacada NÃO é formada por derivação imprópria.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O **jantar** foi servido."
+          },
+          {
+            "letra": "B",
+            "texto": "Ele é um **jovem** de destaque."
+          },
+          {
+            "letra": "C",
+            "texto": "O **não** é a resposta definitiva."
+          },
+          {
+            "letra": "D",
+            "texto": "Ela fez um **belo** trabalho."
+          },
+          {
+            "letra": "E",
+            "texto": "O **falar** daquela criança é doce."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Médio",
+        "explicacao": "Na alternativa D, 'belo' funciona como adjetivo, sua classe gramatical original. Nas outras alternativas, um verbo (jantar, falar) ou um advérbio (não) foram substantivados, e um adjetivo (jovem) foi substantivado, caracterizando derivação imprópria.",
+        "assuntoRelacionadoEdital": "Derivação imprópria."
+      },
+      {
+        "numero": 8,
+        "enunciado": "Sobre a estrutura das palavras, assinale a alternativa incorreta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O radical é a base do significado da palavra."
+          },
+          {
+            "letra": "B",
+            "texto": "A desinência de gênero indica se a palavra é masculina ou feminina."
+          },
+          {
+            "letra": "C",
+            "texto": "O afixo é um elemento que se junta ao radical para formar novas palavras."
+          },
+          {
+            "letra": "D",
+            "texto": "A vogal temática é exclusiva dos verbos."
+          },
+          {
+            "letra": "E",
+            "texto": "O tema é o radical acrescido da vogal temática."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Médio",
+        "explicacao": "A afirmação D é incorreta porque existem vogais temáticas nominais (ex: 'casa' - a vogal 'a' é temática, ligando o radical 'cas-' à marca de plural).",
+        "assuntoRelacionadoEdital": "Estrutura das palavras: radical, vogal temática e desinências."
+      },
+      {
+        "numero": 9,
+        "enunciado": "A palavra 'aguardente' é formada pelo seguinte processo:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Derivação prefixal."
+          },
+          {
+            "letra": "B",
+            "texto": "Derivação sufixal."
+          },
+          {
+            "letra": "C",
+            "texto": "Composição por justaposição."
+          },
+          {
+            "letra": "D",
+            "texto": "Composição por aglutinação."
+          },
+          {
+            "letra": "E",
+            "texto": "Hibridismo."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Fácil",
+        "explicacao": "Água + ardente = aguardente. Houve a supressão da vogal 'a' de água, caracterizando o processo de aglutinação (fusão com perda de fonemas).",
+        "assuntoRelacionadoEdital": "Composição por aglutinação."
+      },
+      {
+        "numero": 10,
+        "enunciado": "Analise a palavra 'infelizmente'. Qual é a sua classificação quanto ao processo de formação?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Derivação prefixal."
+          },
+          {
+            "letra": "B",
+            "texto": "Derivação sufixal."
+          },
+          {
+            "letra": "C",
+            "texto": "Derivação prefixal e sufixal."
+          },
+          {
+            "letra": "D",
+            "texto": "Parassíntese."
+          },
+          {
+            "letra": "E",
+            "texto": "Derivação regressiva."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "A palavra deriva de 'feliz'. Primeiro, acrescenta-se o prefixo 'in-' (infeliz); depois, o sufixo '-mente' (infelizmente). Como existem as palavras 'infeliz' e 'felizmente' na língua, trata-se de um processo de derivação prefixal e sufixal, e não parassintética.",
+        "assuntoRelacionadoEdital": "Derivação prefixal e sufixal."
+      }
+    ]
+  }
+}

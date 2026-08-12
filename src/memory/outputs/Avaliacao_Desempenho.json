@@ -1,6 +1,6 @@
 {
-  "tema": "Acentuação gráfica conforme sistema oficial vigente (inclusive Acordo Ortográfico vigente)",
-  "nota": 8,
+  "tema": "Regra de três simples",
+  "nota": 9,
   "totalQuestoes": 10,
   "aprovado": true,
   "detalheQuestoes": [
@@ -13,13 +13,13 @@
     {
       "numero": 2,
       "acertou": true,
-      "respostaEstudante": "B",
-      "respostaCorreta": "B"
+      "respostaEstudante": "D",
+      "respostaCorreta": "D"
     },
     {
       "numero": 3,
       "acertou": false,
-      "respostaEstudante": "E",
+      "respostaEstudante": "A",
       "respostaCorreta": "C"
     },
     {
@@ -30,9 +30,9 @@
     },
     {
       "numero": 5,
-      "acertou": false,
-      "respostaEstudante": "C",
-      "respostaCorreta": "E"
+      "acertou": true,
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
     },
     {
       "numero": 6,
@@ -43,14 +43,14 @@
     {
       "numero": 7,
       "acertou": true,
-      "respostaEstudante": "A",
-      "respostaCorreta": "A"
+      "respostaEstudante": "C",
+      "respostaCorreta": "C"
     },
     {
       "numero": 8,
       "acertou": true,
-      "respostaEstudante": "A",
-      "respostaCorreta": "A"
+      "respostaEstudante": "B",
+      "respostaCorreta": "B"
     },
     {
       "numero": 9,
@@ -65,7 +65,7 @@
       "respostaCorreta": "B"
     }
   ],
-  "analisePontosFortes": "O aluno demonstra excelente domínio das regras de acentuação de hiatos, uso de acentos diferenciais (como em 'tem/têm') e as alterações trazidas pelo Novo Acordo Ortográfico, especialmente em ditongos abertos e palavras como 'jiboia'.",
-  "analisePontosFracos": "Foram identificadas falhas conceituais pontuais em dois tópicos: 1) Regras de acentuação para paroxítonas terminadas em ditongo crescente, que causou confusão na identificação de exemplos clássicos; 2) Regra do hiato 'ee' em verbos (como 'leem' e 'veem'), onde o aluno ainda parece aplicar a grafia antiga ou confundir com outras formas verbais.",
-  "recomendacaoEstudo": "O desempenho foi muito bom. Para alcançar a proficiência total, recomendo uma revisão específica no material teórico sobre o uso de acentos em paroxítonas terminadas em ditongos crescentes (ex: história, pátio) e uma leitura rápida sobre a simplificação de formas verbais plurais com hiato 'ee', memorizando que estas perderam o acento circunflexo conforme o atual Acordo."
+  "analisePontosFortes": "O aluno demonstrou excelente domínio dos conceitos fundamentais de razão e proporção, tanto em situações de grandezas diretamente proporcionais quanto inversamente proporcionais. Destaca-se a capacidade de identificar distratores numéricos (como na questão 6) e realizar conversões de unidades complexas.",
+  "analisePontosFracos": "O aluno apresentou uma falha pontual na questão 3, que envolve grandezas inversamente proporcionais (horas de trabalho vs. dias). Este erro sugere uma confusão isolada na interpretação da relação entre as variáveis, tratando-as como diretamente proporcionais em vez de inversas.",
+  "recomendacaoEstudo": "O desempenho foi excelente. Recomendo apenas uma breve revisão sobre a identificação de grandezas inversamente proporcionais. Em problemas que envolvem tempo e produtividade, sempre faça a pergunta-chave antes de montar a proporção: 'Se eu diminuir uma variável, a outra aumenta ou diminui?'. Isso evitará erros mecânicos."
 }

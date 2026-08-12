@@ -42,13 +42,14 @@
     },
     {
       "nome": "Matemática e Raciocínio Lógico",
-      "topicosConcluidos": [],
+      "topicosConcluidos": [
+        "Regra de três simples"
+      ],
       "topicosPendentes": [
         "Teoria dos conjuntos e conjuntos numéricos (naturais, inteiros, racionais, irracionais e reais)",
         "Operações fundamentais (adição, subtração, multiplicação, divisão, potenciação e radiciação) e propriedades",
         "Múltiplos e divisores, números primos, mínimo múltiplo comum (MMC) e máximo divisor comum (MDC)",
         "Razões e proporções: grandezas direta e inversamente proporcionais, divisão proporcional",
-        "Regra de três simples",
         "Regra de três composta",
         "Sistema de medidas: comprimento, capacidade, massa e tempo (unidades, transformação de unidades)",
         "Sistema monetário brasileiro",
@@ -178,9 +179,10 @@
     },
     {
       "nome": "Legislação",
-      "topicosConcluidos": [],
+      "topicosConcluidos": [
+        "Constituição Federal de 1988: Dos Princípios Fundamentais (Arts. 1° ao 4°)"
+      ],
       "topicosPendentes": [
-        "Constituição Federal de 1988: Dos Princípios Fundamentais (Arts. 1° ao 4°)",
         "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)",
         "Constituição Federal de 1988: Da Organização do Estado (Arts. 18 ao 43)",
         "Constituição Federal de 1988: Da Organização dos Poderes (Arts. 44 ao 135)",
@@ -226,7 +228,7 @@
       ]
     }
   ],
-  "ultimoEstudo": "2026-07-22T19:46:27.736Z",
+  "ultimoEstudo": "2026-08-11T19:45:18.981Z",
   "historicoDesempenho": [
     {
       "tema": "Conversão de bases (Binário, Octal, Decimal, Hexadecimal) e Aritmética Binária",
@@ -724,6 +726,290 @@
       "analisePontosFortes": "O aluno demonstra excelente domínio das regras de acentuação de hiatos, uso de acentos diferenciais (como em 'tem/têm') e as alterações trazidas pelo Novo Acordo Ortográfico, especialmente em ditongos abertos e palavras como 'jiboia'.",
       "analisePontosFracos": "Foram identificadas falhas conceituais pontuais em dois tópicos: 1) Regras de acentuação para paroxítonas terminadas em ditongo crescente, que causou confusão na identificação de exemplos clássicos; 2) Regra do hiato 'ee' em verbos (como 'leem' e 'veem'), onde o aluno ainda parece aplicar a grafia antiga ou confundir com outras formas verbais.",
       "recomendacaoEstudo": "O desempenho foi muito bom. Para alcançar a proficiência total, recomendo uma revisão específica no material teórico sobre o uso de acentos em paroxítonas terminadas em ditongos crescentes (ex: história, pátio) e uma leitura rápida sobre a simplificação de formas verbais plurais com hiato 'ee', memorizando que estas perderam o acento circunflexo conforme o atual Acordo."
+    },
+    {
+      "tema": "Estrutura e formação de palavras (derivação e composição)",
+      "nota": 3,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 2,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 7,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 9,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 10,
+          "acertou": false,
+          "respostaEstudante": "B",
+          "respostaCorreta": "D"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou domínio básico em derivação imprópria (conversão), identificação de processos de derivação prefixal/sufixal combinados e compreensão de prefixos gregos comuns.",
+      "analisePontosFracos": "O estudante apresentou lacunas conceituais críticas na distinção entre parassíntese e derivação prefixal/sufixal, falhando ao não aplicar o teste da inexistência dos afixos isolados. Também demonstrou dificuldades na diferenciação entre composição por aglutinação e justaposição, além de confusão na aplicação prática das regras ortográficas do uso do hífen.",
+      "recomendacaoEstudo": "Recomendada revisão imediata dos módulos de 'Estrutura das Palavras' e 'Processos de Formação'. Foque especialmente na diferença entre parassíntese e derivação múltipla. Para o conteúdo de ortografia, dedique tempo extra à memorização das regras de uso do hífen com prefixos. Sugiro criar um mapa mental comparativo entre aglutinação (perda fonética) e justaposição (sem alteração) para sanar as dúvidas recorrentes sobre composição."
+    },
+    {
+      "tema": "Constituição Federal de 1988: Dos Princípios Fundamentais (Arts. 1° ao 4°)",
+      "nota": 7,
+      "totalQuestoes": 10,
+      "aprovado": true,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "D",
+          "respostaCorreta": "E"
+        },
+        {
+          "numero": 4,
+          "acertou": false,
+          "respostaEstudante": "X",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "A",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 7,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou um bom domínio sobre a distinção entre fundamentos e objetivos da República, acertando questões que exigiam a identificação de fundamentos (Art. 1º) e a memorização dos verbos que iniciam os objetivos (Art. 3º). O conhecimento sobre a dignidade da pessoa humana e a integração latino-americana também se mostrou sólido.",
+      "analisePontosFracos": "Foram detectadas falhas conceituais importantes nos princípios das relações internacionais (Art. 4º), onde o aluno teve dificuldade em identificar a não intervenção como premissa. A questão sobre democracia participativa (Questão 4) foi deixada em branco, indicando uma lacuna de conhecimento quanto aos mecanismos de exercício do poder estatal. Houve também confusão terminológica ao restringir o pluralismo político ao pluripartidarismo na questão 5.",
+      "recomendacaoEstudo": "Embora tenha alcançado a aprovação, recomendo revisar o Art. 1º, parágrafo único, para consolidar o conceito de democracia participativa. Priorize a leitura atenta do Art. 4º da CF/88, focando nos princípios das relações internacionais para evitar confusões com ações de intervenção. Por fim, revise a doutrina sobre pluralismo político para compreender sua abrangência social para além da esfera partidária."
+    },
+    {
+      "tema": "História e geografia do Município e da região que o cerca",
+      "nota": 6,
+      "totalQuestoes": 10,
+      "aprovado": false,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": false,
+          "respostaEstudante": "E",
+          "respostaCorreta": "A"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 3,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 4,
+          "acertou": false,
+          "respostaEstudante": "C",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 5,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 10,
+          "acertou": false,
+          "respostaEstudante": "C",
+          "respostaCorreta": "A"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou bom domínio em temas de geografia física (hidrografia e clima), geografia regional (divisas municipais), além de apresentar conhecimento sobre patrimônio histórico consolidado e mecanismos de gestão participativa (Orçamento Participativo).",
+      "analisePontosFracos": "O aluno apresentou dificuldades em fatos históricos específicos (datas de fundação e figuras históricas), na compreensão da estrutura política fundamental (Poder Legislativo Municipal) e na aplicação conceitual do Plano Diretor urbano. Os erros indicam confusão entre o papel das instituições e a cronologia histórica.",
+      "recomendacaoEstudo": "Recomendo a revisão imediata do módulo de 'História de Porto Alegre', focando em uma linha do tempo dos principais marcos (fundação e sesmarias). Também é necessário revisar o tópico de 'Organização Política e Administrativa', diferenciando claramente as funções dos poderes e a hierarquia das leis municipais (Lei Orgânica vs. Plano Diretor). Sugiro a criação de resumos esquemáticos para consolidar essas datas e conceitos."
+    },
+    {
+      "tema": "Regra de três simples",
+      "nota": 9,
+      "totalQuestoes": 10,
+      "aprovado": true,
+      "detalheQuestoes": [
+        {
+          "numero": 1,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 2,
+          "acertou": true,
+          "respostaEstudante": "D",
+          "respostaCorreta": "D"
+        },
+        {
+          "numero": 3,
+          "acertou": false,
+          "respostaEstudante": "A",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 4,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 5,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 6,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 7,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 8,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        },
+        {
+          "numero": 9,
+          "acertou": true,
+          "respostaEstudante": "C",
+          "respostaCorreta": "C"
+        },
+        {
+          "numero": 10,
+          "acertou": true,
+          "respostaEstudante": "B",
+          "respostaCorreta": "B"
+        }
+      ],
+      "analisePontosFortes": "O aluno demonstrou excelente domínio dos conceitos fundamentais de razão e proporção, tanto em situações de grandezas diretamente proporcionais quanto inversamente proporcionais. Destaca-se a capacidade de identificar distratores numéricos (como na questão 6) e realizar conversões de unidades complexas.",
+      "analisePontosFracos": "O aluno apresentou uma falha pontual na questão 3, que envolve grandezas inversamente proporcionais (horas de trabalho vs. dias). Este erro sugere uma confusão isolada na interpretação da relação entre as variáveis, tratando-as como diretamente proporcionais em vez de inversas.",
+      "recomendacaoEstudo": "O desempenho foi excelente. Recomendo apenas uma breve revisão sobre a identificação de grandezas inversamente proporcionais. Em problemas que envolvem tempo e produtividade, sempre faça a pergunta-chave antes de montar a proporção: 'Se eu diminuir uma variável, a outra aumenta ou diminui?'. Isso evitará erros mecânicos."
     }
   ]
 }

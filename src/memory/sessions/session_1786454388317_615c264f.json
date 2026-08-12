@@ -1,0 +1,461 @@
+{
+  "sessionId": "session_1786454388317_615c264f",
+  "tema": "História e geografia do Município e da região que o cerca",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T13:19:48.345Z",
+  "updatedAt": "2026-08-11T13:55:08.171Z",
+  "planDaily": {
+    "data": "2026-07-28",
+    "objetivoDoDia": "Estudar a história e geografia do Município e da região para consolidar o conhecimento da disciplina de Conhecimentos Gerais.",
+    "topicosAEstudar": [
+      "História e geografia do Município e da região que o cerca"
+    ],
+    "professorSelecionado": "Professor de Conhecimentos Gerais",
+    "instrucoesParaOProfessor": "O aluno precisa estudar a história e a geografia do município e da região. Como se trata de um tópico de memorização e contexto local, o professor deve: 1) Apresentar uma linha do tempo clara sobre a fundação, emancipação e marcos históricos do município. 2) Detalhar os aspectos geográficos (relevo, clima, vegetação) da região específica, integrando com as características do estado do Rio Grande do Sul. 3) Enfatizar pontos turísticos e a organização política atual. Como o aluno teve histórico de questões deixadas em branco ('X') em outros temas (como em Direito Constitucional e Fonologia), exija uma leitura ativa e a criação de um resumo estruturado pelo aluno para evitar lacunas de aprendizado. Reforce o foco na memorização de datas importantes e nomes de personalidades históricas locais que costumam ser alvos de pegadinhas em provas da FUNDATEC.",
+    "justificativaEscolha": "O aluno solicitou especificamente estudar 'Conhecimentos Gerais' e o tópico 'História e geografia do Município e da região que o cerca', conforme sua diretriz obrigatória de foco no edital para o cargo de Analista de Desenvolvimento de Sistemas."
+  },
+  "lessonDetailedContent": {
+    "tema": "História e Geografia de Porto Alegre e Região Metropolitana",
+    "objetivos": [
+      "Dominar a linha do tempo histórica, desde o povoamento açoriano até a atualidade metropolitana.",
+      "Identificar com precisão os limites territoriais, hidrografia e zonas geográficas da capital gaúcha.",
+      "Compreender os pilares do Plano Diretor de Porto Alegre e seu impacto no desenvolvimento urbano.",
+      "Memorizar datas, nomes de personalidades e marcos geográficos recorrentes nas provas da FUNDATEC."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\nEntender a história e geografia de um município é como montar um quebra-cabeça de um organismo vivo. A história é a \"biografia\" (os eventos que moldaram o caráter da cidade) e a geografia é a \"anatomia\" (o esqueleto de rios, morros e ruas que define o movimento). Imagine a cidade como um grande Condomínio Residencial: O 'Terreno' é a Geografia (onde ele foi construído), as 'Assembleias' são a História (as decisões tomadas ao longo do tempo pelos síndicos/prefeitos) e o 'Regimento Interno' é o Plano Diretor. Se você não sabe onde termina o seu pátio (limites territoriais) ou quem foi o síndico que construiu a piscina (história), você perde o controle sobre a gestão desse espaço.\n\n## 2. Nivelamento e Conceituação Progressiva\nComeçamos pela fundação: Porto Alegre não nasceu como capital, mas como um ancoradouro. O povoamento açoriano (1752) trouxe a base demográfica. A 'Emancipação' é o ato jurídico que separa a administração do município de uma esfera superior (a Freguesia de São Francisco das Chagas do Porto dos Casais elevou-se a Vila em 1809). A Região Metropolitana é o conceito geográfico de interdependência funcional, onde os municípios satélites (Canoas, Gravataí, Alvorada, etc.) dependem da infraestrutura central, mas possuem autonomia política própria.\n\n## 3. Aprofundamento Teórico Avançado\nPorto Alegre possui uma geografia singular: a cidade é um 'istmo' cercado por água (Guaíba) e morros (Escudo Sul-Riograndense). O relevo é composto por coxilhas e morros cristalinos. A hidrografia é centrada no Lago Guaíba, que na verdade é um estuário que recebe o Rio Jacuí. O Plano Diretor (Lei Complementar 434/99, revisada) define o 'Zoneamento'. A FUNDATEC ama cobrar o impacto das 'Fachadas Ativas' (térreos comerciais voltados para a rua), que visam aumentar a segurança e a vitalidade urbana.\n\n## 4. Quadro Comparativo Visual\n| Conceito | Definição | Exemplo Prático |\n| :--- | :--- | :--- |\n| Limite Territorial | Fronteira física entre municípios | Porto Alegre faz divisa com Canoas ao Norte |\n| Plano Diretor | Lei que regula o crescimento urbano | Incentivo de ocupação na orla do Guaíba |\n| Emancipação | Ato de tornar-se município autônomo | 26 de março de 1809 |\n\n## 5. Mnemônicos e Técnicas de Memorização\nPara as datas: '26 de Março de 1809' (A Vila do Porto dos Casais). Use a frase: 'Em 1809, 26 casais no porto emanciparam-se'. Para os vizinhos da zona norte: 'Canoas e Cachoeirinha são os vizinhos da 'CC' que cercam o acesso à capital'.\n\n## 6. Radar de Pegadinhas (FUNDATEC)\nA banca costuma afirmar que o Rio Gravataí é o limite OESTE de Porto Alegre (Falso! É a divisa leste/norte). Outra pegadinha clássica: trocar o nome de fundadores. Lembre-se: os casais açorianos são a base, mas o nome 'Porto Alegre' foi oficializado pela elevação da vila.\n\n## 7. Perguntas de Auto-Verificação\n1. Qual o marco de emancipação de Porto Alegre? R: 26 de março de 1809.\n2. O que é o Guaíba em termos geográficos? R: Um estuário (não é rio, nem lago).\n3. Qual a principal característica de uma fachada ativa no Plano Diretor? R: Uso comercial no térreo voltado para o passeio público.",
+    "resumo": "* O povoamento inicial foi fortemente influenciado pelos imigrantes açorianos a partir de 1752.\n* A emancipação política ocorreu em 1809, elevando a Freguesia à categoria de Vila.\n* Geografia: A cidade situa-se entre o Guaíba (estuário) e os morros do Escudo Sul-Riograndense.\n* Hidrografia: O Guaíba recebe o Jacuí e é o principal eixo logístico e ambiental.\n* Plano Diretor: Instrumento de gestão que regula o zoneamento e a ocupação do solo, como a orla do Guaíba.\n* Limites: Porto Alegre confina ao norte com Canoas e Cachoeirinha, e a leste com Viamão.",
+    "exemplos": [
+      {
+        "titulo": "Exemplo Prático: Deslocamento e Limites",
+        "descricao": "Ao dirigir do centro de Porto Alegre em direção ao Aeroporto Salgado Filho (Zona Norte), você trafega pela Avenida Farrapos ou BR-116. Ao cruzar o limite municipal, você entra no município de Canoas, que é o vizinho imediato ao norte.",
+        "conteudoTecnico": "Divisa Norte: Porto Alegre / Canoas (Ponto de transição: Rio Gravataí / Av. Guilherme Schell)"
+      },
+      {
+        "titulo": "Exemplo Prático: Plano Diretor e Fachadas Ativas",
+        "descricao": "O Plano Diretor incentiva a ocupação de 'fachadas ativas' na orla. Isso significa que, ao construir um prédio, o térreo deve ter lojas de frente para a calçada, retirando muros altos para garantir vigilância natural.",
+        "conteudoTecnico": "Zoneamento: Área de Orla; Regra: Permissão de maior índice construtivo em troca de fruição pública no térreo."
+      },
+      {
+        "titulo": "Exemplo Prático: Análise da Hidrografia",
+        "descricao": "A FUNDATEC pode cobrar a confusão entre rio e estuário. O Guaíba é um sistema onde o Rio Jacuí deságua. O fluxo das águas dita a infraestrutura de contenção (muro da Mauá).",
+        "conteudoTecnico": "Fluxo Hídrico: Rio Jacuí -> Delta do Jacuí -> Lago Guaíba -> Laguna dos Patos."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Porto Alegre (Geohistória)\"] --> B[\"História (Cronologia)\"]\n  B --> B1[\"1752: Imigração Açoriana\"]\n  B --> B2[\"1809: Emancipação\"]\n  A --> C[\"Geografia\"]\n  C --> C1[\"Guaíba (Estuário)\"]\n  C --> C2[\"Morros e Coxilhas\"]\n  A --> D[\"Plano Diretor\"]\n  D --> D1[\"Zoneamento\"]\n  D --> D2[\"Fachadas Ativas\"]",
+    "flashcards": [
+      {
+        "pergunta": "Qual a data oficial da emancipação de Porto Alegre?",
+        "resposta": "26 de março de 1809."
+      },
+      {
+        "pergunta": "O Guaíba é classificado como rio ou lago?",
+        "resposta": "Geograficamente é um estuário."
+      },
+      {
+        "pergunta": "Qual município limita Porto Alegre ao norte?",
+        "resposta": "Canoas."
+      },
+      {
+        "pergunta": "O que são fachadas ativas no Plano Diretor?",
+        "resposta": "Térreos comerciais voltados para a rua para promover segurança e vida urbana."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "História e Geografia de Porto Alegre e Região Metropolitana",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "A fundação de Porto Alegre, originalmente denominada Porto dos Casais, possui uma data oficial de fundação ligada à chegada de casais açorianos. Assinale a alternativa que apresenta corretamente essa data oficial utilizada pela administração municipal.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "26 de março de 1772"
+          },
+          {
+            "letra": "B",
+            "texto": "20 de setembro de 1835"
+          },
+          {
+            "letra": "C",
+            "texto": "15 de novembro de 1889"
+          },
+          {
+            "letra": "D",
+            "texto": "05 de novembro de 1740"
+          },
+          {
+            "letra": "E",
+            "texto": "02 de fevereiro de 1809"
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Difícil",
+        "explicacao": "A data oficial de fundação de Porto Alegre, amplamente cobrada em concursos da banca, é 26 de março de 1772, quando foi elevada à categoria de freguesia de Nossa Senhora Madre de Deus de Porto Alegre. Muitos candidatos confundem com a data de instalação da Câmara (1809).",
+        "assuntoRelacionadoEdital": "História de Porto Alegre: Datas de fundação e marcos históricos"
+      },
+      {
+        "numero": 2,
+        "enunciado": "O relevo de Porto Alegre é caracterizado por uma configuração singular no contexto do Rio Grande do Sul. Sobre as formações geomorfológicas da capital, é correto afirmar:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A cidade é composta exclusivamente por planícies aluviais, sem presença de elevações."
+          },
+          {
+            "letra": "B",
+            "texto": "O Escudo Sul-rio-grandense atravessa o município, formando morros graníticos como o Morro Santana."
+          },
+          {
+            "letra": "C",
+            "texto": "O Morro da Polícia é o ponto culminante do estado, situado na zona norte."
+          },
+          {
+            "letra": "D",
+            "texto": "A Serra Geral é a principal formação de relevo que define o zoneamento urbano da zona sul."
+          },
+          {
+            "letra": "E",
+            "texto": "O relevo é definido por tabuleiros sedimentares sem qualquer influência de rochas ígneas."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Porto Alegre está situada no limite do Escudo Sul-rio-grandense, o que explica a presença marcante de morros (como o Santana, o ponto mais alto da cidade). As demais alternativas erram ao descrever a geologia ou a localização dos acidentes geográficos.",
+        "assuntoRelacionadoEdital": "Geografia: Relevo e formações geomorfológicas"
+      },
+      {
+        "numero": 3,
+        "enunciado": "O Lago Guaíba é o principal corpo hídrico de Porto Alegre. Sobre sua hidrografia e limites, assinale a opção que indica o fluxo correto das águas.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O Guaíba é um rio que deságua exclusivamente na Lagoa dos Patos, sem influência de contribuições fluviais."
+          },
+          {
+            "letra": "B",
+            "texto": "O Guaíba recebe as águas de cinco rios (Jacuí, Caí, Gravataí, Sinos e Taquari) antes de seguir para a laguna."
+          },
+          {
+            "letra": "C",
+            "texto": "O fluxo das águas do Guaíba é do oceano para o continente, devido à maré astronômica."
+          },
+          {
+            "letra": "D",
+            "texto": "O Guaíba limita Porto Alegre ao leste, separando a capital do município de Viamão."
+          },
+          {
+            "letra": "E",
+            "texto": "A nascente do Guaíba situa-se na Serra do Sudeste, dentro dos limites urbanos de Porto Alegre."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "O Guaíba é um complexo estuarino que recebe a drenagem de uma vasta bacia hidrográfica (os cinco rios citados). A alternativa D está errada pois o Guaíba limita a cidade a oeste; a E erra pois o Guaíba não tem 'nascente' própria, sendo um receptor de afluentes.",
+        "assuntoRelacionadoEdital": "Geografia: Hidrografia e bacia hidrográfica"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Historicamente, Porto Alegre foi palco de eventos importantes. Qual das personalidades abaixo está corretamente associada a um fato relevante para a história da capital gaúcha?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Bento Gonçalves: Foi o primeiro prefeito eleito de Porto Alegre após a Proclamação da República."
+          },
+          {
+            "letra": "B",
+            "texto": "Jerônimo de Ornelas: É considerado o primeiro sesmeiro da região que viria a ser Porto Alegre."
+          },
+          {
+            "letra": "C",
+            "texto": "Getúlio Vargas: Fundou a cidade em 1772 durante a expedição açoriana."
+          },
+          {
+            "letra": "D",
+            "texto": "Júlio de Castilhos: Foi o arquiteto da fundação do Mercado Público Municipal."
+          },
+          {
+            "letra": "E",
+            "texto": "José Montaury: Liderou a Revolução Farroupilha na capital contra o Império."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Jerônimo de Ornelas recebeu a sesmaria em 1732, estabelecendo a base da ocupação inicial da região. Bento Gonçalves era líder farroupilha e não prefeito. Getúlio Vargas não tem relação com a fundação colonial.",
+        "assuntoRelacionadoEdital": "História de Porto Alegre: Personalidades e fundadores"
+      },
+      {
+        "numero": 5,
+        "enunciado": "A organização política atual de Porto Alegre, regida pela sua Lei Orgânica, estabelece que o município possui:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Um sistema parlamentarista com eleição indireta para prefeito."
+          },
+          {
+            "letra": "B",
+            "texto": "Uma estrutura autônoma que não precisa seguir as determinações da Constituição Estadual."
+          },
+          {
+            "letra": "C",
+            "texto": "O Poder Legislativo exercido pela Câmara Municipal, composta por vereadores eleitos pelo sistema proporcional."
+          },
+          {
+            "letra": "D",
+            "texto": "Um limite de 25 vereadores, número imutável definido na Constituição Federal para capitais."
+          },
+          {
+            "letra": "E",
+            "texto": "O mandato de prefeito com duração de 5 anos, conforme atualização do Plano Diretor de 2023."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Fácil",
+        "explicacao": "A estrutura de Porto Alegre segue a regra geral das capitais brasileiras: Poder Executivo (Prefeito) e Legislativo (Câmara de Vereadores). O sistema eleitoral de vereadores é o proporcional (quociente eleitoral). As demais alternativas violam conceitos básicos da LOM e da CF.",
+        "assuntoRelacionadoEdital": "Organização Política: Estrutura administrativa e Lei Orgânica"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sobre a rede de municípios que circunda Porto Alegre (Região Metropolitana), assinale a alternativa que indica corretamente um município que faz divisa territorial direta com a capital.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Novo Hamburgo"
+          },
+          {
+            "letra": "B",
+            "texto": "Sapiranga"
+          },
+          {
+            "letra": "C",
+            "texto": "Viamão"
+          },
+          {
+            "letra": "D",
+            "texto": "São Leopoldo"
+          },
+          {
+            "letra": "E",
+            "texto": "Novo Hamburgo"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Viamão, Canoas, Alvorada e Eldorado do Sul são municípios que fazem divisa direta com Porto Alegre. Novo Hamburgo e Sapiranga pertencem à região metropolitana, mas não possuem contiguidade territorial com a capital.",
+        "assuntoRelacionadoEdital": "Geografia: Divisas e Região Metropolitana"
+      },
+      {
+        "numero": 7,
+        "enunciado": "O clima de Porto Alegre, classificado como Subtropical, apresenta características típicas de sua localização latitudinal. Assinale a alternativa correta sobre as variações climáticas da capital.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A umidade é reduzida durante todo o ano, configurando um clima semiárido."
+          },
+          {
+            "letra": "B",
+            "texto": "O clima é marcado por verões amenos e invernos com precipitação nula."
+          },
+          {
+            "letra": "C",
+            "texto": "As estações do ano são bem definidas, com influência de massas de ar polar no inverno."
+          },
+          {
+            "letra": "D",
+            "texto": "Não há incidência de geadas devido à proximidade com o Guaíba que mantém a temperatura constante."
+          },
+          {
+            "letra": "E",
+            "texto": "O clima é tropical equatorial, com chuvas abundantes e temperaturas elevadas o ano todo."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Porto Alegre possui clima Subtropical Cfa (na classificação de Köppen), com estações bem definidas. A atuação da Massa Polar Atlântica (mPa) no inverno causa quedas bruscas de temperatura, sendo um fenômeno comum na região.",
+        "assuntoRelacionadoEdital": "Geografia: Clima e fenômenos atmosféricos"
+      },
+      {
+        "numero": 8,
+        "enunciado": "A cultura de Porto Alegre é marcada pelo patrimônio histórico. Qual dos locais abaixo é um dos marcos mais importantes da fundação da cidade e do seu desenvolvimento urbano?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Arena do Grêmio, construída em 1772."
+          },
+          {
+            "letra": "B",
+            "texto": "Mercado Público Central, inaugurado no século XIX e símbolo do comércio local."
+          },
+          {
+            "letra": "C",
+            "texto": "Parque da Redenção, projeto original de fundação de Jerônimo de Ornelas."
+          },
+          {
+            "letra": "D",
+            "texto": "Usina do Gasômetro, construída para servir de sede da primeira Câmara Municipal."
+          },
+          {
+            "letra": "E",
+            "texto": "Beira-Rio, fundado antes da emancipação do estado."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "O Mercado Público Central é um dos marcos históricos mais importantes de Porto Alegre, preservando o patrimônio comercial desde o século XIX. As demais alternativas apresentam anacronismos ou erros de função histórica.",
+        "assuntoRelacionadoEdital": "Patrimônio Histórico e Cultural"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Em relação à divisão administrativa atual, como Porto Alegre é dividida para fins de gestão urbana e atendimento ao cidadão?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Em 10 regiões políticas independentes."
+          },
+          {
+            "letra": "B",
+            "texto": "Em regiões de Orçamento Participativo, que auxiliam na gestão administrativa e prioridades de investimento."
+          },
+          {
+            "letra": "C",
+            "texto": "Em distritos estaduais subordinados ao governo do estado."
+          },
+          {
+            "letra": "D",
+            "texto": "Em bairros, sendo proibida a criação de novos após o Plano Diretor de 1999."
+          },
+          {
+            "letra": "E",
+            "texto": "Em províncias capitanias hereditárias."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Porto Alegre é referência mundial no modelo de Orçamento Participativo (OP), sendo dividida em regiões para a consulta popular na definição das prioridades do orçamento municipal.",
+        "assuntoRelacionadoEdital": "Organização Política: Gestão Municipal"
+      },
+      {
+        "numero": 10,
+        "enunciado": "O Plano Diretor de Porto Alegre é um instrumento estratégico. Sobre a sua aplicação, é correto afirmar:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ele define as normas de ocupação do solo, zoneamento e crescimento urbano da capital."
+          },
+          {
+            "letra": "B",
+            "texto": "Ele é um documento estático que não pode ser revisado após sua publicação."
+          },
+          {
+            "letra": "C",
+            "texto": "Ele tem jurisdição sobre todos os municípios do Rio Grande do Sul."
+          },
+          {
+            "letra": "D",
+            "texto": "Ele regula exclusivamente o tráfego de navios no Guaíba."
+          },
+          {
+            "letra": "E",
+            "texto": "Ele substitui a Lei Orgânica do Município em todas as suas instâncias."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "O Plano Diretor é a lei municipal que organiza o crescimento da cidade, determinando o que pode ser construído e onde, garantindo o planejamento urbano sustentável. A alternativa B é falsa pois o plano é revisto periodicamente; C, D e E descrevem funções incorretas ou hierarquicamente erradas.",
+        "assuntoRelacionadoEdital": "Organização Política: Plano Diretor e Planejamento Urbano"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "História e geografia do Município e da região que o cerca",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil extremamente regionalista. Em provas municipais, a banca foca na literalidade de leis orgânicas, datas de fundação, nomes de personalidades históricas que nomeiam logradouros, e a composição geográfica (limites territoriais, relevo, hidrografia e clima). Exige memorização de fatos específicos contidos em cartilhas oficiais das prefeituras.",
+    "armadilhasComuns": [
+      "Troca de datas históricas: A banca altera pequenas datas (aniversário do município ou data de emancipação) para confundir o candidato que estudou superficialmente.",
+      "Confusão de limites territoriais: A banca costuma listar municípios vizinhos que não fazem divisa real com a cidade objeto da prova, ou trocar o ponto cardeal (ex: afirmar que o rio X limita o norte, quando na verdade limita o sul).",
+      "Associação errada de personalidades: Criar nomes fictícios ou associar feitos históricos de figuras públicas da região a pessoas erradas."
+    ],
+    "atualizacoesLegaisOuTecnicas": "É crucial verificar a Lei Orgânica do Município mais recente e o Plano Diretor atualizado. Muitos municípios gaúchos revisaram seus planos diretores entre 2022-2024, alterando zoneamento e símbolos municipais. A FUNDATEC cobra o texto vigente na data do edital.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Gramado",
+        "cargo": "Agente Administrativo",
+        "enunciado": "Sobre a história e geografia do Município de Gramado, assinale a alternativa correta: A) O Município de Gramado foi emancipado no ano de 1960. B) O relevo do município é predominantemente de planícies aluviais. C) O Município de Gramado limita-se ao norte com o município de Nova Petrópolis. D) O clima de Gramado é classificado como subtropical úmido com verões amenos. E) A principal etnia colonizadora do município foi a espanhola.",
+        "gabarito": "D"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "performanceReport": {
+    "tema": "História e Geografia de Porto Alegre e Região Metropolitana",
+    "nota": 6,
+    "totalQuestoes": 10,
+    "aprovado": false,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 2,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 3,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 4,
+        "acertou": false,
+        "respostaEstudante": "C",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 5,
+        "acertou": false,
+        "respostaEstudante": "A",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 7,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 8,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 9,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 10,
+        "acertou": false,
+        "respostaEstudante": "C",
+        "respostaCorreta": "A"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstrou bom domínio em temas de geografia física (hidrografia e clima), geografia regional (divisas municipais), além de apresentar conhecimento sobre patrimônio histórico consolidado e mecanismos de gestão participativa (Orçamento Participativo).",
+    "analisePontosFracos": "O aluno apresentou dificuldades em fatos históricos específicos (datas de fundação e figuras históricas), na compreensão da estrutura política fundamental (Poder Legislativo Municipal) e na aplicação conceitual do Plano Diretor urbano. Os erros indicam confusão entre o papel das instituições e a cronologia histórica.",
+    "recomendacaoEstudo": "Recomendo a revisão imediata do módulo de 'História de Porto Alegre', focando em uma linha do tempo dos principais marcos (fundação e sesmarias). Também é necessário revisar o tópico de 'Organização Política e Administrativa', diferenciando claramente as funções dos poderes e a hierarquia das leis municipais (Lei Orgânica vs. Plano Diretor). Sugiro a criação de resumos esquemáticos para consolidar essas datas e conceitos."
+  }
+}

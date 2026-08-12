@@ -1,0 +1,470 @@
+{
+  "sessionId": "session_1784806113343_6b25e124",
+  "tema": "Estrutura e formação de palavras (derivação e composição)",
+  "status": "COMPLETED",
+  "createdAt": "2026-07-23T11:28:33.354Z",
+  "updatedAt": "2026-07-23T11:47:47.918Z",
+  "planDaily": {
+    "data": "2026-07-23",
+    "objetivoDoDia": "Dominar os processos de derivação e composição de palavras, compreendendo a estrutura morfossintática fundamental para a prova de Português da FUNDATEC.",
+    "topicosAEstudar": [
+      "Estrutura e formação de palavras (derivação e composição)"
+    ],
+    "professorSelecionado": "Professor de Português",
+    "instrucoesParaOProfessor": "Como este tópico é a base para a ortografia e a correta análise de classes gramaticais, o professor deve focar intensamente na decomposição de palavras (radicais, prefixos, sufixos, desinências). Dada a fragilidade demonstrada pelo aluno em simulados anteriores sobre ortografia e regras de hífen, é crucial que o professor estabeleça a conexão direta entre a formação da palavra e a sua escrita correta. Explique detalhadamente: 1) Derivação prefixal, sufixal, parassintética, regressiva e imprópria; 2) Composição por justaposição e aglutinação. Use muitos exemplos práticos que envolvam prefixos como 'sub-', 'micro-' e 'auto-', reforçando como a estrutura da palavra dita a regra do hífen. O aluno teve dificuldades em simulados de ortografia com o emprego de hifens e prefixos, portanto, vincule cada tipo de formação à regra ortográfica correspondente. Utilize uma abordagem didática que elimine a memorização mecânica e foque na lógica morfológica.",
+    "justificativaEscolha": "O aluno escolheu especificamente este tema, que é fundamental para sanar dificuldades recorrentes observadas no histórico de desempenho em 'Ortografia' (especialmente o uso de hífen e prefixos). Como o aluno teve um histórico de questões erradas e até uma questão deixada em branco em simulados de ortografia, este tópico servirá como um 'reforço estrutural' necessário para que ele entenda a lógica por trás da escrita das palavras, baseando-se na morfologia antes de aplicar as regras de ortografia pura."
+  },
+  "lessonDetailedContent": {
+    "tema": "Estrutura e Formação de Palavras",
+    "objetivos": [
+      "Identificar os elementos mórficos (radical, prefixo, sufixo, desinência) em palavras variadas.",
+      "Diferenciar com precisão os processos de derivação e composição.",
+      "Aplicar a lógica morfológica para resolver questões de ortografia e hífen exigidas pela banca FUNDATEC."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\" (Para Iniciantes)\nA formação de palavras é como montar um conjunto de peças de um brinquedo. Imagine o Radical (ex: 'pedra') como o chassi de um carro. O Prefixos e Sufixos são as 'peças extras' que adicionamos: um aerofólio ou rodas novas. Se eu adicionar '-ada' a 'pedra', tenho 'pedrada' (algo que sofreu a ação). Se eu adicionar 'a-' antes, tenho 'apedrejar'. O problema que isso resolve é a economia da língua: com poucos radicais, criamos milhares de palavras sem precisar inventar sons novos. Entender a estrutura é entender o DNA da palavra, o que evita erros ortográficos básicos.\n\n## 2. Nivelamento e Conceituação Progressiva (Do Básico ao Avançado)\nAs palavras são formadas por unidades mínimas de significado chamadas Morfemas. O **Radical** é a base inalterável que dá o sentido principal. **Afixos** são elementos secundários: **Prefixos** (vêm antes) e **Sufixos** (vêm depois). A **Desinência** indica flexões gramaticais (gênero, número, tempo verbal). Exemplo: em 'meninas', temos 'menin' (radical), '-a' (vogal temática), '-s' (desinência de número).\n\n## 3. Aprofundamento Teórico Avançado (Foco em Concursos)\n- **Derivação Prefixal:** Acréscimo de prefixo ao radical (ex: 'sub-humano'). A regra do hífen diz: prefixo termina em vogal, palavra começa com consoante diferente? Junta tudo. Se terminam iguais? Hífen obrigatório.\n- **Derivação Sufixal:** Acréscimo de sufixo (ex: 'lealdade').\n- **Derivação Parassintética:** Prefixo e sufixo entram simultaneamente. O segredo da FUNDATEC: se você retirar um dos elementos, a palavra perde o sentido (ex: 'en-tard-ecer'). Se tirar 'en' sobra 'tardecer' (não existe). Se tirar 'ecer' sobra 'entarde' (não existe). Isso a diferencia da **Prefixal+Sufixal**, onde a retirada de um dos afixos permite a existência da base (ex: 'infelizmente' -> existe 'infeliz' e 'felizmente').\n- **Derivação Regressiva:** Substantivos que surgem de verbos pela retirada da terminação (ex: 'o debate' vem de 'debater').\n- **Derivação Imprópria:** Mudança de classe gramatical sem alteração morfológica (ex: 'O jantar estava bom' - jantar aqui é substantivo, embora derive de verbo).\n- **Composição:** União de dois ou mais radicais.\n  - **Justaposição:** Os radicais se unem sem alteração sonora (ex: 'guarda-chuva').\n  - **Aglutinação:** Ocorre perda de sons/letras (ex: 'embora' de 'em boa hora').\n\n## 4. Quadro Comparativo Visual\n| Processo | Exemplo | Diferencial Chave |\n| :--- | :--- | :--- |\n| Parassintética | Amanhecer | A retirada de qualquer afixo destrói a palavra. |\n| Prefixo+Sufixo | Infelizmente | A retirada de um afixo permite a existência da palavra. |\n| Justaposição | Couve-flor | Não há perda de fonemas (elementos mantidos). |\n| Aglutinação | Planalto | Há alteração fonética (plano + alto). |\n\n## 5. Mnemônicos e Técnicas de Memorização\nPara Parassintética, lembre-se: 'A-T-E'. Ela é **A**ssimétrica, **T**otalitária e **E**xigente. Não deixa retirar nada. Para a Regressiva, pense em 'AÇÃO': o substantivo sempre indica a AÇÃO do verbo (ex: o ataque, o debate, o corte).\n\n## 6. Radar de Pegadinhas (Foco na Banca FUNDATEC)\nA FUNDATEC adora cobrar palavras como 'entristecer'. O aluno desatento marca Parassintética. Cuidado: existe 'triste' e 'tristeza'. Se a base é o adjetivo, e não o radical verbal puro, a banca pode considerar prefixal+sufixal. Analise sempre: 'Posso remover e sobra algo com sentido?' Se sim, é prefixal+sufixal.\n\n## 7. Perguntas de Auto-Verificação (Recall Ativo)\n1. Qual a diferença principal entre justaposição e aglutinação? R: Justaposição mantém os sons; aglutinação funde e altera sons.\n2. Como identificar a derivação parassintética? R: A palavra exige a presença do prefixo e sufixo simultâneos; sem um, a base não se sustenta.\n3. O que é derivação imprópria? R: Quando um termo muda de classe gramatical (ex: um verbo virando substantivo) sem mudar a forma.",
+    "resumo": [
+      "Radical: Base da palavra que contém o significado central.",
+      "Afixos: Elementos anexados ao radical (prefixos antes, sufixos depois).",
+      "Parassíntese: Sufixo e prefixo entram juntos; a palavra 'morre' sem um deles.",
+      "Regressiva: Criação de substantivo a partir de verbo (geralmente deverbal).",
+      "Composição por Justaposição: Junção de termos sem perda sonora (ex: guarda-chuva).",
+      "Composição por Aglutinação: Junção de termos com supressão de letras (ex: vinagre = vinho + acre)."
+    ],
+    "exemplos": [
+      {
+        "titulo": "Regra do Hífen: Prefixo 'Sub-'",
+        "descricao": "O prefixo 'sub-' exige hífen apenas antes de 'h', 'r' e 'b'.",
+        "conteudoTecnico": "sub-humano (com h); sub-raça (com r); sub-base (com b). Em outros casos, escreve-se junto: suboficial, subdiretor."
+      },
+      {
+        "titulo": "Análise de Derivação Regressiva",
+        "descricao": "Transformação de verbos em substantivos de ação.",
+        "conteudoTecnico": "Verbo: ATACAR -> Substantivo: O ATAQUE (perdeu o '-ar'); Verbo: DEBATER -> Substantivo: O DEBATE (perdeu o '-r')."
+      },
+      {
+        "titulo": "Estrutura e Hífen: 'Auto-'",
+        "descricao": "Aplicação prática da ortografia com prefixo.",
+        "conteudoTecnico": "Autoescola (voga-vogal diferente, junta); Auto-observação (vogais iguais, hífen); Autoconhecimento (vogal-consoante, junta)."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Estrutura e Formação\"] --> B[Morfemas]\n  A --> C[Processos de Formação]\n  B --> D[Radical]\n  B --> E[Afixos]\n  C --> F[Derivação]\n  C --> G[Composição]\n  F --> H[Prefixal]\n  F --> I[Sufixal]\n  F --> J[Parassintética]\n  F --> K[Regressiva]\n  F --> L[Imprópria]\n  G --> M[Justaposição]\n  G --> N[Aglutinação]",
+    "flashcards": [
+      {
+        "pergunta": "Qual a diferença entre prefixal+sufixal e parassintética?",
+        "resposta": "Na prefixal+sufixal a retirada de um dos afixos permite a existência da palavra; na parassintética, a palavra torna-se inexistente."
+      },
+      {
+        "pergunta": "Como identificar a derivação imprópria?",
+        "resposta": "Ocorre a mudança da classe gramatical (ex: um adjetivo passando a funcionar como substantivo) sem mudar a grafia."
+      },
+      {
+        "pergunta": "O que ocorre na composição por aglutinação?",
+        "resposta": "Os elementos se unem e há perda ou alteração de fonemas (ex: vinagre < vinho + acre)."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Estrutura e formação de palavras (derivação e composição)",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "A palavra 'envelhecer' é classificada como um exemplo de derivação parassintética. Assinale a alternativa que justifica essa classificação, seguindo a lógica da FUNDATEC sobre a distinção entre parassíntese e derivação prefixal e sufixal.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "É parassintética porque possui um prefixo 'en-' e um sufixo '-ecer' adicionados ao radical."
+          },
+          {
+            "letra": "B",
+            "texto": "É parassintética pois a retirada de qualquer um dos afixos, simultaneamente ou não, resulta em uma forma inexistente na língua."
+          },
+          {
+            "letra": "C",
+            "texto": "É parassintética porque o radical sofre alteração fonética obrigatória durante o processo."
+          },
+          {
+            "letra": "D",
+            "texto": "Trata-se de derivação sufixal, pois 'velho' é o radical e 'en-ecer' são apenas morfemas gramaticais opcionais."
+          },
+          {
+            "letra": "E",
+            "texto": "É parassintética devido à junção de dois radicais autônomos, configurando composição."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "A parassíntese ocorre quando o prefixo e o sufixo são acrescentados simultaneamente ao radical de modo que, se isolarmos apenas um deles (prefixo ou sufixo), a palavra resultante não existe na língua. No caso de 'envelhecer', não existem os vocábulos 'envelho' nem 'velhecer' com o sentido do verbo original. A alternativa A é incompleta ao omitir o teste da inexistência das partes isoladas, enquanto as demais alternativas incorrem em erro conceitual sobre a estrutura da palavra.",
+        "assuntoRelacionadoEdital": "Estrutura e formação de palavras"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Considere o vocábulo 'pesca' (substantivo) originado do verbo 'pescar'. Esse processo de formação denomina-se derivação:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Sufixal."
+          },
+          {
+            "letra": "B",
+            "texto": "Parassintética."
+          },
+          {
+            "letra": "C",
+            "texto": "Regressiva (ou deverbal)."
+          },
+          {
+            "letra": "D",
+            "texto": "Imprópria."
+          },
+          {
+            "letra": "E",
+            "texto": "Prefixal."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "A derivação regressiva ocorre quando se reduz a palavra primitiva (neste caso, o verbo 'pescar') para formar um substantivo abstrato ou deverbal ('pesca'). O nome 'regressiva' vem justamente da redução (perda da desinência infinitiva). As outras alternativas estão incorretas porque não houve acréscimo de afixos (A, B, E) nem mudança de classe gramatical sem alteração de forma (D - derivação imprópria).",
+        "assuntoRelacionadoEdital": "Processos de derivação"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Analise as palavras 'autoescola' e 'micro-ondas' à luz do Novo Acordo Ortográfico. Assinale a alternativa que justifica corretamente a presença ou ausência do hífen.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Autoescola mantém-se junta porque o prefixo termina em vogal diferente da vogal que inicia o segundo elemento."
+          },
+          {
+            "letra": "B",
+            "texto": "Micro-ondas utiliza hífen porque o prefixo termina em vogal e o segundo elemento inicia com a mesma vogal."
+          },
+          {
+            "letra": "C",
+            "texto": "Ambas estão corretas: o prefixo 'auto' e 'micro' sempre exigem hífen antes de vogal."
+          },
+          {
+            "letra": "D",
+            "texto": "O hífen em 'micro-ondas' é opcional segundo as novas regras de ortografia."
+          },
+          {
+            "letra": "E",
+            "texto": "A forma 'autoescola' está incorreta, deveria ser 'auto-escola'."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "Segundo o Acordo Ortográfico, o hífen é obrigatório quando o prefixo termina em vogal e o segundo elemento começa com a mesma vogal (micro + ondas = micro-ondas). Quando terminam em vogais diferentes, o hífen é eliminado e as palavras são unidas (auto + escola = autoescola). A alternativa A complementa B, mas a alternativa B é a que justifica especificamente a regra do hífen solicitada.",
+        "assuntoRelacionadoEdital": "Ortografia oficial e hífen"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Na oração 'O jantar foi excelente', a palavra 'jantar' exemplifica qual processo de formação?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Derivação parassintética."
+          },
+          {
+            "letra": "B",
+            "texto": "Derivação prefixal."
+          },
+          {
+            "letra": "C",
+            "texto": "Derivação imprópria (conversão)."
+          },
+          {
+            "letra": "D",
+            "texto": "Composição por aglutinação."
+          },
+          {
+            "letra": "E",
+            "texto": "Derivação regressiva."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Fácil",
+        "explicacao": "A derivação imprópria ocorre quando uma palavra muda de classe gramatical sem sofrer alteração na sua estrutura (sem acréscimo ou supressão de morfemas). O verbo 'jantar', quando precedido de artigo ('O jantar'), passa a funcionar como substantivo. Não é derivação regressiva, pois não houve redução da forma original.",
+        "assuntoRelacionadoEdital": "Processos de derivação"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Assinale a alternativa que apresenta, exclusivamente, palavras formadas por composição por aglutinação.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Pernilongo, aguardente, embora."
+          },
+          {
+            "letra": "B",
+            "texto": "Couve-flor, pontapé, guarda-chuva."
+          },
+          {
+            "letra": "C",
+            "texto": "Infiel, desleal, antebraço."
+          },
+          {
+            "letra": "D",
+            "texto": "Girassol, passatempo, madrugar."
+          },
+          {
+            "letra": "E",
+            "texto": "Anoitecer, amanhecer, entardecer."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "Na composição por aglutinação, os elementos se unem e há perda ou alteração fonética de um ou mais fonemas (perna + longo = pernilongo; água + ardente = aguardente; em + boa + hora = embora). Na alternativa B, temos casos de justaposição (sem alteração fonética). A alternativa C traz derivação prefixal. A D traz justaposição e derivação. A E traz parassíntese.",
+        "assuntoRelacionadoEdital": "Processos de composição"
+      },
+      {
+        "numero": 6,
+        "enunciado": "A palavra 'infelizmente' é um exemplo clássico de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Derivação parassintética."
+          },
+          {
+            "letra": "B",
+            "texto": "Derivação prefixal e sufixal."
+          },
+          {
+            "letra": "C",
+            "texto": "Composição por aglutinação."
+          },
+          {
+            "letra": "D",
+            "texto": "Derivação imprópria."
+          },
+          {
+            "letra": "E",
+            "texto": "Derivação regressiva."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "É derivação prefixal e sufixal porque o prefixo 'in-' e o sufixo '-mente' foram adicionados ao radical 'feliz' em tempos diferentes ou de forma independente. Podemos ter 'infeliz' ou 'felizmente' como palavras válidas antes da junção completa. Por isso, difere da parassíntese (onde a retirada de um dos afixos invalidaria a palavra).",
+        "assuntoRelacionadoEdital": "Processos de derivação"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Qual dos termos abaixo é formado pelo processo de derivação prefixal?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Subnutrido."
+          },
+          {
+            "letra": "B",
+            "texto": "Felizmente."
+          },
+          {
+            "letra": "C",
+            "texto": "Anoitecer."
+          },
+          {
+            "letra": "D",
+            "texto": "Planalto."
+          },
+          {
+            "letra": "E",
+            "texto": "Beija-flor."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Fácil",
+        "explicacao": "A palavra 'subnutrido' é formada pelo prefixo 'sub-' (posição inferior/insuficiência) adicionado ao radical 'nutrido'. 'Felizmente' é sufixal; 'Anoitecer' é parassintética; 'Planalto' é composição por aglutinação (plano + alto); 'Beija-flor' é composição por justaposição.",
+        "assuntoRelacionadoEdital": "Processos de derivação"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Assinale a alternativa em que a palavra apresenta um prefixo grego corretamente identificado quanto ao seu sentido:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Microbiologia: prefixo 'micro' que significa grande."
+          },
+          {
+            "letra": "B",
+            "texto": "Antiaéreo: prefixo 'anti' que significa favorável."
+          },
+          {
+            "letra": "C",
+            "texto": "Epílogo: prefixo 'epi' que indica posição superior ou sobre."
+          },
+          {
+            "letra": "D",
+            "texto": "Simbiose: prefixo 'sim' que indica separação."
+          },
+          {
+            "letra": "E",
+            "texto": "Panteão: prefixo 'pan' que indica parte."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "O prefixo grego 'epi-' tem o sentido de 'sobre', 'depois' ou 'posição superior'. As outras estão incorretas: 'micro' significa pequeno; 'anti' significa oposição; 'sim' significa com/junto; 'pan' significa tudo/todos.",
+        "assuntoRelacionadoEdital": "Estrutura das palavras (prefixos)"
+      },
+      {
+        "numero": 9,
+        "enunciado": "O termo 'sub-base', conforme o Acordo Ortográfico vigente, utiliza hífen porque:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Prefixos terminados em consoante sempre exigem hífen."
+          },
+          {
+            "letra": "B",
+            "texto": "O prefixo 'sub-' exige hífen quando o segundo elemento inicia com 'b' ou 'r'."
+          },
+          {
+            "letra": "C",
+            "texto": "É um caso de exceção de aglutinação."
+          },
+          {
+            "letra": "D",
+            "texto": "O prefixo 'sub-' é monossilábico tônico."
+          },
+          {
+            "letra": "E",
+            "texto": "Houve derivação regressiva."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Difícil",
+        "explicacao": "De acordo com as regras de hífen, o prefixo 'sub-' deve ser separado por hífen quando o segundo elemento inicia com 'b', 'r' ou 'h'. Portanto, 'sub-base', 'sub-reitor', 'sub-humano'. As outras opções ignoram a especificidade da regra para esse prefixo.",
+        "assuntoRelacionadoEdital": "Ortografia oficial e hífen"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Aponte a alternativa que não apresenta um processo de formação de palavras por composição.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Passatempo."
+          },
+          {
+            "letra": "B",
+            "texto": "Girassol."
+          },
+          {
+            "letra": "C",
+            "texto": "Vaivém."
+          },
+          {
+            "letra": "D",
+            "texto": "Deslealdade."
+          },
+          {
+            "letra": "E",
+            "texto": "Fidalgo."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Médio",
+        "explicacao": "A palavra 'deslealdade' é formada por derivação sufixal (leal -> lealdade) e prefixal (des- + lealdade). Todas as outras (Passatempo, Girassol, Vaivém, Fidalgo) são formadas pela junção de dois ou mais radicais (composição).",
+        "assuntoRelacionadoEdital": "Processos de composição"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Estrutura e formação de palavras (derivação e composição)",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil técnico muito marcado em Língua Portuguesa. No tema de formação de palavras, a banca evita teorias abstratas e foca na identificação prática dos processos de derivação (prefixal, sufixal, parassintética, regressiva e imprópria) e composição (justaposição e aglutinação). É comum exigir que o candidato identifique o radical, os afixos e o processo morfológico dentro de frases curtas, cobrando a capacidade de análise segmentada da palavra.",
+    "armadilhasComuns": [
+      "Armadilha 1: Confusão entre derivação parassintética e derivação prefixal+sufixal. A banca costuma colocar palavras onde o prefixo ou sufixo podem ser retirados mantendo a existência da palavra (prefixal+sufixal) contra palavras onde a retirada de um dos elementos torna a palavra inexistente (parassintética).",
+      "Armadilha 2: Identificação da derivação regressiva. A banca frequentemente apresenta substantivos deverbais e testa se o aluno consegue identificar que a palavra derivou do verbo, e não o contrário (ex: o ataque derivar de atacar).",
+      "Armadilha 3: Diferenciação entre composição por aglutinação e justaposição, especialmente em casos de palavras que sofreram alterações fonéticas históricas que o candidato possa ignorar."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há alterações legais, contudo, a banca tem intensificado a cobrança de neologismos técnicos e o uso de hifenização conforme o atual Acordo Ortográfico, muitas vezes integrando a formação de palavras à regra de acentuação e uso do hífen, exigindo domínio da norma culta atualizada.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Caxias do Sul",
+        "cargo": "Analista de Processos",
+        "enunciado": "A palavra 'infelizmente' é formada por qual processo de derivação?",
+        "gabarito": "Derivação prefixal e sufixal"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Câmara Municipal de Esteio",
+        "cargo": "Analista Legislativo",
+        "enunciado": "Assinale a alternativa que apresenta uma palavra formada por composição por aglutinação.",
+        "gabarito": "Planalto"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "performanceReport": {
+    "tema": "Estrutura e formação de palavras (derivação e composição)",
+    "nota": 3,
+    "totalQuestoes": 10,
+    "aprovado": false,
+    "detalheQuestoes": [
+      {
+        "numero": 1,
+        "acertou": false,
+        "respostaEstudante": "A",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 2,
+        "acertou": false,
+        "respostaEstudante": "A",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 3,
+        "acertou": false,
+        "respostaEstudante": "A",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 4,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 5,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 6,
+        "acertou": true,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 7,
+        "acertou": false,
+        "respostaEstudante": "E",
+        "respostaCorreta": "A"
+      },
+      {
+        "numero": 8,
+        "acertou": true,
+        "respostaEstudante": "C",
+        "respostaCorreta": "C"
+      },
+      {
+        "numero": 9,
+        "acertou": false,
+        "respostaEstudante": "B",
+        "respostaCorreta": "B"
+      },
+      {
+        "numero": 10,
+        "acertou": false,
+        "respostaEstudante": "B",
+        "respostaCorreta": "D"
+      }
+    ],
+    "analisePontosFortes": "O aluno demonstrou domínio básico em derivação imprópria (conversão), identificação de processos de derivação prefixal/sufixal combinados e compreensão de prefixos gregos comuns.",
+    "analisePontosFracos": "O estudante apresentou lacunas conceituais críticas na distinção entre parassíntese e derivação prefixal/sufixal, falhando ao não aplicar o teste da inexistência dos afixos isolados. Também demonstrou dificuldades na diferenciação entre composição por aglutinação e justaposição, além de confusão na aplicação prática das regras ortográficas do uso do hífen.",
+    "recomendacaoEstudo": "Recomendada revisão imediata dos módulos de 'Estrutura das Palavras' e 'Processos de Formação'. Foque especialmente na diferença entre parassíntese e derivação múltipla. Para o conteúdo de ortografia, dedique tempo extra à memorização das regras de uso do hífen com prefixos. Sugiro criar um mapa mental comparativo entre aglutinação (perda fonética) e justaposição (sem alteração) para sanar as dúvidas recorrentes sobre composição."
+  }
+}

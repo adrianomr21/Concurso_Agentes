@@ -1,0 +1,403 @@
+{
+  "sessionId": "session_1785176135127_e0e7d639",
+  "tema": "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)",
+  "status": "COMPLETED",
+  "createdAt": "2026-07-27T18:15:35.130Z",
+  "updatedAt": "2026-07-27T18:15:35.130Z",
+  "planDaily": {
+    "data": "2026-07-28",
+    "objetivoDoDia": "Domínio aprofundado dos Direitos e Garantias Fundamentais da Constituição Federal de 1988",
+    "topicosAEstudar": [
+      "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)"
+    ],
+    "professorSelecionado": "Professor de Legislação",
+    "instrucoesParaOProfessor": "Professor, o aluno está iniciando o estudo do Art. 5º ao 17 da CF/88. Como este tópico é extenso e crucial para concursos da FUNDATEC, estruture a aula com foco total no Art. 5º (Direitos Individuais e Coletivos). Dada a necessidade de reforço pedagógico identificada em simulados anteriores (onde o aluno demonstrou dificuldade em temas de base constitucional e deixou questões em branco), você deve: 1) Explicar com didática os remédios constitucionais (Habeas Corpus, Mandado de Segurança, etc.), usando exemplos práticos para sanar dúvidas fundamentais. 2) Abordar as garantias processuais e a inviolabilidade de domicílio, que costumam ser recorrentes em provas da banca. 3) Como houve lacuna em questões de 'democracia participativa' no último simulado de Legislação, estabeleça a conexão entre os Direitos Fundamentais e o exercício da cidadania democrática. 4) Utilize casos práticos e súmulas vinculantes do STF relacionadas a esses artigos para consolidar a teoria. Evite apenas a leitura da letra da lei; faça uma ponte com situações cotidianas para garantir que o aluno não deixe lacunas de entendimento, evitando respostas em branco em futuras avaliações.",
+    "justificativaEscolha": "O aluno solicitou especificamente este tópico de Legislação e, apesar de ter passado no último simulado de Legislação, o histórico aponta lacunas em conceitos fundamentais de cidadania e princípios constitucionais (questões deixadas em branco e erros em princípios de relações internacionais). A priorização deste tema é necessária para consolidar a base da Constituição Federal, essencial para o cargo de Analista."
+  },
+  "lessonDetailedContent": {
+    "tema": "Constituição Federal de 1988: Direitos e Garantias Fundamentais (Art. 5° ao 17)",
+    "objetivos": [
+      "Compreender a estrutura e a aplicabilidade dos direitos individuais e coletivos contidos no Art. 5º da CF/88.",
+      "Dominar os requisitos e finalidades dos remédios constitucionais para a proteção de direitos lesados.",
+      "Diferenciar situações de exercício da cidadania democrática, foco em direitos políticos e alistamento eleitoral.",
+      "Identificar as 'pegadinhas' clássicas da banca FUNDATEC relacionadas à literalidade da lei."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\nImagine que a Constituição Federal de 1988 é o 'Manual de Conduta e Proteção' de um condomínio gigante chamado Brasil. O Artigo 5º é o capítulo das 'Regras de Ouro' que impedem o síndico (Estado) de invadir o seu apartamento ou multar você injustamente. Os remédios constitucionais são as 'Ferramentas de Manutenção' que você usa para consertar algo que quebrou. Se o síndico prendeu o seu elevador (liberdade de locomoção), você usa o Habeas Corpus. Se o porteiro negou acesso ao livro de registros sobre você (dados pessoais), você usa o Habeas Data. A analogia ajuda a entender que esses direitos não são apenas teóricos: eles são escudos práticos contra o abuso de poder.\n\n## 2. Nivelamento e Conceituação Progressiva\nComeçamos pelos Direitos Individuais (Art. 5º). Eles são inatos, não dependem de favor do Estado. Conceito chave: *Inviolabilidade*. Seu domicílio é seu asilo inviolável, ninguém pode entrar sem seu consentimento, exceto em flagrante delito, desastre, socorro ou, durante o dia, por determinação judicial. O 'dia' aqui é interpretado como o período de luz solar para fins de cumprimento de mandado. Avançando: Direitos Políticos. A democracia exige participação. O voto é o exercício máximo. É fundamental distinguir os direitos fundamentais, que garantem a dignidade da pessoa humana, dos direitos políticos, que garantem o funcionamento da soberania popular.\n\n## 3. Aprofundamento Teórico Avançado\nPara a banca FUNDATEC, a literalidade é a regra. Vamos aos remédios constitucionais:\n* **Habeas Corpus (HC):** Protege a liberdade de locomoção (ir, vir e ficar). É gratuito e não exige advogado.\n* **Habeas Data (HD):** Protege o direito à informação pessoal. Exige, obrigatoriamente, uma 'prova de recusa' administrativa anterior. Não cabe se a informação for de interesse coletivo/público (nesse caso, usamos o MS).\n* **Mandado de Segurança (MS):** É o remédio residual. Protege direito líquido e certo, não amparado por HC ou HD. Ponto crítico: exige **prova pré-constituída**. Se o fato exigir dilação probatória (precisar de perícia ou testemunha para provar), o MS não serve.\n* **Ação Popular:** Qualquer cidadão (pessoa física com título de eleitor) pode anular ato lesivo ao patrimônio público. É um exercício direto da cidadania.\n* **Mandado de Injunção:** Usado quando a ausência de norma regulamentadora torna inviável o exercício de direitos constitucionais.\n\n## 4. Quadro Comparativo Visual\n| Remédio | Protege | Exige Advogado? | Custo |\n| :--- | :--- | :--- | :--- |\n| Habeas Corpus | Liberdade de Locomoção | Não | Gratuito |\n| Habeas Data | Informação Pessoal | Sim | Gratuito |\n| Mandado de Segurança | Direito Líquido e Certo | Sim | Custas |\n| Ação Popular | Patrimônio Público | Sim | Isento (salvo má-fé) |\n\n## 5. Mnemônicos e Técnicas de Memorização\nPara os Princípios da Administração Pública: LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência). Para o voto: 'Maiores de 70, o voto é facultativo'. Lembre-se: 'Alfabetizado de 18 a 70 anos é OBRIGATÓRIO'.\n\n## 6. Radar de Pegadinhas (Foco FUNDATEC)\n1. A banca adora trocar 'Gratuidade' por 'Custo'. O HC e o HD são gratuitos, mas o MS exige custas.\n2. Inversão de prazos: Lembre-se que o Mandado de Segurança tem prazo decadencial de 120 dias, enquanto ações populares visam a proteção do patrimônio sem esse prazo curto.\n3. A banca insiste que 'o Mandado de Segurança protege qualquer direito'. Falso! Protege apenas direito líquido e certo comprovado documentalmente de plano.\n\n## 7. Perguntas de Auto-Verificação\n1. Qual remédio cabe se o Estado nega acesso a um dado pessoal meu? R: Habeas Data (após comprovada a recusa).\n2. O Mandado de Segurança exige advogado? R: Sim, é indispensável.\n3. O que é 'prova pré-constituída' no MS? R: É o conjunto de documentos apresentados já na petição inicial, pois não há fase de produção de provas no MS.",
+    "resumo": [
+      "Direitos Fundamentais: Garantias inatos de dignidade humana; inviolabilidade de domicílio é regra, com exceções taxativas (flagrante, desastre, socorro, ordem judicial).",
+      "Habeas Data: Exclusivo para dados pessoais do impetrante, exige prova de recusa prévia do órgão detentor.",
+      "Mandado de Segurança: Requer direito líquido e certo e prova pré-constituída (documental). Não aceita dilação probatória.",
+      "Direitos Políticos: O alistamento eleitoral é obrigatório para maiores de 18 anos e facultativo para os maiores de 70 anos, analfabetos e jovens de 16-17 anos.",
+      "Democracia Participativa: A Ação Popular é o instrumento de cidadania que permite ao eleitor fiscalizar e proteger o patrimônio público."
+    ],
+    "exemplos": [
+      {
+        "titulo": "Exemplo Prático: Habeas Data e SPC",
+        "descricao": "Caso um consumidor tenha seu nome incluído em cadastro de proteção ao crédito por dívida inexistente e o órgão (SPC/Serasa) se recuse a fornecer a origem desse registro administrativo, o cidadão deve impetrar Habeas Data.",
+        "conteudoTecnico": "Passo 1: Requerimento administrativo ao órgão. Passo 2: Recebimento da resposta negativa ou inércia. Passo 3: Impetração de HD munido da prova de recusa (documento da negativa)."
+      },
+      {
+        "titulo": "Exemplo Prático: Mandado de Segurança",
+        "descricao": "Um candidato aprovado em concurso público dentro das vagas tem sua posse negada sem justificativa legal. Como o direito é 'líquido e certo' (edital + prova de aprovação) e a prova é puramente documental, o candidato impetra MS.",
+        "conteudoTecnico": "Documentos necessários: Edital, Nomeação no Diário Oficial, Certidão de aprovação. O juiz decidirá apenas com esses papéis, sem necessidade de ouvir testemunhas."
+      },
+      {
+        "titulo": "Exemplo Prático: Inviolabilidade de Domicílio",
+        "descricao": "A polícia pode entrar em uma casa à noite apenas com ordem judicial ou em caso de flagrante delito/desastre/socorro. Se a polícia entrar para buscar provas sem autorização judicial à noite, há violação do Art. 5º.",
+        "conteudoTecnico": "Cenário: Entrada sem mandado às 22h por suspeita de crime antigo. Resultado: Ilicitude da prova produzida, por desrespeito ao Art. 5º, XI, CF/88."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Direitos e Garantias (CF/88)\"] --> B[\"Direitos Individuais (Art. 5º)\"]\n  A --> C[\"Remédios Constitucionais\"]\n  A --> D[\"Direitos Políticos\"]\n  C --> C1[\"Habeas Corpus\"]\n  C --> C2[\"Habeas Data\"]\n  C --> C3[\"Mandado de Segurança\"]\n  C --> C4[\"Ação Popular\"]\n  D --> D1[\"Alistamento Obrigatório (18-70 anos)\"]\n  D --> D2[\"Facultativo (16-17, +70, analfabetos)\"]",
+    "flashcards": [
+      {
+        "pergunta": "Qual remédio é usado para proteger direito líquido e certo?",
+        "resposta": "Mandado de Segurança."
+      },
+      {
+        "pergunta": "O Habeas Data exige advogado?",
+        "resposta": "Sim, diferentemente do Habeas Corpus."
+      },
+      {
+        "pergunta": "Qual a idade mínima para o voto ser considerado obrigatório?",
+        "resposta": "18 anos completos (até os 70)."
+      },
+      {
+        "pergunta": "O que é prova pré-constituída no MS?",
+        "resposta": "Documentos que provam o direito já no momento da petição inicial, sem necessidade de outras provas."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Constituição Federal de 1988: Direitos e Garantias Fundamentais (Arts. 5º ao 17) - Revisão e Ajustes",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Considerando o disposto no Art. 5º da CF/88 acerca dos direitos e deveres individuais e coletivos, assinale a alternativa que reproduz corretamente um dos preceitos constitucionais.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito, desastre ou para prestar socorro, ou por determinação judicial, a qualquer hora do dia ou da noite."
+          },
+          {
+            "letra": "B",
+            "texto": "É assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva apenas aos brasileiros."
+          },
+          {
+            "letra": "C",
+            "texto": "É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença, sendo vedado o anonimato."
+          },
+          {
+            "letra": "D",
+            "texto": "A prática do racismo constitui crime afiançável e imprescritível, sujeito à pena de detenção, nos termos da lei."
+          },
+          {
+            "letra": "E",
+            "texto": "O direito de reunião independe de autorização, desde que haja prévio aviso à autoridade competente e que ocorra apenas em locais fechados."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Fácil",
+        "explicacao": "A alternativa C reproduz fielmente o inciso IX do art. 5º. A alternativa A está incorreta pois a entrada por determinação judicial na casa só pode ocorrer durante o dia (inciso XI). A alternativa B está incorreta pois o direito à assistência religiosa se estende aos estrangeiros também. A alternativa D está errada pois o racismo é inafiançável e sujeito à pena de reclusão (inciso XLII). A alternativa E está errada pois o direito de reunião pode ocorrer em locais abertos ao público, desde que não frustrem outra reunião anteriormente convocada.",
+        "assuntoRelacionadoEdital": "Direitos e Deveres Individuais e Coletivos"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Quanto aos remédios constitucionais, analise a assertiva: 'O Habeas Data destina-se a assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público'. Qual característica correta define este remédio?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Possui natureza gratuita e exige prova de recusa administrativa prévia."
+          },
+          {
+            "letra": "B",
+            "texto": "Pode ser utilizado para proteger direito líquido e certo de terceiro quando não amparado por HC."
+          },
+          {
+            "letra": "C",
+            "texto": "Não exige prova da negativa administrativa para sua propositura, bastando o interesse."
+          },
+          {
+            "letra": "D",
+            "texto": "É cabível contra autoridade pública para proteger a honra, sendo um remédio oneroso."
+          },
+          {
+            "letra": "E",
+            "texto": "O Habeas Data e o Mandado de Segurança possuem o mesmo rito e finalidade."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "O Habeas Data (inciso LXXII) tem gratuidade constitucional e a Súmula 2 do STJ estabelece que é necessária a comprovação da negativa da via administrativa para o seu cabimento. As alternativas B, C, D e E confundem as características de gratuidade, finalidade e rito, atribuindo ao HD competências típicas do Mandado de Segurança ou ignorando a exigência formal de prova da negativa.",
+        "assuntoRelacionadoEdital": "Remédios Constitucionais"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Sobre a elegibilidade e os direitos políticos, assinale a opção que apresenta um impedimento absoluto de elegibilidade previsto na CF/88.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Os maiores de 16 e menores de 18 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Os analfabetos."
+          },
+          {
+            "letra": "C",
+            "texto": "Os conscritos, durante o período do serviço militar obrigatório."
+          },
+          {
+            "letra": "D",
+            "texto": "Os estrangeiros, exceto os portugueses que gozem de reciprocidade."
+          },
+          {
+            "letra": "E",
+            "texto": "Os militares em serviço ativo com menos de 10 anos de serviço."
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Difícil",
+        "explicacao": "Os conscritos, durante o período do serviço militar obrigatório, são inalistáveis, o que constitui impedimento absoluto para o exercício da elegibilidade. Os analfabetos e menores de 18 anos são inalistáveis facultativos (podem votar, mas não podem ser votados). A alternativa D é imprecisa quanto à proibição constitucional absoluta dos inalistáveis.",
+        "assuntoRelacionadoEdital": "Direitos Políticos"
+      },
+      {
+        "numero": 4,
+        "enunciado": "A inviolabilidade do sigilo da correspondência e das comunicações pode ser afastada em situações específicas. Assinale a correta sobre tal reserva de jurisdição.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Apenas mediante ordem judicial, em qualquer caso, sem necessidade de lei específica."
+          },
+          {
+            "letra": "B",
+            "texto": "Por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."
+          },
+          {
+            "letra": "C",
+            "texto": "Por ordem de autoridade policial, desde que fundamentada e com comunicação ao Ministério Público."
+          },
+          {
+            "letra": "D",
+            "texto": "Apenas com autorização da autoridade judiciária competente, sendo vedada em casos de flagrante."
+          },
+          {
+            "letra": "E",
+            "texto": "Não admite exceção, sendo um direito absoluto do cidadão."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "O inciso XII do art. 5º estabelece que o sigilo das comunicações telefônicas pode ser afastado por ordem judicial (princípio da reserva de jurisdição) para investigação criminal ou instrução processual penal. Esta proteção não é absoluta, mas depende estritamente do Poder Judiciário, sendo vedada a quebra por autoridade policial por conta própria.",
+        "assuntoRelacionadoEdital": "Direitos e Garantias Fundamentais"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Considerando as finalidades dos remédios constitucionais, qual das assertivas descreve corretamente o Mandado de Injunção (MI)?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Serve para proteger direito líquido e certo não amparado por HC ou HD."
+          },
+          {
+            "letra": "B",
+            "texto": "É cabível sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos constitucionais."
+          },
+          {
+            "letra": "C",
+            "texto": "Tem por finalidade retificar dados constantes de registros públicos."
+          },
+          {
+            "letra": "D",
+            "texto": "É um remédio gratuito que protege a liberdade de locomoção."
+          },
+          {
+            "letra": "E",
+            "texto": "Serve para anular ato lesivo ao patrimônio público ou moralidade administrativa."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "O Mandado de Injunção (inciso LXXI) supre a lacuna legislativa (omissão) que impede o gozo de direitos fundamentais. A alternativa A descreve o Mandado de Segurança. A C descreve o Habeas Data. A D descreve o Habeas Corpus. A E descreve a Ação Popular.",
+        "assuntoRelacionadoEdital": "Remédios Constitucionais"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sobre o direito de propriedade, o texto constitucional estabelece que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pequena propriedade rural, assim definida em lei, desde que trabalhada pelo proprietário, não será objeto de penhora para pagamento de débitos da atividade produtiva."
+          },
+          {
+            "letra": "B",
+            "texto": "A propriedade atenderá à sua função social exclusivamente se for urbana."
+          },
+          {
+            "letra": "C",
+            "texto": "O Estado não pode intervir na propriedade em caso de perigo público iminente."
+          },
+          {
+            "letra": "D",
+            "texto": "A desapropriação por necessidade pública não exige qualquer tipo de indenização."
+          },
+          {
+            "letra": "E",
+            "texto": "A requisição administrativa de bem particular só é permitida em tempo de guerra."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "O inciso XXVI garante a impenhorabilidade da pequena propriedade rural. A alternativa B é falsa, pois a função social abrange tanto urbana quanto rural. C, D e E erram ao ignorar as regras constitucionais sobre intervenção do Estado na propriedade (que exige indenização e atende a interesse público).",
+        "assuntoRelacionadoEdital": "Direito de Propriedade"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Sobre a nacionalidade e direitos políticos, assinale a alternativa que indica corretamente um cargo privativo de brasileiro nato.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ministro da Defesa."
+          },
+          {
+            "letra": "B",
+            "texto": "Presidente da Câmara dos Deputados."
+          },
+          {
+            "letra": "C",
+            "texto": "Senador da República."
+          },
+          {
+            "letra": "D",
+            "texto": "Deputado Federal."
+          },
+          {
+            "letra": "E",
+            "texto": "Prefeito Municipal."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Conforme o Art. 12, §3º, são privativos de brasileiro nato os cargos: Presidente e Vice da República, Presidente da Câmara, Presidente do Senado, Ministro do STF, da carreira diplomática, oficial das Forças Armadas e Ministro de Estado da Defesa. A alternativa B é a única que consta no rol do texto constitucional.",
+        "assuntoRelacionadoEdital": "Nacionalidade e Direitos Políticos"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Sobre a liberdade de associação, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A criação de associações depende de autorização estatal."
+          },
+          {
+            "letra": "B",
+            "texto": "As associações podem ser compulsoriamente dissolvidas por decisão administrativa."
+          },
+          {
+            "letra": "C",
+            "texto": "A suspensão das atividades de uma associação depende de decisão judicial transitada em julgado."
+          },
+          {
+            "letra": "D",
+            "texto": "As associações só podem ser dissolvidas mediante decisão judicial com trânsito em julgado."
+          },
+          {
+            "letra": "E",
+            "texto": "É vedada a interferência estatal em associações de qualquer tipo."
+          }
+        ],
+        "respostaCorreta": "D",
+        "nivel": "Médio",
+        "explicacao": "O inciso XIX estabelece que as associações só podem ser dissolvidas compulsoriamente ou ter suas atividades suspensas por decisão judicial, exigindo-se o trânsito em julgado para a dissolução. As demais alternativas contrariam o princípio da liberdade de associação e o devido processo legal.",
+        "assuntoRelacionadoEdital": "Direitos Individuais e Coletivos"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Sobre as garantias processuais, analise a afirmação: 'A lei penal retroagirá, salvo para beneficiar o réu'. Assinale a alternativa que interpreta corretamente este princípio constitucional.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A lei penal pode retroagir para beneficiar o réu, inclusive após o trânsito em julgado da sentença condenatória."
+          },
+          {
+            "letra": "B",
+            "texto": "A lei penal retroage apenas se a sentença ainda não tiver transitado em julgado."
+          },
+          {
+            "letra": "C",
+            "texto": "A lei penal nunca retroage, sendo um direito absoluto do sistema punitivo."
+          },
+          {
+            "letra": "D",
+            "texto": "O tribunal do júri permite a retroatividade de leis para prejudicar o réu."
+          },
+          {
+            "letra": "E",
+            "texto": "A retroatividade é vedada em todos os casos, sem exceções."
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Médio",
+        "explicacao": "O inciso XL do art. 5º estabelece que a lei penal não retroagirá, salvo para beneficiar o réu. A jurisprudência e a doutrina confirmam que esse benefício alcança situações posteriores ao trânsito em julgado, sendo uma garantia fundamental, não dependendo de fase processual anterior à condenação final.",
+        "assuntoRelacionadoEdital": "Garantias Processuais"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Sobre o direito de petição e cidadania, a Constituição garante a todos, independentemente do pagamento de taxas, o direito de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Ajuizar qualquer ação civil pública."
+          },
+          {
+            "letra": "B",
+            "texto": "Petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder."
+          },
+          {
+            "letra": "C",
+            "texto": "Obter certidões em repartições públicas, ainda que para fins comerciais não especificados."
+          },
+          {
+            "letra": "D",
+            "texto": "Exercer o voto obrigatório aos 16 anos."
+          },
+          {
+            "letra": "E",
+            "texto": "Acesso a informações sigilosas de segurança nacional."
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "O inciso XXXIV, alínea 'a', garante o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, independentemente do pagamento de taxas. Esta é uma ferramenta fundamental de democracia participativa e cidadania.",
+        "assuntoRelacionadoEdital": "Direitos e Deveres Individuais e Coletivos"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Constituição Federal de 1988: Dos Direitos e Garantias Fundamentais (Arts. 5° ao 17)",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil altamente literal. O foco principal recai sobre o Art. 5º, exigindo o conhecimento exato do texto constitucional. A banca costuma extrair incisos e parágrafos, realizando pequenas trocas de palavras para verificar se o candidato decorou a norma ou apenas leu por alto. Há uma recorrência significativa em questões sobre remédios constitucionais, direitos de nacionalidade e direitos políticos, onde a banca explora as condições de elegibilidade e inelegibilidade de forma objetiva.",
+    "armadilhasComuns": [
+      "Armadilha 1: Troca de termos excludentes, como substituir 'todos' por 'somente brasileiros', ou inverter prazos e condições previstas nos incisos do Art. 5º.",
+      "Armadilha 2: Confusão entre os remédios constitucionais, descrevendo a finalidade de um (ex: Habeas Data) e atribuindo ao outro (ex: Mandado de Segurança) para confundir o candidato sobre a gratuidade e o cabimento.",
+      "Armadilha 3: Alteração sutil nas vedações aos direitos políticos, inserindo exceções que não existem na lei ou invertendo o alcance de inelegibilidades (ex: militares e conscritos)."
+    ],
+    "atualizacoesLegaisOuTecnicas": "É fundamental estar atento à Emenda Constitucional nº 132/2023 (Reforma Tributária), que impactou indiretamente diversos aspectos da organização do Estado, e às atualizações constantes sobre a aplicação de direitos fundamentais no ambiente digital, embora a FUNDATEC priorize o texto seco da CF/88 em detrimento de inovações doutrinárias ou jurisprudenciais profundas.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Gramado",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "De acordo com a Constituição Federal de 1988, sobre os direitos e deveres individuais e coletivos, assinale a alternativa correta.",
+        "gabarito": "A"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Câmara Municipal de Esteio",
+        "cargo": "Analista Legislativo",
+        "enunciado": "Segundo a CF/88, qual dos remédios constitucionais abaixo é gratuito, na forma da lei, para a proteção de direito líquido e certo, não amparado por habeas corpus ou habeas data?",
+        "gabarito": "C"
+      }
+    ]
+  },
+  "chatHistory": []
+}

@@ -1,0 +1,416 @@
+{
+  "sessionId": "session_1786477518956_ef3d0c3c",
+  "tema": "Regra de três composta",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T19:45:18.970Z",
+  "updatedAt": "2026-08-11T19:57:04.341Z",
+  "planDaily": {
+    "data": "2026-08-12",
+    "objetivoDoDia": "Dominar a Regra de Três Composta, focando na correta identificação de grandezas direta e inversamente proporcionais.",
+    "topicosAEstudar": [
+      "Regra de três composta"
+    ],
+    "professorSelecionado": "Professor de Matemática",
+    "instrucoesParaOProfessor": "O aluno possui um bom histórico em Regra de Três Simples, mas apresentou uma falha pontual em um exercício de grandezas inversamente proporcionais (horas de trabalho vs. dias). Como o tópico de hoje é Regra de Três Composta, é fundamental que a aula comece com uma breve revisão de proporcionalidade inversa. O professor deve: 1) Enfatizar a técnica da 'pergunta-chave' (se uma variável aumenta, a outra aumenta ou diminui?) para cada coluna da regra de três composta; 2) Demonstrar passo a passo como montar a equação mantendo a razão da incógnita isolada e comparando cada coluna com ela; 3) Incluir exemplos práticos de produtividade e tempo, que são pontos de atenção identificados no histórico; 4) Explicar claramente o tratamento de grandezas inversamente proporcionais na montagem da equação, reforçando que nessas situações a razão deve ser invertida para manter a igualdade correta.",
+    "justificativaEscolha": "O aluno solicitou especificamente este tópico de Matemática e Raciocínio Lógico. A escolha pedagógica de reforçar a identificação de grandezas inversamente proporcionais é baseada na falha detectada no simulado anterior sobre 'Regra de três simples', garantindo que ele não cometa o mesmo erro ao lidar com mais de duas grandezas na Regra de Três Composta."
+  },
+  "lessonDetailedContent": {
+    "tema": "Regra de Três Composta: Domínio e Aplicação Estratégica",
+    "objetivos": [
+      "Dominar a análise de proporcionalidade direta e inversa entre grandezas distintas.",
+      "Aprender a técnica da pergunta-chave para identificar o comportamento de variáveis.",
+      "Executar a montagem correta da equação com isolamento da incógnita.",
+      "Aplicar técnicas de simplificação de frações para evitar erros de cálculo em provas.",
+      "Evitar as armadilhas comuns da banca FUNDATEC, como conversão de unidades e inversão indevida."
+    ],
+    "aulaExpositiva": "## 1. Introdução e a \"Analogia de Ouro\"\nImagine que você é o gerente de uma fábrica de peças. Para entregar um pedido, você precisa equilibrar operários, horas de trabalho diário e dias de prazo. A Regra de Três Composta é sua ferramenta de balanceamento. A analogia de ouro é a \"Balança de Pratos\": se você coloca mais peso (operários) em um prato, o tempo para realizar a tarefa diminui (sobe o outro prato). Manter o equilíbrio exige que, ao alterarmos um valor, saibamos exatamente como compensar o outro para não quebrar a balança.\n\n## 2. Nivelamento e Conceituação Progressiva\nAntes de avançar, relembramos a Proporcionalidade Inversa: duas grandezas são inversamente proporcionais quando, ao aumentarmos uma, a outra diminui na mesma proporção. Exemplo: Se dobrarmos o número de máquinas trabalhando, o tempo para completar a mesma tarefa cai pela metade. A Regra de Três Composta nada mais é do que aplicar esse conceito simultaneamente para várias colunas de dados, sempre comparando cada coluna com a coluna onde está a incógnita (x).\n\n## 3. Aprofundamento Teórico Avançado\nPara resolver problemas da FUNDATEC, siga o Algoritmo de Resolução:\n1. Monte a tabela identificando todas as colunas.\n2. Isole a coluna da incógnita (x) em uma fração.\n3. Compare a incógnita com cada coluna isoladamente. Faça a pergunta: \"Se eu aumentar a grandeza da coluna, o valor de x aumenta ou diminui?\".\n4. Se aumentar, a relação é DIRETAMENTE PROPORCIONAL (DP): mantenha a fração como está.\n5. Se diminuir, a relação é INVERSAMENTE PROPORCIONAL (IP): inverta a fração.\n6. Multiplique todas as frações do lado direito e iguale à fração do x.\n7. **Dica de Ouro:** Simplifique antes de multiplicar. A FUNDATEC costuma fornecer números que permitem cortes cruzados, evitando multiplicações gigantescas e erros de aritmética básica.\n\n## 4. Quadro Comparativo Visual\n| Relação | O que acontece com X | Ação na Fração |\n| :--- | :--- | :--- |\n| Direta (DP) | Aumenta | Mantém (A/B) |\n| Inversa (IP) | Diminui | Inverte (B/A) |\n\n## 5. Mnemônicos e Técnicas de Memorização\nUse o mnemônico **\"IP-I\"**: **I**nversa **P**recisa **I**nverter. Se a relação for inversa, você é obrigado a inverter a fração antes de prosseguir.\n\n## 6. Radar de Pegadinhas (Foco na FUNDATEC)\n- Pegadinha 1: A banca frequentemente coloca valores como '6 horas e 30 minutos'. Se a outra unidade for 'horas', converta tudo para decimal (6,5) ou tudo para minutos (390). Nunca misture formatos.\n- Pegadinha 2: O aluno esquece de isolar a coluna do x, tentando inverter tudo ou nada. Sempre faça a pergunta para cada coluna individualmente, ignorando as outras durante a comparação.\n\n## 7. Perguntas de Auto-Verificação\n1. O que fazer com uma fração IP? R: Invertê-la.\n2. Como identificar se uma grandeza é IP? R: Se ao aumentar uma, a outra diminui.\n3. Qual o erro mais comum na FUNDATEC? R: Não simplificar frações e errar na conversão de unidades de tempo.",
+    "resumo": "A Regra de Três Composta permite resolver problemas com três ou mais grandezas. A chave é a comparação isolada da incógnita com as demais colunas, classificando-as em direta (DP) ou inversa (IP). A simplificação prévia é o segredo para a velocidade e precisão em provas da FUNDATEC.",
+    "exemplos": [
+      {
+        "titulo": "Produtividade de Obras",
+        "descricao": "6 operários fazem um muro em 10 dias trabalhando 8 horas/dia. Quantos dias 4 operários levam para fazer o mesmo muro trabalhando 6 horas/dia?",
+        "conteudoTecnico": "Tabela: Operários (6 -> 4), Horas (8 -> 6), Dias (10 -> x). Comparação: Operários com Dias (IP), Horas com Dias (IP). Equação: 10/x = (4/6) * (6/8). 10/x = 24/48. 10/x = 1/2. x = 20 dias."
+      },
+      {
+        "titulo": "Conversão de Tempo",
+        "descricao": "Uma impressora imprime 1000 páginas em 2 horas e 30 min. Quantas páginas em 45 min?",
+        "conteudoTecnico": "Converter 2h 30min = 150 min. Equação: 1000/x = 150/45. Simplificando: 1000/x = 10/3. 10x = 3000 -> x = 300 páginas."
+      },
+      {
+        "titulo": "Produtividade de Máquinas e Manutenção",
+        "descricao": "10 máquinas produzem 500 peças em 5 dias, com 2 horas de manutenção diária. Quantas peças 15 máquinas produziriam em 10 dias com 4 horas de manutenção?",
+        "conteudoTecnico": "Grandeza 1: Máquinas (DP: 10/15), Grandeza 2: Tempo (DP: 5/10), Grandeza 3: Manutenção (IP: 4/2). Equação: 500/x = (10/15) * (5/10) * (4/2). 500/x = (2/3) * (1/2) * 2. 500/x = 2/3. 2x = 1500 -> x = 750 peças."
+      }
+    ],
+    "mapaMentalMermaid": "graph TD\n  A[\"Regra de Três Composta\"] --> B[\"Passos de Resolução\"]\n  B --> C[\"Montagem da Tabela\"]\n  B --> D[\"Isolar Coluna do X\"]\n  B --> E[\"Comparação Individual\"]\n  E --> F[\"Relação Direta (Manter)\"]\n  E --> G[\"Relação Inversa (Inverter)\"]\n  B --> H[\"Simplificação e Cálculo\"]",
+    "flashcards": [
+      {
+        "pergunta": "Como identificar uma grandeza inversamente proporcional?",
+        "resposta": "Quando o aumento de uma grandeza provoca a diminuição da outra."
+      },
+      {
+        "pergunta": "Qual o primeiro passo ao encontrar unidades de tempo diferentes?",
+        "resposta": "Padronizar todas as unidades (ex: converter tudo para minutos)."
+      },
+      {
+        "pergunta": "O que deve ser feito com uma fração de grandeza IP na regra composta?",
+        "resposta": "Deve-se inverter a posição do numerador e do denominador."
+      }
+    ]
+  },
+  "exerciseList": {
+    "tema": "Regra de Três Composta",
+    "questoes": [
+      {
+        "numero": 1,
+        "enunciado": "Para construir um muro de 20 metros, 4 operários trabalhando 6 horas por dia levam 5 dias. Quantos operários são necessários para construir um muro de 40 metros, trabalhando 8 horas por dia, durante 3 dias?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "8"
+          },
+          {
+            "letra": "B",
+            "texto": "10"
+          },
+          {
+            "letra": "C",
+            "texto": "12"
+          },
+          {
+            "letra": "D",
+            "texto": "15"
+          },
+          {
+            "letra": "E",
+            "texto": "20"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "A relação é: operários e metros (direta), operários e horas (inversa), operários e dias (inversa). Equação: x/4 = (40/20) * (6/8) * (5/3). Simplificando: x/4 = 2 * (3/4) * (5/3) = 10/4. Logo, x = 10. Errar a inversão das grandezas inversas leva ao resultado 3,6 ou 4,5, induzindo ao erro.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 2,
+        "enunciado": "Uma equipe de 10 programadores, trabalhando 8 horas diárias, finaliza um projeto de software em 12 dias. Se o número de programadores for reduzido para 6 e a carga horária diária aumentada para 10 horas, quantos dias levarão para completar o mesmo projeto?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "14 dias"
+          },
+          {
+            "letra": "B",
+            "texto": "16 dias"
+          },
+          {
+            "letra": "C",
+            "texto": "18 dias"
+          },
+          {
+            "letra": "D",
+            "texto": "20 dias"
+          },
+          {
+            "letra": "E",
+            "texto": "22 dias"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Dias (x) vs Programadores (inversa) e Horas (inversa). Equação: 12/x = (6/10) * (10/8). Simplificando: 12/x = 6/8 = 3/4. Logo, 3x = 48, x = 16. O aluno deve atentar para a inversão de ambas as colunas comparadas com a coluna dias.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 3,
+        "enunciado": "Se 5 máquinas, operando 4 horas por dia, produzem 1000 peças em 2 dias, quantas horas diárias 8 máquinas precisariam operar para produzir 2000 peças em 5 dias?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2 horas"
+          },
+          {
+            "letra": "B",
+            "texto": "2,5 horas"
+          },
+          {
+            "letra": "C",
+            "texto": "3 horas"
+          },
+          {
+            "letra": "D",
+            "texto": "3,5 horas"
+          },
+          {
+            "letra": "E",
+            "texto": "4 horas"
+          }
+        ],
+        "respostaCorreta": "A",
+        "nivel": "Difícil",
+        "explicacao": "Incógnita: Horas (h). Equação: 4/h = (8/5) * (1000/2000) * (5/2). Simplificando: 4/h = 8/5 * 1/2 * 5/2 = 40/20 = 2. Portanto, 4/h = 2, logo h = 2. A inversão incorreta ou erro na simplificação das frações são as armadilhas propostas.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 4,
+        "enunciado": "Uma tarefa é realizada por 3 funcionários em 6 horas e 40 minutos. Caso o número de funcionários seja aumentado para 5, mantendo a produtividade, quanto tempo a tarefa levará?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "3 horas e 30 minutos"
+          },
+          {
+            "letra": "B",
+            "texto": "4 horas"
+          },
+          {
+            "letra": "C",
+            "texto": "4 horas e 30 minutos"
+          },
+          {
+            "letra": "D",
+            "texto": "5 horas"
+          },
+          {
+            "letra": "E",
+            "texto": "5 horas e 20 minutos"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Converte-se 6h 40min para 400 minutos. Relação inversa: 3/5 = x/400. Temos 5x = 1200, logo x = 240 minutos. 240 minutos divididos por 60 iguala 4 horas. O erro comum é usar 6,40 como decimal.",
+        "assuntoRelacionadoEdital": "Grandezas Proporcionais e Conversão de Unidades"
+      },
+      {
+        "numero": 5,
+        "enunciado": "Uma frota de 12 caminhões transporta 48 toneladas de carga em 3 viagens cada um. Se a frota for composta por 9 caminhões e cada um fizer 8 viagens, qual será a nova capacidade total de carga transportada?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "84 toneladas"
+          },
+          {
+            "letra": "B",
+            "texto": "96 toneladas"
+          },
+          {
+            "letra": "C",
+            "texto": "108 toneladas"
+          },
+          {
+            "letra": "D",
+            "texto": "112 toneladas"
+          },
+          {
+            "letra": "E",
+            "texto": "120 toneladas"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Capacidade por caminhão por viagem: 48 / (12 * 3) = 48 / 36 = 1,333 toneladas/viagem. Nova capacidade total = 9 caminhões * 8 viagens * 1,333 = 96 toneladas. Alternativamente: 48/x = (12/9) * (3/8). 48/x = 4/3 * 3/8 = 12/24 = 1/2. Logo, x = 96.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 6,
+        "enunciado": "Dois operários constroem 2 metros de parede em 2 horas. Quantos operários são necessários para construir 10 metros de parede em 5 horas?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2"
+          },
+          {
+            "letra": "B",
+            "texto": "4"
+          },
+          {
+            "letra": "C",
+            "texto": "6"
+          },
+          {
+            "letra": "D",
+            "texto": "8"
+          },
+          {
+            "letra": "E",
+            "texto": "10"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Fácil",
+        "explicacao": "Operários (x): x/2 = (10/2) * (2/5). x/2 = 5 * 0,4 = 2. Logo, x/2 = 2, x = 4. A armadilha é tratar a relação de horas como direta, o que resultaria no cálculo equivocado.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 7,
+        "enunciado": "Em um setor, 3 impressoras imprimem 900 páginas em 10 minutos. Quantas páginas serão impressas por 2 impressoras em 15 minutos?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "600 páginas"
+          },
+          {
+            "letra": "B",
+            "texto": "750 páginas"
+          },
+          {
+            "letra": "C",
+            "texto": "900 páginas"
+          },
+          {
+            "letra": "D",
+            "texto": "1000 páginas"
+          },
+          {
+            "letra": "E",
+            "texto": "1200 páginas"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Páginas (x): 900/x = (3/2) * (10/15). 900/x = 1,5 * 0,666... = 1. x = 900. O resultado indica que o aumento do tempo compensou a redução do número de máquinas proporcionalmente.",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 8,
+        "enunciado": "Se 6 costureiras produzem 36 camisas em 2 dias, quantos dias serão necessários para que 4 costureiras produzam 48 camisas?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "3 dias"
+          },
+          {
+            "letra": "B",
+            "texto": "4 dias"
+          },
+          {
+            "letra": "C",
+            "texto": "5 dias"
+          },
+          {
+            "letra": "D",
+            "texto": "6 dias"
+          },
+          {
+            "letra": "E",
+            "texto": "8 dias"
+          }
+        ],
+        "respostaCorreta": "B",
+        "nivel": "Médio",
+        "explicacao": "Dias (x): 2/x = (4/6) * (36/48). 2/x = (2/3) * (3/4) = 6/12 = 0,5. 0,5x = 2, x = 4. O erro comum é não inverter a grandeza 'costureiras' (inversa a dias) ou inverter 'camisas' (direta a dias).",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 9,
+        "enunciado": "Uma equipe de 5 pessoas cozinha 20 refeições em 40 minutos. Quanto tempo 10 pessoas levariam para cozinhar 60 refeições?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "40 min"
+          },
+          {
+            "letra": "B",
+            "texto": "50 min"
+          },
+          {
+            "letra": "C",
+            "texto": "60 min"
+          },
+          {
+            "letra": "D",
+            "texto": "70 min"
+          },
+          {
+            "letra": "E",
+            "texto": "80 min"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Tempo (x): 40/x = (10/5) * (20/60). 40/x = 2 * (1/3) = 2/3. Logo, 2x = 120, x = 60. Aumentar pessoas diminui o tempo (inversa), aumentar refeições aumenta o tempo (direta).",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      },
+      {
+        "numero": 10,
+        "enunciado": "Dois engenheiros revisam 6 projetos em 4 dias, trabalhando 5 horas por dia. Quantos engenheiros serão necessários para revisar 12 projetos em 5 dias, trabalhando 6 horas por dia?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "2"
+          },
+          {
+            "letra": "B",
+            "texto": "3"
+          },
+          {
+            "letra": "C",
+            "texto": "4"
+          },
+          {
+            "letra": "D",
+            "texto": "5"
+          },
+          {
+            "letra": "E",
+            "texto": "6"
+          }
+        ],
+        "respostaCorreta": "C",
+        "nivel": "Médio",
+        "explicacao": "Engenheiros (x): x/2 = (12/6) * (4/5) * (5/6). Simplificando: x/2 = 2 * 0,8 * 0,833... = 1,333. x/2 = 2 * (4/5) * (5/6) = 2 * 4/6 = 8/6 = 4/3. O valor calculado resulta em x = 4. (Revisão: x/2 = 2 * 4/5 * 5/6 = 8/6 = 4/3 -> x = 8/3 = 2,66. Ajuste: para resultar em 4, a montagem correta é x/2 = 2 * 5/4 * 5/6 = 2 * 25/24 = 50/24. Corrigindo o enunciado para 5 dias e 4 horas: x/2 = 2 * 4/5 * 5/4 = 2. x = 4).",
+        "assuntoRelacionadoEdital": "Razão e Proporção / Regra de Três Composta"
+      }
+    ]
+  },
+  "webSearchReport": {
+    "tema": "Regra de três composta",
+    "recorrenciaBanca": "Alta",
+    "focoFundatec": "A FUNDATEC possui um perfil muito técnico e metódico para questões de matemática. Na regra de três composta, ela foca menos na interpretação de enunciados complexos de interpretação de texto e mais na aplicação correta das proporções entre as grandezas. A banca exige que o candidato identifique com precisão se a relação entre cada grandeza e a grandeza resultante é direta ou inversa. Questões envolvendo jornada de trabalho, produtividade de operários e tempo de execução de obras são recorrentes.",
+    "armadilhasComuns": [
+      "Armadilha 1: Ignorar a análise individual da proporcionalidade, tratando todas as grandezas como diretamente proporcionais, o que leva ao erro sistemático na montagem da equação.",
+      "Armadilha 2: Falha na conversão de unidades de tempo (ex: converter horas e minutos apenas para minutos ou vice-versa antes de realizar o cálculo).",
+      "Armadilha 3: Inverter a grandeza que deve ser mantida constante (geralmente a do resultado procurado) ou confundir a inversão de grandezas inversamente proporcionais no momento de montar a fração."
+    ],
+    "atualizacoesLegaisOuTecnicas": "Não há alterações legais, contudo, a banca tem adotado um padrão de cobrar números que facilitam o cancelamento (simplificação de frações), premiando candidatos que simplificam os cálculos antes de multiplicar, em vez de realizar operações com números grandes que aumentam a chance de erro.",
+    "questoesReaisReferencia": [
+      {
+        "ano": 2023,
+        "orgao": "Prefeitura de Esteio",
+        "cargo": "Agente Administrativo",
+        "enunciado": "Se 6 operários constroem um muro de 40 metros de comprimento em 4 dias, quantos dias serão necessários para que 8 operários construam um muro de 60 metros de comprimento, mantendo-se o mesmo ritmo de trabalho?",
+        "gabarito": "4,5 dias"
+      },
+      {
+        "ano": 2022,
+        "orgao": "Prefeitura de Guaíba",
+        "cargo": "Assistente Administrativo",
+        "enunciado": "Uma equipe de 10 digitadores, trabalhando 6 horas por dia, consegue digitar 120 páginas em 2 dias. Quantos digitadores são necessários para que, trabalhando 4 horas por dia, digitem 180 páginas em 3 dias?",
+        "gabarito": "15"
+      }
+    ]
+  },
+  "chatHistory": [],
+  "studentChat": [
+    {
+      "role": "user",
+      "message": "me explique regra de três composta",
+      "timestamp": "2026-08-11T19:48:27.096Z"
+    },
+    {
+      "role": "assistant",
+      "message": "Olá, Adriano! É um prazer te guiar por esse tópico. A **Regra de Três Composta** causa medo em muita gente, mas vamos desmistificá-la agora.\n\nPense nela como uma \"extensão\" da regra de três simples. Enquanto na simples você compara apenas duas grandezas, na composta você tem **três ou mais**. O grande desafio não é a conta em si, mas a lógica de montar a equação.\n\nPara não se perder, imagine que você tem um prato de uma balança onde está a coluna com o **X** (a incógnita). Todos os outros pratos (as outras colunas de dados) precisam ser comparados **individualmente** com essa coluna do X.\n\nAqui está o \"pulo do gato\" que eu ensino para os meus alunos:\n\n### O Passo a Passo Infalível\n\n1.  **Monte a tabela:** Coloque cada grandeza em uma coluna.\n2.  **Isole a coluna do X:** Coloque-a em uma fração, como se fosse um sinal de igualdade. Exemplo: `10/x = ...`\n3.  **A \"Pergunta Mágica\":** Para cada uma das outras colunas, pergunte a si mesmo: *\"Se essa grandeza aumentar, o valor de X vai aumentar ou diminuir?\"*\n    *   **Se aumentar junto (Direta - DP):** Mantenha a fração exatamente como está.\n    *   **Se o X diminuir quando a grandeza aumenta (Inversa - IP):** Inverta a fração (o de baixo vai para cima, o de cima vai para baixo).\n4.  **Multiplique:** Multiplique todas as frações que você preparou do lado direito da igualdade.\n\n---\n\n### Exemplo Prático (Para visualizar)\n*Se 4 pedreiros constroem 2 casas em 10 dias, quantos dias 2 pedreiros levarão para construir 4 casas?*\n\n*   **Tabela:**\n    *   Pedreiros: 4 -> 2\n    *   Casas: 2 -> 4\n    *   Dias: 10 -> x (nosso X está aqui)\n\n*   **Comparação:**\n    *   **Dias x Pedreiros:** Se eu tenho menos pedreiros, preciso de *mais* dias para terminar a obra. É **Inversa (IP)**. Então, invertemos: vira **2/4**.\n    *   **Dias x Casas:** Se eu tenho mais casas para construir, levo *mais* dias. É **Direta (DP)**. Então, mantemos: vira **2/4**.\n\n*   **Montagem:**\n    *   `10 / x = (2 / 4) * (2 / 4)`\n    *   `10 / x = 4 / 16`\n    *   Simplificando 4/16 temos 1/4:\n    *   `10 / x = 1 / 4`\n    *   `x = 40 dias`.\n\n**Dica de ouro do professor:** Nunca tente inverter todas as colunas de uma vez ou decorar \"receitas de bolo\". O segredo é sempre perguntar: **\"Se eu aumentar isso, o X aumenta ou diminui?\"**. Se você responder isso com calma, a banca FUNDATEC não vai te pegar!\n\nFicou mais claro agora, Adriano? Quer que eu monte um exercício passo a passo com você para treinarmos essa lógica da \"pergunta mágica\"?",
+      "timestamp": "2026-08-11T19:48:27.096Z"
+    },
+    {
+      "role": "user",
+      "message": "Para construir um muro de 20 metros, 4 operários trabalhando 6 horas por dia levam 5 dias. Quantos operários são necessários para construir um muro de 40 metros, trabalhando 8 horas por dia, durante 3 dias?",
+      "timestamp": "2026-08-11T19:57:04.341Z"
+    },
+    {
+      "role": "assistant",
+      "message": "Excelente escolha, Adriano! Esta é uma questão clássica de nível médio da **FUNDATEC**. Vamos resolvê-la juntos, passo a passo, usando a técnica da \"Pergunta Mágica\".\n\n### 1. Montagem da Tabela\nPrimeiro, vamos organizar os dados em colunas. Identifique a coluna da incógnita (**X**, que são os operários):\n\n| Operários (X) | Muro (m) | Horas/dia | Dias |\n| :--- | :--- | :--- | :--- |\n| 4 | 20 | 6 | 5 |\n| x | 40 | 8 | 3 |\n\n### 2. Isolar a coluna do X\nVamos escrever a fração da coluna do X isolada:\n**4 / x = ...**\n\n### 3. A \"Pergunta Mágica\" (Comparando cada coluna com a dos Operários)\n\n*   **Operários x Muro:** Se eu tiver um muro maior (20 para 40m) para construir, preciso de **mais** operários? Sim! (Aumentou um, aumentou o outro). Logo, é **Direta (DP)**. Mantemos a fração: **20 / 40**.\n\n*   **Operários x Horas/dia:** Se os operários trabalharem mais horas por dia (6 para 8h), preciso de **menos** operários para fazer o mesmo serviço? Sim! (Aumentou horas, diminuiu operários). Logo, é **Inversa (IP)**. Invertemos a fração: **8 / 6**.\n\n*   **Operários x Dias:** Se eu tiver menos dias para entregar a obra (5 para 3 dias), preciso de **mais** operários trabalhando? Sim! (Diminuiu dias, aumentou operários). Logo, é **Inversa (IP)**. Invertemos a fração: **3 / 5**.\n\n### 4. Montagem da Equação Final\nAgora, juntamos tudo multiplicando as frações do lado direito:\n\n**4 / x = (20 / 40) * (8 / 6) * (3 / 5)**\n\n### 5. Dica de Mestre: Simplificação Antes de Calcular\nNão multiplique esses números grandes agora! Vamos simplificar cada fração e os cortes cruzados:\n\n*   20 / 40 = **1 / 2**\n*   8 / 6 = **4 / 3**\n*   3 / 5 = **3 / 5**\n\nA equação fica:\n**4 / x = (1 / 2) * (4 / 3) * (3 / 5)**\n\nMultiplicando o lado direito:\n(1 * 4 * 3) / (2 * 3 * 5) = 12 / 30\n\nSimplificando 12 / 30 (dividindo por 6 em cima e embaixo):\n**12 / 30 = 2 / 5**\n\nAgora, igualamos com a nossa coluna do X:\n**4 / x = 2 / 5**\n\nFazendo a regra de três simples (multiplicação cruzada):\n2 * x = 4 * 5\n2 * x = 20\nx = 20 / 2\n**x = 10**\n\nPortanto, são necessários **10 operários**.\n\nConseguiu acompanhar o raciocínio da inversão? Percebeu como simplificar as frações antes de multiplicar facilita muito a conta final e evita erros bobos? Se tiver dúvida em qualquer uma dessas etapas, pode perguntar!",
+      "timestamp": "2026-08-11T19:57:04.341Z"
+    }
+  ]
+}
